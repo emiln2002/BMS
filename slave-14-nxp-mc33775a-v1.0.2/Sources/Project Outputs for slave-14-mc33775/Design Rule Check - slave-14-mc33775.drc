@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
-PCB File : C:\Users\emiln\OneDrive\Skrivebord\AU\Dolphins\slave-14-nxp-mc33775a-v1.0.2\Sources\slave-14-mc33775.PcbDoc
-Date     : 03/12/2025
-Time     : 21.45.20
+PCB File : C:\Users\emiln\OneDrive\Skrivebord\AU\Dolphins\BMS\slave-14-nxp-mc33775a-v1.0.2\Sources\slave-14-mc33775.PcbDoc
+Date     : 06/12/2025
+Time     : 22.33.24
 
 Processing Rule : Clearance Constraint (Gap=43.307mil) (InNetClass('TPL_high')),(Not InNetClass('TPL_high'))
 Rule Violations :0
@@ -19,8 +19,8 @@ Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
 Rule Violations :0
 
 Processing Rule : Un-Routed Net Constraint ( (All) )
-   Violation between Un-Routed Net Constraint: Net CIN0 Between Pad R513-2(4125mil,1197.44mil) on Top Copper And Via (5700mil,3300mil) from Top Copper to Bot Copper 
    Violation between Un-Routed Net Constraint: Track (4050mil,1675mil)(4137.5mil,1675mil) on GND Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Net CIN0 Between Via (4075mil,988.04mil) from Top Copper to Bot Copper And Via (6250mil,3300mil) from Top Copper to Bot Copper 
 Rule Violations :2
 
 Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
@@ -59,7 +59,9 @@ Processing Rule : SMD To Corner (Distance=4mil) (All)
 Rule Violations :1
 
 Processing Rule : SMD Entry (Side = Allowed) (Corner = Allowed) (Any Angle = Not Allowed) (Ignore First Corner = Allowed)
-Rule Violations :0
+   Violation between SMD Entry Constraint: Between Pad C530-2(3812.5mil,746.456mil) on Top Copper And Track (3725mil,747.44mil)(3812.5mil,747.44mil) on Top Copper Track Entry to PAD from not centre of Side
+   Violation between SMD Entry Constraint: Between Pad C530-2(3812.5mil,746.456mil) on Top Copper And Track (3812.5mil,747.44mil)(3875mil,747.44mil) on Top Copper Track Entry to PAD from not centre of Side
+Rule Violations :2
 
 Processing Rule : Power Plane Connect Rule(Direct Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)
 Rule Violations :0
@@ -85,12 +87,8 @@ Processing Rule : Silk to Silk (Clearance=10mil) (All),(All)
 Rule Violations :0
 
 Processing Rule : Net Antennae (Tolerance=0mil) (All)
-   Violation between Net Antennae: Track (3325mil,785mil)(3325mil,836.516mil) on Signal Layer 1 
-   Violation between Net Antennae: Track (3785.04mil,1575mil)(4050mil,1575mil) on Top Copper 
-   Violation between Net Antennae: Track (3875mil,662.5mil)(3937.5mil,600mil) on Signal Layer 1 
-   Violation between Net Antennae: Track (3950mil,612.5mil)(3950mil,711.516mil) on Signal Layer 1 
-   Violation between Net Antennae: Track (4094.488mil,600mil)(4094.488mil,968.55mil) on Signal Layer 1 
-Rule Violations :5
+   Violation between Net Antennae: Via (4075mil,988.04mil) from Top Copper to Bot Copper 
+Rule Violations :1
 
 Processing Rule : Board Clearance Constraint (Gap=0mil) (All)
    Violation between Board Outline Clearance(Outline Edge): (6.118mil < 8mil) Between Board Edge And Track (4487.796mil,7.086mil)(4487.796mil,392.914mil) on Top Overlay 
@@ -191,6 +189,6 @@ Waived Violations Of Rule : Minimum Solder Mask Sliver (Gap=4mil) (All),(All)
 Waived Violations :38
 
 
-Violations Detected : 47
+Violations Detected : 45
 Waived Violations : 38
-Time Elapsed        : 00:00:21
+Time Elapsed        : 00:00:28
