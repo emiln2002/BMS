@@ -1,0 +1,607 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<style type="text/css">
+        h1, h2, h3, h4, h5, h6 {
+			font-family : segoe ui;
+			color : black;
+			background-color : #EDE7D9;
+            padding: 0.3em;
+        }
+
+		h1 {
+			font-size: 1.2em;
+		}		
+
+		h2 {
+			font-size: 1.2em;
+		}
+
+        body {
+			font-family : segoe ui;
+        }
+
+        td, th {
+            padding: 0.5em;
+			text-align : left;
+			width: 10em;
+        }
+        th {
+			background-color : #EEEEEE;
+
+        }
+        th.column1, td.column1 {
+            text-align: left;
+            width : auto;
+        }
+        table {
+            width : 100%;
+			font-size: 0.9em;
+        }
+        
+        .DRC_summary_header {                           
+            padding-bottom : 0.1em;
+            border : 0px solid black;                           
+            width: 100%;
+			align: left;
+        }
+
+        .DRC_summary_header_col1, 
+        .DRC_summary_header_col2, 
+        .DRC_summary_header_col3  {
+            color : black;
+            font-size:100%;
+                        padding : 0em;
+            padding-top : 0.2em;
+            padding-bottom 0.2em;
+            border : 0px solid black;
+            vertical-align: top;
+			text-align: left;
+        }
+        
+        .DRC_summary_header_col1 {                              
+			font-weight: bold;
+			width: 8em;
+        }
+
+        .DRC_summary_header_col2 {       
+			width: 0.1em;
+		
+        }
+
+        .DRC_summary_header_col3 {       
+			width : auto;
+        }
+
+        .header_holder  {
+        Width = 100%;
+        border = 0px solid green;
+        padding = 0;
+        }
+        
+        
+        .front_matter, .front_matter_column1, .front_matter_column2, .front_matter_column3
+                {
+            left:0;
+            top:0;
+			padding: 0em;
+            padding-top : 0.1em;            
+            border : 0px solid black;
+            width : 100%;
+            vertical-align: top;
+            text-align: left;
+        }
+
+        .front_matter_column1 {
+            width : 8em;   
+			font-weight: bold;
+        }
+        
+        .front_matter_column2 {
+            width: 0.1em;
+        }
+
+        .front_matter_column3 {
+            width         : auto;  
+        }
+        
+        .total_column1, .total_column {
+            font-weight : bold;
+        }
+        .total_column1 {
+			text-align : left;
+        }
+        .warning, .error {
+            color : red;
+            font-weight : bold;
+        }
+        tr.onmouseout_odd {
+			background-color : #white;
+        }
+        tr.onmouseout_even { 
+			background-color : #FAFAFA;
+        }
+        tr.onmouseover_odd, tr.onmouseover_even { 
+			background-color : #EEEEEE;
+        } 
+        a:link, a:visited, .q a:link,.q a:active,.q {
+            color: #21489e; 
+        }
+        a:link.callback, a:visited.callback { 
+            color: #21489e; 
+        }
+        p.contents_level1 {
+            font-weight : bold;
+            font-size : 110%;
+            margin : 0.5em;
+        }
+        p.contents_level2 {
+            position : relative;
+            left : 20px;
+            margin : 0.5em;
+        }
+    </style><script type="text/javascript">
+        function coordToMils(coord) {
+            var number = coord / 10000;
+            
+            if (number != number.toFixed(3))
+                number = number.toFixed(3);
+
+            return number + 'mil'
+        }
+
+        function coordToMM(coord) {
+            var number = 0.0254 * coord / 10000;
+            
+            if (number != number.toFixed(4))
+                number = number.toFixed(4);
+            
+            return number + 'mm'
+        }
+    
+        function convertCoord(coordNode, units) {
+            for (var i = 0; i < coordNode.childNodes.length; i++) {
+                coordNode.removeChild(coordNode.childNodes[i]);
+            }
+
+            var coord = coordNode.getAttribute('value');
+            if (coord != null) {
+                if (units == 'mm') {
+                    textNode = document.createTextNode(coordToMM(coord));
+                    coordNode.appendChild(textNode);
+                } else if (units == 'mil') {
+                    textNode = document.createTextNode(coordToMils(coord));     
+                    coordNode.appendChild(textNode);    
+                }
+            }
+        }
+    
+        function convertUnits(unitNode, units) {
+            for (var i = 0; i < unitNode.childNodes.length; i++) {
+                unitNode.removeChild(unitNode.childNodes[i]);       
+            }
+        
+            textNode = document.createTextNode(units); 
+            unitNode.appendChild(textNode);
+        }
+    
+        function changeUnits(radio_input, units) {
+            if (radio_input.checked) {
+            
+                var elements = document.getElementsByName('coordinate');
+                if (elements) {
+                    for (var i = 0; i < elements.length; i++) {
+                        convertCoord(elements[i], units);
+                    }
+                }
+    
+                var elements = document.getElementsByName('units');
+                if (elements) {
+                    for (var i = 0; i < elements.length; i++) {
+                        convertUnits(elements[i], units);
+                    }
+                }
+            }
+        }
+    </script></head>
+<body onload=""><img ALT="Altium" src="
+			file://C:\Users\Public\Documents\Altium\AD24\Templates\AD_logo.png
+        "><h1>Design Rule Verification Report</h1>
+<table class="header_holder">
+<td class="column1">
+<table class="front_matter">
+<tr class="front_matter">
+<td class="front_matter_column1">Date:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">31.03.2025</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">12:06:28</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Elapsed Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">00:00:35</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Filename:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3"><a href="file:///C:\Users\grau\AppData\Local\TempReleases\Snapshot\2\foxbms2-master.PcbDoc" class="file"><acronym title="C:\Users\grau\AppData\Local\TempReleases\Snapshot\2\foxbms2-master.PcbDoc">C:\Users\grau\AppData\Local\TempReleases\Snapshot\2\foxbms2-master.PcbDoc</acronym></a></td>
+</tr>
+</table>
+</td>
+<td class="column2">
+<table class="DRC_summary_header">
+<tr>
+<td class="DRC_summary_header_col1">Warnings:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3">0</td></tr>
+<tr>
+<td class="DRC_summary_header_col1">Rule Violations:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3">0</td></tr>
+<tr>
+<td class="DRC_summary_header_col1">Waived Violations:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3" style="color : red">20</td></tr>
+</table>
+</td>
+</table><a name="IDD5LFDPZVFQQVDWAESXUSVBTZWNFCIBTV2KJ3R1GZHUH5TKD4J5VF"><h2>Summary</h2></a><table>
+<tr>
+<th class="column1">Warnings</th>
+<th class="column2">Count</th>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">0</td>
+</tr>
+</table><br><table>
+<tr>
+<th class="column1">Rule Violations</th>
+<th class="column2">Count</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDDH4DGANIFSD1FMQ2UXQUMQZIKZTZ0U2RRKM02PJCU01F2YD53JI">Clearance Constraint (Gap=0.3mm) (InNetClass('iso_CAN2')),(Not InNetClass('iso_CAN2'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDPZ50WUA2SDMZGLGEEM4ECQQLIHNTBUY4VAUFIKNVXRXEQ2COWQSG">Clearance Constraint (Gap=0.102mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDV3RTBURDFYNEHINYZYRGXPJEQCC53GLT2AKJCJC2PEMWTME5FJWB">Clearance Constraint (Gap=0.102mm) (WithinRoom('mcu_fanout')),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDLOADMNTSOAVLBZYJKYNLVZGPBNFJKM4CGCGFW4JBJFEA5YZMAACF">Clearance Constraint (Gap=0.3mm) (InNetClass('ETHERNET')),(Not InNetClass('ETHERNET'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDBPSYUHN3FV1JLDD3XYOOQAZFEE5HGW1VZ1UYXLMIJU5EWFPPYV1J">Short-Circuit Constraint (Allowed=No) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDQOZ2U4QXS10PLMOD5PRL2M01DF20PIZJRE0TEXOHOOEWW2FWPAFL">Un-Routed Net Constraint ( (All) )</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDSR0M3LDLINRFHWLFHBL23PYGKNPYRZB3TNKDSMLEPDARHAFIFT2N">Modified Polygon (Allow modified: No), (Allow shelved: No)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDXQPVP5ZZZDW3B30EHUT4LHLPGO0IJJ0AUCMQKYGU5FJSXMVFBGEH">Creepage Distance Constraint =(10mm) (InNetClass('ETHERNET')),(Not InNetClass('ETHERNET'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID0BKBMHSIEQMTEHDRFMO3AXLBHN5BMVF5OU3BOMJRIT5BPDUIZVSM">Creepage Distance Constraint =(10mm) (InNetClass('iso_CAN2')),(Not InNetClass('iso_CAN2'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDC2SEHP1OLYNEF13AWKPWUHTC1LEUEXFDP5B0L0BLFUP55BNR1PCP">Width Constraint (Min=0.102mm) (Max=0.102mm) (Preferred=0.102mm) (WithinRoom('mcu_fanout'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDI0ZYV2MZUERSHVAGZ0BJH55K1J1VQTUNWKJSPRCU0AVRFKTS5VD">Width Constraint (Min=0.152mm) (Max=1.524mm) (Preferred=0.152mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDH1OEPUWF5MYNH2W22HFMZ2RGYN3BQWYQMSCFBGLHN0JDOIHM3A3">Routing Via (MinHoleWidth=0.2mm) (MaxHoleWidth=0.2mm) (PreferredHoleWidth=0.2mm) (MinWidth=0.45mm) (MaxWidth=0.45mm) (PreferedWidth=0.45mm) (WithinRoom('mcu_fanout'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDNM4MRXJ0YNMYPSDFLQXKPVQ4OK50GF1Y3RY0MDMWFURMTDPBSRP">Routing Via (Templates Used To Check Via: 0.2mm_tented, 0.3mm_tented, 0.4mm_tented, 0.5mm_tented, 0.6mm_tented, 0.8mm_tented, 1.0mm_tented) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDJ1AKNYJSXGBNHIW1PLPHKHK1PGZXPA3SAW1NALEQZ33XSDBYGDOH">Differential Pairs Uncoupled Length using the Gap Constraints (Min=0.152mm) (Max=0.318mm) (Prefered=0.318mm)  and Width Constraints (Min=0.102mm) (Max=0.254mm) (Prefered=0.152mm) (InNet('ETHERNET.RX1_1_P'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDZCGXC0DE5GLTFN5QY5221W43EIPVUQ4NO4XRCQE0OF4XHJ5QN2YP">Differential Pairs Uncoupled Length using the Gap Constraints (Min=0.152mm) (Max=0.318mm) (Prefered=0.318mm)  and Width Constraints (Min=0.102mm) (Max=0.254mm) (Prefered=0.152mm) (InNet('ETHERNET.RX1_1_N'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDOBUG4VVW53SQFZUQHD40XGTIOGS5GO5BDFA0Z3KHCKFXA3A4OISB">Differential Pairs Uncoupled Length using the Gap Constraints (Min=0.152mm) (Max=0.318mm) (Prefered=0.318mm)  and Width Constraints (Min=0.102mm) (Max=0.254mm) (Prefered=0.152mm) (InNet('ETHERNET.TX1_1_P'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDKNLTVSBE1YMGFPEFC10SLE02JNLSHMW02AUWGF0Y02YZMIST3OI">Differential Pairs Uncoupled Length using the Gap Constraints (Min=0.152mm) (Max=0.318mm) (Prefered=0.318mm)  and Width Constraints (Min=0.102mm) (Max=0.254mm) (Prefered=0.152mm) (InNet('ETHERNET.TX2_1_N'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDXX1AGSR0VEHPDP4SRP2X251LBIFFYC2DFV5DNGOHVHLOCQQPZ0ZI">Differential Pairs Uncoupled Length using the Gap Constraints (Min=0.152mm) (Max=0.318mm) (Prefered=0.318mm)  and Width Constraints (Min=0.102mm) (Max=0.254mm) (Prefered=0.152mm) (InNet('ETHERNET.TX2_1_P'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID4VLTZHJYGLXOG1QZH4T1SHM32MXUDGMEQKRFM4FM0WKY4GCPJKYK">Differential Pairs Uncoupled Length using the Gap Constraints (Min=0.152mm) (Max=0.318mm) (Prefered=0.318mm)  and Width Constraints (Min=0.102mm) (Max=0.254mm) (Prefered=0.152mm) (InNet('ETHERNET.RX2_1_N'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDGGQLEIVS5LZAD5FYVYDAKCTDRESPZXB5SRZYSZXWFTOXKWI1JQL">Differential Pairs Uncoupled Length using the Gap Constraints (Min=0.152mm) (Max=0.318mm) (Prefered=0.318mm)  and Width Constraints (Min=0.102mm) (Max=0.254mm) (Prefered=0.152mm) (InNet('ETHERNET.RX2_1_P'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID3PEZPWUTCKNWM2X3LNPPPRAXGEBEZFC15M5AYN5DMCF5O42SCJK">Differential Pairs Uncoupled Length using the Gap Constraints (Min=0.152mm) (Max=0.318mm) (Prefered=0.318mm)  and Width Constraints (Min=0.102mm) (Max=0.254mm) (Prefered=0.152mm) (InNet('ETHERNET.TX1_1_N'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID3SUERTRX5MABEAFFUOVKGARD5BMW2ARS4B1LCPJI3AT3OWAUTWCD">Differential Pairs Uncoupled Length using the Gap Constraints (Min=0.152mm) (Max=0.318mm) (Prefered=0.318mm)  and Width Constraints (Min=0.102mm) (Max=0.254mm) (Prefered=0.152mm) (InNetClass('ETHERNET_INT'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID5VQTTNWFTUTLEC0PL1XVREUKKPAOW1APBACLDLE0K1G5Z4RRX5SG">SMD To Corner (Distance=0.102mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID3XA023JVSFW5EYY223KIYQ2WBHWNSAABZHEQYJNB12GUTFR1QNTM">SMD Entry (Side = Allowed) (Corner = Allowed) (Any Angle = Not Allowed) (Ignore First Corner = Allowed)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDKEK30F1CFH5DCAQPAPMDFON3CD5ISABBHFH01FECISQTY3TT010F">Power Plane Connect Rule(Direct Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID30K5ZLPVYLB5NXMKPZ5TC0XMCKIMOODKR4TZTKL0CLJ5SFZH3QBL">Minimum Annular Ring (Minimum=0.102mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDJLRRIDVXUVNTK3LSZHSVX05IEPATDAWMIB0KVGSJTEJJXFFLVWI">Hole Size Constraint (Min=0.2mm) (Max=5.994mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDGAOY4XHKGS0LLFMXLK23XW5HUDC1WSP3DLT41GPDIDISCN1T5LZP">Pads and Vias to follow the Drill pairs settings</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDT2ZO25LHEXQ4EJ3N2AW3G5A4ABB05BMUAN5S3HFPTIVJDDMJCCQG">Hole To Hole Clearance (Gap=0.152mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDACDS2F4AWSDNCTESWA1MFZHXBLT4JCISQWEJHDJPCL4EDKGUNFUC">Silk To Solder Mask (Clearance=0.102mm) (IsPad),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDRFP1OW0S3U0JNJFMBNY0WOKA0GVULXMOCC1J4KWQ1HTPLC2JLBF">Silk to Silk (Clearance=0.254mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDDPZXSUZT31TLES4M2FLVG4IOK2WORWF1UKCSRC0MKRMWTCSETZF">Net Antennae (Tolerance=0mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDBNC34EYLOMWBOXKB1SRXKAYIIBVCRC02GWQQBTCBM5ZBBAAZBE4P">Board Clearance Constraint (Gap=0mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDPQJZBM0NJLBEN2QGLMSL2FKBJNX0N1JYDHAG0RHHWTKZL4S0CVWM">Room flash (Bounding Region = (152.241mm, 115.094mm, 169.069mm, 129.222mm) (InComponentClass('flash'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID435HCVIHRSHXHJK1CT5OCZ3XKH5NGKIJDYWHC2FXVAJOD20FY1OP">Room smart-switch2 (Bounding Region = (111.601mm, 45.403mm, 136.684mm, 65.881mm) (InComponentClass('smart-switch2'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDQR0YM3MVGR15DY4FQWEO52Z3BBXGCJI20E3C4GWZPEEMYACZNXG">Room sensor-hum-temp (Bounding Region = (91.757mm, 106.362mm, 96.52mm, 111.919mm) (InComponentClass('sensor-hum-temp'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDSCL0P2KCIULLMTPQ0B412V3FDG5FQ0CA32M4Y3FXK432YXLGBMX">Room smart-switches (Bounding Region = (58.42mm, 48.895mm, 67.627mm, 59.214mm) (InComponentClass('smart-switches'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDN2UC2FQDC312EMYSBTYLODIVXCIW11IUT4PRYEPE5MCBPWJ524AJ">Room can-transceiver2 (Bounding Region = (210.185mm, 38.1mm, 223.361mm, 70.168mm) (InComponentClass('can-transceiver2'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDBZ3OD1OBPSXUOOC25GPUQXIRTKDH4X4GOUIBKVE5FKCE01SXRAGC">Room contactor-feedback (Bounding Region = (58.42mm, 44.609mm, 67.627mm, 48.736mm) (InComponentClass('contactor-feedback'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID1FA2G1FZJSJQP5HFCFPLKDBMXHNXJAXL52UQVCGI3F5QM5NVFUUN">Room window-watchdog (Bounding Region = (192.088mm, 73.978mm, 207.963mm, 85.566mm) (InComponentClass('window-watchdog'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID0PG4WMB0RMQEPYWVFH5GBEMLRNGYOQO2ZDJYPBDU3KNXQPCRCEFO">Room port-expander1 (Bounding Region = (98.266mm, 46.831mm, 110.966mm, 65.881mm) (InComponentClass('port-expander1'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDLYCCFBKBTUCRMUAUHVZV1K5YZDHFPWQT4CCRHYJM0I53KVU3CO0N">Room mram (Bounding Region = (143.034mm, 120.968mm, 150.812mm, 130.493mm) (InComponentClass('mram'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID35GDSVYLTXK1BRE3FQTU1NNG4HPNA2QJPT2UOBGHYVVU0VWOZNAB">Room fram (Bounding Region = (141.923mm, 111.919mm, 152.083mm, 120.968mm) (InComponentClass('fram'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID1C21KTBVLQBQODCNBANCPFU00EYXWC50ZFGN2DFFNG0LXGEPH4RM">Room port-expander2 (Bounding Region = (100.013mm, 107.156mm, 119.062mm, 119.856mm) (InComponentClass('port-expander2'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDRWINMFWJPSM1DUW5QPKFU5XNCIRJBKKRWPA0S4DNBJM3BV0MSTHK">Room rs232-rs485-transceiver (Bounding Region = (181.61mm, 60.325mm, 194.469mm, 71.914mm) (InComponentClass('rs232-rs485-transceiver'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDP4ZZM5SUSCSJEUJCGRH0D1FQWITQFCYJV4AQ1EBWUVWTOGGJZM3F">Room port-expanders (Bounding Region = (115.888mm, 117.475mm, 119.062mm, 119.856mm) (InComponentClass('port-expanders'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDUKRGBYH41XQUJ2GBQVIHKCRB4BU1NJVH4GUBVB4INRB0J25YHLP">Room port-expander3 (Bounding Region = (122.237mm, 107.156mm, 141.287mm, 119.856mm) (InComponentClass('port-expander3'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDNTJWZ1S5UZC4IJBXINQTVMXFKB5RUDE5F3AG35LDIYODFCSBSESK">Room oscillator-25MHz (Bounding Region = (174.308mm, 60.325mm, 180.657mm, 66.04mm) (InComponentClass('oscillator-25MHz'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDKLSZFNBLCHS2MBFUDDC3UGOX0GT5OS32FKINJ1NJCA5HYA5IH0DJ">Room insulation-monitoring (Bounding Region = (154.623mm, 44.45mm, 167.799mm, 60.642mm) (InComponentClass('insulation-monitoring'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDBPH4HZD3OCI5BJWVOG0DKGPZPM2KSLRAPLJHTOEORA55GJCEUDUI">Room mcu_fanout (Bounding Region = (160.814mm, 83.344mm, 178.911mm, 101.441mm) (InComponent('U5000'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDQ55H4AVFASGRP2CEWHWV21ACMNDQTHLJB3Z3LFEFGRBPW40HECQH">Room oscillator-20MHz (Bounding Region = (188.912mm, 90.329mm, 195.262mm, 96.044mm) (InComponentClass('oscillator-20MHz'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDCAK1EJWDHW5VCQ5K4DN243LEUHXBYGSC1WREYECCKJKKB12YXH2K">Room rtc (Bounding Region = (59.531mm, 105.251mm, 88.582mm, 144.145mm) (InComponentClass('rtc'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDJV3R2ZCYDU2MELID4OSL0GFYLD4AHCUIIWA1G3GVP4WWUS1SJAJK">Room smart-switch1 (Bounding Region = (67.786mm, 45.403mm, 92.869mm, 65.881mm) (InComponentClass('smart-switch1'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDVVPGCTWIQVHXMYJDFMKT2QRBJEOVFGDGFUAQIUD0UKWIMX3XBEWB">Room can-transceiver1 (Bounding Region = (194.786mm, 43.974mm, 207.963mm, 74.49mm) (InComponentClass('can-transceiver1'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDHOOPH2UX3KGTFQWP2KWS4ZWG5I43KKQHHXJWCMIJTYZG1BXGIF0M">Room vref-5.0V (Bounding Region = (139.382mm, 76.835mm, 148.114mm, 84.455mm) (InComponentClass('vref-5.0V'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDZ4BK03ZNGDU1PQM55SWJDXCSBOVKMR0AJXXAAANW5GSODC30WDTI">Room ethernet-phy (Bounding Region = (188.278mm, 88.106mm, 223.202mm, 136.366mm) (InComponentClass('ethernet-phy'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID0ATTNDEA3IMTIXVX1N4UWSRN4KEKFUXIRSYEOWLYXWIR0WDZKSG">Room digital-isolator-can (Bounding Region = (209.391mm, 66.516mm, 223.202mm, 86.201mm) (InComponentClass('digital-isolator-can'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDXBXNSLRGH2VVG4OKQWE2CI4PJX1ROQIH0DV1UEIQILCQ0CGPN3P">Room sbc-mcu (Bounding Region = (99.695mm, 66.675mm, 139.224mm, 104.14mm) (InComponentClass('sbc-mcu'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDENM52J2WKYB4HNL3BLS2BFTIMJ432M2GTCSVJVHN54RN3URY45ZN">Room interlock (Bounding Region = (167.958mm, 38.894mm, 194.469mm, 59.69mm) (InComponentClass('interlock'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDUSOWOBZG4QJTH1WINMV1QXDCAP1KI00ICF2YC4BHQQT01U0CJGVE">Room buck-boost-converter (Bounding Region = (29.369mm, 80.328mm, 56.197mm, 133.35mm) (InComponentClass('buck-boost-converter'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDPQONHDKIR0LJHH3DHVRSSS3A5F4HE2TIUK5IFWITFEKKTPVWZ1NO">Room supply-protection-30C (Bounding Region = (29.369mm, 59.214mm, 54.292mm, 80.01mm) (InComponentClass('supply-protection-30C'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDVKAUJTGQJTJODUD43UJPMMSBPPDIE1A5IVJW24GL24LTPLXIQT0O">Room supply-protection-30 (Bounding Region = (29.369mm, 38.1mm, 54.292mm, 58.896mm) (InComponentClass('supply-protection-30'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDGRMAQ44OLDUXG0HJEGHAULCA0CFEXLYUMU2CM4MTIBM4Y4JWUBLK">Component Clearance Constraint ( Horizontal Gap = 0.2mm, Vertical Gap = 0.5mm ) (All),(All) </a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDWIKTIBVQXLADHB2J1VYFF2B2LJJPI3V0KBJ5OQLTDR14ND4D3YIP">Component Clearance Constraint ( Horizontal Gap = -100mm, Vertical Gap = -100mm ) (InComponent('BT6401')),(All) </a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDMBLH3EQG05LUHD0TKK2Z53KFXCTSTTQ02NJABQKWYAD5EHCGFEIN">Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">0</td>
+</tr>
+</table><br><table>
+<tr>
+<th class="column1">Waived Violations</th>
+<th class="column2">Count</th>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID02NTVVRHKVB2KLOZNRXKCC25BGRYPHSQD2VRJ3H2A555ZOKMPUHF">Routing Via (Templates Used To Check Via: 0.2mm_tented, 0.3mm_tented, 0.4mm_tented, 0.5mm_tented, 0.6mm_tented, 0.8mm_tented, 1.0mm_tented) (All)</a></td>
+<td class="column2">20</td>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">20</td>
+</tr>
+</table><br><a name="IDIIU45BVSLHNVEAOZFA3XBYFWZE3Y5U4P4F43NPICP4BAH4JMUCQF"><h2>Rule Violations</h2></a><a name="IDJNOH150YMP4QELPZF2MMWREPDW0LWJCWM0TFFMCDUT3XOJ2UEIJ"><h2>Waived Violations</h2></a><a name="ID02NTVVRHKVB2KLOZNRXKCC25BGRYPHSQD2VRJ3H2A555ZOKMPUHF"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="waived">Routing Via (Templates Used To Check Via: 0.2mm_tented, 0.3mm_tented, 0.4mm_tented, 0.5mm_tented, 0.6mm_tented, 0.8mm_tented, 1.0mm_tented) (All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\grau\AppData\Local\TempReleases\Snapshot\2\foxbms2-master.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2780.293mil|Location2.X=2808.978mil|Location1.Y=2195.254mil|Location2.Y=2223.939mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\grau\AppData\Local\TempReleases\Snapshot\2\foxbms2-master.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2780.293mil|Location2.X=2808.978mil|Location1.Y=2195.254mil|Location2.Y=2223.939mil|Absolute=True">Routing Via Style: Via (45.584mm,30.724mm) from Top to Bottom Actual Size : 0.5mm Actual Hole Size : 0.2mm</acronym></a><br>Waived by Oliver Grau at 17.12.2024 17:10:30</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\grau\AppData\Local\TempReleases\Snapshot\2\foxbms2-master.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2780.293mil|Location2.X=2808.978mil|Location1.Y=2238.561mil|Location2.Y=2267.246mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\grau\AppData\Local\TempReleases\Snapshot\2\foxbms2-master.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2780.293mil|Location2.X=2808.978mil|Location1.Y=2238.561mil|Location2.Y=2267.246mil|Absolute=True">Routing Via Style: Via (45.584mm,31.824mm) from Top to Bottom Actual Size : 0.5mm Actual Hole Size : 0.2mm</acronym></a><br>Waived by Oliver Grau at 17.12.2024 17:10:39</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\grau\AppData\Local\TempReleases\Snapshot\2\foxbms2-master.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2823.6mil|Location2.X=2852.285mil|Location1.Y=2195.254mil|Location2.Y=2223.939mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\grau\AppData\Local\TempReleases\Snapshot\2\foxbms2-master.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2823.6mil|Location2.X=2852.285mil|Location1.Y=2195.254mil|Location2.Y=2223.939mil|Absolute=True">Routing Via Style: Via (46.684mm,30.724mm) from Top to Bottom Actual Size : 0.5mm Actual Hole Size : 0.2mm</acronym></a><br>Waived by Oliver Grau at 17.12.2024 17:10:46</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\grau\AppData\Local\TempReleases\Snapshot\2\foxbms2-master.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2823.6mil|Location2.X=2852.285mil|Location1.Y=2238.561mil|Location2.Y=2267.246mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\grau\AppData\Local\TempReleases\Snapshot\2\foxbms2-master.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2823.6mil|Location2.X=2852.285mil|Location1.Y=2238.561mil|Location2.Y=2267.246mil|Absolute=True">Routing Via Style: Via (46.684mm,31.824mm) from Top to Bottom Actual Size : 0.5mm Actual Hole Size : 0.2mm</acronym></a><br>Waived by Oliver Grau at 17.12.2024 17:10:53</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\grau\AppData\Local\TempReleases\Snapshot\2\foxbms2-master.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2866.907mil|Location2.X=2895.593mil|Location1.Y=2195.254mil|Location2.Y=2223.939mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\grau\AppData\Local\TempReleases\Snapshot\2\foxbms2-master.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2866.907mil|Location2.X=2895.593mil|Location1.Y=2195.254mil|Location2.Y=2223.939mil|Absolute=True">Routing Via Style: Via (47.784mm,30.724mm) from Top to Bottom Actual Size : 0.5mm Actual Hole Size : 0.2mm</acronym></a><br>Waived by Oliver Grau at 17.12.2024 17:11:00</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\grau\AppData\Local\TempReleases\Snapshot\2\foxbms2-master.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2866.907mil|Location2.X=2895.593mil|Location1.Y=2238.561mil|Location2.Y=2267.246mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\grau\AppData\Local\TempReleases\Snapshot\2\foxbms2-master.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2866.907mil|Location2.X=2895.593mil|Location1.Y=2238.561mil|Location2.Y=2267.246mil|Absolute=True">Routing Via Style: Via (47.784mm,31.824mm) from Top to Bottom Actual Size : 0.5mm Actual Hole Size : 0.2mm</acronym></a><br>Waived by Oliver Grau at 17.12.2024 17:11:07</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\grau\AppData\Local\TempReleases\Snapshot\2\foxbms2-master.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2910.215mil|Location2.X=2938.9mil|Location1.Y=2195.254mil|Location2.Y=2223.939mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\grau\AppData\Local\TempReleases\Snapshot\2\foxbms2-master.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2910.215mil|Location2.X=2938.9mil|Location1.Y=2195.254mil|Location2.Y=2223.939mil|Absolute=True">Routing Via Style: Via (48.884mm,30.724mm) from Top to Bottom Actual Size : 0.5mm Actual Hole Size : 0.2mm</acronym></a><br>Waived by Oliver Grau at 17.12.2024 17:11:13</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\grau\AppData\Local\TempReleases\Snapshot\2\foxbms2-master.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2910.215mil|Location2.X=2938.9mil|Location1.Y=2238.561mil|Location2.Y=2267.246mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\grau\AppData\Local\TempReleases\Snapshot\2\foxbms2-master.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2910.215mil|Location2.X=2938.9mil|Location1.Y=2238.561mil|Location2.Y=2267.246mil|Absolute=True">Routing Via Style: Via (48.884mm,31.824mm) from Top to Bottom Actual Size : 0.5mm Actual Hole Size : 0.2mm</acronym></a><br>Waived by Oliver Grau at 17.12.2024 17:11:21</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\grau\AppData\Local\TempReleases\Snapshot\2\foxbms2-master.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2953.522mil|Location2.X=2982.207mil|Location1.Y=2195.254mil|Location2.Y=2223.939mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\grau\AppData\Local\TempReleases\Snapshot\2\foxbms2-master.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2953.522mil|Location2.X=2982.207mil|Location1.Y=2195.254mil|Location2.Y=2223.939mil|Absolute=True">Routing Via Style: Via (49.984mm,30.724mm) from Top to Bottom Actual Size : 0.5mm Actual Hole Size : 0.2mm</acronym></a><br>Waived by Oliver Grau at 17.12.2024 17:11:29</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\grau\AppData\Local\TempReleases\Snapshot\2\foxbms2-master.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2953.522mil|Location2.X=2982.207mil|Location1.Y=2238.561mil|Location2.Y=2267.246mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\grau\AppData\Local\TempReleases\Snapshot\2\foxbms2-master.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2953.522mil|Location2.X=2982.207mil|Location1.Y=2238.561mil|Location2.Y=2267.246mil|Absolute=True">Routing Via Style: Via (49.984mm,31.824mm) from Top to Bottom Actual Size : 0.5mm Actual Hole Size : 0.2mm</acronym></a><br>Waived by Oliver Grau at 17.12.2024 17:11:36</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\grau\AppData\Local\TempReleases\Snapshot\2\foxbms2-master.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4511.543mil|Location2.X=4540.228mil|Location1.Y=2195.254mil|Location2.Y=2223.939mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\grau\AppData\Local\TempReleases\Snapshot\2\foxbms2-master.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4511.543mil|Location2.X=4540.228mil|Location1.Y=2195.254mil|Location2.Y=2223.939mil|Absolute=True">Routing Via Style: Via (89.557mm,30.724mm) from Top to Bottom Actual Size : 0.5mm Actual Hole Size : 0.2mm</acronym></a><br>Waived by Oliver Grau at 17.12.2024 17:11:43</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\grau\AppData\Local\TempReleases\Snapshot\2\foxbms2-master.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4511.543mil|Location2.X=4540.228mil|Location1.Y=2238.561mil|Location2.Y=2267.246mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\grau\AppData\Local\TempReleases\Snapshot\2\foxbms2-master.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4511.543mil|Location2.X=4540.228mil|Location1.Y=2238.561mil|Location2.Y=2267.246mil|Absolute=True">Routing Via Style: Via (89.557mm,31.824mm) from Top to Bottom Actual Size : 0.5mm Actual Hole Size : 0.2mm</acronym></a><br>Waived by Oliver Grau at 17.12.2024 17:11:50</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\grau\AppData\Local\TempReleases\Snapshot\2\foxbms2-master.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4554.85mil|Location2.X=4583.535mil|Location1.Y=2195.254mil|Location2.Y=2223.939mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\grau\AppData\Local\TempReleases\Snapshot\2\foxbms2-master.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4554.85mil|Location2.X=4583.535mil|Location1.Y=2195.254mil|Location2.Y=2223.939mil|Absolute=True">Routing Via Style: Via (90.657mm,30.724mm) from Top to Bottom Actual Size : 0.5mm Actual Hole Size : 0.2mm</acronym></a><br>Waived by Oliver Grau at 17.12.2024 17:11:56</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\grau\AppData\Local\TempReleases\Snapshot\2\foxbms2-master.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4554.85mil|Location2.X=4583.535mil|Location1.Y=2238.561mil|Location2.Y=2267.246mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\grau\AppData\Local\TempReleases\Snapshot\2\foxbms2-master.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4554.85mil|Location2.X=4583.535mil|Location1.Y=2238.561mil|Location2.Y=2267.246mil|Absolute=True">Routing Via Style: Via (90.657mm,31.824mm) from Top to Bottom Actual Size : 0.5mm Actual Hole Size : 0.2mm</acronym></a><br>Waived by Oliver Grau at 17.12.2024 17:12:08</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\grau\AppData\Local\TempReleases\Snapshot\2\foxbms2-master.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4598.157mil|Location2.X=4626.842mil|Location1.Y=2195.254mil|Location2.Y=2223.939mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\grau\AppData\Local\TempReleases\Snapshot\2\foxbms2-master.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4598.157mil|Location2.X=4626.842mil|Location1.Y=2195.254mil|Location2.Y=2223.939mil|Absolute=True">Routing Via Style: Via (91.757mm,30.724mm) from Top to Bottom Actual Size : 0.5mm Actual Hole Size : 0.2mm</acronym></a><br>Waived by Oliver Grau at 17.12.2024 17:12:08</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\grau\AppData\Local\TempReleases\Snapshot\2\foxbms2-master.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4598.157mil|Location2.X=4626.842mil|Location1.Y=2238.561mil|Location2.Y=2267.246mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\grau\AppData\Local\TempReleases\Snapshot\2\foxbms2-master.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4598.157mil|Location2.X=4626.842mil|Location1.Y=2238.561mil|Location2.Y=2267.246mil|Absolute=True">Routing Via Style: Via (91.757mm,31.824mm) from Top to Bottom Actual Size : 0.5mm Actual Hole Size : 0.2mm</acronym></a><br>Waived by Oliver Grau at 17.12.2024 17:12:08</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\grau\AppData\Local\TempReleases\Snapshot\2\foxbms2-master.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4641.465mil|Location2.X=4670.15mil|Location1.Y=2195.254mil|Location2.Y=2223.939mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\grau\AppData\Local\TempReleases\Snapshot\2\foxbms2-master.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4641.465mil|Location2.X=4670.15mil|Location1.Y=2195.254mil|Location2.Y=2223.939mil|Absolute=True">Routing Via Style: Via (92.857mm,30.724mm) from Top to Bottom Actual Size : 0.5mm Actual Hole Size : 0.2mm</acronym></a><br>Waived by Oliver Grau at 17.12.2024 17:12:08</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\grau\AppData\Local\TempReleases\Snapshot\2\foxbms2-master.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4641.465mil|Location2.X=4670.15mil|Location1.Y=2238.561mil|Location2.Y=2267.246mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\grau\AppData\Local\TempReleases\Snapshot\2\foxbms2-master.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4641.465mil|Location2.X=4670.15mil|Location1.Y=2238.561mil|Location2.Y=2267.246mil|Absolute=True">Routing Via Style: Via (92.857mm,31.824mm) from Top to Bottom Actual Size : 0.5mm Actual Hole Size : 0.2mm</acronym></a><br>Waived by Oliver Grau at 17.12.2024 17:12:08</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\grau\AppData\Local\TempReleases\Snapshot\2\foxbms2-master.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4684.772mil|Location2.X=4713.457mil|Location1.Y=2195.254mil|Location2.Y=2223.939mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\grau\AppData\Local\TempReleases\Snapshot\2\foxbms2-master.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4684.772mil|Location2.X=4713.457mil|Location1.Y=2195.254mil|Location2.Y=2223.939mil|Absolute=True">Routing Via Style: Via (93.957mm,30.724mm) from Top to Bottom Actual Size : 0.5mm Actual Hole Size : 0.2mm</acronym></a><br>Waived by Oliver Grau at 17.12.2024 17:12:08</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\grau\AppData\Local\TempReleases\Snapshot\2\foxbms2-master.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4684.772mil|Location2.X=4713.457mil|Location1.Y=2238.561mil|Location2.Y=2267.246mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\grau\AppData\Local\TempReleases\Snapshot\2\foxbms2-master.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4684.772mil|Location2.X=4713.457mil|Location1.Y=2238.561mil|Location2.Y=2267.246mil|Absolute=True">Routing Via Style: Via (93.957mm,31.824mm) from Top to Bottom Actual Size : 0.5mm Actual Hole Size : 0.2mm</acronym></a><br>Waived by Oliver Grau at 17.12.2024 17:12:08</td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br></body>
+</html>

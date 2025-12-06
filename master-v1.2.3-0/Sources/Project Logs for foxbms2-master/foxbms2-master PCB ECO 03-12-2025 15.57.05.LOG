@@ -1,0 +1,49 @@
+Removed Pin From Net: NetName=SMSW_OUT1.1_1 Pin=J2000-1
+Removed Pin From Net: NetName=GND Pin=J2000-2
+Removed Pin From Net: NetName=CONT_FB.IO0_0_1 Pin=J2000-3
+Removed Pin From Net: NetName=VBB_12V Pin=J2000-4
+Removed Pin From Net: NetName=INTERLOCK.LO_1 Pin=J2033-1
+Removed Pin From Net: NetName=INTERLOCK.HI_1 Pin=J2033-2
+Change component parameters: Designator = "Y6101" ("Y6101"); Footprint = "SiT8924xx-3x"; UniqueID = "\MMJXZLYM\FNMYMDUB\INVDWCYB\CEVPEADV" ("\MMJXZLYM\FNMYMDUB\INVDWCYB\CEVPEADV")
+Change component parameters (AddParameter): Name = "AEC-Q Grade"; Value = "Grade 0"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "AEC-Q Norm"; Value = "AEC-Q100"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Automotive Qualified"; Value = "True"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.sitime.com/datasheet/SiT8924"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ECCN"; Value = "EAR99"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "SiTime"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Temperature"; Value = "-55°C - +125°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Name"; Value = "SiT8924BAT31-33N-25.000000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "SiT8924BAT31-33N-25.000000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Automotive Qualified"; Value = "False"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.sitime.com/support/resource-library/datasheets/sit1618-datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ECCN"; Value = "EAR99"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "SiTime"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Temperature"; Value = "-40°C - +125°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Name"; Value = "SiT1618BA-31-33N-25.000000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "SiT1618BA-31-33N-25.000000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "1473-SIT1618BA-31-33N-25.000000-ND"; VariantName = "[No Variations]"
+Add component: Footprint Not Found WE_615008137421
+Added Pin To Net: NetName=VBB_12V Pin=J2000-1
+Added Pin To Net: NetName=CONT_FB.IO0_0_1 Pin=J2000-2
+Added Pin To Net: NetName=GND Pin=J2000-3
+Added Pin To Net: NetName=SMSW_OUT1.1_1 Pin=J2000-4
+Added Pin To Net: NetName=INTERLOCK.HI_1 Pin=J2033-1
+Added Pin To Net: NetName=INTERLOCK.LO_1 Pin=J2033-2
+Add Pin To Net: Unknown Pin: Pin J?-1
+Add Pin To Net: Unknown Pin: Pin J?-2
+Add Pin To Net: Unknown Pin: Pin J?-3
+Add Pin To Net: Unknown Pin: Pin J?-4
+Add Pin To Net: Unknown Pin: Pin J?-5
+Add Pin To Net: Unknown Pin: Pin J?-6
+Add Pin To Net: Unknown Pin: Pin J?-7
+Add Pin To Net: Unknown Pin: Pin J?-8
+Add Pin To Net: Unknown Pin: Pin J?-9
+Add Pin To Net: Unknown Pin: Pin J?-10
+Add Pin To Net: Unknown Pin: Pin J?-11
+Add Pin To Net: Unknown Pin: Pin J?-12
+Add Pin To Net: Unknown Pin: Pin J?-S1
+Add Pin To Net: Unknown Pin: Pin J?-S2
+Add Class Member: Failed to add class member : Component J? WE_615008137421

@@ -1,0 +1,166 @@
+#
+#Component attribute names
+#
+@0 .comp_mount_type
+@1 .comp_height
+
+# CMP 0
+CMP 9 2.50625 1.775 270 N TP_ALARM_2 Testpoint_Square ;0=1,1=0.3450
+PRP Automotive_Qualified 'False'
+PRP Part_Number 'Testpoint_Square'
+TOP 0 2.50625 1.775 270 N 18 4 TP_ALARM_2-1
+#
+# CMP 1
+CMP 9 1.2 1.775 270 N TP_ALARM_1 Testpoint_Square ;0=1,1=0.3450
+PRP Automotive_Qualified 'False'
+PRP Part_Number 'Testpoint_Square'
+TOP 0 1.2 1.775 270 N 19 4 TP_ALARM_1-1
+#
+# CMP 2
+CMP 5 2.1259843 0.0984252 180 N J104 molex_microfit_3_01x2_THT ;0=2,1=0.3450
+PRP Automotive_Qualified 'False'
+PRP Circuits '2'
+PRP Manufacturer 'Molex'
+PRP Operating_Temperature '-40°C - +105°C'
+PRP Part_Name 'MicroFit'
+PRP Part_Number 'molex_microfit_3_01x2_THT'
+PRP Rated_Current '8.5A'
+PRP Rated_Voltage '600V'
+PRP Supplier_1 'Farnell'
+PRP Supplier_Part_Number_1 '1012251'
+TOP 0 2.1259843 0.2684252 180 N 20 1 J104-1
+TOP 1 2.1259843 0.3864173 180 N 21 9 J104-2
+TOP 2 2.1259843 0.0984252 180 N 0 15 J104-empty-1
+#
+# CMP 3
+CMP 5 1.1417323 0.0984252 180 N J103 molex_microfit_3_01x2_THT ;0=2,1=0.3450
+PRP Automotive_Qualified 'False'
+PRP Circuits '2'
+PRP Manufacturer 'Molex'
+PRP Operating_Temperature '-40°C - +105°C'
+PRP Part_Name 'MicroFit'
+PRP Part_Number 'molex_microfit_3_01x2_THT'
+PRP Rated_Current '8.5A'
+PRP Rated_Voltage '600V'
+PRP Supplier_1 'Farnell'
+PRP Supplier_Part_Number_1 '1012251'
+TOP 0 1.1417323 0.2684252 180 N 22 1 J103-1
+TOP 1 1.1417323 0.3864173 180 N 23 9 J103-2
+TOP 2 1.1417323 0.0984252 180 N 0 14 J103-empty-1
+#
+# CMP 4
+CMP 9 2.16875 3.03125 270 N TP_INT2 Testpoint_Square ;0=1,1=0.3450
+PRP Automotive_Qualified 'False'
+PRP Part_Number 'Testpoint_Square'
+TOP 0 2.16875 3.03125 270 N 82 3 TP_INT2-1
+#
+# CMP 5
+CMP 9 0.95625 3.03125 270 N TP_PER_3.3V Testpoint_Square ;0=1,1=0.3425
+PRP Automotive_Qualified 'False'
+PRP Part_Number 'Testpoint_Square'
+TOP 0 0.95625 3.03125 270 N 84 23 TP_PER_3.3V-1
+#
+# CMP 6
+CMP 9 1.0125 3.03125 270 N TP_GND Testpoint_Square ;0=1,1=0.3425
+PRP Automotive_Qualified 'False'
+PRP Part_Number 'Testpoint_Square'
+TOP 0 1.0125 3.03125 270 N 66 55 TP_GND-1
+#
+# CMP 7
+CMP 9 2.04375 3.03125 270 N TP_SPI4.CS1 Testpoint_Square ;0=1,1=0.3425
+PRP Automotive_Qualified 'False'
+PRP Part_Number 'Testpoint_Square'
+TOP 0 2.04375 3.03125 270 N 73 3 TP_SPI4.CS1-1
+#
+# CMP 8
+CMP 9 0.7375 3.03125 270 N TP_SPI4.CS0 Testpoint_Square ;0=1,1=0.3425
+PRP Automotive_Qualified 'False'
+PRP Part_Number 'Testpoint_Square'
+TOP 0 0.7375 3.03125 270 N 74 3 TP_SPI4.CS0-1
+#
+# CMP 9
+CMP 9 0.68125 3.03125 270 N TP_SPI4.CLK Testpoint_Square ;0=1,1=0.3425
+PRP Automotive_Qualified 'False'
+PRP Part_Number 'Testpoint_Square'
+TOP 0 0.68125 3.03125 270 N 52 5 TP_SPI4.CLK-1
+#
+# CMP 10
+CMP 9 0.8 3.03125 90 N TP_SPI4.SIMO Testpoint_Square ;0=1,1=0.3425
+PRP Automotive_Qualified 'False'
+PRP Part_Number 'Testpoint_Square'
+TOP 0 0.8 3.03125 90 N 51 5 TP_SPI4.SIMO-1
+#
+# CMP 11
+CMP 9 0.56875 3.03125 90 N TP_SPI1.SIMO0 Testpoint_Square ;0=1,1=0.3425
+PRP Automotive_Qualified 'False'
+PRP Part_Number 'Testpoint_Square'
+TOP 0 0.56875 3.03125 90 N 56 3 TP_SPI1.SIMO0-1
+#
+# CMP 12
+CMP 9 1.81875 3.03125 90 N TP_SPI1.CS2 Testpoint_Square ;0=1,1=0.3425
+PRP Automotive_Qualified 'False'
+PRP Part_Number 'Testpoint_Square'
+TOP 0 1.81875 3.03125 90 N 78 3 TP_SPI1.CS2-1
+#
+# CMP 13
+CMP 9 0.5125 3.03125 90 N TP_SPI1.CS1 Testpoint_Square ;0=1,1=0.3425
+PRP Automotive_Qualified 'False'
+PRP Part_Number 'Testpoint_Square'
+TOP 0 0.5125 3.03125 90 N 79 3 TP_SPI1.CS1-1
+#
+# CMP 14
+CMP 9 0.45625 3.03125 90 N TP_SPI1.CLK Testpoint_Square ;0=1,1=0.3425
+PRP Automotive_Qualified 'False'
+PRP Part_Number 'Testpoint_Square'
+TOP 0 0.45625 3.03125 90 N 57 3 TP_SPI1.CLK-1
+#
+# CMP 15
+CMP 9 0.8625 3.03125 90 N TP_INT1 Testpoint_Square ;0=1,1=0.3425
+PRP Automotive_Qualified 'False'
+PRP Part_Number 'Testpoint_Square'
+TOP 0 0.8625 3.03125 90 N 83 3 TP_INT1-1
+#
+# CMP 16
+CMP 9 1.93125 3.03125 270 N TP_EN2 Testpoint_Square ;0=1,1=0.3425
+PRP Automotive_Qualified 'False'
+PRP Part_Number 'Testpoint_Square'
+TOP 0 1.93125 3.03125 270 N 67 4 TP_EN2-1
+#
+# CMP 17
+CMP 9 0.625 3.03125 90 N TP_EN1 Testpoint_Square ;0=1,1=0.3425
+PRP Automotive_Qualified 'False'
+PRP Part_Number 'Testpoint_Square'
+TOP 0 0.625 3.03125 90 N 68 4 TP_EN1-1
+#
+# CMP 18
+CMP 5 1.6141732 0.0984252 180 N J102 molex_microfit_3_01x2_THT ;0=2,1=0.3450
+PRP Automotive_Qualified 'False'
+PRP Circuits '2'
+PRP Manufacturer 'Molex'
+PRP Operating_Temperature '-40°C - +105°C'
+PRP Part_Name 'MicroFit'
+PRP Part_Number 'molex_microfit_3_01x2_THT'
+PRP Rated_Current '8.5A'
+PRP Rated_Voltage '600V'
+PRP Supplier_1 'Farnell'
+PRP Supplier_Part_Number_1 '1012251'
+TOP 0 1.6141732 0.2684252 180 N 58 1 J102-1
+TOP 1 1.6141732 0.3864173 180 N 59 1 J102-2
+TOP 2 1.6141732 0.0984252 180 N 0 13 J102-empty-1
+#
+# CMP 19
+CMP 5 0.6299213 0.0984252 180 N J101 molex_microfit_3_01x2_THT ;0=2,1=0.3450
+PRP Automotive_Qualified 'False'
+PRP Circuits '2'
+PRP Manufacturer 'Molex'
+PRP Operating_Temperature '-40°C - +105°C'
+PRP Part_Name 'MicroFit'
+PRP Part_Number 'molex_microfit_3_01x2_THT'
+PRP Rated_Current '8.5A'
+PRP Rated_Voltage '600V'
+PRP Supplier_1 'Farnell'
+PRP Supplier_Part_Number_1 '1012251'
+TOP 0 0.6299213 0.2684252 180 N 60 1 J101-1
+TOP 1 0.6299213 0.3864173 180 N 61 1 J101-2
+TOP 2 0.6299213 0.0984252 180 N 0 11 J101-empty-1
+#

@@ -1,0 +1,313 @@
+Removed Pin From Net: NetName=GND Pin=J300-1
+Removed Pin From Net: NetName=CIN1 Pin=J300-2
+Removed Pin From Net: NetName=CIN3 Pin=J300-3
+Removed Pin From Net: NetName=CIN5 Pin=J300-4
+Removed Pin From Net: NetName=CIN7 Pin=J300-5
+Removed Pin From Net: NetName=CIN9 Pin=J300-6
+Removed Pin From Net: NetName=CIN11 Pin=J300-7
+Removed Pin From Net: NetName=CIN13 Pin=J300-8
+Removed Pin From Net: NetName=VBAT_con Pin=J300-9
+Removed Pin From Net: NetName=CIN0 Pin=J300-13
+Removed Pin From Net: NetName=CIN2 Pin=J300-14
+Removed Pin From Net: NetName=CIN4 Pin=J300-15
+Removed Pin From Net: NetName=CIN6 Pin=J300-16
+Removed Pin From Net: NetName=CIN8 Pin=J300-17
+Removed Pin From Net: NetName=CIN10 Pin=J300-18
+Removed Pin From Net: NetName=CIN12 Pin=J300-19
+Removed Pin From Net: NetName=CIN14 Pin=J300-20
+Removed Pin From Net: NetName=TPL_H._P Pin=J301-1
+Removed Pin From Net: NetName=TPL_H._N Pin=J301-2
+Removed Pin From Net: NetName=TPL_L._P Pin=J302-1
+Removed Pin From Net: NetName=TPL_L._N Pin=J302-2
+Removed Pin From Net: NetName=AL_IN._P Pin=J305-1
+Removed Pin From Net: NetName=AL_IN._N Pin=J305-2
+Removed Pin From Net: NetName=AL_OUT._P Pin=J306-1
+Removed Pin From Net: NetName=AL_OUT._N Pin=J306-2
+Removed Pin From Net: NetName=VBAT_ext Pin=J310-1
+Removed Pin From Net: NetName=GND Pin=J310-2
+Change Component Footprint: Designator=J301 Old Footprint=MOLEX_MICROFIT_01x2_THT New Footprint=64900221122
+Change Component Footprint: Designator=J302 Old Footprint=MOLEX_MICROFIT_01x2_THT New Footprint=64900221122
+Change Component Footprint: Designator=J305 Old Footprint=MOLEX_MICROFIT_01x2_THT New Footprint=64900221122
+Change Component Footprint: Designator=J306 Old Footprint=MOLEX_MICROFIT_01x2_THT New Footprint=64900221122
+Change Component Footprint: Designator=J304 Old Footprint=MOLEX_MICROFIT_08x2_THT New Footprint=64901621122
+Change Component Footprint: Designator=J307 Old Footprint=MOLEX_MICROFIT_08x2_THT New Footprint=64901621122
+Change Component Footprint: Designator=J300 Old Footprint=MOLEX_MICROFIT_12x2_THT New Footprint=64901821122
+Change Component Comment : Designator=R605 Old Comment=270R New Comment=2k7
+Change Component Comment : Designator=J301 Old Comment=molex_microfit_3_01x2_THT New Comment=WR-MPC4 64900221122
+Change Component Comment : Designator=J302 Old Comment=molex_microfit_3_01x2_THT New Comment=WR-MPC4 64900221122
+Change Component Comment : Designator=J305 Old Comment=molex_microfit_3_01x2_THT New Comment=WR-MPC4 64900221122
+Change Component Comment : Designator=J306 Old Comment=molex_microfit_3_01x2_THT New Comment=WR-MPC4 64900221122
+Change Component Comment : Designator=J304 Old Comment=molex_microfit_3_08x2_THT New Comment=WR-MPC4 64901621122
+Change Component Comment : Designator=J307 Old Comment=molex_microfit_3_08x2_THT New Comment=WR-MPC4 64901621122
+Change Component Comment : Designator=J300 Old Comment=molex_microfit_3_12x2_THT New Comment=WR-MPC4 64901821122
+Change Managed Component Library Link : Designator=J300 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=8283D2D5-0EAA-4288-9226-1A2DB2CB2B28 Old RevisionGUID= New RevisionGUID=4F69DB70-91BB-4AE0-940B-710868940C6E
+Change Managed Component Library Link : Designator=J301 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=0910C6AD-0AEC-4D67-9455-C607F268C77E Old RevisionGUID= New RevisionGUID=7B4700FD-5CCF-4BF8-A362-7889D67797E7
+Change Managed Component Library Link : Designator=J302 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=0910C6AD-0AEC-4D67-9455-C607F268C77E Old RevisionGUID= New RevisionGUID=7B4700FD-5CCF-4BF8-A362-7889D67797E7
+Change Managed Component Library Link : Designator=J304 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=F4366F4E-2051-460D-A756-5ED0FDFD721C Old RevisionGUID= New RevisionGUID=8898635E-BDBA-4985-816D-DA35731E7A57
+Change Managed Component Library Link : Designator=J305 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=0910C6AD-0AEC-4D67-9455-C607F268C77E Old RevisionGUID= New RevisionGUID=7B4700FD-5CCF-4BF8-A362-7889D67797E7
+Change Managed Component Library Link : Designator=J306 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=0910C6AD-0AEC-4D67-9455-C607F268C77E Old RevisionGUID= New RevisionGUID=7B4700FD-5CCF-4BF8-A362-7889D67797E7
+Change Managed Component Library Link : Designator=J307 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=F4366F4E-2051-460D-A756-5ED0FDFD721C Old RevisionGUID= New RevisionGUID=8898635E-BDBA-4985-816D-DA35731E7A57
+Change component parameters: Designator = "J300" ("j300"); Footprint = "MOLEX_MICROFIT_12x2_THT"; UniqueID = "\GWARHSMA\FIAXJKTO" ("\GWARHSMA\FIAXJKTO")
+Change component parameters (AddParameter): Name = "Color"; Value = "White"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Connector Type"; Value = "Male Pin, Socket"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Material"; Value = "Copper"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Plating"; Value = "Tin"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Resistance"; Value = "10mO"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Current Rating"; Value = "6A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fastening Type"; Value = "Ramp"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Gender"; Value = "Male"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "12.8mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Insulation Resistance"; Value = "1GO"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Lead Pitch"; Value = "4.2mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Length"; Value = "39mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Operating Temperature"; Value = "105°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Operating Temperature"; Value = "-40°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "NexarPartId"; Value = "23024638"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Contacts"; Value = "18"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Pins"; Value = "18"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Positions"; Value = "18"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Rows"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Supply Voltage"; Value = "600V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Orientation"; Value = "Vertical"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pitch"; Value = "4.2mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "REACH SVHC"; Value = "Unknown"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS"; Value = "Compliant"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Row Spacing"; Value = "4.191mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Termination"; Value = "Solder"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Width"; Value = "39.1mm"; VariantName = "[No Variations]"
+Change component parameters: Designator = "J301" ("J301"); Footprint = "MOLEX_MICROFIT_01x2_THT"; UniqueID = "\GWARHSMA\FHOTRJNT" ("\GWARHSMA\FHOTRJNT")
+Change component parameters (AddParameter): Name = "Color"; Value = "White"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Connector Type"; Value = "Male Pin, Socket"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Gender"; Value = "Male"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Material"; Value = "Copper"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Plating"; Value = "Tin"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Resistance"; Value = "10mO"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Current Rating"; Value = "9A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fastening Type"; Value = "Ramp"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Flammability Rating"; Value = "UL94 V-0"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Gender"; Value = "Male"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "12.8mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Housing Material"; Value = "Nylon"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Insulation Resistance"; Value = "1GO"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Lead Length"; Value = "3.5mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Lead Pitch"; Value = "4.2mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Length"; Value = "5.4mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Operating Temperature"; Value = "105°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Operating Temperature"; Value = "-40°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "NexarPartId"; Value = "8917578"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Contacts"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Pins"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Positions"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Rows"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Supply Voltage"; Value = "600V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Orientation"; Value = "Vertical"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pitch"; Value = "4.2mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "REACH SVHC"; Value = "Unknown"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS"; Value = "Compliant"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Row Spacing"; Value = "5.5118mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Termination"; Value = "Solder"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = "600V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Width"; Value = "5.5mm"; VariantName = "[No Variations]"
+Change component parameters: Designator = "J302" ("J302"); Footprint = "MOLEX_MICROFIT_01x2_THT"; UniqueID = "\GWARHSMA\MCOXNXYP" ("\GWARHSMA\MCOXNXYP")
+Change component parameters (AddParameter): Name = "Color"; Value = "White"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Connector Type"; Value = "Male Pin, Socket"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Gender"; Value = "Male"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Material"; Value = "Copper"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Plating"; Value = "Tin"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Resistance"; Value = "10mO"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Current Rating"; Value = "9A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fastening Type"; Value = "Ramp"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Flammability Rating"; Value = "UL94 V-0"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Gender"; Value = "Male"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "12.8mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Housing Material"; Value = "Nylon"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Insulation Resistance"; Value = "1GO"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Lead Length"; Value = "3.5mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Lead Pitch"; Value = "4.2mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Length"; Value = "5.4mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Operating Temperature"; Value = "105°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Operating Temperature"; Value = "-40°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "NexarPartId"; Value = "8917578"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Contacts"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Pins"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Positions"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Rows"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Supply Voltage"; Value = "600V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Orientation"; Value = "Vertical"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pitch"; Value = "4.2mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "REACH SVHC"; Value = "Unknown"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS"; Value = "Compliant"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Row Spacing"; Value = "5.5118mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Termination"; Value = "Solder"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = "600V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Width"; Value = "5.5mm"; VariantName = "[No Variations]"
+Change component parameters: Designator = "J304" ("J304"); Footprint = "MOLEX_MICROFIT_08x2_THT"; UniqueID = "\GWARHSMA\RDCOPRDT" ("\GWARHSMA\RDCOPRDT")
+Change component parameters (AddParameter): Name = "Color"; Value = "White"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Connector Type"; Value = "Male Pin, Socket"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Material"; Value = "Copper"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Plating"; Value = "Tin"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Resistance"; Value = "10mO"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Current Rating"; Value = "6A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fastening Type"; Value = "Ramp"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Gender"; Value = "Male"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "12.8mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Insulation Resistance"; Value = "1GO"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Lead Pitch"; Value = "4.2mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Length"; Value = "34.8mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Operating Temperature"; Value = "105°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Operating Temperature"; Value = "-40°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "NexarPartId"; Value = "23024631"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Contacts"; Value = "16"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Pins"; Value = "16"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Positions"; Value = "16"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Rows"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Supply Voltage"; Value = "600V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Orientation"; Value = "Vertical"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pitch"; Value = "4.2mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "REACH SVHC"; Value = "Unknown"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS"; Value = "Compliant"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Row Spacing"; Value = "4.191mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Termination"; Value = "Solder"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Width"; Value = "34.9mm"; VariantName = "[No Variations]"
+Change component parameters: Designator = "J305" ("J305"); Footprint = "MOLEX_MICROFIT_01x2_THT"; UniqueID = "\GWARHSMA\KFOVEPVV" ("\GWARHSMA\KFOVEPVV")
+Change component parameters (AddParameter): Name = "Color"; Value = "White"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Connector Type"; Value = "Male Pin, Socket"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Gender"; Value = "Male"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Material"; Value = "Copper"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Plating"; Value = "Tin"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Resistance"; Value = "10mO"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Current Rating"; Value = "9A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fastening Type"; Value = "Ramp"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Flammability Rating"; Value = "UL94 V-0"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Gender"; Value = "Male"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "12.8mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Housing Material"; Value = "Nylon"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Insulation Resistance"; Value = "1GO"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Lead Length"; Value = "3.5mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Lead Pitch"; Value = "4.2mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Length"; Value = "5.4mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Operating Temperature"; Value = "105°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Operating Temperature"; Value = "-40°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "NexarPartId"; Value = "8917578"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Contacts"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Pins"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Positions"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Rows"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Supply Voltage"; Value = "600V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Orientation"; Value = "Vertical"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pitch"; Value = "4.2mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "REACH SVHC"; Value = "Unknown"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS"; Value = "Compliant"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Row Spacing"; Value = "5.5118mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Termination"; Value = "Solder"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = "600V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Width"; Value = "5.5mm"; VariantName = "[No Variations]"
+Change component parameters: Designator = "J306" ("J306"); Footprint = "MOLEX_MICROFIT_01x2_THT"; UniqueID = "\GWARHSMA\LIEVXGEP" ("\GWARHSMA\LIEVXGEP")
+Change component parameters (AddParameter): Name = "Color"; Value = "White"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Connector Type"; Value = "Male Pin, Socket"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Gender"; Value = "Male"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Material"; Value = "Copper"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Plating"; Value = "Tin"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Resistance"; Value = "10mO"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Current Rating"; Value = "9A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fastening Type"; Value = "Ramp"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Flammability Rating"; Value = "UL94 V-0"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Gender"; Value = "Male"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "12.8mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Housing Material"; Value = "Nylon"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Insulation Resistance"; Value = "1GO"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Lead Length"; Value = "3.5mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Lead Pitch"; Value = "4.2mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Length"; Value = "5.4mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Operating Temperature"; Value = "105°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Operating Temperature"; Value = "-40°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "NexarPartId"; Value = "8917578"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Contacts"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Pins"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Positions"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Rows"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Supply Voltage"; Value = "600V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Orientation"; Value = "Vertical"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pitch"; Value = "4.2mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "REACH SVHC"; Value = "Unknown"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS"; Value = "Compliant"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Row Spacing"; Value = "5.5118mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Termination"; Value = "Solder"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = "600V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Width"; Value = "5.5mm"; VariantName = "[No Variations]"
+Change component parameters: Designator = "J307" ("J307"); Footprint = "MOLEX_MICROFIT_08x2_THT"; UniqueID = "\GWARHSMA\BTUVZVYS" ("\GWARHSMA\BTUVZVYS")
+Change component parameters (AddParameter): Name = "Color"; Value = "White"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Connector Type"; Value = "Male Pin, Socket"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Material"; Value = "Copper"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Plating"; Value = "Tin"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Resistance"; Value = "10mO"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Current Rating"; Value = "6A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fastening Type"; Value = "Ramp"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Gender"; Value = "Male"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "12.8mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Insulation Resistance"; Value = "1GO"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Lead Pitch"; Value = "4.2mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Length"; Value = "34.8mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Operating Temperature"; Value = "105°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Operating Temperature"; Value = "-40°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "NexarPartId"; Value = "23024631"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Contacts"; Value = "16"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Pins"; Value = "16"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Positions"; Value = "16"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Rows"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Supply Voltage"; Value = "600V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Orientation"; Value = "Vertical"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pitch"; Value = "4.2mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "REACH SVHC"; Value = "Unknown"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS"; Value = "Compliant"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Row Spacing"; Value = "4.191mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Termination"; Value = "Solder"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Width"; Value = "34.9mm"; VariantName = "[No Variations]"
+Add component: Footprint Not Found Pinheader_2.54_2
+Added Pin To Net: NetName=CIN14 Pin=J300-2
+Added Pin To Net: NetName=CIN12 Pin=J300-3
+Added Pin To Net: NetName=CIN10 Pin=J300-4
+Added Pin To Net: NetName=CIN8 Pin=J300-5
+Added Pin To Net: NetName=CIN6 Pin=J300-6
+Added Pin To Net: NetName=CIN4 Pin=J300-7
+Added Pin To Net: NetName=CIN2 Pin=J300-8
+Added Pin To Net: NetName=CIN0 Pin=J300-9
+Added Pin To Net: NetName=VBAT_con Pin=J300-10
+Added Pin To Net: NetName=CIN13 Pin=J300-11
+Added Pin To Net: NetName=CIN11 Pin=J300-12
+Added Pin To Net: NetName=CIN9 Pin=J300-13
+Added Pin To Net: NetName=CIN7 Pin=J300-14
+Added Pin To Net: NetName=CIN5 Pin=J300-15
+Added Pin To Net: NetName=CIN3 Pin=J300-16
+Added Pin To Net: NetName=CIN1 Pin=J300-17
+Added Pin To Net: NetName=GND Pin=J300-18
+Added Pin To Net: NetName=TPL_H._N Pin=J301-1
+Added Pin To Net: NetName=TPL_H._P Pin=J301-2
+Added Pin To Net: NetName=TPL_L._N Pin=J302-1
+Added Pin To Net: NetName=TPL_L._P Pin=J302-2
+Added Pin To Net: NetName=AL_IN._N Pin=J305-1
+Added Pin To Net: NetName=AL_IN._P Pin=J305-2
+Added Pin To Net: NetName=AL_OUT._N Pin=J306-1
+Added Pin To Net: NetName=AL_OUT._P Pin=J306-2
+Add Pin To Net: Unknown Pin: Pin J?-1
+Add Pin To Net: Unknown Pin: Pin J?-2
+Added Member To Class: ClassName=U_connectors Member=Component j300 WR-MPC4 64901821122
+Added Member To Class: ClassName=U_connectors Member=Component J301 WR-MPC4 64900221122
+Added Member To Class: ClassName=U_connectors Member=Component J302 WR-MPC4 64900221122
+Added Member To Class: ClassName=U_connectors Member=Component J303 gen_pinheader_2.54_2x9
+Added Member To Class: ClassName=U_connectors Member=Component J304 WR-MPC4 64901621122
+Added Member To Class: ClassName=U_connectors Member=Component J305 WR-MPC4 64900221122
+Added Member To Class: ClassName=U_connectors Member=Component J306 WR-MPC4 64900221122
+Added Member To Class: ClassName=U_connectors Member=Component J307 WR-MPC4 64901621122
+Added Member To Class: ClassName=U_connectors Member=Component J308 gen_pinheader_2.54_2x7
+Added Member To Class: ClassName=U_connectors Member=Component J309 gen_pinheader_2.54_2x7
+Added Member To Class: ClassName=U_connectors Member=Component J311 gen_pinheader_2.54_2
+Added Member To Class: ClassName=U_connectors Member=Component J312 gen_pinheader_2.54_2
+Add Class Member: Failed to add class member : Component J? gen_pinheader_2.54_2

@@ -1,0 +1,5 @@
+ALARM=_P,_N
+ALARM_MISC=1,2,3,4,5,6
+SPI=MISO,MOSI,CLK,\CS
+TPL=_P,_N
+TR_unused=1,2,3

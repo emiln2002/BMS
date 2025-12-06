@@ -1,0 +1,2947 @@
+﻿[Design]
+Version=1.0
+HierarchyMode=2
+ChannelRoomNamingStyle=0
+ReleasesFolder=
+ChannelDesignatorFormatString=$Component_$ChannelIndex
+ChannelRoomLevelSeperator=_
+OpenOutputs=0
+ArchiveProject=0
+TimestampOutput=0
+SeparateFolders=0
+TemplateLocationPath=D:\altium\templates\
+PinSwapBy_Netlabel=1
+PinSwapBy_Pin=1
+AllowPortNetNames=0
+AllowSheetEntryNetNames=0
+AppendSheetNumberToLocalNets=0
+NetlistSinglePinNets=0
+DefaultConfiguration=Sources
+UserID=0xFFFFFFFF
+DefaultPcbProtel=1
+DefaultPcbPcad=0
+ReorderDocumentsOnCompile=1
+NameNetsHierarchically=0
+PowerPortNamesTakePriority=1
+AutoSheetNumbering=0
+AutoCrossReferences=0
+NewIndexingOfSheetSymbols=0
+PushECOToAnnotationFile=1
+DItemRevisionGUID=
+ReportSuppressedErrorsInMessages=0
+FSMCodingStyle=eFMSDropDownList_OneProcess
+FSMEncodingStyle=eFMSDropDownList_OneHot
+IsProjectConflictPreventionWarningsEnabled=1
+ConstraintManagerFlow=0
+IsVirtualBomDocumentRemoved=0
+OutputPath=
+LogFolderPath=
+ManagedProjectGUID=
+Template=D:\altium\templates\OE750_Project.PrjPcb
+IncludeDesignInRelease=0
+CrossRefSheetStyle=1
+CrossRefLocationStyle=1
+CrossRefPorts=3
+CrossRefCrossSheets=1
+CrossRefSheetEntries=0
+CrossRefFollowFromMainSettings=1
+CurrentVariant=foxBMS_14cell_BMS-Slave_NXP775A_minimal
+
+[Preferences]
+PrefsVaultGUID=
+PrefsRevisionGUID=
+
+[Release]
+ReleaseTarget=2
+ReleaseFolderPath=[OutputPath][GlobalDate]_foxBMS-[ProjectName]-v[GlobalVersion]
+ReleaseZipPath=[OutputPath][GlobalDate]_foxBMS-[ProjectName]-v[GlobalVersion].zip
+
+[Document1]
+DocumentPath=slave-14-mc33775.BomDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document2]
+DocumentPath=assembly.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document3]
+DocumentPath=fabrication.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document4]
+DocumentPath=placement_plan.PCBDwf
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=ZYXASIQE
+
+[Document5]
+DocumentPath=slave-14-mc33775.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=100
+AnnotationIndexControlEnabled=1
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=4
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=UQAATVGD
+
+[Document6]
+DocumentPath=slave-14-mc33775.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=IEOQFGCF
+
+[Document7]
+DocumentPath=mc33775.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=600
+AnnotationIndexControlEnabled=1
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=3
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=CZLPFBWE
+
+[Document8]
+DocumentPath=mc33775.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document9]
+DocumentPath=eeprom.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=400
+AnnotationIndexControlEnabled=1
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=LKSBOAFJ
+
+[Document10]
+DocumentPath=eeprom.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document11]
+DocumentPath=input_filter.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=500
+AnnotationIndexControlEnabled=1
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=2
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=JLZJJREG
+
+[Document12]
+DocumentPath=passive_balancing.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=700
+AnnotationIndexControlEnabled=1
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=7
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=ZMLAIXTE
+
+[Document13]
+DocumentPath=analog_in.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=200
+AnnotationIndexControlEnabled=1
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=5
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=GIWTMVRS
+
+[Document14]
+DocumentPath=connectors_org.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=300
+AnnotationIndexControlEnabled=1
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=6
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=PLCKQQXY
+
+[Document15]
+DocumentPath=connectors_org.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document16]
+DocumentPath=dcdc-converter.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=800
+AnnotationIndexControlEnabled=1
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=8
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=KRRILJAN
+
+[Document17]
+DocumentPath=sensors.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=920
+AnnotationIndexControlEnabled=1
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=9
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=JYNCKJAO
+
+[Document18]
+DocumentPath=digital_io.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=900
+AnnotationIndexControlEnabled=1
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=10
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=IPBCKEJY
+
+[Document19]
+DocumentPath=sensors.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document20]
+DocumentPath=analog_in.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document21]
+DocumentPath=digital_io.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document22]
+DocumentPath=passive_balancing.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document23]
+DocumentPath=ldo.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=850
+AnnotationIndexControlEnabled=1
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=11
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=SWDWSGJG
+
+[Document24]
+DocumentPath=BSD-3-Clause.txt
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document25]
+DocumentPath=CC-BY-4.0.txt
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document26]
+DocumentPath=CHANGELOG.rst
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document27]
+DocumentPath=LICENSE.md
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document28]
+DocumentPath=README.md
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document29]
+DocumentPath=connectors_new.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=QECCFLGK
+
+[Document30]
+DocumentPath=connectors.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=SEVTGDTR
+
+[Document31]
+DocumentPath=connectors.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document32]
+DocumentPath=connectors_new.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[ProjectVariant1]
+UniqueId=6FA343B9-A46C-47B9-8A2E-FBA24091FA29
+Description=foxBMS_14cell_BMS-Slave_NXP775A_minimal
+AllowFabrication=0
+ParameterCount=0
+VariationCount=216
+Variation1=Designator=R210_2|UniqueId=\QBAMCHFC\JBMISWSX|Kind=1|AlternatePart==Resistance
+ParamVariation1=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator1=R210_2
+Variation2=Designator=R211_2|UniqueId=\QBAMCHFC\FQAWEQTI|Kind=1|AlternatePart==Resistance
+ParamVariation2=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator2=R211_2
+Variation3=Designator=R212_2|UniqueId=\QBAMCHFC\SWTLLAZW|Kind=1|AlternatePart==Resistance
+ParamVariation3=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator3=R212_2
+Variation4=Designator=R213_2|UniqueId=\QBAMCHFC\CUTHMFXG|Kind=1|AlternatePart==Resistance
+ParamVariation4=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator4=R213_2
+Variation5=Designator=R214_2|UniqueId=\QBAMCHFC\OBNMCDBT|Kind=1|AlternatePart==Resistance
+ParamVariation5=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator5=R214_2
+Variation6=Designator=R215_2|UniqueId=\QBAMCHFC\BYCWMJMA|Kind=1|AlternatePart==Resistance
+ParamVariation6=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator6=R215_2
+Variation7=Designator=R216_2|UniqueId=\QBAMCHFC\IFTZPGVW|Kind=1|AlternatePart==Resistance
+ParamVariation7=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator7=R216_2
+Variation8=Designator=R217_2|UniqueId=\QBAMCHFC\SYVJGMXF|Kind=1|AlternatePart==Resistance
+ParamVariation8=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator8=R217_2
+Variation9=Designator=U202_1|UniqueId=\HKEXJZNW\VEVUGMUY|Kind=1|AlternatePart=
+Variation10=Designator=U202_2|UniqueId=\QBAMCHFC\VEVUGMUY|Kind=1|AlternatePart=
+Variation11=Designator=R201_1|UniqueId=\HKEXJZNW\YTPBKIFQ|Kind=1|AlternatePart==Resistance
+ParamVariation9=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator9=R201_1
+Variation12=Designator=R202_1|UniqueId=\HKEXJZNW\FKNSRPSD|Kind=1|AlternatePart==Resistance
+ParamVariation10=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator10=R202_1
+Variation13=Designator=R204_2|UniqueId=\QBAMCHFC\NOARQROL|Kind=1|AlternatePart==Resistance
+ParamVariation11=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator11=R204_2
+Variation14=Designator=R202_2|UniqueId=\QBAMCHFC\FKNSRPSD|Kind=1|AlternatePart==Resistance
+ParamVariation12=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator12=R202_2
+Variation15=Designator=R623|UniqueId=\VPLTSLXA\EJACFSXA|Kind=1|AlternatePart==Resistance
+ParamVariation13=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator13=R623
+Variation16=Designator=R624|UniqueId=\VPLTSLXA\ACSYUMAG|Kind=1|AlternatePart==Resistance
+ParamVariation14=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator14=R624
+Variation17=Designator=R625|UniqueId=\VPLTSLXA\UKETTDWH|Kind=1|AlternatePart==Resistance
+ParamVariation15=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator15=R625
+Variation18=Designator=R626|UniqueId=\VPLTSLXA\YEPTFNLL|Kind=1|AlternatePart==Resistance
+ParamVariation16=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator16=R626
+Variation19=Designator=R910|UniqueId=\RTEJRKTE\CWRMDIPK|Kind=1|AlternatePart==Resistance
+ParamVariation17=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator17=R910
+Variation20=Designator=R900|UniqueId=\RTEJRKTE\ERJHYUST|Kind=1|AlternatePart==Resistance
+ParamVariation18=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator18=R900
+Variation21=Designator=R905|UniqueId=\RTEJRKTE\UDFQKDEN|Kind=1|AlternatePart==Resistance
+ParamVariation19=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator19=R905
+Variation22=Designator=R911|UniqueId=\RTEJRKTE\FTQBQBJC|Kind=1|AlternatePart==Resistance
+ParamVariation20=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator20=R911
+Variation23=Designator=R901|UniqueId=\RTEJRKTE\WSMBMBAT|Kind=1|AlternatePart==Resistance
+ParamVariation21=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator21=R901
+Variation24=Designator=R906|UniqueId=\RTEJRKTE\LEKJOHWY|Kind=1|AlternatePart==Resistance
+ParamVariation22=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator22=R906
+Variation25=Designator=R912|UniqueId=\RTEJRKTE\YDEWBINY|Kind=1|AlternatePart==Resistance
+ParamVariation23=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator23=R912
+Variation26=Designator=R902|UniqueId=\RTEJRKTE\JMTNVOXL|Kind=1|AlternatePart==Resistance
+ParamVariation24=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator24=R902
+Variation27=Designator=R907|UniqueId=\RTEJRKTE\QOMOBPFK|Kind=1|AlternatePart==Resistance
+ParamVariation25=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator25=R907
+Variation28=Designator=R913|UniqueId=\RTEJRKTE\CWTLBKXD|Kind=1|AlternatePart==Resistance
+ParamVariation26=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator26=R913
+Variation29=Designator=R908|UniqueId=\RTEJRKTE\XHJWEYMB|Kind=1|AlternatePart==Resistance
+ParamVariation27=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator27=R908
+Variation30=Designator=R914|UniqueId=\RTEJRKTE\FRWQHSMX|Kind=1|AlternatePart==Resistance
+ParamVariation28=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator28=R914
+Variation31=Designator=R904|UniqueId=\RTEJRKTE\SGCQIOQB|Kind=1|AlternatePart==Resistance
+ParamVariation29=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator29=R904
+Variation32=Designator=R909|UniqueId=\RTEJRKTE\UXJTLINS|Kind=1|AlternatePart==Resistance
+ParamVariation30=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator30=R909
+Variation33=Designator=R915|UniqueId=\RTEJRKTE\JCMNVBQV|Kind=1|AlternatePart==Resistance
+ParamVariation31=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator31=R915
+Variation34=Designator=R929|UniqueId=\RTEJRKTE\TPDDONKA|Kind=1|AlternatePart==Resistance
+ParamVariation32=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator32=R929
+Variation35=Designator=R516|UniqueId=\LTCHEMBP\JERTTHVX|Kind=1|AlternatePart==Resistance
+ParamVariation33=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator33=R516
+Variation36=Designator=R517|UniqueId=\LTCHEMBP\UEOQEWHP|Kind=1|AlternatePart==Resistance
+ParamVariation34=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator34=R517
+Variation37=Designator=R518|UniqueId=\LTCHEMBP\BSMGBZMM|Kind=1|AlternatePart==Resistance
+ParamVariation35=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator35=R518
+Variation38=Designator=R519|UniqueId=\LTCHEMBP\QNHDQHQD|Kind=1|AlternatePart==Resistance
+ParamVariation36=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator36=R519
+Variation39=Designator=R520|UniqueId=\LTCHEMBP\CCKZKCPV|Kind=1|AlternatePart==Resistance
+ParamVariation37=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator37=R520
+Variation40=Designator=R521|UniqueId=\LTCHEMBP\YRFUIZCC|Kind=1|AlternatePart==Resistance
+ParamVariation38=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator38=R521
+Variation41=Designator=R522|UniqueId=\LTCHEMBP\FYHBSQQK|Kind=1|AlternatePart==Resistance
+ParamVariation39=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator39=R522
+Variation42=Designator=R523|UniqueId=\LTCHEMBP\LVLNIITZ|Kind=1|AlternatePart==Resistance
+ParamVariation40=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator40=R523
+Variation43=Designator=R525|UniqueId=\LTCHEMBP\VJZBAAIN|Kind=1|AlternatePart==Resistance
+ParamVariation41=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator41=R525
+Variation44=Designator=R524|UniqueId=\LTCHEMBP\EELXDGXY|Kind=1|AlternatePart==Resistance
+ParamVariation42=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator42=R524
+Variation45=Designator=R100|UniqueId=\YULXSUTH|Kind=1|AlternatePart==Resistance
+ParamVariation43=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator43=R100
+Variation46=Designator=R853|UniqueId=\VPLTSLXA\BOZMFIAB\RBYDQLHY|Kind=1|AlternatePart==Resistance
+ParamVariation44=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator44=R853
+Variation47=Designator=U920|UniqueId=\FGSKEQQK\QPBEJTPC|Kind=1|AlternatePart=
+Variation48=Designator=U922|UniqueId=\FGSKEQQK\NFKQOXJK|Kind=1|AlternatePart=="Part Name"
+ParamVariation45=ParameterName=Comment|VariantValue=="Part Name"
+ParamDesignator45=U922
+Variation49=Designator=IC920|UniqueId=\FGSKEQQK\DDEGJVSW|Kind=1|AlternatePart=
+Variation50=Designator=R917|UniqueId=\RTEJRKTE\NWIFQGDS|Kind=1|AlternatePart==Resistance
+ParamVariation46=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator46=R917
+Variation51=Designator=R924|UniqueId=\RTEJRKTE\FINPEWCY|Kind=1|AlternatePart==Resistance
+ParamVariation47=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator47=R924
+Variation52=Designator=R918|UniqueId=\RTEJRKTE\CFECLXTK|Kind=1|AlternatePart==Resistance
+ParamVariation48=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator48=R918
+Variation53=Designator=R925|UniqueId=\RTEJRKTE\MXDGJTJB|Kind=1|AlternatePart==Resistance
+ParamVariation49=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator49=R925
+Variation54=Designator=R930|UniqueId=\RTEJRKTE\IISSXSGU|Kind=1|AlternatePart==Resistance
+ParamVariation50=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator50=R930
+Variation55=Designator=R919|UniqueId=\RTEJRKTE\JGODSQEQ|Kind=1|AlternatePart==Resistance
+ParamVariation51=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator51=R919
+Variation56=Designator=R926|UniqueId=\RTEJRKTE\HFDCYPIB|Kind=1|AlternatePart==Resistance
+ParamVariation52=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator52=R926
+Variation57=Designator=R931|UniqueId=\RTEJRKTE\MYTTAEVG|Kind=1|AlternatePart==Resistance
+ParamVariation53=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator53=R931
+Variation58=Designator=R921|UniqueId=\RTEJRKTE\NQQVXAFV|Kind=1|AlternatePart==Resistance
+ParamVariation54=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator54=R921
+Variation59=Designator=R927|UniqueId=\RTEJRKTE\ABUUTIAQ|Kind=1|AlternatePart==Resistance
+ParamVariation55=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator55=R927
+Variation60=Designator=R932|UniqueId=\RTEJRKTE\UPVESXOC|Kind=1|AlternatePart==Resistance
+ParamVariation56=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator56=R932
+Variation61=Designator=R922|UniqueId=\RTEJRKTE\YHSYUTYM|Kind=1|AlternatePart==Resistance
+ParamVariation57=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator57=R922
+Variation62=Designator=R928|UniqueId=\RTEJRKTE\HPVMTYVP|Kind=1|AlternatePart==Resistance
+ParamVariation58=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator58=R928
+Variation63=Designator=R933|UniqueId=\RTEJRKTE\GQTHKIBM|Kind=1|AlternatePart==Resistance
+ParamVariation59=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator59=R933
+Variation64=Designator=R923|UniqueId=\RTEJRKTE\WSRONXES|Kind=1|AlternatePart==Resistance
+ParamVariation60=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator60=R923
+Variation65=Designator=R800|UniqueId=\UPBRDDDU\OLTKDWJR|Kind=1|AlternatePart==Resistance
+ParamVariation61=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator61=R800
+Variation66=Designator=C800|UniqueId=\UPBRDDDU\CTAKHEPP|Kind=1|AlternatePart==Capacitance +'/'+ "Rated Voltage"
+ParamVariation62=ParameterName=Comment|VariantValue==Capacitance +'/'+ "Rated Voltage"
+ParamDesignator62=C800
+Variation67=Designator=C801|UniqueId=\UPBRDDDU\BUKQKUQU|Kind=1|AlternatePart==Capacitance +'/'+ "Rated Voltage"
+ParamVariation63=ParameterName=Comment|VariantValue==Capacitance +'/'+ "Rated Voltage"
+ParamDesignator63=C801
+Variation68=Designator=L800|UniqueId=\UPBRDDDU\TUWKUCLM|Kind=1|AlternatePart==Inductance
+ParamVariation64=ParameterName=Comment|VariantValue==Inductance
+ParamDesignator64=L800
+Variation69=Designator=R803|UniqueId=\UPBRDDDU\GMKTOXVN|Kind=1|AlternatePart==Resistance
+ParamVariation65=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator65=R803
+Variation70=Designator=R802|UniqueId=\UPBRDDDU\VJEJAERU|Kind=1|AlternatePart==Resistance
+ParamVariation66=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator66=R802
+Variation71=Designator=C804|UniqueId=\UPBRDDDU\PXACYKDX|Kind=1|AlternatePart==Capacitance +'/'+ "Rated Voltage"
+ParamVariation67=ParameterName=Comment|VariantValue==Capacitance +'/'+ "Rated Voltage"
+ParamDesignator67=C804
+Variation72=Designator=R807|UniqueId=\UPBRDDDU\KECHJSNR|Kind=1|AlternatePart==Resistance
+ParamVariation68=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator68=R807
+Variation73=Designator=R810|UniqueId=\UPBRDDDU\LTROEAUY|Kind=1|AlternatePart==Resistance
+ParamVariation69=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator69=R810
+Variation74=Designator=C802|UniqueId=\UPBRDDDU\MIOLSCFO|Kind=1|AlternatePart==Capacitance +'/'+ "Rated Voltage"
+ParamVariation70=ParameterName=Comment|VariantValue==Capacitance +'/'+ "Rated Voltage"
+ParamDesignator70=C802
+Variation75=Designator=C803|UniqueId=\UPBRDDDU\TYQANACM|Kind=1|AlternatePart==Capacitance +'/'+ "Rated Voltage"
+ParamVariation71=ParameterName=Comment|VariantValue==Capacitance +'/'+ "Rated Voltage"
+ParamDesignator71=C803
+Variation76=Designator=R801|UniqueId=\UPBRDDDU\AIBODUHI|Kind=1|AlternatePart==Resistance
+ParamVariation72=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator72=R801
+Variation77=Designator=C920|UniqueId=\FGSKEQQK\CJQCORTK|Kind=1|AlternatePart==Capacitance +'/'+ "Rated Voltage"
+ParamVariation73=ParameterName=Comment|VariantValue==Capacitance +'/'+ "Rated Voltage"
+ParamDesignator73=C920
+Variation78=Designator=C921|UniqueId=\FGSKEQQK\BMXOYVPW|Kind=1|AlternatePart==Capacitance +'/'+ "Rated Voltage"
+ParamVariation74=ParameterName=Comment|VariantValue==Capacitance +'/'+ "Rated Voltage"
+ParamDesignator74=C921
+Variation79=Designator=C924|UniqueId=\FGSKEQQK\WPSVMVSK|Kind=1|AlternatePart==Capacitance +'/'+ "Rated Voltage"
+ParamVariation75=ParameterName=Comment|VariantValue==Capacitance +'/'+ "Rated Voltage"
+ParamDesignator75=C924
+Variation80=Designator=C923|UniqueId=\FGSKEQQK\XEBDBHCQ|Kind=1|AlternatePart==Capacitance +'/'+ "Rated Voltage"
+ParamVariation76=ParameterName=Comment|VariantValue==Capacitance +'/'+ "Rated Voltage"
+ParamDesignator76=C923
+Variation81=Designator=R920|UniqueId=\FGSKEQQK\ARGXUPQY|Kind=1|AlternatePart==Resistance
+ParamVariation77=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator77=R920
+Variation82=Designator=C925|UniqueId=\FGSKEQQK\KUQDLRVQ|Kind=1|AlternatePart==Capacitance +'/'+ "Rated Voltage"
+ParamVariation78=ParameterName=Comment|VariantValue==Capacitance +'/'+ "Rated Voltage"
+ParamDesignator78=C925
+Variation83=Designator=C806|UniqueId=\UPBRDDDU\PPFQIWEL|Kind=1|AlternatePart==Capacitance +'/'+ "Rated Voltage"
+ParamVariation79=ParameterName=Comment|VariantValue==Capacitance +'/'+ "Rated Voltage"
+ParamDesignator79=C806
+Variation84=Designator=C807|UniqueId=\UPBRDDDU\CXVUXTCU|Kind=1|AlternatePart==Capacitance +'/'+ "Rated Voltage"
+ParamVariation80=ParameterName=Comment|VariantValue==Capacitance +'/'+ "Rated Voltage"
+ParamDesignator80=C807
+Variation85=Designator=R809|UniqueId=\UPBRDDDU\NIXMHHGB|Kind=1|AlternatePart==Resistance
+ParamVariation81=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator81=R809
+Variation86=Designator=U800|UniqueId=\UPBRDDDU\XFBXCRTR|Kind=1|AlternatePart=="Part Number"
+ParamVariation82=ParameterName=Comment|VariantValue=="Part Number"
+ParamDesignator82=U800
+Variation87=Designator=C805|UniqueId=\UPBRDDDU\VFYABWFW|Kind=1|AlternatePart==Capacitance +'/'+ "Rated Voltage"
+ParamVariation83=ParameterName=Comment|VariantValue==Capacitance +'/'+ "Rated Voltage"
+ParamDesignator83=C805
+Variation88=Designator=L801|UniqueId=\UPBRDDDU\GPGEBXAW|Kind=1|AlternatePart==Inductance
+ParamVariation84=ParameterName=Comment|VariantValue==Inductance
+ParamDesignator84=L801
+Variation89=Designator=R805|UniqueId=\UPBRDDDU\ITVYUWGF|Kind=1|AlternatePart==Resistance
+ParamVariation85=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator85=R805
+Variation90=Designator=C808|UniqueId=\UPBRDDDU\HPWUOOYS|Kind=1|AlternatePart==Capacitance +'/'+ "Rated Voltage"
+ParamVariation86=ParameterName=Comment|VariantValue==Capacitance +'/'+ "Rated Voltage"
+ParamDesignator86=C808
+Variation91=Designator=C809|UniqueId=\UPBRDDDU\MAFYRUMT|Kind=1|AlternatePart==Capacitance +'/'+ "Rated Voltage"
+ParamVariation87=ParameterName=Comment|VariantValue==Capacitance +'/'+ "Rated Voltage"
+ParamDesignator87=C809
+Variation92=Designator=R806|UniqueId=\UPBRDDDU\ANUMPHMG|Kind=1|AlternatePart==Resistance
+ParamVariation88=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator88=R806
+Variation93=Designator=R808|UniqueId=\UPBRDDDU\LGDPSGQK|Kind=1|AlternatePart==Resistance
+ParamVariation89=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator89=R808
+Variation94=Designator=C810|UniqueId=\UPBRDDDU\IBQEYBVS|Kind=1|AlternatePart==Capacitance +'/'+ "Rated Voltage"
+ParamVariation90=ParameterName=Comment|VariantValue==Capacitance +'/'+ "Rated Voltage"
+ParamDesignator90=C810
+Variation95=Designator=U850|UniqueId=\VPLTSLXA\BOZMFIAB\VUFESHNM|Kind=1|AlternatePart=="Part Number"
+ParamVariation91=ParameterName=Comment|VariantValue=="Part Number"
+ParamDesignator91=U850
+Variation96=Designator=R851|UniqueId=\VPLTSLXA\BOZMFIAB\PTELDTDP|Kind=1|AlternatePart==Resistance
+ParamVariation92=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator92=R851
+Variation97=Designator=R230_1|UniqueId=\HKEXJZNW\VHSBYJNR|Kind=1|AlternatePart==Resistance
+ParamVariation93=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator93=R230_1
+Variation98=Designator=R230_2|UniqueId=\QBAMCHFC\VHSBYJNR|Kind=1|AlternatePart==Resistance
+ParamVariation94=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator94=R230_2
+Variation99=Designator=R200_2|UniqueId=\QBAMCHFC\UQWKIBSU|Kind=1|AlternatePart==Resistance
+ParamVariation95=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator95=R200_2
+Variation100=Designator=R203_1|UniqueId=\HKEXJZNW\ZJEMSAAQ|Kind=1|AlternatePart==Resistance
+ParamVariation96=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator96=R203_1
+Variation101=Designator=R850|UniqueId=\VPLTSLXA\BOZMFIAB\HSIKISHQ|Kind=1|AlternatePart==Resistance
+ParamVariation97=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator97=R850
+Variation102=Designator=U200_1|UniqueId=\HKEXJZNW\CCPQAWKG|Kind=1|AlternatePart=="Part Number"
+ParamVariation98=ParameterName=Comment|VariantValue=="Part Number"
+ParamDesignator98=U200_1
+Variation103=Designator=C200_1|UniqueId=\HKEXJZNW\SVFGGSJC|Kind=1|AlternatePart==Capacitance +'/'+ "Rated Voltage"
+ParamVariation99=ParameterName=Comment|VariantValue==Capacitance +'/'+ "Rated Voltage"
+ParamDesignator99=C200_1
+Variation104=Designator=C201_1|UniqueId=\HKEXJZNW\GNPWVQSD|Kind=1|AlternatePart==Capacitance +'/'+ "Rated Voltage"
+ParamVariation100=ParameterName=Comment|VariantValue==Capacitance +'/'+ "Rated Voltage"
+ParamDesignator100=C201_1
+Variation105=Designator=U201_1|UniqueId=\HKEXJZNW\TORIUOOP|Kind=1|AlternatePart=
+Variation106=Designator=R205_1|UniqueId=\HKEXJZNW\OKRUIHRX|Kind=1|AlternatePart==Resistance
+ParamVariation101=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator101=R205_1
+Variation107=Designator=R204_1|UniqueId=\HKEXJZNW\NOARQROL|Kind=1|AlternatePart==Resistance
+ParamVariation102=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator102=R204_1
+Variation108=Designator=C203_1|UniqueId=\HKEXJZNW\QOVTPTYP|Kind=1|AlternatePart==Capacitance +'/'+ "Rated Voltage"
+ParamVariation103=ParameterName=Comment|VariantValue==Capacitance +'/'+ "Rated Voltage"
+ParamDesignator103=C203_1
+Variation109=Designator=C220_1|UniqueId=\HKEXJZNW\IACQMOSB|Kind=1|AlternatePart==Capacitance +'/'+ "Rated Voltage"
+ParamVariation104=ParameterName=Comment|VariantValue==Capacitance +'/'+ "Rated Voltage"
+ParamDesignator104=C220_1
+Variation110=Designator=R231_1|UniqueId=\HKEXJZNW\ABSEVEQE|Kind=1|AlternatePart==Resistance
+ParamVariation105=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator105=R231_1
+Variation111=Designator=C221_1|UniqueId=\HKEXJZNW\OXKNCATV|Kind=1|AlternatePart==Capacitance +'/'+ "Rated Voltage"
+ParamVariation106=ParameterName=Comment|VariantValue==Capacitance +'/'+ "Rated Voltage"
+ParamDesignator106=C221_1
+Variation112=Designator=R232_1|UniqueId=\HKEXJZNW\QDXKTDNE|Kind=1|AlternatePart==Resistance
+ParamVariation107=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator107=R232_1
+Variation113=Designator=R205_2|UniqueId=\QBAMCHFC\OKRUIHRX|Kind=1|AlternatePart==Resistance
+ParamVariation108=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator108=R205_2
+Variation114=Designator=R201_2|UniqueId=\QBAMCHFC\YTPBKIFQ|Kind=1|AlternatePart==Resistance
+ParamVariation109=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator109=R201_2
+Variation115=Designator=U201_2|UniqueId=\QBAMCHFC\TORIUOOP|Kind=1|AlternatePart=
+Variation116=Designator=C203_2|UniqueId=\QBAMCHFC\QOVTPTYP|Kind=1|AlternatePart==Capacitance +'/'+ "Rated Voltage"
+ParamVariation110=ParameterName=Comment|VariantValue==Capacitance +'/'+ "Rated Voltage"
+ParamDesignator110=C203_2
+Variation117=Designator=C220_2|UniqueId=\QBAMCHFC\IACQMOSB|Kind=1|AlternatePart==Capacitance +'/'+ "Rated Voltage"
+ParamVariation111=ParameterName=Comment|VariantValue==Capacitance +'/'+ "Rated Voltage"
+ParamDesignator111=C220_2
+Variation118=Designator=R231_2|UniqueId=\QBAMCHFC\ABSEVEQE|Kind=1|AlternatePart==Resistance
+ParamVariation112=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator112=R231_2
+Variation119=Designator=C221_2|UniqueId=\QBAMCHFC\OXKNCATV|Kind=1|AlternatePart==Capacitance +'/'+ "Rated Voltage"
+ParamVariation113=ParameterName=Comment|VariantValue==Capacitance +'/'+ "Rated Voltage"
+ParamDesignator113=C221_2
+Variation120=Designator=R232_2|UniqueId=\QBAMCHFC\QDXKTDNE|Kind=1|AlternatePart==Resistance
+ParamVariation114=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator114=R232_2
+Variation121=Designator=U200_2|UniqueId=\QBAMCHFC\CCPQAWKG|Kind=1|AlternatePart=="Part Number"
+ParamVariation115=ParameterName=Comment|VariantValue=="Part Number"
+ParamDesignator115=U200_2
+Variation122=Designator=C200_2|UniqueId=\QBAMCHFC\SVFGGSJC|Kind=1|AlternatePart==Capacitance +'/'+ "Rated Voltage"
+ParamVariation116=ParameterName=Comment|VariantValue==Capacitance +'/'+ "Rated Voltage"
+ParamDesignator116=C200_2
+Variation123=Designator=C201_2|UniqueId=\QBAMCHFC\GNPWVQSD|Kind=1|AlternatePart==Capacitance +'/'+ "Rated Voltage"
+ParamVariation117=ParameterName=Comment|VariantValue==Capacitance +'/'+ "Rated Voltage"
+ParamDesignator117=C201_2
+Variation124=Designator=R203_2|UniqueId=\QBAMCHFC\ZJEMSAAQ|Kind=1|AlternatePart==Resistance
+ParamVariation118=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator118=R203_2
+Variation125=Designator=C202_2|UniqueId=\QBAMCHFC\PGONXIIV|Kind=1|AlternatePart==Capacitance +'/'+ "Rated Voltage"
+ParamVariation119=ParameterName=Comment|VariantValue==Capacitance +'/'+ "Rated Voltage"
+ParamDesignator119=C202_2
+Variation126=Designator=R229_2|UniqueId=\QBAMCHFC\FHMHNGXI|Kind=1|AlternatePart==Resistance
+ParamVariation120=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator120=R229_2
+Variation127=Designator=R228_2|UniqueId=\QBAMCHFC\UJFUQBXP|Kind=1|AlternatePart==Resistance
+ParamVariation121=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator121=R228_2
+Variation128=Designator=R227_2|UniqueId=\QBAMCHFC\JGBDQTNK|Kind=1|AlternatePart==Resistance
+ParamVariation122=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator122=R227_2
+Variation129=Designator=R226_2|UniqueId=\QBAMCHFC\THLYAQHM|Kind=1|AlternatePart==Resistance
+ParamVariation123=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator123=R226_2
+Variation130=Designator=R225_2|UniqueId=\QBAMCHFC\GIGTDNPH|Kind=1|AlternatePart==Resistance
+ParamVariation124=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator124=R225_2
+Variation131=Designator=R224_2|UniqueId=\QBAMCHFC\GRXDSBQU|Kind=1|AlternatePart==Resistance
+ParamVariation125=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator125=R224_2
+Variation132=Designator=R222_2|UniqueId=\QBAMCHFC\UNVWGBUM|Kind=1|AlternatePart==Resistance
+ParamVariation126=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator126=R222_2
+Variation133=Designator=R223_2|UniqueId=\QBAMCHFC\VNRUUMCR|Kind=1|AlternatePart==Resistance
+ParamVariation127=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator127=R223_2
+Variation134=Designator=R209_2|UniqueId=\QBAMCHFC\ECMYRVIE|Kind=1|AlternatePart==Resistance
+ParamVariation128=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator128=R209_2
+Variation135=Designator=R221_2|UniqueId=\QBAMCHFC\ESSVWKCQ|Kind=1|AlternatePart==Resistance
+ParamVariation129=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator129=R221_2
+Variation136=Designator=R208_2|UniqueId=\QBAMCHFC\ICWOHOJM|Kind=1|AlternatePart==Resistance
+ParamVariation130=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator130=R208_2
+Variation137=Designator=R220_2|UniqueId=\QBAMCHFC\IKDPQXCV|Kind=1|AlternatePart==Resistance
+ParamVariation131=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator131=R220_2
+Variation138=Designator=R219_2|UniqueId=\QBAMCHFC\EKFNNMEW|Kind=1|AlternatePart==Resistance
+ParamVariation132=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator132=R219_2
+Variation139=Designator=R207_2|UniqueId=\QBAMCHFC\TGWSBGFN|Kind=1|AlternatePart==Resistance
+ParamVariation133=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator133=R207_2
+Variation140=Designator=R218_2|UniqueId=\QBAMCHFC\MBDJXQPE|Kind=1|AlternatePart==Resistance
+ParamVariation134=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator134=R218_2
+Variation141=Designator=R206_2|UniqueId=\QBAMCHFC\CJNWFNUC|Kind=1|AlternatePart==Resistance
+ParamVariation135=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator135=R206_2
+Variation142=Designator=C204_2|UniqueId=\QBAMCHFC\FACEHWKG|Kind=1|AlternatePart==Capacitance +'/'+ "Rated Voltage"
+ParamVariation136=ParameterName=Comment|VariantValue==Capacitance +'/'+ "Rated Voltage"
+ParamDesignator136=C204_2
+Variation143=Designator=C219_2|UniqueId=\QBAMCHFC\AAIPSYXB|Kind=1|AlternatePart==Capacitance +'/'+ "Rated Voltage"
+ParamVariation137=ParameterName=Comment|VariantValue==Capacitance +'/'+ "Rated Voltage"
+ParamDesignator137=C219_2
+Variation144=Designator=C218_2|UniqueId=\QBAMCHFC\VTUGDVPX|Kind=1|AlternatePart==Capacitance +'/'+ "Rated Voltage"
+ParamVariation138=ParameterName=Comment|VariantValue==Capacitance +'/'+ "Rated Voltage"
+ParamDesignator138=C218_2
+Variation145=Designator=C217_2|UniqueId=\QBAMCHFC\GDGDFWTB|Kind=1|AlternatePart==Capacitance +'/'+ "Rated Voltage"
+ParamVariation139=ParameterName=Comment|VariantValue==Capacitance +'/'+ "Rated Voltage"
+ParamDesignator139=C217_2
+Variation146=Designator=C216_2|UniqueId=\QBAMCHFC\FISLFJPD|Kind=1|AlternatePart==Capacitance +'/'+ "Rated Voltage"
+ParamVariation140=ParameterName=Comment|VariantValue==Capacitance +'/'+ "Rated Voltage"
+ParamDesignator140=C216_2
+Variation147=Designator=C215_2|UniqueId=\QBAMCHFC\AUNTOSKY|Kind=1|AlternatePart==Capacitance +'/'+ "Rated Voltage"
+ParamVariation141=ParameterName=Comment|VariantValue==Capacitance +'/'+ "Rated Voltage"
+ParamDesignator141=C215_2
+Variation148=Designator=C214_2|UniqueId=\QBAMCHFC\GHFTCSVS|Kind=1|AlternatePart==Capacitance +'/'+ "Rated Voltage"
+ParamVariation142=ParameterName=Comment|VariantValue==Capacitance +'/'+ "Rated Voltage"
+ParamDesignator142=C214_2
+Variation149=Designator=C213_2|UniqueId=\QBAMCHFC\QTOMSHUV|Kind=1|AlternatePart==Capacitance +'/'+ "Rated Voltage"
+ParamVariation143=ParameterName=Comment|VariantValue==Capacitance +'/'+ "Rated Voltage"
+ParamDesignator143=C213_2
+Variation150=Designator=C212_2|UniqueId=\QBAMCHFC\WXBEYIWB|Kind=1|AlternatePart==Capacitance +'/'+ "Rated Voltage"
+ParamVariation144=ParameterName=Comment|VariantValue==Capacitance +'/'+ "Rated Voltage"
+ParamDesignator144=C212_2
+Variation151=Designator=C211_2|UniqueId=\QBAMCHFC\IJUWNQXV|Kind=1|AlternatePart==Capacitance +'/'+ "Rated Voltage"
+ParamVariation145=ParameterName=Comment|VariantValue==Capacitance +'/'+ "Rated Voltage"
+ParamDesignator145=C211_2
+Variation152=Designator=C210_2|UniqueId=\QBAMCHFC\FPWXDWYH|Kind=1|AlternatePart==Capacitance +'/'+ "Rated Voltage"
+ParamVariation146=ParameterName=Comment|VariantValue==Capacitance +'/'+ "Rated Voltage"
+ParamDesignator146=C210_2
+Variation153=Designator=C209_2|UniqueId=\QBAMCHFC\BROKCHRK|Kind=1|AlternatePart==Capacitance +'/'+ "Rated Voltage"
+ParamVariation147=ParameterName=Comment|VariantValue==Capacitance +'/'+ "Rated Voltage"
+ParamDesignator147=C209_2
+Variation154=Designator=C208_2|UniqueId=\QBAMCHFC\YFVPESBO|Kind=1|AlternatePart==Capacitance +'/'+ "Rated Voltage"
+ParamVariation148=ParameterName=Comment|VariantValue==Capacitance +'/'+ "Rated Voltage"
+ParamDesignator148=C208_2
+Variation155=Designator=C207_2|UniqueId=\QBAMCHFC\VLYTNNLI|Kind=1|AlternatePart==Capacitance +'/'+ "Rated Voltage"
+ParamVariation149=ParameterName=Comment|VariantValue==Capacitance +'/'+ "Rated Voltage"
+ParamDesignator149=C207_2
+Variation156=Designator=C206_2|UniqueId=\QBAMCHFC\NAXADIKP|Kind=1|AlternatePart==Capacitance +'/'+ "Rated Voltage"
+ParamVariation150=ParameterName=Comment|VariantValue==Capacitance +'/'+ "Rated Voltage"
+ParamDesignator150=C206_2
+Variation157=Designator=C205_2|UniqueId=\QBAMCHFC\NJJNMPDI|Kind=1|AlternatePart==Capacitance +'/'+ "Rated Voltage"
+ParamVariation151=ParameterName=Comment|VariantValue==Capacitance +'/'+ "Rated Voltage"
+ParamDesignator151=C205_2
+Variation158=Designator=LD800|UniqueId=\UPBRDDDU\ECGXSLKP|Kind=1|AlternatePart=="Color"
+ParamVariation152=ParameterName=Comment|VariantValue=="Color"
+ParamDesignator152=LD800
+Variation159=Designator=R804|UniqueId=\UPBRDDDU\DWIOJTEE|Kind=1|AlternatePart==Resistance
+ParamVariation153=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator153=R804
+Variation160=Designator=R903|UniqueId=\RTEJRKTE\GCKWLBRC|Kind=1|AlternatePart==Resistance
+ParamVariation154=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator154=R903
+Variation161=Designator=U900|UniqueId=\RTEJRKTE\PWKWMUDC|Kind=1|AlternatePart=
+Variation162=Designator=C900|UniqueId=\RTEJRKTE\GOPGSSRG|Kind=1|AlternatePart==Capacitance +'/'+ "Rated Voltage"
+ParamVariation155=ParameterName=Comment|VariantValue==Capacitance +'/'+ "Rated Voltage"
+ParamDesignator155=C900
+Variation163=Designator=R916|UniqueId=\RTEJRKTE\QTWBFORJ|Kind=1|AlternatePart==Resistance
+ParamVariation156=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator156=R916
+Variation164=Designator=U400|UniqueId=\BIZQBMMS\RMWYBVBH|Kind=1|AlternatePart=
+Variation165=Designator=R400|UniqueId=\BIZQBMMS\ZLAKMTWN|Kind=1|AlternatePart==Resistance
+ParamVariation157=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator157=R400
+Variation166=Designator=R401|UniqueId=\BIZQBMMS\TPISRCKS|Kind=1|AlternatePart==Resistance
+ParamVariation158=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator158=R401
+Variation167=Designator=C400|UniqueId=\BIZQBMMS\VLSWQRZY|Kind=1|AlternatePart==Capacitance +'/'+ "Rated Voltage"
+ParamVariation159=ParameterName=Comment|VariantValue==Capacitance +'/'+ "Rated Voltage"
+ParamDesignator159=C400
+Variation168=Designator=C850|UniqueId=\VPLTSLXA\BOZMFIAB\MCKRZLCC|Kind=1|AlternatePart==Capacitance +'/'+ "Rated Voltage"
+ParamVariation160=ParameterName=Comment|VariantValue==Capacitance +'/'+ "Rated Voltage"
+ParamDesignator160=C850
+Variation169=Designator=C852|UniqueId=\VPLTSLXA\BOZMFIAB\ZTEWGJCZ|Kind=1|AlternatePart==Capacitance +'/'+ "Rated Voltage"
+ParamVariation161=ParameterName=Comment|VariantValue==Capacitance +'/'+ "Rated Voltage"
+ParamDesignator161=C852
+Variation170=Designator=R852|UniqueId=\VPLTSLXA\BOZMFIAB\BVXJHNDO|Kind=1|AlternatePart==Resistance
+ParamVariation162=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator162=R852
+Variation171=Designator=C851|UniqueId=\VPLTSLXA\BOZMFIAB\KWOHKQSH|Kind=1|AlternatePart==Capacitance +'/'+ "Rated Voltage"
+ParamVariation163=ParameterName=Comment|VariantValue==Capacitance +'/'+ "Rated Voltage"
+ParamDesignator163=C851
+Variation172=Designator=LD850|UniqueId=\VPLTSLXA\BOZMFIAB\WQQIBEUP|Kind=1|AlternatePart=="Color"
+ParamVariation164=ParameterName=Comment|VariantValue=="Color"
+ParamDesignator164=LD850
+Variation173=Designator=R854|UniqueId=\VPLTSLXA\BOZMFIAB\SZOYSUAY|Kind=1|AlternatePart==Resistance
+ParamVariation165=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator165=R854
+Variation174=Designator=U851|UniqueId=\VPLTSLXA\BOZMFIAB\CVFVCUJW|Kind=1|AlternatePart=="Part Number"
+ParamVariation166=ParameterName=Comment|VariantValue=="Part Number"
+ParamDesignator166=U851
+Variation175=Designator=R606|UniqueId=\VPLTSLXA\NAIPIIVZ|Kind=1|AlternatePart==Resistance
+ParamVariation167=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator167=R606
+Variation176=Designator=R608|UniqueId=\VPLTSLXA\VAJAYPMA|Kind=1|AlternatePart==Resistance
+ParamVariation168=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator168=R608
+Variation177=Designator=R620|UniqueId=\VPLTSLXA\ORWWZFXI|Kind=1|AlternatePart==Resistance
+ParamVariation169=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator169=R620
+Variation178=Designator=R615|UniqueId=\VPLTSLXA\JMVRLXRC|Kind=1|AlternatePart==Resistance
+ParamVariation170=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator170=R615
+Variation179=Designator=R617|UniqueId=\VPLTSLXA\NSAWXLTS|Kind=1|AlternatePart==Resistance
+ParamVariation171=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator171=R617
+Variation180=Designator=R616|UniqueId=\VPLTSLXA\NIREQTJE|Kind=1|AlternatePart==Resistance
+ParamVariation172=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator172=R616
+Variation181=Designator=R609|UniqueId=\VPLTSLXA\PMTHVQGD|Kind=1|AlternatePart==Resistance
+ParamVariation173=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator173=R609
+Variation182=Designator=R601|UniqueId=\VPLTSLXA\YPEVUFFY|Kind=1|AlternatePart==Resistance
+ParamVariation174=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator174=R601
+Variation183=Designator=D601|UniqueId=\VPLTSLXA\OJWVOCQJ|Kind=1|AlternatePart=="Part Number"
+ParamVariation175=ParameterName=Comment|VariantValue=="Part Number"
+ParamDesignator175=D601
+Variation184=Designator=U921|UniqueId=\FGSKEQQK\OLHTBJOR|Kind=1|AlternatePart=="Part Name"
+ParamVariation176=ParameterName=Comment|VariantValue=="Part Name"
+ParamDesignator176=U921
+Variation185=Designator=C922|UniqueId=\FGSKEQQK\SKMJXVGE|Kind=1|AlternatePart==Capacitance +'/'+ "Rated Voltage"
+ParamVariation177=ParameterName=Comment|VariantValue==Capacitance +'/'+ "Rated Voltage"
+ParamDesignator177=C922
+Variation186=Designator=D608|UniqueId=\VPLTSLXA\MZJNWQMH|Kind=1|AlternatePart=="Part Number"
+ParamVariation178=ParameterName=Comment|VariantValue=="Part Number"
+ParamDesignator178=D608
+Variation187=Designator=R628|UniqueId=\VPLTSLXA\XZWGTKPK|Kind=1|AlternatePart==Resistance
+ParamVariation179=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator179=R628
+Variation188=Designator=C614|UniqueId=\VPLTSLXA\XPZYEGMB|Kind=1|AlternatePart==Capacitance +'/'+ "Rated Voltage"
+ParamVariation180=ParameterName=Comment|VariantValue==Capacitance +'/'+ "Rated Voltage"
+ParamDesignator180=C614
+Variation189=Designator=Q601|UniqueId=\VPLTSLXA\SXUUBDOZ|Kind=1|AlternatePart=="Part Number"
+ParamVariation181=ParameterName=Comment|VariantValue=="Part Number"
+ParamDesignator181=Q601
+Variation190=Designator=C615|UniqueId=\VPLTSLXA\ZQPKNISR|Kind=1|AlternatePart==Capacitance +'/'+ "Rated Voltage"
+ParamVariation182=ParameterName=Comment|VariantValue==Capacitance +'/'+ "Rated Voltage"
+ParamDesignator182=C615
+Variation191=Designator=R634|UniqueId=\VPLTSLXA\WUNYSPQQ|Kind=1|AlternatePart==Resistance
+ParamVariation183=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator183=R634
+Variation192=Designator=R638|UniqueId=\VPLTSLXA\IBHCQRXJ|Kind=1|AlternatePart==Resistance
+ParamVariation184=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator184=R638
+Variation193=Designator=R632|UniqueId=\VPLTSLXA\SGHPVGKX|Kind=1|AlternatePart==Resistance
+ParamVariation185=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator185=R632
+Variation194=Designator=D609|UniqueId=\VPLTSLXA\XSZPBVAJ|Kind=1|AlternatePart=="Part Number"
+ParamVariation186=ParameterName=Comment|VariantValue=="Part Number"
+ParamDesignator186=D609
+Variation195=Designator=R642|UniqueId=\VPLTSLXA\MKAOITRM|Kind=1|AlternatePart==Resistance
+ParamVariation187=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator187=R642
+Variation196=Designator=C617|UniqueId=\VPLTSLXA\CMFVKOGT|Kind=1|AlternatePart==Capacitance +'/'+ "Rated Voltage"
+ParamVariation188=ParameterName=Comment|VariantValue==Capacitance +'/'+ "Rated Voltage"
+ParamDesignator188=C617
+Variation197=Designator=D610|UniqueId=\VPLTSLXA\CEMBPTRD|Kind=1|AlternatePart=="Part Number"
+ParamVariation189=ParameterName=Comment|VariantValue=="Part Number"
+ParamDesignator189=D610
+Variation198=Designator=C616|UniqueId=\VPLTSLXA\AZRBUHMV|Kind=1|AlternatePart==Capacitance +'/'+ "Rated Voltage"
+ParamVariation190=ParameterName=Comment|VariantValue==Capacitance +'/'+ "Rated Voltage"
+ParamDesignator190=C616
+Variation199=Designator=Q602|UniqueId=\VPLTSLXA\GNJOZDZT|Kind=1|AlternatePart=="Part Number"
+ParamVariation191=ParameterName=Comment|VariantValue=="Part Number"
+ParamDesignator191=Q602
+Variation200=Designator=C618|UniqueId=\VPLTSLXA\ZPFHRVBF|Kind=1|AlternatePart==Capacitance +'/'+ "Rated Voltage"
+ParamVariation192=ParameterName=Comment|VariantValue==Capacitance +'/'+ "Rated Voltage"
+ParamDesignator192=C618
+Variation201=Designator=R643|UniqueId=\VPLTSLXA\PDMXAZYC|Kind=1|AlternatePart==Resistance
+ParamVariation193=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator193=R643
+Variation202=Designator=U601|UniqueId=\VPLTSLXA\ZRLUSRTY|Kind=1|AlternatePart=="Part Name"
+ParamVariation194=ParameterName=Comment|VariantValue=="Part Name"
+ParamDesignator194=U601
+Variation203=Designator=ALARM_IN|UniqueId=\VPLTSLXA\LYOGEGLT|Kind=1|AlternatePart=="Part Number"
+ParamVariation195=ParameterName=Comment|VariantValue=="Part Number"
+ParamDesignator195=ALARM_IN
+Variation204=Designator=R641|UniqueId=\VPLTSLXA\EQBOHMXV|Kind=1|AlternatePart==Resistance
+ParamVariation196=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator196=R641
+Variation205=Designator=R607|UniqueId=\VPLTSLXA\KKAYXIJG|Kind=1|AlternatePart==Resistance
+ParamVariation197=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator197=R607
+Variation206=Designator=R613|UniqueId=\VPLTSLXA\XOPFACPL|Kind=1|AlternatePart==Resistance
+ParamVariation198=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator198=R613
+Variation207=Designator=R614|UniqueId=\VPLTSLXA\RNOQCKPB|Kind=1|AlternatePart==Resistance
+ParamVariation199=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator199=R614
+Variation208=Designator=R706|UniqueId=\JAQDUWIA\CJTSLGJV|Kind=1|AlternatePart==Resistance
+ParamVariation200=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator200=R706
+Variation209=Designator=R707|UniqueId=\JAQDUWIA\ELPTNOMZ|Kind=1|AlternatePart==Resistance
+ParamVariation201=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator201=R707
+Variation210=Designator=R708|UniqueId=\JAQDUWIA\DEPFHSBR|Kind=1|AlternatePart==Resistance
+ParamVariation202=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator202=R708
+Variation211=Designator=R709|UniqueId=\JAQDUWIA\OBEOFZRV|Kind=1|AlternatePart==Resistance
+ParamVariation203=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator203=R709
+Variation212=Designator=R710|UniqueId=\JAQDUWIA\SGFRGHOL|Kind=1|AlternatePart==Resistance
+ParamVariation204=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator204=R710
+Variation213=Designator=R711|UniqueId=\JAQDUWIA\UFHKRZTW|Kind=1|AlternatePart==Resistance
+ParamVariation205=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator205=R711
+Variation214=Designator=R712|UniqueId=\JAQDUWIA\CVPZGISC|Kind=1|AlternatePart==Resistance
+ParamVariation206=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator206=R712
+Variation215=Designator=R713|UniqueId=\JAQDUWIA\IKADWZMR|Kind=1|AlternatePart==Resistance
+ParamVariation207=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator207=R713
+Variation216=Designator=R603|UniqueId=\VPLTSLXA\WTVAUVWI|Kind=1|AlternatePart=
+ParamVariationCount=207
+
+[ProjectVariant2]
+UniqueId=B64EF9F2-6F6F-4289-B75A-4891DF2D0A86
+Description=foxBMS_14cell_BMS-Slave_NXP775A
+AllowFabrication=0
+ParameterCount=0
+VariationCount=120
+Variation1=Designator=R629|UniqueId=\VPLTSLXA\PYEBMKGD|Kind=1|AlternatePart==Resistance
+ParamVariation1=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator1=R629
+Variation2=Designator=R630|UniqueId=\VPLTSLXA\FTAWTTNS|Kind=1|AlternatePart==Resistance
+ParamVariation2=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator2=R630
+Variation3=Designator=R631|UniqueId=\VPLTSLXA\TYYAVEAF|Kind=1|AlternatePart==Resistance
+ParamVariation3=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator3=R631
+Variation4=Designator=R633|UniqueId=\VPLTSLXA\XZOLPOFV|Kind=1|AlternatePart==Resistance
+ParamVariation4=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator4=R633
+Variation5=Designator=R635|UniqueId=\VPLTSLXA\IWZEIJTJ|Kind=1|AlternatePart==Resistance
+ParamVariation5=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator5=R635
+Variation6=Designator=R636|UniqueId=\VPLTSLXA\GFZFIFBO|Kind=1|AlternatePart==Resistance
+ParamVariation6=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator6=R636
+Variation7=Designator=R639|UniqueId=\VPLTSLXA\YHVEVIDG|Kind=1|AlternatePart==Resistance
+ParamVariation7=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator7=R639
+Variation8=Designator=R640|UniqueId=\VPLTSLXA\FNRGKYWE|Kind=1|AlternatePart==Resistance
+ParamVariation8=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator8=R640
+Variation9=Designator=R210_1|UniqueId=\HKEXJZNW\JBMISWSX|Kind=1|AlternatePart==Resistance
+ParamVariation9=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator9=R210_1
+Variation10=Designator=R211_1|UniqueId=\HKEXJZNW\FQAWEQTI|Kind=1|AlternatePart==Resistance
+ParamVariation10=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator10=R211_1
+Variation11=Designator=R212_1|UniqueId=\HKEXJZNW\SWTLLAZW|Kind=1|AlternatePart==Resistance
+ParamVariation11=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator11=R212_1
+Variation12=Designator=R213_1|UniqueId=\HKEXJZNW\CUTHMFXG|Kind=1|AlternatePart==Resistance
+ParamVariation12=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator12=R213_1
+Variation13=Designator=R214_1|UniqueId=\HKEXJZNW\OBNMCDBT|Kind=1|AlternatePart==Resistance
+ParamVariation13=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator13=R214_1
+Variation14=Designator=R215_1|UniqueId=\HKEXJZNW\BYCWMJMA|Kind=1|AlternatePart==Resistance
+ParamVariation14=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator14=R215_1
+Variation15=Designator=R216_1|UniqueId=\HKEXJZNW\IFTZPGVW|Kind=1|AlternatePart==Resistance
+ParamVariation15=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator15=R216_1
+Variation16=Designator=R217_1|UniqueId=\HKEXJZNW\SYVJGMXF|Kind=1|AlternatePart==Resistance
+ParamVariation16=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator16=R217_1
+Variation17=Designator=R210_2|UniqueId=\QBAMCHFC\JBMISWSX|Kind=1|AlternatePart==Resistance
+ParamVariation17=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator17=R210_2
+Variation18=Designator=R211_2|UniqueId=\QBAMCHFC\FQAWEQTI|Kind=1|AlternatePart==Resistance
+ParamVariation18=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator18=R211_2
+Variation19=Designator=R212_2|UniqueId=\QBAMCHFC\SWTLLAZW|Kind=1|AlternatePart==Resistance
+ParamVariation19=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator19=R212_2
+Variation20=Designator=R213_2|UniqueId=\QBAMCHFC\CUTHMFXG|Kind=1|AlternatePart==Resistance
+ParamVariation20=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator20=R213_2
+Variation21=Designator=R214_2|UniqueId=\QBAMCHFC\OBNMCDBT|Kind=1|AlternatePart==Resistance
+ParamVariation21=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator21=R214_2
+Variation22=Designator=R215_2|UniqueId=\QBAMCHFC\BYCWMJMA|Kind=1|AlternatePart==Resistance
+ParamVariation22=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator22=R215_2
+Variation23=Designator=R216_2|UniqueId=\QBAMCHFC\IFTZPGVW|Kind=1|AlternatePart==Resistance
+ParamVariation23=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator23=R216_2
+Variation24=Designator=R217_2|UniqueId=\QBAMCHFC\SYVJGMXF|Kind=1|AlternatePart==Resistance
+ParamVariation24=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator24=R217_2
+Variation25=Designator=U202_1|UniqueId=\HKEXJZNW\VEVUGMUY|Kind=1|AlternatePart=
+Variation26=Designator=U202_2|UniqueId=\QBAMCHFC\VEVUGMUY|Kind=1|AlternatePart=
+Variation27=Designator=R201_1|UniqueId=\HKEXJZNW\YTPBKIFQ|Kind=1|AlternatePart==Resistance
+ParamVariation25=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator25=R201_1
+Variation28=Designator=R202_1|UniqueId=\HKEXJZNW\FKNSRPSD|Kind=1|AlternatePart==Resistance
+ParamVariation26=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator26=R202_1
+Variation29=Designator=R204_2|UniqueId=\QBAMCHFC\NOARQROL|Kind=1|AlternatePart==Resistance
+ParamVariation27=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator27=R204_2
+Variation30=Designator=R202_2|UniqueId=\QBAMCHFC\FKNSRPSD|Kind=1|AlternatePart==Resistance
+ParamVariation28=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator28=R202_2
+Variation31=Designator=R623|UniqueId=\VPLTSLXA\EJACFSXA|Kind=1|AlternatePart==Resistance
+ParamVariation29=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator29=R623
+Variation32=Designator=R624|UniqueId=\VPLTSLXA\ACSYUMAG|Kind=1|AlternatePart==Resistance
+ParamVariation30=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator30=R624
+Variation33=Designator=R625|UniqueId=\VPLTSLXA\UKETTDWH|Kind=1|AlternatePart==Resistance
+ParamVariation31=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator31=R625
+Variation34=Designator=R626|UniqueId=\VPLTSLXA\YEPTFNLL|Kind=1|AlternatePart==Resistance
+ParamVariation32=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator32=R626
+Variation35=Designator=R910|UniqueId=\RTEJRKTE\CWRMDIPK|Kind=1|AlternatePart==Resistance
+ParamVariation33=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator33=R910
+Variation36=Designator=R900|UniqueId=\RTEJRKTE\ERJHYUST|Kind=1|AlternatePart==Resistance
+ParamVariation34=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator34=R900
+Variation37=Designator=R905|UniqueId=\RTEJRKTE\UDFQKDEN|Kind=1|AlternatePart==Resistance
+ParamVariation35=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator35=R905
+Variation38=Designator=R911|UniqueId=\RTEJRKTE\FTQBQBJC|Kind=1|AlternatePart==Resistance
+ParamVariation36=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator36=R911
+Variation39=Designator=R901|UniqueId=\RTEJRKTE\WSMBMBAT|Kind=1|AlternatePart==Resistance
+ParamVariation37=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator37=R901
+Variation40=Designator=R906|UniqueId=\RTEJRKTE\LEKJOHWY|Kind=1|AlternatePart==Resistance
+ParamVariation38=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator38=R906
+Variation41=Designator=R912|UniqueId=\RTEJRKTE\YDEWBINY|Kind=1|AlternatePart==Resistance
+ParamVariation39=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator39=R912
+Variation42=Designator=R902|UniqueId=\RTEJRKTE\JMTNVOXL|Kind=1|AlternatePart==Resistance
+ParamVariation40=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator40=R902
+Variation43=Designator=R907|UniqueId=\RTEJRKTE\QOMOBPFK|Kind=1|AlternatePart==Resistance
+ParamVariation41=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator41=R907
+Variation44=Designator=R913|UniqueId=\RTEJRKTE\CWTLBKXD|Kind=1|AlternatePart==Resistance
+ParamVariation42=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator42=R913
+Variation45=Designator=R908|UniqueId=\RTEJRKTE\XHJWEYMB|Kind=1|AlternatePart==Resistance
+ParamVariation43=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator43=R908
+Variation46=Designator=R914|UniqueId=\RTEJRKTE\FRWQHSMX|Kind=1|AlternatePart==Resistance
+ParamVariation44=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator44=R914
+Variation47=Designator=R904|UniqueId=\RTEJRKTE\SGCQIOQB|Kind=1|AlternatePart==Resistance
+ParamVariation45=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator45=R904
+Variation48=Designator=R909|UniqueId=\RTEJRKTE\UXJTLINS|Kind=1|AlternatePart==Resistance
+ParamVariation46=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator46=R909
+Variation49=Designator=R915|UniqueId=\RTEJRKTE\JCMNVBQV|Kind=1|AlternatePart==Resistance
+ParamVariation47=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator47=R915
+Variation50=Designator=R929|UniqueId=\RTEJRKTE\TPDDONKA|Kind=1|AlternatePart==Resistance
+ParamVariation48=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator48=R929
+Variation51=Designator=R516|UniqueId=\LTCHEMBP\JERTTHVX|Kind=1|AlternatePart==Resistance
+ParamVariation49=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator49=R516
+Variation52=Designator=R517|UniqueId=\LTCHEMBP\UEOQEWHP|Kind=1|AlternatePart==Resistance
+ParamVariation50=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator50=R517
+Variation53=Designator=R518|UniqueId=\LTCHEMBP\BSMGBZMM|Kind=1|AlternatePart==Resistance
+ParamVariation51=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator51=R518
+Variation54=Designator=R519|UniqueId=\LTCHEMBP\QNHDQHQD|Kind=1|AlternatePart==Resistance
+ParamVariation52=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator52=R519
+Variation55=Designator=R520|UniqueId=\LTCHEMBP\CCKZKCPV|Kind=1|AlternatePart==Resistance
+ParamVariation53=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator53=R520
+Variation56=Designator=R521|UniqueId=\LTCHEMBP\YRFUIZCC|Kind=1|AlternatePart==Resistance
+ParamVariation54=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator54=R521
+Variation57=Designator=R522|UniqueId=\LTCHEMBP\FYHBSQQK|Kind=1|AlternatePart==Resistance
+ParamVariation55=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator55=R522
+Variation58=Designator=R523|UniqueId=\LTCHEMBP\LVLNIITZ|Kind=1|AlternatePart==Resistance
+ParamVariation56=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator56=R523
+Variation59=Designator=R525|UniqueId=\LTCHEMBP\VJZBAAIN|Kind=1|AlternatePart==Resistance
+ParamVariation57=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator57=R525
+Variation60=Designator=R524|UniqueId=\LTCHEMBP\EELXDGXY|Kind=1|AlternatePart==Resistance
+ParamVariation58=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator58=R524
+Variation61=Designator=R100|UniqueId=\YULXSUTH|Kind=1|AlternatePart==Resistance
+ParamVariation59=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator59=R100
+Variation62=Designator=U920|UniqueId=\FGSKEQQK\QPBEJTPC|Kind=1|AlternatePart=
+Variation63=Designator=U922|UniqueId=\FGSKEQQK\NFKQOXJK|Kind=1|AlternatePart=="Part Name"
+ParamVariation60=ParameterName=Comment|VariantValue=="Part Name"
+ParamDesignator60=U922
+Variation64=Designator=IC920|UniqueId=\FGSKEQQK\DDEGJVSW|Kind=1|AlternatePart=
+Variation65=Designator=R917|UniqueId=\RTEJRKTE\NWIFQGDS|Kind=1|AlternatePart==Resistance
+ParamVariation61=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator61=R917
+Variation66=Designator=R924|UniqueId=\RTEJRKTE\FINPEWCY|Kind=1|AlternatePart==Resistance
+ParamVariation62=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator62=R924
+Variation67=Designator=R918|UniqueId=\RTEJRKTE\CFECLXTK|Kind=1|AlternatePart==Resistance
+ParamVariation63=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator63=R918
+Variation68=Designator=R925|UniqueId=\RTEJRKTE\MXDGJTJB|Kind=1|AlternatePart==Resistance
+ParamVariation64=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator64=R925
+Variation69=Designator=R930|UniqueId=\RTEJRKTE\IISSXSGU|Kind=1|AlternatePart==Resistance
+ParamVariation65=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator65=R930
+Variation70=Designator=R919|UniqueId=\RTEJRKTE\JGODSQEQ|Kind=1|AlternatePart==Resistance
+ParamVariation66=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator66=R919
+Variation71=Designator=R926|UniqueId=\RTEJRKTE\HFDCYPIB|Kind=1|AlternatePart==Resistance
+ParamVariation67=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator67=R926
+Variation72=Designator=R931|UniqueId=\RTEJRKTE\MYTTAEVG|Kind=1|AlternatePart==Resistance
+ParamVariation68=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator68=R931
+Variation73=Designator=R921|UniqueId=\RTEJRKTE\NQQVXAFV|Kind=1|AlternatePart==Resistance
+ParamVariation69=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator69=R921
+Variation74=Designator=R927|UniqueId=\RTEJRKTE\ABUUTIAQ|Kind=1|AlternatePart==Resistance
+ParamVariation70=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator70=R927
+Variation75=Designator=R932|UniqueId=\RTEJRKTE\UPVESXOC|Kind=1|AlternatePart==Resistance
+ParamVariation71=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator71=R932
+Variation76=Designator=R922|UniqueId=\RTEJRKTE\YHSYUTYM|Kind=1|AlternatePart==Resistance
+ParamVariation72=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator72=R922
+Variation77=Designator=R928|UniqueId=\RTEJRKTE\HPVMTYVP|Kind=1|AlternatePart==Resistance
+ParamVariation73=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator73=R928
+Variation78=Designator=R933|UniqueId=\RTEJRKTE\GQTHKIBM|Kind=1|AlternatePart==Resistance
+ParamVariation74=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator74=R933
+Variation79=Designator=R923|UniqueId=\RTEJRKTE\WSRONXES|Kind=1|AlternatePart==Resistance
+ParamVariation75=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator75=R923
+Variation80=Designator=R800|UniqueId=\UPBRDDDU\OLTKDWJR|Kind=1|AlternatePart==Resistance
+ParamVariation76=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator76=R800
+Variation81=Designator=C800|UniqueId=\UPBRDDDU\CTAKHEPP|Kind=1|AlternatePart==Capacitance +'/'+ "Rated Voltage"
+ParamVariation77=ParameterName=Comment|VariantValue==Capacitance +'/'+ "Rated Voltage"
+ParamDesignator77=C800
+Variation82=Designator=C801|UniqueId=\UPBRDDDU\BUKQKUQU|Kind=1|AlternatePart==Capacitance +'/'+ "Rated Voltage"
+ParamVariation78=ParameterName=Comment|VariantValue==Capacitance +'/'+ "Rated Voltage"
+ParamDesignator78=C801
+Variation83=Designator=L800|UniqueId=\UPBRDDDU\TUWKUCLM|Kind=1|AlternatePart==Inductance
+ParamVariation79=ParameterName=Comment|VariantValue==Inductance
+ParamDesignator79=L800
+Variation84=Designator=R803|UniqueId=\UPBRDDDU\GMKTOXVN|Kind=1|AlternatePart==Resistance
+ParamVariation80=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator80=R803
+Variation85=Designator=R802|UniqueId=\UPBRDDDU\VJEJAERU|Kind=1|AlternatePart==Resistance
+ParamVariation81=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator81=R802
+Variation86=Designator=C804|UniqueId=\UPBRDDDU\PXACYKDX|Kind=1|AlternatePart==Capacitance +'/'+ "Rated Voltage"
+ParamVariation82=ParameterName=Comment|VariantValue==Capacitance +'/'+ "Rated Voltage"
+ParamDesignator82=C804
+Variation87=Designator=R807|UniqueId=\UPBRDDDU\KECHJSNR|Kind=1|AlternatePart==Resistance
+ParamVariation83=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator83=R807
+Variation88=Designator=R810|UniqueId=\UPBRDDDU\LTROEAUY|Kind=1|AlternatePart==Resistance
+ParamVariation84=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator84=R810
+Variation89=Designator=C802|UniqueId=\UPBRDDDU\MIOLSCFO|Kind=1|AlternatePart==Capacitance +'/'+ "Rated Voltage"
+ParamVariation85=ParameterName=Comment|VariantValue==Capacitance +'/'+ "Rated Voltage"
+ParamDesignator85=C802
+Variation90=Designator=C803|UniqueId=\UPBRDDDU\TYQANACM|Kind=1|AlternatePart==Capacitance +'/'+ "Rated Voltage"
+ParamVariation86=ParameterName=Comment|VariantValue==Capacitance +'/'+ "Rated Voltage"
+ParamDesignator86=C803
+Variation91=Designator=R801|UniqueId=\UPBRDDDU\AIBODUHI|Kind=1|AlternatePart==Resistance
+ParamVariation87=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator87=R801
+Variation92=Designator=C920|UniqueId=\FGSKEQQK\CJQCORTK|Kind=1|AlternatePart==Capacitance +'/'+ "Rated Voltage"
+ParamVariation88=ParameterName=Comment|VariantValue==Capacitance +'/'+ "Rated Voltage"
+ParamDesignator88=C920
+Variation93=Designator=C921|UniqueId=\FGSKEQQK\BMXOYVPW|Kind=1|AlternatePart==Capacitance +'/'+ "Rated Voltage"
+ParamVariation89=ParameterName=Comment|VariantValue==Capacitance +'/'+ "Rated Voltage"
+ParamDesignator89=C921
+Variation94=Designator=C924|UniqueId=\FGSKEQQK\WPSVMVSK|Kind=1|AlternatePart==Capacitance +'/'+ "Rated Voltage"
+ParamVariation90=ParameterName=Comment|VariantValue==Capacitance +'/'+ "Rated Voltage"
+ParamDesignator90=C924
+Variation95=Designator=C923|UniqueId=\FGSKEQQK\XEBDBHCQ|Kind=1|AlternatePart==Capacitance +'/'+ "Rated Voltage"
+ParamVariation91=ParameterName=Comment|VariantValue==Capacitance +'/'+ "Rated Voltage"
+ParamDesignator91=C923
+Variation96=Designator=R920|UniqueId=\FGSKEQQK\ARGXUPQY|Kind=1|AlternatePart==Resistance
+ParamVariation92=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator92=R920
+Variation97=Designator=C925|UniqueId=\FGSKEQQK\KUQDLRVQ|Kind=1|AlternatePart==Capacitance +'/'+ "Rated Voltage"
+ParamVariation93=ParameterName=Comment|VariantValue==Capacitance +'/'+ "Rated Voltage"
+ParamDesignator93=C925
+Variation98=Designator=C806|UniqueId=\UPBRDDDU\PPFQIWEL|Kind=1|AlternatePart==Capacitance +'/'+ "Rated Voltage"
+ParamVariation94=ParameterName=Comment|VariantValue==Capacitance +'/'+ "Rated Voltage"
+ParamDesignator94=C806
+Variation99=Designator=C807|UniqueId=\UPBRDDDU\CXVUXTCU|Kind=1|AlternatePart==Capacitance +'/'+ "Rated Voltage"
+ParamVariation95=ParameterName=Comment|VariantValue==Capacitance +'/'+ "Rated Voltage"
+ParamDesignator95=C807
+Variation100=Designator=R809|UniqueId=\UPBRDDDU\NIXMHHGB|Kind=1|AlternatePart==Resistance
+ParamVariation96=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator96=R809
+Variation101=Designator=U800|UniqueId=\UPBRDDDU\XFBXCRTR|Kind=1|AlternatePart=="Part Number"
+ParamVariation97=ParameterName=Comment|VariantValue=="Part Number"
+ParamDesignator97=U800
+Variation102=Designator=C805|UniqueId=\UPBRDDDU\VFYABWFW|Kind=1|AlternatePart==Capacitance +'/'+ "Rated Voltage"
+ParamVariation98=ParameterName=Comment|VariantValue==Capacitance +'/'+ "Rated Voltage"
+ParamDesignator98=C805
+Variation103=Designator=L801|UniqueId=\UPBRDDDU\GPGEBXAW|Kind=1|AlternatePart==Inductance
+ParamVariation99=ParameterName=Comment|VariantValue==Inductance
+ParamDesignator99=L801
+Variation104=Designator=R805|UniqueId=\UPBRDDDU\ITVYUWGF|Kind=1|AlternatePart==Resistance
+ParamVariation100=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator100=R805
+Variation105=Designator=C808|UniqueId=\UPBRDDDU\HPWUOOYS|Kind=1|AlternatePart==Capacitance +'/'+ "Rated Voltage"
+ParamVariation101=ParameterName=Comment|VariantValue==Capacitance +'/'+ "Rated Voltage"
+ParamDesignator101=C808
+Variation106=Designator=C809|UniqueId=\UPBRDDDU\MAFYRUMT|Kind=1|AlternatePart==Capacitance +'/'+ "Rated Voltage"
+ParamVariation102=ParameterName=Comment|VariantValue==Capacitance +'/'+ "Rated Voltage"
+ParamDesignator102=C809
+Variation107=Designator=R806|UniqueId=\UPBRDDDU\ANUMPHMG|Kind=1|AlternatePart==Resistance
+ParamVariation103=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator103=R806
+Variation108=Designator=R808|UniqueId=\UPBRDDDU\LGDPSGQK|Kind=1|AlternatePart==Resistance
+ParamVariation104=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator104=R808
+Variation109=Designator=C810|UniqueId=\UPBRDDDU\IBQEYBVS|Kind=1|AlternatePart==Capacitance +'/'+ "Rated Voltage"
+ParamVariation105=ParameterName=Comment|VariantValue==Capacitance +'/'+ "Rated Voltage"
+ParamDesignator105=C810
+Variation110=Designator=U850|UniqueId=\VPLTSLXA\BOZMFIAB\VUFESHNM|Kind=1|AlternatePart=="Part Number"
+ParamVariation106=ParameterName=Comment|VariantValue=="Part Number"
+ParamDesignator106=U850
+Variation111=Designator=R851|UniqueId=\VPLTSLXA\BOZMFIAB\PTELDTDP|Kind=1|AlternatePart==Resistance
+ParamVariation107=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator107=R851
+Variation112=Designator=R230_1|UniqueId=\HKEXJZNW\VHSBYJNR|Kind=1|AlternatePart==Resistance
+ParamVariation108=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator108=R230_1
+Variation113=Designator=R230_2|UniqueId=\QBAMCHFC\VHSBYJNR|Kind=1|AlternatePart==Resistance
+ParamVariation109=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator109=R230_2
+Variation114=Designator=R603|UniqueId=\VPLTSLXA\WTVAUVWI|Kind=1|AlternatePart==Resistance
+ParamVariation110=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator110=R603
+Variation115=Designator=R200_2|UniqueId=\QBAMCHFC\UQWKIBSU|Kind=1|AlternatePart==Resistance
+ParamVariation111=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator111=R200_2
+Variation116=Designator=R203_1|UniqueId=\HKEXJZNW\ZJEMSAAQ|Kind=1|AlternatePart==Resistance
+ParamVariation112=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator112=R203_1
+Variation117=Designator=R850|UniqueId=\VPLTSLXA\BOZMFIAB\HSIKISHQ|Kind=1|AlternatePart==Resistance
+ParamVariation113=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator113=R850
+Variation118=Designator=LD800|UniqueId=\UPBRDDDU\ECGXSLKP|Kind=1|AlternatePart=="Color"
+ParamVariation114=ParameterName=Comment|VariantValue=="Color"
+ParamDesignator114=LD800
+Variation119=Designator=R804|UniqueId=\UPBRDDDU\DWIOJTEE|Kind=1|AlternatePart==Resistance
+ParamVariation115=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator115=R804
+Variation120=Designator=R853|UniqueId=\VPLTSLXA\BOZMFIAB\RBYDQLHY|Kind=1|AlternatePart==Resistance
+ParamVariation116=ParameterName=Comment|VariantValue==Resistance
+ParamDesignator116=R853
+ParamVariationCount=116
+
+[GeneratedDocument1]
+DocumentPath=Project Outputs for slave-14-mc33775\Design Rule Check - slave-14-mc33775.html
+DItemRevisionGUID=
+
+[Parameter1]
+Name=GlobalAuthor
+Value=foxBMS Team
+
+[Parameter2]
+Name=GlobalDate
+Value=2024-11-07
+
+[Parameter3]
+Name=GlobalLicense
+Value=Creative Commons Attribution 4.0
+
+[Parameter4]
+Name=GlobalProject
+Value=BMS-Slave 14-Cell MC33775
+
+[Parameter5]
+Name=GlobalStatus
+Value=A
+
+[Parameter6]
+Name=GlobalVersion
+Value=1.0.2
+
+[Configuration1]
+Name=Sources
+ParameterCount=0
+ConstraintFileCount=0
+ReleaseItemId=
+Variant=[No Variations]
+OutputJobsCount=1
+DocumentReferenceClass1=DocumentReference
+OutputJobFileName1=assembly.OutJob
+ContentTypeGUID=CB6F2064-E317-11DF-B822-12313F0024A2
+ConfigurationType=Source
+
+[Configuration2]
+Name=Fabrication
+ParameterCount=0
+ConstraintFileCount=0
+ReleaseItemId=
+Variant=[No Variations]
+OutputJobsCount=1
+DocumentReferenceClass1=DocumentReference
+OutputJobFileName1=fabrication.OutJob
+ContentTypeGUID=0C520D2A-E60C-11DF-B822-12313F0024A2
+ConfigurationType=Fabrication
+
+[Configuration3]
+Name=Assembly
+ParameterCount=0
+ConstraintFileCount=0
+ReleaseItemId=
+Variant=[No Variations]
+OutputJobsCount=1
+DocumentReferenceClass1=DocumentReference
+OutputJobFileName1=assembly.OutJob
+ContentTypeGUID=0D12F8DC-E60C-11DF-B822-12313F0024A2
+ConfigurationType=Assembly
+
+[Configuration4]
+Name=Assembly foxBMS_14cell_BMS-Slave_NXP775A_minimal
+ParameterCount=0
+ConstraintFileCount=0
+ReleaseItemId=
+Variant=foxBMS_14cell_BMS-Slave_NXP775A_minimal
+OutputJobsCount=1
+DocumentReferenceClass1=DocumentReference
+OutputJobFileName1=assembly.OutJob
+ContentTypeGUID=0D12F8DC-E60C-11DF-B822-12313F0024A2
+ConfigurationType=Assembly
+
+[Configuration5]
+Name=Assembly foxBMS_14cell_BMS-Slave_NXP775A
+ParameterCount=0
+ConstraintFileCount=0
+ReleaseItemId=
+Variant=foxBMS_14cell_BMS-Slave_NXP775A
+OutputJobsCount=1
+DocumentReferenceClass1=DocumentReference
+OutputJobFileName1=assembly.OutJob
+ContentTypeGUID=0D12F8DC-E60C-11DF-B822-12313F0024A2
+ConfigurationType=Assembly
+
+[Generic_SmartPDF]
+AutoOpenFile=-1
+AutoOpenOutJob=-1
+
+[Generic_SmartPDFSettings]
+ProjectMode=-1
+ZoomPrecision=50
+AddNetsInformation=-1
+AddNetPins=-1
+AddNetNetLabels=-1
+AddNetPorts=-1
+ShowComponentParameters=-1
+GlobalBookmarks=0
+ExportBOM=0
+TemplateFilename=Board Stack Report.XLT
+TemplateStoreRelative=-1
+PCB_PrintColor=1
+SCH_PrintColor=0
+PrintQuality=-3
+SCH_ShowNoErc=-1
+SCH_ShowParameter=-1
+SCH_ShowProbes=-1
+SCH_ShowBlankets=-1
+SCH_NoERCSymbolsToShow="Thin Cross","Thick Cross","Small Cross",Checkbox,Triangle
+SCH_ShowNote=-1
+SCH_ShowNoteCollapsed=-1
+SCH_ExpandLogicalToPhysical=-1
+SCH_VariantName=default
+SCH_ExpandComponentDesignators=-1
+SCH_ExpandNetlabels=0
+SCH_ExpandPorts=0
+SCH_ExpandSheetNumber=0
+SCH_ExpandDocumentNumber=0
+SCH_HasExpandLogicalToPhysicalSheets=-1
+SaveSettingsToOutJob=0
+
+[Generic_EDE]
+OutputDir=
+
+[OutputGroup1]
+Name=Netlist Outputs
+Description=
+TargetPrinter=\\iisb-sps02\KM-Anbau-A
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputType1=CadnetixNetlist
+OutputName1=Cadnetix Netlist
+OutputDocumentPath1=
+OutputVariantName1=
+OutputDefault1=0
+OutputType2=CalayNetlist
+OutputName2=Calay Netlist
+OutputDocumentPath2=
+OutputVariantName2=
+OutputDefault2=0
+OutputType3=EDIF
+OutputName3=EDIF for PCB
+OutputDocumentPath3=
+OutputVariantName3=
+OutputDefault3=0
+OutputType4=EESofNetlist
+OutputName4=EESof Netlist
+OutputDocumentPath4=
+OutputVariantName4=
+OutputDefault4=0
+OutputType5=IntergraphNetlist
+OutputName5=Intergraph Netlist
+OutputDocumentPath5=
+OutputVariantName5=
+OutputDefault5=0
+OutputType6=MentorBoardStationNetlist
+OutputName6=Mentor BoardStation Netlist
+OutputDocumentPath6=
+OutputVariantName6=
+OutputDefault6=0
+OutputType7=MultiWire
+OutputName7=MultiWire
+OutputDocumentPath7=
+OutputVariantName7=
+OutputDefault7=0
+OutputType8=OrCadPCB2Netlist
+OutputName8=Orcad/PCB2 Netlist
+OutputDocumentPath8=
+OutputVariantName8=
+OutputDefault8=0
+OutputType9=PADSNetlist
+OutputName9=PADS ASCII Netlist
+OutputDocumentPath9=
+OutputVariantName9=
+OutputDefault9=0
+OutputType10=Pcad
+OutputName10=Pcad for PCB
+OutputDocumentPath10=
+OutputVariantName10=
+OutputDefault10=0
+OutputType11=PCADNetlist
+OutputName11=PCAD Netlist
+OutputDocumentPath11=
+OutputVariantName11=
+OutputDefault11=0
+OutputType12=PCADnltNetlist
+OutputName12=PCADnlt Netlist
+OutputDocumentPath12=
+OutputVariantName12=
+OutputDefault12=0
+OutputType13=Protel2Netlist
+OutputName13=Protel2 Netlist
+OutputDocumentPath13=
+OutputVariantName13=
+OutputDefault13=0
+OutputType14=ProtelNetlist
+OutputName14=Protel
+OutputDocumentPath14=
+OutputVariantName14=
+OutputDefault14=0
+OutputType15=RacalNetlist
+OutputName15=Racal Netlist
+OutputDocumentPath15=
+OutputVariantName15=
+OutputDefault15=0
+OutputType16=RINFNetlist
+OutputName16=RINF Netlist
+OutputDocumentPath16=
+OutputVariantName16=
+OutputDefault16=0
+OutputType17=SciCardsNetlist
+OutputName17=SciCards Netlist
+OutputDocumentPath17=
+OutputVariantName17=
+OutputDefault17=0
+OutputType18=TangoNetlist
+OutputName18=Tango Netlist
+OutputDocumentPath18=
+OutputVariantName18=
+OutputDefault18=0
+OutputType19=TelesisNetlist
+OutputName19=Telesis Netlist
+OutputDocumentPath19=
+OutputVariantName19=
+OutputDefault19=0
+OutputType20=WireListNetlist
+OutputName20=WireList Netlist
+OutputDocumentPath20=
+OutputVariantName20=
+OutputDefault20=0
+OutputType21=XSpiceNetlist
+OutputName21=Mixed Sim Netlist
+OutputDocumentPath21=
+OutputVariantName21=
+OutputDefault21=0
+
+[OutputGroup2]
+Name=Simulator Outputs
+Description=
+TargetPrinter=Microsoft Print to PDF
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputType1=AdvSimNetlist
+OutputName1=Mixed Sim
+OutputDocumentPath1=
+OutputVariantName1=
+OutputDefault1=0
+
+[OutputGroup3]
+Name=Documentation Outputs
+Description=
+TargetPrinter=Virtual Printer
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputType1=Composite
+OutputName1=Composite Drawing
+OutputDocumentPath1=
+OutputVariantName1=[No Variations]
+OutputDefault1=0
+PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+Configuration1_Name1=OutputConfigurationParameter1
+Configuration1_Item1=DesignatorDisplayMode=Physical|PrintArea=DesignExtent|PrintAreaLowerLeftCornerX=0|PrintAreaLowerLeftCornerY=0|PrintAreaUpperRightCornerX=0|PrintAreaUpperRightCornerY=0|Record=PcbPrintView
+Configuration1_Name2=OutputConfigurationParameter2
+Configuration1_Item2=IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=0|Mirror=False|Name=Multilayer Composite Print|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False
+Configuration1_Name3=OutputConfigurationParameter3
+Configuration1_Item3=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=TopOverlay|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration1_Name4=OutputConfigurationParameter4
+Configuration1_Item4=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=TopLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration1_Name5=OutputConfigurationParameter5
+Configuration1_Item5=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=MidLayer1|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration1_Name6=OutputConfigurationParameter6
+Configuration1_Item6=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=MidLayer2|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration1_Name7=OutputConfigurationParameter7
+Configuration1_Item7=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=BottomLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration1_Name8=OutputConfigurationParameter8
+Configuration1_Item8=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=MultiLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration1_Name9=OutputConfigurationParameter9
+Configuration1_Item9=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=BottomOverlay|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration1_Name10=OutputConfigurationParameter10
+Configuration1_Item10=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical13|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration1_Name11=OutputConfigurationParameter11
+Configuration1_Item11=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical15|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration1_Name12=OutputConfigurationParameter12
+Configuration1_Item12=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical7|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration1_Name13=OutputConfigurationParameter13
+Configuration1_Item13=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical3|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration1_Name14=OutputConfigurationParameter14
+Configuration1_Item14=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+OutputType2=PCB 3D Print
+OutputName2=PCB 3D Print
+OutputDocumentPath2=
+OutputVariantName2=[No Variations]
+OutputDefault2=0
+PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType3=PCB 3D Video
+OutputName3=PCB 3D Video
+OutputDocumentPath3=
+OutputVariantName3=[No Variations]
+OutputDefault3=0
+PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType4=PCB Print
+OutputName4=PCB Prints
+OutputDocumentPath4=
+OutputVariantName4=[No Variations]
+OutputDefault4=0
+PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType5=PCBDrawing
+OutputName5=Draftsman
+OutputDocumentPath5=
+OutputVariantName5=[No Variations]
+OutputDefault5=0
+PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType6=PCBLIB Print
+OutputName6=PCBLIB Prints
+OutputDocumentPath6=
+OutputVariantName6=[No Variations]
+OutputDefault6=0
+PageOptions6=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType7=Report Print
+OutputName7=Report Prints
+OutputDocumentPath7=
+OutputVariantName7=
+OutputDefault7=0
+PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType8=Schematic Print
+OutputName8=Schematic Prints
+OutputDocumentPath8=
+OutputVariantName8=
+OutputDefault8=0
+PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=0.73|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+Configuration8_Name1=OutputConfigurationParameter1
+Configuration8_Item1=Record=SchPrintView|ShowNoERC=True|ShowParamSet=True|ShowProbe=True|ShowBlanket=True|NoERCSymbolsToShow="Thin Cross","Thick Cross","Small Cross",Checkbox,Triangle|ShowNote=True|ShowNoteCollapsed=True|ShowOpenEnds=True|ExpandDesignator=True|ExpandNetLabel=False|ExpandPort=False|ExpandSheetNum=False|ExpandDocNum=False|PrintArea=0|PrintAreaRect.X1=0|PrintAreaRect.Y1=0|PrintAreaRect.X2=0|PrintAreaRect.Y2=0
+OutputType9=SimView Print
+OutputName9=SimView Prints
+OutputDocumentPath9=
+OutputVariantName9=
+OutputDefault9=0
+PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType10=Harness Layout Drawing Print
+OutputName10=Harness Layout Drawing Prints
+OutputDocumentPath10=
+OutputVariantName10=
+OutputDefault10=0
+PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType11=Harness Wiring Diagram Print
+OutputName11=Harness Wiring Diagram Prints
+OutputDocumentPath11=
+OutputVariantName11=
+OutputDefault11=0
+PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType12=PDF3D
+OutputName12=PDF3D
+OutputDocumentPath12=
+OutputVariantName12=[No Variations]
+OutputDefault12=0
+PageOptions12=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType13=PDF3D MBA
+OutputName13=PDF3D MBA
+OutputDocumentPath13=
+OutputVariantName13=
+OutputDefault13=0
+PageOptions13=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+
+[OutputGroup4]
+Name=Assembly Outputs
+Description=
+TargetPrinter=\\iisb-sps02\KM-Anbau-A
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputType1=Assembly
+OutputName1=Assembly Drawings
+OutputDocumentPath1=
+OutputVariantName1=[No Variations]
+OutputDefault1=0
+PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType2=Pick Place
+OutputName2=Generates pick and place files
+OutputDocumentPath2=
+OutputVariantName2=[No Variations]
+OutputDefault2=0
+OutputType3=Test Points For Assembly
+OutputName3=Test Point Report
+OutputDocumentPath3=
+OutputVariantName3=[No Variations]
+OutputDefault3=0
+OutputType4=Wire Bonding Table
+OutputName4=Wire Bonding Table Report
+OutputDocumentPath4=
+OutputVariantName4=[No Variations]
+OutputDefault4=0
+
+[OutputGroup5]
+Name=Fabrication Outputs
+Description=
+TargetPrinter=\\iisb-sps02\KM-Anbau-A
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputType1=CompositeDrill
+OutputName1=Composite Drill Drawing
+OutputDocumentPath1=
+OutputVariantName1=[No Variations]
+OutputDefault1=0
+PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType2=Drill
+OutputName2=Drill Drawing/Guides
+OutputDocumentPath2=
+OutputVariantName2=[No Variations]
+OutputDefault2=0
+PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType3=Board Stack Report
+OutputName3=Report Board Stack
+OutputDocumentPath3=
+OutputVariantName3=
+OutputDefault3=0
+PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType4=Final
+OutputName4=Final Artwork Prints
+OutputDocumentPath4=
+OutputVariantName4=[No Variations]
+OutputDefault4=0
+PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType5=Gerber X2
+OutputName5=Gerber X2 Files
+OutputDocumentPath5=
+OutputVariantName5=[No Variations]
+OutputDefault5=0
+OutputType6=ODB
+OutputName6=ODB++ Files
+OutputDocumentPath6=
+OutputVariantName6=[No Variations]
+OutputDefault6=0
+Configuration6_Name1=OutputConfigurationParameter1
+Configuration6_Item1=AddToAllLayerClasses.Set= |AddToAllPlots_Board_Outline=False|AddToAllPlots_Mechanical 1=False|AddToAllPlots_Mechanical 10=False|AddToAllPlots_Mechanical 11=False|AddToAllPlots_Mechanical 12=False|AddToAllPlots_Mechanical 13=False|AddToAllPlots_Mechanical 14=False|AddToAllPlots_Mechanical 16=False|AddToAllPlots_Mechanical 2=False|AddToAllPlots_Mechanical 3=False|AddToAllPlots_Mechanical 4=False|AddToAllPlots_Mechanical 5=False|AddToAllPlots_Mechanical 6=False|AddToAllPlots_Mechanical 7=False|AddToAllPlots_Mechanical 8=False|AddToAllPlots_Mechanical 9=False|ExportPositivePlaneLayers=False|GenerateDRCRulesFile=False|IncludeUnconnectedMidLayerPads=False|LayerClassesPlot.Set= |ObjsInsideBoardOutlineOnly=False|ODBProfileLayer=-1000|PlotBottomLayerPlot=True|PlotBottomOverlayPlot=True|PlotBottomPastePlot=True|PlotBottomSolderPlot=True|PlotInternalPlane10Plot=False|PlotInternalPlane11Plot=False|PlotInternalPlane12Plot=False|PlotInternalPlane13Plot=False|PlotInternalPlane14Plot=False|PlotInternalPlane15Plot=False|PlotInternalPlane16Plot=False|PlotInternalPlane1Plot=False|PlotInternalPlane2Plot=False|PlotInternalPlane3Plot=False|PlotInternalPlane4Plot=False|PlotInternalPlane5Plot=False|PlotInternalPlane6Plot=False|PlotInternalPlane7Plot=False|PlotInternalPlane8Plot=False|PlotInternalPlane9Plot=False|PlotKeepOutLayerPlot=True|PlotMechanical10Plot=False|PlotMechanical11Plot=False|PlotMechanical12Plot=False|PlotMechanical13Plot=True|PlotMechanical14Plot=False|PlotMechanical15Plot=True|PlotMechanical16Plot=False|PlotMechanical1Plot=True|PlotMechanical2Plot=True|PlotMechanical3Plot=True|PlotMechanical4Plot=True|PlotMechanical5Plot=True|PlotMechanical6Plot=True|PlotMechanical7Plot=True|PlotMechanical8Plot=False|PlotMechanical9Plot=False|PlotMidLayer10Plot=False|PlotMidLayer11Plot=False|PlotMidLayer12Plot=False|PlotMidLayer13Plot=False|PlotMidLayer14Plot=False|PlotMidLayer15Plot=False|PlotMidLayer16Plot=False|PlotMidLayer17Plot=False|PlotMidLayer18Plot=False|PlotMidLayer19Plot=False|PlotMidLayer1Plot=True|PlotMidLayer20Plot=False|PlotMidLayer21Plot=False|PlotMidLayer22Plot=False|PlotMidLayer23Plot=False|PlotMidLayer24Plot=False|PlotMidLayer25Plot=False|PlotMidLayer26Plot=False|PlotMidLayer27Plot=False|PlotMidLayer28Plot=False|PlotMidLayer29Plot=False|PlotMidLayer2Plot=True|PlotMidLayer30Plot=False|PlotMidLayer3Plot=False|PlotMidLayer4Plot=False|PlotMidLayer5Plot=False|PlotMidLayer6Plot=False|PlotMidLayer7Plot=False|PlotMidLayer8Plot=False|PlotMidLayer9Plot=False|PlotTopLayerPlot=True|PlotTopOverlayPlot=True|PlotTopPastePlot=True|PlotTopSolderPlot=True|Record=ODBView
+OutputType7=Mask
+OutputName7=Solder/Paste Mask Prints
+OutputDocumentPath7=
+OutputVariantName7=[No Variations]
+OutputDefault7=0
+PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType8=NC Drill
+OutputName8=NC Drill Files
+OutputDocumentPath8=
+OutputVariantName8=
+OutputDefault8=0
+OutputType9=IPC2581
+OutputName9=IPC-2581 Files
+OutputDocumentPath9=
+OutputVariantName9=[No Variations]
+OutputDefault9=0
+OutputType10=Plane
+OutputName10=Power-Plane Prints
+OutputDocumentPath10=
+OutputVariantName10=[No Variations]
+OutputDefault10=0
+PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType11=Test Points
+OutputName11=Test Point Report
+OutputDocumentPath11=
+OutputVariantName11=
+OutputDefault11=0
+OutputType12=Gerber
+OutputName12=Gerber Files
+OutputDocumentPath12=
+OutputVariantName12=[No Variations]
+OutputDefault12=0
+
+[OutputGroup6]
+Name=Report Outputs
+Description=
+TargetPrinter=\\iisb-sps02\KM-Anbau-A
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputType1=Script
+OutputName1=Script Output
+OutputDocumentPath1=
+OutputVariantName1=[No Variations]
+OutputDefault1=0
+OutputType2=SimpleBOM
+OutputName2=Simple BOM
+OutputDocumentPath2=
+OutputVariantName2=[No Variations]
+OutputDefault2=0
+OutputType3=SinglePinNetReporter
+OutputName3=Report Single Pin Nets
+OutputDocumentPath3=
+OutputVariantName3=[No Variations]
+OutputDefault3=0
+OutputType4=BOM_PartType
+OutputName4=Bill of Materials
+OutputDocumentPath4=
+OutputVariantName4=[No Variations]
+OutputDefault4=0
+PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+Configuration4_Name1=ColumnNameFormat
+Configuration4_Item1=CaptionAsName
+OutputType5=ComponentCrossReference
+OutputName5=Component Cross Reference Report
+OutputDocumentPath5=
+OutputVariantName5=[No Variations]
+OutputDefault5=0
+OutputType6=ReportHierarchy
+OutputName6=Report Project Hierarchy
+OutputDocumentPath6=
+OutputVariantName6=[No Variations]
+OutputDefault6=0
+OutputType7=Export Comments
+OutputName7=Export Comments
+OutputDocumentPath7=
+OutputVariantName7=[No Variations]
+OutputDefault7=0
+PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType8=BOM_ReportCompare
+OutputName8=BOM Compare
+OutputDocumentPath8=
+OutputVariantName8=[No Variations]
+OutputDefault8=0
+PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType9=Project History
+OutputName9=Project History
+OutputDocumentPath9=
+OutputVariantName9=[No Variations]
+OutputDefault9=0
+PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+
+[OutputGroup7]
+Name=Other Outputs
+Description=
+TargetPrinter=\\iisb-sps02\KM-Anbau-A
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputType1=Text Print
+OutputName1=Text Print
+OutputDocumentPath1=
+OutputVariantName1=
+OutputDefault1=0
+PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+
+[OutputGroup8]
+Name=Validation Outputs
+Description=
+TargetPrinter=\\iisb-sps02\KM-Anbau-A
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputType1=Component states check
+OutputName1=Vault's components states check
+OutputDocumentPath1=
+OutputVariantName1=
+OutputDefault1=0
+OutputType2=Configuration compliance
+OutputName2=Environment configuration compliance check
+OutputDocumentPath2=
+OutputVariantName2=
+OutputDefault2=0
+OutputType3=Design Rules Check
+OutputName3=Design Rules Check
+OutputDocumentPath3=
+OutputVariantName3=
+OutputDefault3=0
+PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType4=Differences Report
+OutputName4=Differences Report
+OutputDocumentPath4=
+OutputVariantName4=
+OutputDefault4=0
+PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType5=Electrical Rules Check
+OutputName5=Electrical Rules Check
+OutputDocumentPath5=
+OutputVariantName5=
+OutputDefault5=0
+PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType6=Footprint Comparison Report
+OutputName6=Footprint Comparison Report
+OutputDocumentPath6=
+OutputVariantName6=
+OutputDefault6=0
+OutputType7=BOM_Violations
+OutputName7=BOM Checks Report
+OutputDocumentPath7=
+OutputVariantName7=
+OutputDefault7=0
+
+[OutputGroup9]
+Name=Export Outputs
+Description=
+TargetPrinter=\\iisb-sps02\KM-Anbau-A
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputType1=AutoCAD dwg/dxf PCB
+OutputName1=AutoCAD dwg/dxf File PCB
+OutputDocumentPath1=
+OutputVariantName1=
+OutputDefault1=0
+OutputType2=AutoCAD dwg/dxf Schematic
+OutputName2=AutoCAD dwg/dxf File Schematic
+OutputDocumentPath2=
+OutputVariantName2=
+OutputDefault2=0
+OutputType3=ExportIDF
+OutputName3=Export IDF
+OutputDocumentPath3=
+OutputVariantName3=
+OutputDefault3=0
+OutputType4=ExportPARASOLID
+OutputName4=Export PARASOLID
+OutputDocumentPath4=
+OutputVariantName4=[No Variations]
+OutputDefault4=0
+OutputType5=ExportSTEP
+OutputName5=Export STEP
+OutputDocumentPath5=
+OutputVariantName5=[No Variations]
+OutputDefault5=0
+OutputType6=ExportVRML
+OutputName6=Export VRML
+OutputDocumentPath6=
+OutputVariantName6=[No Variations]
+OutputDefault6=0
+OutputType7=Save As/Export PCB
+OutputName7=Save As/Export PCB
+OutputDocumentPath7=
+OutputVariantName7=
+OutputDefault7=0
+OutputType8=Save As/Export Schematic
+OutputName8=Save As/Export Schematic
+OutputDocumentPath8=
+OutputVariantName8=
+OutputDefault8=0
+OutputType9=Specctra Design PCB
+OutputName9=Specctra Design PCB
+OutputDocumentPath9=
+OutputVariantName9=
+OutputDefault9=0
+OutputType10=MBAExportPARASOLID
+OutputName10=Export PARASOLID
+OutputDocumentPath10=
+OutputVariantName10=
+OutputDefault10=0
+OutputType11=MBAExportSTEP
+OutputName11=Export STEP
+OutputDocumentPath11=
+OutputVariantName11=
+OutputDefault11=0
+OutputType12=Web ReviewOutputName
+OutputName12=Web Review Data
+OutputDocumentPath12=
+OutputVariantName12=
+OutputDefault12=0
+
+[OutputGroup10]
+Name=PostProcess Outputs
+Description=
+TargetPrinter=\\iisb-sps02\KM-Anbau-A
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputType1=Copy Files
+OutputName1=Copy Files
+OutputDocumentPath1=
+OutputVariantName1=
+OutputDefault1=0
+
+[Modification Levels]
+Type1=1
+Type2=1
+Type3=1
+Type4=1
+Type5=1
+Type6=1
+Type7=1
+Type8=1
+Type9=1
+Type10=1
+Type11=1
+Type12=1
+Type13=1
+Type14=1
+Type15=1
+Type16=1
+Type17=1
+Type18=1
+Type19=1
+Type20=1
+Type21=1
+Type22=1
+Type23=1
+Type24=1
+Type25=1
+Type26=1
+Type27=1
+Type28=1
+Type29=1
+Type30=1
+Type31=1
+Type32=1
+Type33=1
+Type34=1
+Type35=1
+Type36=1
+Type37=1
+Type38=1
+Type39=1
+Type40=1
+Type41=1
+Type42=1
+Type43=1
+Type44=1
+Type45=1
+Type46=1
+Type47=1
+Type48=1
+Type49=1
+Type50=1
+Type51=1
+Type52=1
+Type53=1
+Type54=1
+Type55=1
+Type56=1
+Type57=1
+Type58=1
+Type59=1
+Type60=1
+Type61=1
+Type62=1
+Type63=1
+Type64=1
+Type65=1
+Type66=1
+Type67=1
+Type68=1
+Type69=1
+Type70=1
+Type71=1
+Type72=1
+Type73=1
+Type74=1
+Type75=1
+Type76=1
+Type77=1
+Type78=1
+Type79=1
+Type80=1
+Type81=1
+Type82=1
+Type83=1
+Type84=1
+Type85=1
+Type86=1
+Type87=1
+Type88=1
+Type89=1
+Type90=1
+Type91=1
+Type92=1
+Type93=1
+Type94=1
+Type95=1
+Type96=1
+Type97=1
+Type98=1
+Type99=1
+Type100=1
+Type101=1
+Type102=1
+Type103=1
+Type104=1
+Type105=1
+Type106=1
+Type107=1
+Type108=1
+Type109=1
+Type110=1
+Type111=1
+Type112=1
+Type113=1
+Type114=1
+Type115=1
+Type116=1
+Type117=1
+Type118=1
+Type119=1
+Type120=1
+Type121=1
+Type122=1
+Type123=1
+Type124=1
+Type125=1
+Type126=1
+Type127=1
+Type128=1
+Type129=1
+Type130=1
+Type131=1
+Type132=1
+Type133=1
+Type134=1
+Type135=1
+Type136=1
+Type137=1
+Type138=1
+Type139=1
+Type140=1
+Type141=1
+Type142=1
+Type143=1
+Type144=1
+Type145=1
+Type146=1
+Type147=1
+Type148=1
+Type149=1
+Type150=1
+Type151=1
+Type152=1
+Type153=1
+Type154=1
+Type155=1
+Type156=1
+Type157=1
+Type158=1
+Type159=1
+
+[Difference Levels]
+Type1=1
+Type2=1
+Type3=1
+Type4=1
+Type5=1
+Type6=1
+Type7=1
+Type8=1
+Type9=1
+Type10=1
+Type11=1
+Type12=1
+Type13=1
+Type14=1
+Type15=1
+Type16=1
+Type17=1
+Type18=1
+Type19=1
+Type20=1
+Type21=1
+Type22=1
+Type23=1
+Type24=1
+Type25=1
+Type26=1
+Type27=1
+Type28=1
+Type29=1
+Type30=1
+Type31=1
+Type32=1
+Type33=1
+Type34=1
+Type35=1
+Type36=1
+Type37=1
+Type38=1
+Type39=1
+Type40=1
+Type41=1
+Type42=1
+Type43=1
+Type44=1
+Type45=1
+Type46=1
+Type47=1
+Type48=1
+Type49=1
+Type50=1
+Type51=1
+Type52=1
+Type53=1
+Type54=1
+Type55=1
+Type56=1
+Type57=1
+Type58=1
+Type59=1
+Type60=1
+Type61=1
+Type62=1
+Type63=1
+Type64=1
+Type65=1
+Type66=1
+Type67=1
+Type68=1
+Type69=1
+Type70=1
+Type71=1
+Type72=1
+Type73=1
+Type74=1
+Type75=1
+Type76=1
+Type77=1
+Type78=1
+Type79=1
+Type80=1
+Type81=1
+Type82=1
+Type83=1
+Type84=1
+Type85=1
+Type86=1
+Type87=1
+
+[Electrical Rules Check]
+Type1=1
+Type2=1
+Type3=2
+Type4=1
+Type5=2
+Type6=2
+Type7=0
+Type8=1
+Type9=1
+Type10=1
+Type11=2
+Type12=0
+Type13=0
+Type14=1
+Type15=1
+Type16=1
+Type17=1
+Type18=1
+Type19=1
+Type20=0
+Type21=0
+Type22=0
+Type23=0
+Type24=1
+Type25=2
+Type26=0
+Type27=2
+Type28=1
+Type29=1
+Type30=1
+Type31=1
+Type32=2
+Type33=0
+Type34=2
+Type35=1
+Type36=2
+Type37=1
+Type38=2
+Type39=2
+Type40=2
+Type41=0
+Type42=2
+Type43=1
+Type44=0
+Type45=0
+Type46=0
+Type47=0
+Type48=0
+Type49=0
+Type50=2
+Type51=0
+Type52=0
+Type53=1
+Type54=1
+Type55=1
+Type56=2
+Type57=1
+Type58=1
+Type59=2
+Type60=0
+Type61=0
+Type62=0
+Type63=0
+Type64=0
+Type65=2
+Type66=3
+Type67=2
+Type68=2
+Type69=2
+Type70=2
+Type71=2
+Type72=2
+Type73=2
+Type74=1
+Type75=2
+Type76=1
+Type77=1
+Type78=1
+Type79=1
+Type80=2
+Type81=3
+Type82=3
+Type83=3
+Type84=3
+Type85=3
+Type86=2
+Type87=2
+Type88=2
+Type89=1
+Type90=1
+Type91=3
+Type92=3
+Type93=2
+Type94=2
+Type95=2
+Type96=2
+Type97=2
+Type98=0
+Type99=1
+Type100=2
+Type101=0
+Type102=2
+Type103=2
+Type104=1
+Type105=2
+Type106=2
+Type107=2
+Type108=2
+Type109=1
+Type110=1
+Type111=1
+Type112=1
+Type113=1
+Type114=2
+Type115=2
+Type116=2
+Type117=3
+Type118=3
+Type119=3
+MultiChannelAlternate=0
+AlternateItemFail=3
+Type122=2
+Type123=1
+Type124=1
+Type125=1
+Type126=1
+Type127=1
+Type128=2
+Type129=2
+Type130=2
+Type131=2
+Type132=2
+Type133=2
+Type134=2
+Type135=2
+Type136=2
+Type137=2
+Type138=1
+Type139=1
+Type140=1
+Type141=1
+Type142=1
+Type143=1
+Type144=1
+Type145=1
+Type146=1
+Type147=2
+Type148=2
+Type149=2
+Type150=2
+Type151=2
+Type152=1
+Type153=1
+Type154=0
+Type155=0
+Type156=0
+Type157=0
+Type158=0
+Type159=0
+Type160=0
+Type161=0
+Type162=1
+Type163=1
+
+[ERC Connection Matrix]
+L1=NNNNNNNNNNNWNNNWW
+L2=NNWNNNNWWWNWNWNWN
+L3=NWEENEEEENEWNEEWN
+L4=NNENNNWEENNWNENWN
+L5=NNNNNNNNNNNNNNNNN
+L6=NNENNNNEENNWNENWN
+L7=NNEWNNWEENNWNENWN
+L8=NWEENEENEEENNEENN
+L9=NWEENEEEENEWNEEWW
+L10=NWNNNNNENNEWNNEWN
+L11=NNENNNNEEENWNENWN
+L12=WWWWNWWNWWWNWWWNN
+L13=NNNNNNNNNNNWNNNWW
+L14=NWEENEEEENEWNEEWW
+L15=NNENNNNEEENWNENWW
+L16=WWWWNWWNWWWNWWWNW
+L17=WNNNNNNNWNNNWWWWN
+
+[Annotate]
+SortOrder=3
+SortLocation=0
+ReplaceSubparts=0
+MatchParameter1=Comment
+MatchStrictly1=1
+MatchParameter2=Library Reference
+MatchStrictly2=1
+PhysicalNamingFormat=$Component_$RoomName
+GlobalIndexSortOrder=3
+GlobalIndexSortLocation=0
+
+[PrjClassGen]
+CompClassManualEnabled=0
+CompClassManualRoomEnabled=0
+NetClassAutoBusEnabled=1
+NetClassAutoCompEnabled=0
+NetClassAutoNamedHarnessEnabled=0
+NetClassManualEnabled=1
+NetClassSeparateForBusSections=0
+
+[LibraryUpdateOptions]
+SelectedOnly=1
+UpdateVariants=1
+UpdateToLatestRevision=1
+PartTypes=0
+FullReplace=1
+UpdateDesignatorLock=1
+UpdatePartIDLock=1
+PreserveParameterLocations=1
+PreserveParameterVisibility=1
+DoGraphics=1
+DoParameters=1
+DoModels=1
+AddParameters=0
+RemoveParameters=0
+AddModels=1
+RemoveModels=1
+UpdateCurrentModels=1
+
+[DatabaseUpdateOptions]
+SelectedOnly=0
+UpdateVariants=1
+UpdateToLatestRevision=1
+PartTypes=0
+ComponentLibIdentifierKind0=Library Name And Type
+ComponentLibraryIdentifier0=OE750.DbLib/C (ceramic)
+ComponentDesignItemID0=gen_C_ceramic_100n_100V_X7R_0603
+ComponentSymbolReference0=C
+ComponentUpdate0=0
+ComponentIsDeviceSheet0=0
+ComponentLibIdentifierKind1=Library Name And Type
+ComponentLibraryIdentifier1=OE750.DbLib/C (ceramic)
+ComponentDesignItemID1=gen_C_ceramic_100n_50V_X7R_0402
+ComponentSymbolReference1=C
+ComponentUpdate1=0
+ComponentIsDeviceSheet1=0
+ComponentLibIdentifierKind2=Library Name And Type
+ComponentLibraryIdentifier2=OE750.DbLib/C (ceramic)
+ComponentDesignItemID2=gen_C_ceramic_10n_25V_X7R_0402
+ComponentSymbolReference2=C
+ComponentUpdate2=0
+ComponentIsDeviceSheet2=0
+ComponentLibIdentifierKind3=Library Name And Type
+ComponentLibraryIdentifier3=OE750.DbLib/C (ceramic)
+ComponentDesignItemID3=gen_C_ceramic_22p_50V_C0G_0402
+ComponentSymbolReference3=C
+ComponentUpdate3=0
+ComponentIsDeviceSheet3=0
+ComponentLibIdentifierKind4=Library Name And Type
+ComponentLibraryIdentifier4=OE750.DbLib/C (ceramic)
+ComponentDesignItemID4=gen_C_ceramic_2u2_10V_X7R_0805
+ComponentSymbolReference4=C
+ComponentUpdate4=0
+ComponentIsDeviceSheet4=0
+ComponentLibIdentifierKind5=Library Name And Type
+ComponentLibraryIdentifier5=OE750.DbLib/C (ceramic)
+ComponentDesignItemID5=gen_C_ceramic_47n_100V_X7R_0603
+ComponentSymbolReference5=C
+ComponentUpdate5=0
+ComponentIsDeviceSheet5=0
+ComponentLibIdentifierKind6=Library Name And Type
+ComponentLibraryIdentifier6=OE750.DbLib/Connector
+ComponentDesignItemID6=gen_pinheader_2.54_2
+ComponentSymbolReference6=X2
+ComponentUpdate6=0
+ComponentIsDeviceSheet6=0
+ComponentLibIdentifierKind7=Library Name And Type
+ComponentLibraryIdentifier7=OE750.DbLib/Connector
+ComponentDesignItemID7=gen_pinheader_2.54_2x4
+ComponentSymbolReference7=X2x4
+ComponentUpdate7=0
+ComponentIsDeviceSheet7=0
+ComponentLibIdentifierKind8=Library Name And Type
+ComponentLibraryIdentifier8=OE750.DbLib/Connector
+ComponentDesignItemID8=molex_microfit_3_01x2_THT
+ComponentSymbolReference8=X2
+ComponentUpdate8=0
+ComponentIsDeviceSheet8=0
+ComponentLibIdentifierKind9=Library Name And Type
+ComponentLibraryIdentifier9=OE750.DbLib/Connector
+ComponentDesignItemID9=molex_microfit_3_08x2_THT
+ComponentSymbolReference9=X8x2
+ComponentUpdate9=0
+ComponentIsDeviceSheet9=0
+ComponentLibIdentifierKind10=Library Name And Type
+ComponentLibraryIdentifier10=OE750.DbLib/Connector
+ComponentDesignItemID10=molex_microfit_3_12x2_THT
+ComponentSymbolReference10=X12x2
+ComponentUpdate10=0
+ComponentIsDeviceSheet10=0
+ComponentLibIdentifierKind11=Library Name And Type
+ComponentLibraryIdentifier11=OE750.DbLib/D (Schottky)
+ComponentDesignItemID11=DFLS1100Q-7
+ComponentSymbolReference11=D_Schottky
+ComponentUpdate11=0
+ComponentIsDeviceSheet11=0
+ComponentLibIdentifierKind12=Library Name And Type
+ComponentLibraryIdentifier12=OE750.DbLib/D (Zener)
+ComponentDesignItemID12=PACDN042Y3R
+ComponentSymbolReference12=PACDN042
+ComponentUpdate12=0
+ComponentIsDeviceSheet12=0
+ComponentLibIdentifierKind13=Library Name And Type
+ComponentLibraryIdentifier13=OE750.DbLib/D (Zener)
+ComponentDesignItemID13=SZMMSZ5267BT1G
+ComponentSymbolReference13=D_Zener
+ComponentUpdate13=0
+ComponentIsDeviceSheet13=0
+ComponentLibIdentifierKind14=Library Name And Type
+ComponentLibraryIdentifier14=OE750.DbLib/IC
+ComponentDesignItemID14=ACFL-6211T-000E
+ComponentSymbolReference14=ACFL-6211T
+ComponentUpdate14=0
+ComponentIsDeviceSheet14=0
+ComponentLibIdentifierKind15=Library Name And Type
+ComponentLibraryIdentifier15=OE750.DbLib/IC
+ComponentDesignItemID15=ADG728BRUZ
+ComponentSymbolReference15=ADG728
+ComponentUpdate15=0
+ComponentIsDeviceSheet15=0
+ComponentLibIdentifierKind16=Library Name And Type
+ComponentLibraryIdentifier16=OE750.DbLib/IC
+ComponentDesignItemID16=M24M02-DWMN3TP/K
+ComponentSymbolReference16=M24M02-DWMN3TP/K
+ComponentUpdate16=0
+ComponentIsDeviceSheet16=0
+ComponentLibIdentifierKind17=Library Name And Type
+ComponentLibraryIdentifier17=OE750.DbLib/IC
+ComponentDesignItemID17=MC33775A
+ComponentSymbolReference17=MC33775
+ComponentUpdate17=0
+ComponentIsDeviceSheet17=0
+ComponentLibIdentifierKind18=Library Name And Type
+ComponentLibraryIdentifier18=OE750.DbLib/Misc
+ComponentDesignItemID18=HM2113ZNLT
+ComponentSymbolReference18=HM2113ZNL
+ComponentUpdate18=0
+ComponentIsDeviceSheet18=0
+ComponentLibIdentifierKind19=Library Name And Type
+ComponentLibraryIdentifier19=OE750.DbLib/R
+ComponentDesignItemID19=gen_R_0R_0402
+ComponentSymbolReference19=R
+ComponentUpdate19=0
+ComponentIsDeviceSheet19=0
+ComponentLibIdentifierKind20=Library Name And Type
+ComponentLibraryIdentifier20=OE750.DbLib/R
+ComponentDesignItemID20=gen_R_100k_0402
+ComponentSymbolReference20=R
+ComponentUpdate20=0
+ComponentIsDeviceSheet20=0
+ComponentLibIdentifierKind21=Library Name And Type
+ComponentLibraryIdentifier21=OE750.DbLib/R
+ComponentDesignItemID21=gen_R_10k_0402
+ComponentSymbolReference21=R
+ComponentUpdate21=0
+ComponentIsDeviceSheet21=0
+ComponentLibIdentifierKind22=Library Name And Type
+ComponentLibraryIdentifier22=OE750.DbLib/R
+ComponentDesignItemID22=gen_R_10k_NTC_0402
+ComponentSymbolReference22=R
+ComponentUpdate22=0
+ComponentIsDeviceSheet22=0
+ComponentLibIdentifierKind23=Library Name And Type
+ComponentLibraryIdentifier23=OE750.DbLib/R
+ComponentDesignItemID23=gen_R_10R_0805
+ComponentSymbolReference23=R
+ComponentUpdate23=0
+ComponentIsDeviceSheet23=0
+ComponentLibIdentifierKind24=Library Name And Type
+ComponentLibraryIdentifier24=OE750.DbLib/R
+ComponentDesignItemID24=gen_R_150R_0402
+ComponentSymbolReference24=R
+ComponentUpdate24=0
+ComponentIsDeviceSheet24=0
+ComponentLibIdentifierKind25=Library Name And Type
+ComponentLibraryIdentifier25=OE750.DbLib/R
+ComponentDesignItemID25=gen_R_1R_0805
+ComponentSymbolReference25=R
+ComponentUpdate25=0
+ComponentIsDeviceSheet25=0
+ComponentLibIdentifierKind26=Library Name And Type
+ComponentLibraryIdentifier26=OE750.DbLib/R
+ComponentDesignItemID26=gen_R_5k1_0402
+ComponentSymbolReference26=R
+ComponentUpdate26=0
+ComponentIsDeviceSheet26=0
+ComponentLibIdentifierKind27=Library Name And Type
+ComponentLibraryIdentifier27=OE750.DbLib/R
+ComponentDesignItemID27=gen_R_68R_2010
+ComponentSymbolReference27=R
+ComponentUpdate27=0
+ComponentIsDeviceSheet27=0
+ComponentLibIdentifierKind28=Library Name And Type
+ComponentLibraryIdentifier28=OE750.DbLib/Transistor
+ComponentDesignItemID28=DMN10H220L-7
+ComponentSymbolReference28=NMOS
+ComponentUpdate28=0
+ComponentIsDeviceSheet28=0
+ComponentLibIdentifierKind29=Library Name And Type
+ComponentLibraryIdentifier29=OE750.DbLib/Transistor
+ComponentDesignItemID29=PBHV8115Z
+ComponentSymbolReference29=NPN_4_PIN
+ComponentUpdate29=1
+ComponentIsDeviceSheet29=0
+
+[Comparison Options]
+ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=-1|UseName=-1|InclAllRules=0
+ComparisonOptions1=Kind=Net Class|MinPercent=75|MinMatch=3|ShowMatch=-1|UseName=-1|InclAllRules=0
+ComparisonOptions2=Kind=Component Class|MinPercent=75|MinMatch=3|ShowMatch=-1|UseName=-1|InclAllRules=0
+ComparisonOptions3=Kind=Rule|MinPercent=75|MinMatch=3|ShowMatch=-1|UseName=-1|InclAllRules=0
+ComparisonOptions4=Kind=Differential Pair|MinPercent=50|MinMatch=1|ShowMatch=0|UseName=0|InclAllRules=0
+ComparisonOptions5=Kind=Structure Class|MinPercent=75|MinMatch=3|ShowMatch=-1|UseName=-1|InclAllRules=0
+
+[SmartPDF]
+PageOptions=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+Configuration_Name1=OutputConfigurationParameter1
+Configuration_Item1=DesignatorDisplayMode=Physical|PrintArea=DesignExtent|PrintAreaLowerLeftCornerX=0|PrintAreaLowerLeftCornerY=0|PrintAreaUpperRightCornerX=0|PrintAreaUpperRightCornerY=0|Record=PcbPrintView|DocumentPath=D:\altium_checkout\foxBMS\slave-14-mc33775\slave-14-mc33775.PcbDoc
+Configuration_Name2=OutputConfigurationParameter2
+Configuration_Item2=IncludeBoardCutouts=False|IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=0|Mirror=False|Name=Multilayer Composite Print|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False|DocumentPath=D:\altium_checkout\foxBMS\slave-14-mc33775\slave-14-mc33775.PcbDoc
+Configuration_Name3=OutputConfigurationParameter3
+Configuration_Item3=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=TopOverlay|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=D:\altium_checkout\foxBMS\slave-14-mc33775\slave-14-mc33775.PcbDoc
+Configuration_Name4=OutputConfigurationParameter4
+Configuration_Item4=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=TopLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=D:\altium_checkout\foxBMS\slave-14-mc33775\slave-14-mc33775.PcbDoc
+Configuration_Name5=OutputConfigurationParameter5
+Configuration_Item5=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=BottomLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=D:\altium_checkout\foxBMS\slave-14-mc33775\slave-14-mc33775.PcbDoc
+Configuration_Name6=OutputConfigurationParameter6
+Configuration_Item6=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=MultiLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=D:\altium_checkout\foxBMS\slave-14-mc33775\slave-14-mc33775.PcbDoc
+Configuration_Name7=OutputConfigurationParameter7
+Configuration_Item7=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=BottomOverlay|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=D:\altium_checkout\foxBMS\slave-14-mc33775\slave-14-mc33775.PcbDoc
+Configuration_Name8=OutputConfigurationParameter8
+Configuration_Item8=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=KeepOutLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=D:\altium_checkout\foxBMS\slave-14-mc33775\slave-14-mc33775.PcbDoc
+Configuration_Name9=OutputConfigurationParameter9
+Configuration_Item9=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=D:\altium_checkout\foxBMS\slave-14-mc33775\slave-14-mc33775.PcbDoc
+Configuration_Name10=OutputConfigurationParameter10
+Configuration_Item10=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical13|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=D:\altium_checkout\foxBMS\slave-14-mc33775\slave-14-mc33775.PcbDoc
+Configuration_Name11=OutputConfigurationParameter11
+Configuration_Item11=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical15|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=D:\altium_checkout\foxBMS\slave-14-mc33775\slave-14-mc33775.PcbDoc
+

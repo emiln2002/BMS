@@ -1,0 +1,557 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<style type="text/css">
+		h1, h2, h3, h4, h5, h6 {
+			font-family : segoe ui;
+			color : black;
+			background-color : #EDE7D9;
+			padding: 0.3em;
+		}
+
+		h1 {
+			font-size: 1.2em;
+		}		
+
+		h2 {
+			font-size: 1.2em;
+		}
+
+		body {
+			font-family : segoe ui;
+		}
+
+        td, th {
+            padding: 0.5em;
+            text-align : left;
+        }
+        th {
+            background-color : #EEEEEE;
+        
+        }
+        th.column1, td.column1 {
+            width : 10em;
+        }
+
+        th.column2, td.column2 {
+            width : 30em;
+        }
+
+        table {
+            width : 100%;
+            font-size: 0.9em;
+        }
+
+		.header_holder {
+			Width = 100%;
+			border = 0px solid green;
+			padding = 0;
+		}
+
+
+		.front_matter, .front_matter_column1, .front_matter_column2, .front_matter_column3
+		{
+			left : 0;
+			top : 0;
+			padding: 0em;
+			padding-top : 0.1em;
+			border : 0px solid black;
+			width : 100%;
+			vertical-align: top;
+			text-align: left;
+        }
+
+        .front_matter_column1 {
+			width : 5em;
+			font-weight: bold;
+        }
+
+		.front_matter_column2 {
+			width: 0.1em;
+		}
+
+		.front_matter_column3 {
+			width : auto;
+		}
+
+        .total_column1, .total_column {
+            font-weight : bold;
+        }
+        .total_column1 {
+            text-align : left;
+        }
+        .warning, .error {
+            color : red;
+            font-weight : bold;
+        }
+        tr.onmouseout_odd {
+            background-color : #white;
+        }
+        tr.onmouseout_even { 
+            background-color : #FAFAFA;
+        }
+        tr.onmouseover_odd, tr.onmouseover_even { 
+            background-color : #EEEEEE;
+        } 
+        a:link, a:visited, .q a:link,.q a:active,.q {
+            color: #21489e; 
+        }
+        a:link.callback, a:visited.callback { 
+            color: #21489e;
+        }
+        p.contents_level1 {
+            font-weight : bold;
+            font-size : 110%;
+            margin : 0.5em;
+        }
+        p.contents_level2 {
+            position : relative;
+            left : 20px;
+            margin : 0.5em;
+        }
+    </style><script type="text/javascript">
+        function coordToMils(coord) {
+            var number = coord / 10000;
+            
+            if (number != number.toFixed(3))
+                number = number.toFixed(3);
+            
+            return number + 'mil'
+        }
+
+        function coordToMM(coord) {
+            var number = 0.0254 * coord / 10000;
+            
+            if (number != number.toFixed(4))
+                number = number.toFixed(4);
+            
+            return number + 'mm'
+        }
+    
+        function convertCoord(coordNode, units) {
+            for (var i = 0; i < coordNode.childNodes.length; i++) {
+                coordNode.removeChild(coordNode.childNodes[i]);
+            }
+
+            var coord = coordNode.getAttribute('value');
+            if (coord != null) {
+                if (units == 'mm') {
+                    textNode = document.createTextNode(coordToMM(coord));
+                    coordNode.appendChild(textNode);
+                } else if (units == 'mil') {
+                    textNode = document.createTextNode(coordToMils(coord));
+                    coordNode.appendChild(textNode);
+                }
+            }
+        }
+    
+        function convertUnits(unitNode, units) {
+            for (var i = 0; i < unitNode.childNodes.length; i++) {
+                unitNode.removeChild(unitNode.childNodes[i]);
+            }
+        
+            textNode = document.createTextNode(units); 
+            unitNode.appendChild(textNode);
+        }
+    
+        function changeUnits(radio_input, units) {
+            if (radio_input.checked) {
+            
+                var elements = document.getElementsByName('coordinate');
+                if (elements) {
+                    for (var i = 0; i < elements.length; i++) {
+                        convertCoord(elements[i], units);
+                    }
+                }
+    
+                var elements = document.getElementsByName('units');
+                if (elements) {
+                    for (var i = 0; i < elements.length; i++) {
+                        convertUnits(elements[i], units);
+                    }
+                }
+            }
+        }
+    </script></head>
+<body onload=""><img ALT="Altium" src="
+            file://C:\Users\Public\Documents\Altium\AD24\Templates\AD_logo.png
+        "><h1>Electrical Rule Check Report</h1>
+<table class="front_matter">
+<tr class="front_matter">
+<td class="front_matter_column1">Date:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">2024-12-18</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">10:20:27</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Filename:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3"><a href="file:///C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\2\Fabrication\erc\slave-14-mc33775.html" class="file"><acronym title="C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\2\Fabrication\erc\slave-14-mc33775.html">C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\2\Fabrication\erc\slave-14-mc33775.html</acronym></a></td>
+</tr>
+</table><a name="IDVN2U2QR0C1W4OTBQL0RBIBELFP0CD42QX55ECRC0BNTKMIJECNGG"><table>
+<tr>
+<th class="column1">Class</th>
+<th class="column2">Document</th>
+<th class="column3">Message</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">digital_io.SchDoc</td>
+<td class="column3">DIGITAL-IO_1 contains IO Pin and Output Pin objects (Pin U900-5, Pin U921-3).</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">mc33775.SchDoc</td>
+<td class="column3">Global Power-Object VMODULE at 1800mil,8700mil has been reduced to local level by presence of port at 300mil,8600mil</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">analog_in.SchDoc</td>
+<td class="column3">Net A0_1 has no driving source (Pin R201-1, Pin R204-2, Pin U201-16)</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">analog_in.SchDoc</td>
+<td class="column3">Net A0_2 has no driving source (Pin R201-1, Pin R204-2, Pin U201-16)</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">analog_in.SchDoc</td>
+<td class="column3">Net A1_1 has no driving source (Pin R202-1, Pin R205-2, Pin U201-15)</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">analog_in.SchDoc</td>
+<td class="column3">Net A1_2 has no driving source (Pin R202-1, Pin R205-2, Pin U201-15)</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">slave-14-mc33775.SchDoc</td>
+<td class="column3">Net AL_IN._P has no driving source (Pin C616-1, Pin D610-1, Pin D610-2, Pin J305-1, Pin U601-11)</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">slave-14-mc33775.SchDoc</td>
+<td class="column3">Net CT0 has no driving source (Pin C527-2, Pin R513-1, Pin U600-16)</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">slave-14-mc33775.SchDoc</td>
+<td class="column3">Net CT1 has no driving source (Pin C523-2, Pin R511-1, Pin U600-15)</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">slave-14-mc33775.SchDoc</td>
+<td class="column3">Net CT2 has no driving source (Pin C519-2, Pin R509-1, Pin U600-14)</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">slave-14-mc33775.SchDoc</td>
+<td class="column3">Net CT3 has no driving source (Pin C515-2, Pin R507-1, Pin U600-13)</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">slave-14-mc33775.SchDoc</td>
+<td class="column3">Net CT4 has no driving source (Pin C511-2, Pin R505-1, Pin U600-12)</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">slave-14-mc33775.SchDoc</td>
+<td class="column3">Net CT5 has no driving source (Pin C507-2, Pin R503-1, Pin U600-11)</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">slave-14-mc33775.SchDoc</td>
+<td class="column3">Net CT6 has no driving source (Pin C503-2, Pin R501-1, Pin U600-10)</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">slave-14-mc33775.SchDoc</td>
+<td class="column3">Net CT7 has no driving source (Pin C529-2, Pin R514-1, Pin U600-9)</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">slave-14-mc33775.SchDoc</td>
+<td class="column3">Net CT8 has no driving source (Pin C525-2, Pin R512-1, Pin U600-8)</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">slave-14-mc33775.SchDoc</td>
+<td class="column3">Net CT9 has no driving source (Pin C521-2, Pin R510-1, Pin U600-7)</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">slave-14-mc33775.SchDoc</td>
+<td class="column3">Net CT10 has no driving source (Pin C517-2, Pin R508-1, Pin U600-6)</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">slave-14-mc33775.SchDoc</td>
+<td class="column3">Net CT11 has no driving source (Pin C513-2, Pin R506-1, Pin U600-5)</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">slave-14-mc33775.SchDoc</td>
+<td class="column3">Net CT12 has no driving source (Pin C509-2, Pin R504-1, Pin U600-4)</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">slave-14-mc33775.SchDoc</td>
+<td class="column3">Net CT13 has no driving source (Pin C505-2, Pin R502-1, Pin U600-3)</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">slave-14-mc33775.SchDoc</td>
+<td class="column3">Net CT14 has no driving source (Pin C501-2, Pin R500-1, Pin U600-2)</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">analog_in.SchDoc</td>
+<td class="column3">Net D_1 has no driving source (Pin R230-1, Pin R232-1, Pin U201-8, Pin U202-3)</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">analog_in.SchDoc</td>
+<td class="column3">Net D_2 has no driving source (Pin R230-1, Pin R232-1, Pin U201-8, Pin U202-3)</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">dcdc-converter.SchDoc</td>
+<td class="column3">Net Enable_DCDC has no driving source (Pin enable_DCDC-1, Pin R807-2, Pin R810-1, Pin U800-3)</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">ldo.SchDoc</td>
+<td class="column3">Net Enable_LDO has no driving source (Pin R851-1, Pin U850-5, Pin U851-5)</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">dcdc-converter.SchDoc</td>
+<td class="column3">Net Feedback has no driving source (Pin C809-1, Pin R806-1, Pin R808-2, Pin U800-5)</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">mc33775.SchDoc</td>
+<td class="column3">Net Imon_VDDC has no driving source (Pin Q600-3, Pin R618-2, Pin U600-41)</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">dcdc-converter.SchDoc</td>
+<td class="column3">Net NetC805_1 has no driving source (Pin C805-1, Pin U800-7)</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">digital_io.SchDoc</td>
+<td class="column3">Net PE_NRESET has no driving source (Pin R916-2, Pin U900-3)</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">dcdc-converter.SchDoc</td>
+<td class="column3">Net Ron has no driving source (Pin R809-2, Pin U800-4)</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">slave-14-mc33775.SchDoc</td>
+<td class="column3">Net VMODULE has no driving source (Pin C531-2, Pin R515-1, Pin U600-17, Pin Vmodule-1)</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">slave-14-mc33775.SchDoc</td>
+<td class="column3">Nets Bus Slice T-SENSOR_[8..15] has multiple names (Net Label T-SENSOR_[0..7]_2, Net Label T-SENSOR_[8..15])</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">slave-14-mc33775.SchDoc</td>
+<td class="column3">Nets Element[0]: T-SENSOR_8 has multiple names (Net Label T-SENSOR_0_2, Net Label T-SENSOR_0_2 (Inferred), Net Label T-SENSOR_8, Net Label T-SENSOR_8 (Inferred))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">slave-14-mc33775.SchDoc</td>
+<td class="column3">Nets Element[1]: CIN1 has multiple names (Net Label BAL.CB_COM1 (2), Net Label CB_COM1 (3), Net Label CIN1 (3), Net Label CIN1 (Inferred) (4))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">slave-14-mc33775.SchDoc</td>
+<td class="column3">Nets Element[1]: T-SENSOR_9 has multiple names (Net Label T-SENSOR_1_2, Net Label T-SENSOR_1_2 (Inferred), Net Label T-SENSOR_9, Net Label T-SENSOR_9 (Inferred))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">slave-14-mc33775.SchDoc</td>
+<td class="column3">Nets Element[2]: T-SENSOR_10 has multiple names (Net Label T-SENSOR_2_2, Net Label T-SENSOR_2_2 (Inferred), Net Label T-SENSOR_10, Net Label T-SENSOR_10 (Inferred))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">slave-14-mc33775.SchDoc</td>
+<td class="column3">Nets Element[3]: CIN3 has multiple names (Net Label BAL.CB_COM3 (2), Net Label CB_COM3 (3), Net Label CIN3 (3), Net Label CIN3 (Inferred) (4))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">slave-14-mc33775.SchDoc</td>
+<td class="column3">Nets Element[3]: T-SENSOR_11 has multiple names (Net Label T-SENSOR_3_2, Net Label T-SENSOR_3_2 (Inferred), Net Label T-SENSOR_11, Net Label T-SENSOR_11 (Inferred))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">slave-14-mc33775.SchDoc</td>
+<td class="column3">Nets Element[4]: T-SENSOR_12 has multiple names (Net Label T-SENSOR_4_2, Net Label T-SENSOR_4_2 (Inferred), Net Label T-SENSOR_12, Net Label T-SENSOR_12 (Inferred))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">slave-14-mc33775.SchDoc</td>
+<td class="column3">Nets Element[5]: CIN5 has multiple names (Net Label BAL.CB_COM5 (2), Net Label CB_COM5 (3), Net Label CIN5 (4), Net Label CIN5 (Inferred) (4))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">slave-14-mc33775.SchDoc</td>
+<td class="column3">Nets Element[5]: T-SENSOR_13 has multiple names (Net Label T-SENSOR_5_2, Net Label T-SENSOR_5_2 (Inferred), Net Label T-SENSOR_13, Net Label T-SENSOR_13 (Inferred))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">slave-14-mc33775.SchDoc</td>
+<td class="column3">Nets Element[6]: T-SENSOR_14 has multiple names (Net Label T-SENSOR_6_2, Net Label T-SENSOR_6_2 (Inferred), Net Label T-SENSOR_14, Net Label T-SENSOR_14 (Inferred))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">slave-14-mc33775.SchDoc</td>
+<td class="column3">Nets Element[7]: CIN7 has multiple names (Net Label BAL.CB_COM7 (2), Net Label CB_COM7 (3), Net Label CIN7 (4), Net Label CIN7 (Inferred) (4))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">slave-14-mc33775.SchDoc</td>
+<td class="column3">Nets Element[7]: T-SENSOR_15 has multiple names (Net Label T-SENSOR_7_2, Net Label T-SENSOR_7_2 (Inferred), Net Label T-SENSOR_15, Net Label T-SENSOR_15 (Inferred))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">slave-14-mc33775.SchDoc</td>
+<td class="column3">Nets Element[9]: CIN9 has multiple names (Net Label BAL.CB_COM9 (2), Net Label CB_COM9 (3), Net Label CIN9 (4), Net Label CIN9 (Inferred) (4))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">slave-14-mc33775.SchDoc</td>
+<td class="column3">Nets Element[11]: CIN11 has multiple names (Net Label BAL.CB_COM11 (2), Net Label CB_COM11 (3), Net Label CIN11 (4), Net Label CIN11 (Inferred) (4))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">slave-14-mc33775.SchDoc</td>
+<td class="column3">Nets Element[13]: CIN13 has multiple names (Net Label BAL.CB_COM13 (2), Net Label CB_COM13 (4), Net Label CIN13 (4), Net Label CIN13 (Inferred) (4))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">slave-14-mc33775.SchDoc</td>
+<td class="column3">Nets Wire BAL.CB_HI2 has multiple names (Net Label BAL.CB_HI2 (2), Net Label CB_HI2 (3))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">slave-14-mc33775.SchDoc</td>
+<td class="column3">Nets Wire BAL.CB_HI4 has multiple names (Net Label BAL.CB_HI4 (2), Net Label CB_HI4 (3))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">slave-14-mc33775.SchDoc</td>
+<td class="column3">Nets Wire BAL.CB_HI6 has multiple names (Net Label BAL.CB_HI6 (2), Net Label CB_HI6 (3))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">slave-14-mc33775.SchDoc</td>
+<td class="column3">Nets Wire BAL.CB_HI8 has multiple names (Net Label BAL.CB_HI8 (2), Net Label CB_HI8 (3))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">slave-14-mc33775.SchDoc</td>
+<td class="column3">Nets Wire BAL.CB_HI10 has multiple names (Net Label BAL.CB_HI10 (2), Net Label CB_HI10 (3))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">slave-14-mc33775.SchDoc</td>
+<td class="column3">Nets Wire BAL.CB_HI12 has multiple names (Net Label BAL.CB_HI12 (2), Net Label CB_HI12 (3))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">slave-14-mc33775.SchDoc</td>
+<td class="column3">Nets Wire BAL.CB_HI14 has multiple names (Net Label BAL.CB_HI14 (2), Net Label CB_HI14 (3))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">slave-14-mc33775.SchDoc</td>
+<td class="column3">Nets Wire BAL.CB_LO0 has multiple names (Net Label BAL.CB_LO0 (2), Net Label CB_LO0 (3))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">slave-14-mc33775.SchDoc</td>
+<td class="column3">Nets Wire BAL.CB_LO2 has multiple names (Net Label BAL.CB_LO2 (2), Net Label CB_LO2 (3))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">slave-14-mc33775.SchDoc</td>
+<td class="column3">Nets Wire BAL.CB_LO4 has multiple names (Net Label BAL.CB_LO4 (2), Net Label CB_LO4 (3))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">slave-14-mc33775.SchDoc</td>
+<td class="column3">Nets Wire BAL.CB_LO6 has multiple names (Net Label BAL.CB_LO6 (2), Net Label CB_LO6 (3))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">slave-14-mc33775.SchDoc</td>
+<td class="column3">Nets Wire BAL.CB_LO8 has multiple names (Net Label BAL.CB_LO8 (2), Net Label CB_LO8 (3))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">slave-14-mc33775.SchDoc</td>
+<td class="column3">Nets Wire BAL.CB_LO10 has multiple names (Net Label BAL.CB_LO10 (2), Net Label CB_LO10 (3))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">slave-14-mc33775.SchDoc</td>
+<td class="column3">Nets Wire BAL.CB_LO12 has multiple names (Net Label BAL.CB_LO12 (2), Net Label CB_LO12 (3))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">slave-14-mc33775.SchDoc</td>
+<td class="column3">Nets Wire GPIO2_ext has multiple names (Net Label GPIO2_ext (4), Net Label GPIO_ext.GPIO2_ext (2))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">slave-14-mc33775.SchDoc</td>
+<td class="column3">Nets Wire GPIO3_ext has multiple names (Net Label GPIO3_ext (4), Net Label GPIO_ext.GPIO3_ext (2))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">slave-14-mc33775.SchDoc</td>
+<td class="column3">Nets Wire GPIO6_ext has multiple names (Net Label GPIO6_ext (4), Net Label GPIO_ext.GPIO6_ext (2))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">slave-14-mc33775.SchDoc</td>
+<td class="column3">Nets Wire GPIO7_ext has multiple names (Net Label GPIO7_ext (4), Net Label GPIO_ext.GPIO7_ext (2))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">slave-14-mc33775.SchDoc</td>
+<td class="column3">Nets Wire I2C.SCL has multiple names (Net Label I2C.SCL (5), Net Label I2C.SCL_1, Net Label I2C.SCL_2, Net Label SCL (11), Net Label SCL_1, Net Label SCL_2)</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">slave-14-mc33775.SchDoc</td>
+<td class="column3">Nets Wire I2C.SDA has multiple names (Net Label I2C.SDA (5), Net Label I2C.SDA_1, Net Label I2C.SDA_2, Net Label SDA (11), Net Label SDA_1, Net Label SDA_2)</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">analog_in.SchDoc</td>
+<td class="column3">Nets Wire VDDC has multiple names (Net Label Vin (2), Power Object VDDC (12))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">sensors.SchDoc</td>
+<td class="column3">VDDIO contains IO Pin and Power Pin objects (Pin U922-5, Pin IC920-1, Pin U201-13, Pin U201-13, Pin U202-5, Pin U202-5, Pin U400-8, Pin U600-39, Pin U900-24, Pin U920-6, Pin U920-8, Pin U921-5, Pin U922-6).</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">mc33775.SchDoc</td>
+<td class="column3">VMODULE contains Input Pin and Unspecified Port objects (Pin U600-17, Port Vmodule).</td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br></body>
+</html>

@@ -1,0 +1,4 @@
+ALARM=_P,_N
+GPIO_ext=GPIO2_ext,GPIO3_ext,GPIO6_ext,GPIO7_ext
+I2C=SCL,SDA
+TPL=_P,_N

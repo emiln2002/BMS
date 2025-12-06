@@ -1,0 +1,5 @@
+Important Notice:
+
+from NXP FS84/FS85C Datasheet (Rev. 10 — 17 November 2023) Page 26
+
+"The OTP emulation/programming is possible during engineering development only. The OTP programming in production is done by NXP only."
