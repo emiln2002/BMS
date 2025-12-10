@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\emiln\OneDrive\Skrivebord\AU\Dolphins\BMS\slave-14-nxp-mc33775a-v1.0.2\Sources\slave-14-mc33775.PcbDoc
-Date     : 06/12/2025
-Time     : 22.33.24
+Date     : 10/12/2025
+Time     : 15.04.25
 
 Processing Rule : Clearance Constraint (Gap=43.307mil) (InNetClass('TPL_high')),(Not InNetClass('TPL_high'))
 Rule Violations :0
@@ -19,30 +19,26 @@ Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
 Rule Violations :0
 
 Processing Rule : Un-Routed Net Constraint ( (All) )
-   Violation between Un-Routed Net Constraint: Track (4050mil,1675mil)(4137.5mil,1675mil) on GND Dead Copper - Net Not Assigned.
-   Violation between Un-Routed Net Constraint: Net CIN0 Between Via (4075mil,988.04mil) from Top Copper to Bot Copper And Via (6250mil,3300mil) from Top Copper to Bot Copper 
-Rule Violations :2
+Rule Violations :0
 
 Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
 Rule Violations :0
 
 Processing Rule : Creepage Distance Constraint =(629.921mil) (InNetClass('TPL_low')),(Not InNetClass('TPL_low'))
-   Violation between Creepage Distance: (416.627mil < 629.921mil) Between Pad J302-1(4975mil,308.268mil) on Multi-Layer And Pad J306-2(4600mil,91.732mil) on Multi-Layer 
-   Violation between Creepage Distance: (572.53mil < 629.921mil) Between Pad J302-1(4975mil,308.268mil) on Multi-Layer And Polygon Region (106 hole(s)) Supply 
-   Violation between Creepage Distance: (572.53mil < 629.921mil) Between Pad J302-1(4975mil,308.268mil) on Multi-Layer And Polygon Region (419 hole(s)) GND 
-   Violation between Creepage Distance: (469.293mil < 629.921mil) Between Pad J302-2(4975mil,91.732mil) on Multi-Layer And Pad J306-1(4600mil,308.268mil) on Multi-Layer 
-   Violation between Creepage Distance: (298.458mil < 629.921mil) Between Pad J302-2(4975mil,91.732mil) on Multi-Layer And Pad J306-2(4600mil,91.732mil) on Multi-Layer 
-   Violation between Creepage Distance: (454.362mil < 629.921mil) Between Pad J302-2(4975mil,91.732mil) on Multi-Layer And Polygon Region (106 hole(s)) Supply 
-   Violation between Creepage Distance: (454.362mil < 629.921mil) Between Pad J302-2(4975mil,91.732mil) on Multi-Layer And Polygon Region (419 hole(s)) GND 
-Rule Violations :7
+   Violation between Creepage Distance: (591.634mil < 629.921mil) Between Pad J302-1(4975mil,308.268mil) on Multi-Layer And Pad J306-2(4600mil,91.732mil) on Multi-Layer 
+   Violation between Creepage Distance: (591.339mil < 629.921mil) Between Pad J302-2(4975mil,91.732mil) on Multi-Layer And Pad J306-1(4600mil,308.268mil) on Multi-Layer 
+   Violation between Creepage Distance: (364.818mil < 629.921mil) Between Pad J302-2(4975mil,91.732mil) on Multi-Layer And Pad J306-2(4600mil,91.732mil) on Multi-Layer 
+   Violation between Creepage Distance: (549.397mil < 629.921mil) Between Pad J302-2(4975mil,91.732mil) on Multi-Layer And Polygon Region (106 hole(s)) Supply 
+   Violation between Creepage Distance: (542.602mil < 629.921mil) Between Pad J302-2(4975mil,91.732mil) on Multi-Layer And Polygon Region (419 hole(s)) GND 
+Rule Violations :5
 
 Processing Rule : Creepage Distance Constraint =(629.921mil) (InNetClass('TPL_high')),(Not InNetClass('TPL_high'))
-   Violation between Creepage Distance: (416.627mil < 629.921mil) Between Pad J301-1(5350mil,308.268mil) on Multi-Layer And Pad J302-2(4975mil,91.732mil) on Multi-Layer 
-   Violation between Creepage Distance: (416.627mil < 629.921mil) Between Pad J301-1(5350mil,308.268mil) on Multi-Layer And Pad J305-2(5725mil,91.732mil) on Multi-Layer 
-   Violation between Creepage Distance: (416.627mil < 629.921mil) Between Pad J301-2(5350mil,91.732mil) on Multi-Layer And Pad J302-1(4975mil,308.268mil) on Multi-Layer 
-   Violation between Creepage Distance: (298.458mil < 629.921mil) Between Pad J301-2(5350mil,91.732mil) on Multi-Layer And Pad J302-2(4975mil,91.732mil) on Multi-Layer 
-   Violation between Creepage Distance: (416.627mil < 629.921mil) Between Pad J301-2(5350mil,91.732mil) on Multi-Layer And Pad J305-1(5725mil,308.268mil) on Multi-Layer 
-   Violation between Creepage Distance: (298.458mil < 629.921mil) Between Pad J301-2(5350mil,91.732mil) on Multi-Layer And Pad J305-2(5725mil,91.732mil) on Multi-Layer 
+   Violation between Creepage Distance: (589.397mil < 629.921mil) Between Pad J301-1(5350mil,308.268mil) on Multi-Layer And Pad J302-2(4975mil,91.732mil) on Multi-Layer 
+   Violation between Creepage Distance: (591.339mil < 629.921mil) Between Pad J301-1(5350mil,308.268mil) on Multi-Layer And Pad J305-2(5725mil,91.732mil) on Multi-Layer 
+   Violation between Creepage Distance: (589.462mil < 629.921mil) Between Pad J301-2(5350mil,91.732mil) on Multi-Layer And Pad J302-1(4975mil,308.268mil) on Multi-Layer 
+   Violation between Creepage Distance: (350.935mil < 629.921mil) Between Pad J301-2(5350mil,91.732mil) on Multi-Layer And Pad J302-2(4975mil,91.732mil) on Multi-Layer 
+   Violation between Creepage Distance: (591.634mil < 629.921mil) Between Pad J301-2(5350mil,91.732mil) on Multi-Layer And Pad J305-1(5725mil,308.268mil) on Multi-Layer 
+   Violation between Creepage Distance: (425.359mil < 629.921mil) Between Pad J301-2(5350mil,91.732mil) on Multi-Layer And Pad J305-2(5725mil,91.732mil) on Multi-Layer 
 Rule Violations :6
 
 Processing Rule : Creepage Distance Constraint =(4mil) (Disabled)(All),(All)
@@ -55,13 +51,18 @@ Processing Rule : Width Constraint (Min=4mil) (Max=60mil) (Preferred=6mil) (All)
 Rule Violations :0
 
 Processing Rule : SMD To Corner (Distance=4mil) (All)
-   Violation between SMD To Corner Constraint: (0.562mil < 4mil) Between Pad J307-11(301.968mil,-408.268mil) on Multi-Layer And Track (314.726mil,-395.51mil)(341.99mil,-395.51mil) on Top Copper Actual Distance = 0.562mil
-Rule Violations :1
+   Violation between SMD To Corner Constraint: (0.46mil < 4mil) Between Pad C209_2-2(722.992mil,1071.456mil) on Top Copper And Track (733.693mil,1056.088mil)(733.693mil,1064.692mil) on Top Copper Actual Distance = 0.46mil
+   Violation between SMD To Corner Constraint: (1.222mil < 4mil) Between Pad R207_2-1(722.992mil,802.558mil) on Top Copper And Track (726.929mil,802.558mil)(739.65mil,789.837mil) on Top Copper Actual Distance = 1.222mil
+Rule Violations :2
 
 Processing Rule : SMD Entry (Side = Allowed) (Corner = Allowed) (Any Angle = Not Allowed) (Ignore First Corner = Allowed)
+   Violation between SMD Entry Constraint: Between Pad C209_2-2(722.992mil,1071.456mil) on Top Copper And Track (692.291mil,1092.754mil)(706.825mil,1078.22mil) on Top Copper Track Entry to PAD from not centre of Side
+   Violation between SMD Entry Constraint: Between Pad C209_2-2(722.992mil,1071.456mil) on Top Copper And Track (733.693mil,1056.088mil)(733.693mil,1064.692mil) on Top Copper Track Entry to PAD from not centre of Side
    Violation between SMD Entry Constraint: Between Pad C530-2(3812.5mil,746.456mil) on Top Copper And Track (3725mil,747.44mil)(3812.5mil,747.44mil) on Top Copper Track Entry to PAD from not centre of Side
    Violation between SMD Entry Constraint: Between Pad C530-2(3812.5mil,746.456mil) on Top Copper And Track (3812.5mil,747.44mil)(3875mil,747.44mil) on Top Copper Track Entry to PAD from not centre of Side
-Rule Violations :2
+   Violation between SMD Entry Constraint: Between Pad R207_2-1(722.992mil,802.558mil) on Top Copper And Track (739.65mil,789.837mil)(783.969mil,789.837mil) on Top Copper Track Entry to PAD from not centre of Side
+   Violation between SMD Entry Constraint: Between Pad R227_2-2(722.992mil,1197.44mil) on Top Copper And Track (692.291mil,1167.882mil)(713.275mil,1188.866mil) on Top Copper Track Entry to PAD from not centre of Side
+Rule Violations :6
 
 Processing Rule : Power Plane Connect Rule(Direct Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)
 Rule Violations :0
@@ -87,35 +88,18 @@ Processing Rule : Silk to Silk (Clearance=10mil) (All),(All)
 Rule Violations :0
 
 Processing Rule : Net Antennae (Tolerance=0mil) (All)
-   Violation between Net Antennae: Via (4075mil,988.04mil) from Top Copper to Bot Copper 
-Rule Violations :1
+Rule Violations :0
 
 Processing Rule : Board Clearance Constraint (Gap=0mil) (All)
-   Violation between Board Outline Clearance(Outline Edge): (6.118mil < 8mil) Between Board Edge And Track (4487.796mil,7.086mil)(4487.796mil,392.914mil) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (6.118mil < 8mil) Between Board Edge And Track (4487.796mil,7.086mil)(4712.204mil,7.086mil) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 8mil) Between Board Edge And Track (4533.07mil,-51.968mil)(4533.07mil,7.086mil) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 8mil) Between Board Edge And Track (4533.07mil,-51.968mil)(4666.93mil,-51.968mil) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 8mil) Between Board Edge And Track (4666.93mil,-51.968mil)(4666.93mil,7.086mil) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (6.118mil < 8mil) Between Board Edge And Track (4712.204mil,7.086mil)(4712.204mil,392.914mil) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (6.118mil < 8mil) Between Board Edge And Track (4862.796mil,7.086mil)(4862.796mil,392.914mil) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (6.118mil < 8mil) Between Board Edge And Track (4862.796mil,7.086mil)(5087.204mil,7.086mil) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 8mil) Between Board Edge And Track (4908.07mil,-51.968mil)(4908.07mil,7.086mil) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 8mil) Between Board Edge And Track (4908.07mil,-51.968mil)(5041.93mil,-51.968mil) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 8mil) Between Board Edge And Track (5041.93mil,-51.968mil)(5041.93mil,7.086mil) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (6.118mil < 8mil) Between Board Edge And Track (5087.204mil,7.086mil)(5087.204mil,392.914mil) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (6.118mil < 8mil) Between Board Edge And Track (5237.796mil,7.086mil)(5237.796mil,392.914mil) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (6.118mil < 8mil) Between Board Edge And Track (5237.796mil,7.086mil)(5462.204mil,7.086mil) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 8mil) Between Board Edge And Track (5283.07mil,-51.968mil)(5283.07mil,7.086mil) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 8mil) Between Board Edge And Track (5283.07mil,-51.968mil)(5416.93mil,-51.968mil) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 8mil) Between Board Edge And Track (5416.93mil,-51.968mil)(5416.93mil,7.086mil) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (6.118mil < 8mil) Between Board Edge And Track (5462.204mil,7.086mil)(5462.204mil,392.914mil) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (6.118mil < 8mil) Between Board Edge And Track (5612.796mil,7.086mil)(5612.796mil,392.914mil) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (6.118mil < 8mil) Between Board Edge And Track (5612.796mil,7.086mil)(5837.204mil,7.086mil) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 8mil) Between Board Edge And Track (5658.07mil,-51.968mil)(5658.07mil,7.086mil) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 8mil) Between Board Edge And Track (5658.07mil,-51.968mil)(5791.93mil,-51.968mil) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 8mil) Between Board Edge And Track (5791.93mil,-51.968mil)(5791.93mil,7.086mil) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (6.118mil < 8mil) Between Board Edge And Track (5837.204mil,7.086mil)(5837.204mil,392.914mil) on Top Overlay 
-Rule Violations :24
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 8mil) Between Board Edge And Polygon Region (0 hole(s)) Bot Copper 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 8mil) Between Board Edge And Polygon Region (0 hole(s)) GND 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 8mil) Between Board Edge And Polygon Region (0 hole(s)) Signal Layer 1 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 8mil) Between Board Edge And Polygon Region (0 hole(s)) Signal Layer 2 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 8mil) Between Board Edge And Polygon Region (0 hole(s)) Supply 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 8mil) Between Board Edge And Polygon Region (0 hole(s)) Top Copper 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 8mil) Between Board Edge And Polygon Region (106 hole(s)) Supply 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 8mil) Between Board Edge And Polygon Region (419 hole(s)) GND 
+Rule Violations :8
 
 Processing Rule : Room U_ldo (Bounding Region = (4926.909mil, 5348.513mil, 5360.492mil, 5900.354mil) (InComponentClass('U_ldo'))
 Rule Violations :0
@@ -189,6 +173,6 @@ Waived Violations Of Rule : Minimum Solder Mask Sliver (Gap=4mil) (All),(All)
 Waived Violations :38
 
 
-Violations Detected : 45
+Violations Detected : 29
 Waived Violations : 38
-Time Elapsed        : 00:00:28
+Time Elapsed        : 00:00:18
