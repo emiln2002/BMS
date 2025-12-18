@@ -10,5 +10,3 @@ Record=SheetSymbol|SourceDocument=slave-14-mc33775.SchDoc|Designator=U_mc33775|S
 Record=SheetSymbol|SourceDocument=slave-14-mc33775.SchDoc|Designator=U_passive_balancing|SchDesignator=U_passive_balancing|FileName=passive_balancing.SchDoc|SheetNumber=4|SymbolType=Normal|RawFileName=passive_balancing.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
 Record=SheetSymbol|SourceDocument=slave-14-mc33775.SchDoc|Designator=U_sensors|SchDesignator=U_sensors|FileName=sensors.SchDoc|SheetNumber=10|SymbolType=Normal|RawFileName=sensors.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
 Record=SheetSymbol|SourceDocument=mc33775.SchDoc|Designator=U_ldo|SchDesignator=U_ldo|FileName=ldo.SchDoc|SheetNumber=8|SymbolType=Normal|RawFileName=ldo.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
-Record=NoMainPathDocument|SourceDocument=slave-14-mc33775.SchDoc|FileName=connectors_new.SchDoc|SheetNumber= 
-Record=NoMainPathDocument|SourceDocument=slave-14-mc33775.SchDoc|FileName=connectors_org.SchDoc|SheetNumber=6

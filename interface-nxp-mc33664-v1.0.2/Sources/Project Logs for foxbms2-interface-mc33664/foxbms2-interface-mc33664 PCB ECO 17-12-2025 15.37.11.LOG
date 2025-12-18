@@ -1,0 +1,18 @@
+Removed Pin From Net: NetName=TPL_2._P Pin=J102-1
+Removed Pin From Net: NetName=TPL_2._N Pin=J102-2
+Removed Pin From Net: NetName=ALARM_1._P Pin=J103-1
+Removed Pin From Net: NetName=GND_ISO_1 Pin=J103-2
+Removed Pin From Net: NetName=ALARM_2._P Pin=J104-1
+Removed Pin From Net: NetName=GND_ISO_2 Pin=J104-2
+Removed Member From Class: ClassName=foxbms2-interface-mc33664 Member=J?
+Change Component Designator: OldDesignator=J? NewDesignator=J101
+Change Component Designator: OldDesignator=J? NewDesignator=J102
+Change Component Designator: OldDesignator=J? NewDesignator=J103
+Change Component Designator: OldDesignator=J? NewDesignator=J104
+Added Pin To Net: NetName=TPL_2._P Pin=J102-1
+Added Pin To Net: NetName=TPL_2._N Pin=J102-2
+Added Pin To Net: NetName=ALARM_1._P Pin=J103-1
+Added Pin To Net: NetName=GND_ISO_1 Pin=J103-2
+Added Pin To Net: NetName=ALARM_2._P Pin=J104-1
+Added Pin To Net: NetName=GND_ISO_2 Pin=J104-2
+Added Member To Class: ClassName=foxbms2-interface-mc33664 Member=Component J101 64900229522
