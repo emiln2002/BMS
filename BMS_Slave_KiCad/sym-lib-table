@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 0)
+  (lib (name "slave-14-mc33775-altium-import")(type "KiCad")(uri "${KIPRJMOD}/slave-14-mc33775-altium-import.kicad_sym")(options "")(descr ""))
+)
