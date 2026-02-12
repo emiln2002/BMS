@@ -41061,7 +41061,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${CAPACITANCE}/${RATED VOLTAGE}"
+		(property "Value" "10 nF"
 			(at 141.986 190.0682 0)
 			(effects
 				(font
@@ -41070,7 +41070,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CAPC1608X08N"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 139.7 192.8622 0)
 			(effects
 				(font
@@ -41276,7 +41276,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${CAPACITANCE}/${RATED VOLTAGE}"
+		(property "Value" "10 nF"
 			(at 243.586 149.4282 0)
 			(effects
 				(font
@@ -41285,7 +41285,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CAPC1608X08N"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 241.3 152.2222 0)
 			(effects
 				(font
@@ -41559,7 +41559,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${RESISTANCE}"
+		(property "Value" "10K"
 			(at 152.146 186.5122 0)
 			(effects
 				(font
@@ -41568,7 +41568,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "RESC1608X05N"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 160.02 182.7022 0)
 			(effects
 				(font
@@ -41774,7 +41774,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${RESISTANCE}"
+		(property "Value" "10K"
 			(at 253.746 145.8722 0)
 			(effects
 				(font
@@ -41783,7 +41783,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "RESC1608X05N"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 261.62 142.0622 0)
 			(effects
 				(font
@@ -42125,7 +42125,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${CAPACITANCE}/${RATED VOLTAGE}"
+		(property "Value" "10 nF"
 			(at 274.066 88.4682 0)
 			(effects
 				(font
@@ -42134,7 +42134,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CAPC1608X08N"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 271.78 91.2622 0)
 			(effects
 				(font
@@ -42340,7 +42340,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${RESISTANCE}"
+		(property "Value" "0"
 			(at 161.29 253.5682 0)
 			(effects
 				(font
@@ -42349,7 +42349,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "RESC1608X05N"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 160.02 256.3622 0)
 			(effects
 				(font
@@ -42555,7 +42555,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${CAPACITANCE}/${RATED VOLTAGE}"
+		(property "Value" "10 nF"
 			(at 243.586 169.7482 0)
 			(effects
 				(font
@@ -42564,7 +42564,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CAPC1608X08N"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 241.3 172.5422 0)
 			(effects
 				(font
@@ -42770,7 +42770,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${CAPACITANCE}/${RATED VOLTAGE}"
+		(property "Value" "10 nF"
 			(at 243.586 129.1082 0)
 			(effects
 				(font
@@ -42779,7 +42779,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CAPC1608X08N"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 241.3 131.9022 0)
 			(effects
 				(font
@@ -42985,7 +42985,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${CAPACITANCE}/${RATED VOLTAGE}"
+		(property "Value" "10 nF"
 			(at 243.586 190.0682 0)
 			(effects
 				(font
@@ -42994,7 +42994,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CAPC1608X08N"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 241.3 192.8622 0)
 			(effects
 				(font
@@ -43200,7 +43200,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${CAPACITANCE}/${RATED VOLTAGE}"
+		(property "Value" "10 nF"
 			(at 172.466 169.7482 0)
 			(effects
 				(font
@@ -43209,7 +43209,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CAPC1608X08N"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 170.18 172.5422 0)
 			(effects
 				(font
@@ -43415,7 +43415,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${RESISTANCE}"
+		(property "Value" "0"
 			(at 100.33 253.5682 0)
 			(effects
 				(font
@@ -43424,7 +43424,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "RESC1608X05N"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 99.06 256.3622 0)
 			(effects
 				(font
@@ -43630,7 +43630,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${RESISTANCE}"
+		(property "Value" "0"
 			(at 130.81 253.5682 0)
 			(effects
 				(font
@@ -43639,7 +43639,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "RESC1608X05N"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 129.54 256.3622 0)
 			(effects
 				(font
@@ -43913,7 +43913,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${RESISTANCE}"
+		(property "Value" "10K"
 			(at 253.746 186.5122 0)
 			(effects
 				(font
@@ -43922,7 +43922,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "RESC1608X05N"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 261.62 182.7022 0)
 			(effects
 				(font
@@ -44332,7 +44332,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${RESISTANCE}"
+		(property "Value" "0"
 			(at 80.01 253.5682 0)
 			(effects
 				(font
@@ -44341,7 +44341,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "RESC1608X05N"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 78.74 256.3622 0)
 			(effects
 				(font
@@ -44615,7 +44615,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${RESISTANCE}"
+		(property "Value" "10K"
 			(at 253.746 166.1922 0)
 			(effects
 				(font
@@ -44624,7 +44624,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "RESC1608X05N"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 261.62 162.3822 0)
 			(effects
 				(font
@@ -44830,7 +44830,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${RESISTANCE}"
+		(property "Value" "10K"
 			(at 253.746 105.2322 0)
 			(effects
 				(font
@@ -44839,7 +44839,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "RESC1608X05N"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 261.62 101.4222 0)
 			(effects
 				(font
@@ -45045,7 +45045,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${RESISTANCE}"
+		(property "Value" "10K"
 			(at 152.146 84.9122 0)
 			(effects
 				(font
@@ -45054,7 +45054,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "RESC1608X05N"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 160.02 81.1022 0)
 			(effects
 				(font
@@ -45328,7 +45328,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${CAPACITANCE}/${RATED VOLTAGE}"
+		(property "Value" "10 nF"
 			(at 220.726 258.6482 0)
 			(effects
 				(font
@@ -45337,7 +45337,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CAPC1608X08N"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 218.44 261.4422 0)
 			(effects
 				(font
@@ -45611,7 +45611,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${RESISTANCE}"
+		(property "Value" "10K"
 			(at 253.746 206.8322 0)
 			(effects
 				(font
@@ -45620,7 +45620,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "RESC1608X05N"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 261.62 203.0222 0)
 			(effects
 				(font
@@ -45826,7 +45826,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${CAPACITANCE}/${RATED VOLTAGE}"
+		(property "Value" "10 nF"
 			(at 172.466 149.4282 0)
 			(effects
 				(font
@@ -45835,7 +45835,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CAPC1608X08N"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 170.18 152.2222 0)
 			(effects
 				(font
@@ -46177,7 +46177,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${RESISTANCE}"
+		(property "Value" "10K"
 			(at 253.746 125.5522 0)
 			(effects
 				(font
@@ -46186,7 +46186,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "RESC1608X05N"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 261.62 121.7422 0)
 			(effects
 				(font
@@ -46392,7 +46392,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${RESISTANCE}"
+		(property "Value" "0"
 			(at 171.45 253.5682 0)
 			(effects
 				(font
@@ -46401,7 +46401,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "RESC1608X05N"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 170.18 256.3622 0)
 			(effects
 				(font
@@ -46607,7 +46607,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${RESISTANCE}"
+		(property "Value" "0"
 			(at 151.13 253.5682 0)
 			(effects
 				(font
@@ -46616,7 +46616,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "RESC1608X05N"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 149.86 256.3622 0)
 			(effects
 				(font
@@ -46890,7 +46890,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${CAPACITANCE}/${RATED VOLTAGE}"
+		(property "Value" "10 nF"
 			(at 274.066 169.7482 0)
 			(effects
 				(font
@@ -46899,7 +46899,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CAPC1608X08N"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 271.78 172.5422 0)
 			(effects
 				(font
@@ -47105,7 +47105,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${CAPACITANCE}/${RATED VOLTAGE}"
+		(property "Value" "10 nF"
 			(at 274.066 108.7882 0)
 			(effects
 				(font
@@ -47114,7 +47114,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CAPC1608X08N"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 271.78 111.5822 0)
 			(effects
 				(font
@@ -47388,7 +47388,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${RESISTANCE}"
+		(property "Value" "0"
 			(at 181.61 253.5682 0)
 			(effects
 				(font
@@ -47397,7 +47397,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "RESC1608X05N"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 180.34 256.3622 0)
 			(effects
 				(font
@@ -47603,7 +47603,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${CAPACITANCE}/${RATED VOLTAGE}"
+		(property "Value" "10 nF"
 			(at 172.466 210.3882 0)
 			(effects
 				(font
@@ -47612,7 +47612,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CAPC1608X08N"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 170.18 213.1822 0)
 			(effects
 				(font
@@ -47818,7 +47818,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${CAPACITANCE}/${RATED VOLTAGE}"
+		(property "Value" "10 nF"
 			(at 172.466 230.7082 0)
 			(effects
 				(font
@@ -47827,7 +47827,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CAPC1608X08N"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 170.18 233.5022 0)
 			(effects
 				(font
@@ -48033,7 +48033,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${RESISTANCE}"
+		(property "Value" "10K"
 			(at 152.146 206.8322 0)
 			(effects
 				(font
@@ -48042,7 +48042,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "RESC1608X05N"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 160.02 203.0222 0)
 			(effects
 				(font
@@ -48248,7 +48248,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${CAPACITANCE}/${RATED VOLTAGE}"
+		(property "Value" "10 nF"
 			(at 141.986 88.4682 0)
 			(effects
 				(font
@@ -48257,7 +48257,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CAPC1608X08N"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 139.7 91.2622 0)
 			(effects
 				(font
@@ -48463,7 +48463,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${CAPACITANCE}/${RATED VOLTAGE}"
+		(property "Value" "10 nF"
 			(at 243.586 88.4682 0)
 			(effects
 				(font
@@ -48472,7 +48472,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CAPC1608X08N"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 241.3 91.2622 0)
 			(effects
 				(font
@@ -48678,7 +48678,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${RESISTANCE}"
+		(property "Value" "10K"
 			(at 152.146 227.1522 0)
 			(effects
 				(font
@@ -48687,7 +48687,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "RESC1608X05N"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 160.02 223.3422 0)
 			(effects
 				(font
@@ -48893,7 +48893,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${CAPACITANCE}/${RATED VOLTAGE}"
+		(property "Value" "10 nF"
 			(at 274.066 129.1082 0)
 			(effects
 				(font
@@ -48902,7 +48902,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CAPC1608X08N"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 271.78 131.9022 0)
 			(effects
 				(font
@@ -49108,7 +49108,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${RESISTANCE}"
+		(property "Value" "0"
 			(at 120.65 253.5682 0)
 			(effects
 				(font
@@ -49117,7 +49117,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "RESC1608X05N"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 119.38 256.3622 0)
 			(effects
 				(font
@@ -49323,7 +49323,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${RESISTANCE}"
+		(property "Value" "10K"
 			(at 152.146 145.8722 0)
 			(effects
 				(font
@@ -49332,7 +49332,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "RESC1608X05N"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 160.02 142.0622 0)
 			(effects
 				(font
@@ -49538,7 +49538,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${CAPACITANCE}/${RATED VOLTAGE}"
+		(property "Value" "10 nF"
 			(at 243.586 108.7882 0)
 			(effects
 				(font
@@ -49547,7 +49547,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CAPC1608X08N"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 241.3 111.5822 0)
 			(effects
 				(font
@@ -49753,7 +49753,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${CAPACITANCE}/${RATED VOLTAGE}"
+		(property "Value" "10 nF"
 			(at 274.066 210.3882 0)
 			(effects
 				(font
@@ -49762,7 +49762,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CAPC1608X08N"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 271.78 213.1822 0)
 			(effects
 				(font
@@ -50104,7 +50104,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${RESISTANCE}"
+		(property "Value" "10K"
 			(at 152.146 166.1922 0)
 			(effects
 				(font
@@ -50113,7 +50113,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "RESC1608X05N"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 160.02 162.3822 0)
 			(effects
 				(font
@@ -50319,7 +50319,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${RESISTANCE}"
+		(property "Value" "0"
 			(at 90.17 253.5682 0)
 			(effects
 				(font
@@ -50328,7 +50328,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "RESC1608X05N"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 88.9 256.3622 0)
 			(effects
 				(font
@@ -50602,7 +50602,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${CAPACITANCE}/${RATED VOLTAGE}"
+		(property "Value" "10 nF"
 			(at 172.466 129.1082 0)
 			(effects
 				(font
@@ -50611,7 +50611,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CAPC1608X08N"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 170.18 131.9022 0)
 			(effects
 				(font
@@ -50817,7 +50817,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${RESISTANCE}"
+		(property "Value" "10K"
 			(at 152.146 125.5522 0)
 			(effects
 				(font
@@ -50826,7 +50826,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "RESC1608X05N"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 160.02 121.7422 0)
 			(effects
 				(font
@@ -51168,7 +51168,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${CAPACITANCE}/${RATED VOLTAGE}"
+		(property "Value" "10 nF"
 			(at 141.986 108.7882 0)
 			(effects
 				(font
@@ -51177,7 +51177,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CAPC1608X08N"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 139.7 111.5822 0)
 			(effects
 				(font
@@ -51383,7 +51383,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${RESISTANCE}"
+		(property "Value" "0"
 			(at 140.97 253.5682 0)
 			(effects
 				(font
@@ -51392,7 +51392,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "RESC1608X05N"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 139.7 256.3622 0)
 			(effects
 				(font
@@ -51870,7 +51870,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${RESISTANCE}"
+		(property "Value" "10K"
 			(at 253.746 84.9122 0)
 			(effects
 				(font
@@ -51879,7 +51879,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "RESC1608X05N"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 261.62 81.1022 0)
 			(effects
 				(font
@@ -52085,7 +52085,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${CAPACITANCE}/${RATED VOLTAGE}"
+		(property "Value" "10 nF"
 			(at 274.066 190.0682 0)
 			(effects
 				(font
@@ -52094,7 +52094,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CAPC1608X08N"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 271.78 192.8622 0)
 			(effects
 				(font
@@ -52300,7 +52300,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${CAPACITANCE}/${RATED VOLTAGE}"
+		(property "Value" "10 nF"
 			(at 172.466 88.4682 0)
 			(effects
 				(font
@@ -52309,7 +52309,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CAPC1608X08N"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 170.18 91.2622 0)
 			(effects
 				(font
@@ -52583,7 +52583,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${CAPACITANCE}/${RATED VOLTAGE}"
+		(property "Value" "10 nF"
 			(at 141.986 169.7482 0)
 			(effects
 				(font
@@ -52592,7 +52592,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CAPC1608X08N"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 139.7 172.5422 0)
 			(effects
 				(font
@@ -52866,7 +52866,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${CAPACITANCE}/${RATED VOLTAGE}"
+		(property "Value" "10 nF"
 			(at 274.066 149.4282 0)
 			(effects
 				(font
@@ -52875,7 +52875,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CAPC1608X08N"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 271.78 152.2222 0)
 			(effects
 				(font
@@ -53149,7 +53149,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${RESISTANCE}"
+		(property "Value" "0"
 			(at 110.49 253.5682 0)
 			(effects
 				(font
@@ -53158,7 +53158,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "RESC1608X05N"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 109.22 256.3622 0)
 			(effects
 				(font
@@ -53432,7 +53432,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${CAPACITANCE}/${RATED VOLTAGE}"
+		(property "Value" "10 nF"
 			(at 141.986 129.1082 0)
 			(effects
 				(font
@@ -53441,7 +53441,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CAPC1608X08N"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 139.7 131.9022 0)
 			(effects
 				(font
@@ -53647,7 +53647,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${CAPACITANCE}/${RATED VOLTAGE}"
+		(property "Value" "10 nF"
 			(at 141.986 230.7082 0)
 			(effects
 				(font
@@ -53656,7 +53656,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CAPC1608X08N"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 139.7 233.5022 0)
 			(effects
 				(font
@@ -53930,7 +53930,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${CAPACITANCE}/${RATED VOLTAGE}"
+		(property "Value" "10 nF"
 			(at 243.586 210.3882 0)
 			(effects
 				(font
@@ -53939,7 +53939,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CAPC1608X08N"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 241.3 213.1822 0)
 			(effects
 				(font
@@ -54145,7 +54145,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${CAPACITANCE}/${RATED VOLTAGE}"
+		(property "Value" "10 nF"
 			(at 141.986 210.3882 0)
 			(effects
 				(font
@@ -54154,7 +54154,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CAPC1608X08N"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 139.7 213.1822 0)
 			(effects
 				(font
@@ -54360,7 +54360,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${RESISTANCE}"
+		(property "Value" "10K"
 			(at 205.486 247.4722 0)
 			(effects
 				(font
@@ -54369,7 +54369,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "RESC1608X05N"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 213.36 243.6622 0)
 			(effects
 				(font
@@ -54575,7 +54575,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${CAPACITANCE}/${RATED VOLTAGE}"
+		(property "Value" "10 nF"
 			(at 197.866 258.6482 0)
 			(effects
 				(font
@@ -54584,7 +54584,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CAPC1608X08N"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 195.58 261.4422 0)
 			(effects
 				(font
@@ -54858,7 +54858,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${RESISTANCE}"
+		(property "Value" "10K"
 			(at 152.146 105.2322 0)
 			(effects
 				(font
@@ -54867,7 +54867,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "RESC1608X05N"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 160.02 101.4222 0)
 			(effects
 				(font
@@ -55209,7 +55209,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${CAPACITANCE}/${RATED VOLTAGE}"
+		(property "Value" "10 nF"
 			(at 141.986 149.4282 0)
 			(effects
 				(font
@@ -55218,7 +55218,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CAPC1608X08N"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 139.7 152.2222 0)
 			(effects
 				(font
@@ -55424,7 +55424,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${CAPACITANCE}/${RATED VOLTAGE}"
+		(property "Value" "10 nF"
 			(at 172.466 108.7882 0)
 			(effects
 				(font
@@ -55433,7 +55433,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CAPC1608X08N"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 170.18 111.5822 0)
 			(effects
 				(font
@@ -55639,7 +55639,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${CAPACITANCE}/${RATED VOLTAGE}"
+		(property "Value" "10 nF"
 			(at 172.466 190.0682 0)
 			(effects
 				(font
@@ -55648,7 +55648,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CAPC1608X08N"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 170.18 192.8622 0)
 			(effects
 				(font

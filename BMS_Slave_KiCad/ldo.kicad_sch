@@ -40390,7 +40390,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Testpoint_S1"
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.5x2.5mm"
 			(at 254 121.7422 0)
 			(effects
 				(font
@@ -40473,7 +40473,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${CAPACITANCE}/${RATED VOLTAGE}"
+		(property "Value" "10 nF"
 			(at 91.186 129.1082 0)
 			(effects
 				(font
@@ -40482,7 +40482,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CAPC1608X08N"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 88.9 131.9022 0)
 			(effects
 				(font
@@ -41177,7 +41177,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${RESISTANCE}"
+		(property "Value" "0"
 			(at 107.95 131.6482 0)
 			(effects
 				(font
@@ -41186,7 +41186,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "RESC1608X05N"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 106.68 134.4422 0)
 			(effects
 				(font
@@ -41460,7 +41460,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${RESISTANCE}"
+		(property "Value" "0"
 			(at 223.266 125.5522 0)
 			(effects
 				(font
@@ -41469,7 +41469,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "RESC1608X05N"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 220.98 121.7422 0)
 			(effects
 				(font
@@ -41675,7 +41675,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${CAPACITANCE}/${RATED VOLTAGE}"
+		(property "Value" "10 nF"
 			(at 116.586 159.5882 0)
 			(effects
 				(font
@@ -41684,7 +41684,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CAPC1608X08N"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 114.3 162.3822 0)
 			(effects
 				(font
@@ -42213,7 +42213,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${CAPACITANCE}/${RATED VOLTAGE}"
+		(property "Value" "2.2uF"
 			(at 190.246 131.6482 0)
 			(effects
 				(font
@@ -42222,7 +42222,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CAPC2012X14N"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 187.96 134.4422 0)
 			(effects
 				(font
@@ -42713,7 +42713,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${RESISTANCE}"
+		(property "Value" "0"
 			(at 219.71 164.6682 0)
 			(effects
 				(font
@@ -42722,7 +42722,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "RESC1608X05N"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 218.44 167.4622 0)
 			(effects
 				(font

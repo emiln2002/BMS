@@ -38806,7 +38806,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${RESISTANCE}"
+		(property "Value" "0"
 			(at 177.546 115.3922 0)
 			(effects
 				(font
@@ -38815,7 +38815,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "RESC1608X05N"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 175.26 111.5822 0)
 			(effects
 				(font
