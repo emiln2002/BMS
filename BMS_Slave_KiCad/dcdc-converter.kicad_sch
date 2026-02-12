@@ -42958,7 +42958,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${COLOR}"
+		(property "Value" "GREEN"
 			(at 243.332 70.6882 0)
 			(effects
 				(font
@@ -44225,7 +44225,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${INDUCTANCE}"
+		(property "Value" "47uH"
 			(at 193.04 127.8382 0)
 			(effects
 				(font
@@ -46677,7 +46677,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${INDUCTANCE}"
+		(property "Value" "470nH"
 			(at 68.58 59.2582 0)
 			(effects
 				(font
@@ -46686,7 +46686,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "SRP7028A"
+		(property "Footprint" "Inductor_SMD:L_Bourns_SRP7028A_7.3x6.6mm"
 			(at 66.04 55.7022 0)
 			(effects
 				(font

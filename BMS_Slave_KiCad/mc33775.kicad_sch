@@ -57359,7 +57359,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${PART NUMBER}"
+		(property "Value" "Schottky_100V_1A"
 			(at 322.072 184.9882 0)
 			(effects
 				(font
@@ -57368,7 +57368,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "PowerDI123"
+		(property "Footprint" "Diode_SMD:D_PowerDI-123"
 			(at 320.04 187.7822 0)
 			(effects
 				(font
@@ -57878,7 +57878,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${PART NUMBER}"
+		(property "Value" "PTVS60VS1UR"
 			(at 89.662 53.4162 0)
 			(effects
 				(font
@@ -57887,7 +57887,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "NEXPERIA_PTVSxS1UR"
+		(property "Footprint" "Diode_SMD:Nexperia_CFP3_SOD-123W"
 			(at 87.63 46.8122 0)
 			(effects
 				(font
@@ -63242,7 +63242,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${PART NUMBER}"
+		(property "Value" "Schottky_100V_1A"
 			(at 32.766 37.4142 0)
 			(effects
 				(font
@@ -63251,7 +63251,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "PowerDI123"
+		(property "Footprint" "Diode_SMD:D_PowerDI-123"
 			(at 40.64 32.8422 0)
 			(effects
 				(font
@@ -67521,7 +67521,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${PART NUMBER}"
+		(property "Value" "PESD5V0V1BB"
 			(at 272.796 141.5542 0)
 			(effects
 				(font
@@ -67530,7 +67530,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "SOD523_PESD_NEXPERIA"
+		(property "Footprint" "Diode_SMD:D_SOD-523"
 			(at 278.13 136.9822 0)
 			(effects
 				(font
@@ -70140,7 +70140,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${PART NUMBER}"
+		(property "Value" "PESD5V0V1BB"
 			(at 272.796 172.0342 0)
 			(effects
 				(font
@@ -70149,7 +70149,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "SOD523_PESD_NEXPERIA"
+		(property "Footprint" "Diode_SMD:D_SOD-523"
 			(at 278.13 167.4622 0)
 			(effects
 				(font
@@ -74184,7 +74184,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${COLOR}"
+		(property "Value" "GREEN"
 			(at 309.372 75.7682 0)
 			(effects
 				(font
@@ -75274,7 +75274,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${PART NUMBER}"
+		(property "Value" "PESD5V0V1BB"
 			(at 272.796 161.8742 0)
 			(effects
 				(font
@@ -75283,7 +75283,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "SOD523_PESD_NEXPERIA"
+		(property "Footprint" "Diode_SMD:D_SOD-523"
 			(at 278.13 157.3022 0)
 			(effects
 				(font
@@ -76414,7 +76414,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${COLOR}"
+		(property "Value" "GREEN"
 			(at 337.312 75.7682 0)
 			(effects
 				(font
@@ -77045,7 +77045,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${PART NUMBER}"
+		(property "Value" "S1MSP1-7"
 			(at 111.252 54.1782 0)
 			(effects
 				(font
@@ -77054,7 +77054,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "S1MSP1"
+		(property "Footprint" "Diode_SMD:D_PowerDI-123"
 			(at 109.22 46.8122 0)
 			(effects
 				(font
@@ -77579,7 +77579,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${PART NUMBER}"
+		(property "Value" "PESD5V0V1BB"
 			(at 272.796 131.3942 0)
 			(effects
 				(font
@@ -77588,7 +77588,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "SOD523_PESD_NEXPERIA"
+		(property "Footprint" "Diode_SMD:D_SOD-523"
 			(at 278.13 126.8222 0)
 			(effects
 				(font
@@ -78470,7 +78470,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${PART NUMBER}"
+		(property "Value" "Schottky_100V_1A"
 			(at 32.766 47.5742 0)
 			(effects
 				(font
@@ -78479,7 +78479,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "PowerDI123"
+		(property "Footprint" "Diode_SMD:D_PowerDI-123"
 			(at 40.64 43.0022 0)
 			(effects
 				(font

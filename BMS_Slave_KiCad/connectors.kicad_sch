@@ -8401,7 +8401,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${PART NUMBER}"
+		(property "Value" "Pinheader_2x1_vertical"
 			(at 205.74 241.1222 0)
 			(effects
 				(font
@@ -8410,7 +8410,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Pinheader_2.54_2"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 200.66 233.5022 0)
 			(effects
 				(font
@@ -10725,7 +10725,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${PART NUMBER}"
+		(property "Value" "Pinheader_2x1_vertical"
 			(at 205.74 253.8222 0)
 			(effects
 				(font
@@ -10734,7 +10734,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Pinheader_2.54_2"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 200.66 246.2022 0)
 			(effects
 				(font
@@ -11295,7 +11295,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${PART NUMBER}"
+		(property "Value" "Pinheader_2x7_vertical"
 			(at 205.74 200.4822 0)
 			(effects
 				(font
@@ -11304,7 +11304,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Pinheader_2.54_2x7"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x07_P2.54mm_Vertical"
 			(at 200.66 180.1622 0)
 			(effects
 				(font
@@ -11838,7 +11838,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${PART NUMBER}"
+		(property "Value" "Pinheader_2x7_vertical"
 			(at 205.74 228.4222 0)
 			(effects
 				(font
@@ -11847,7 +11847,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Pinheader_2.54_2x7"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x07_P2.54mm_Vertical"
 			(at 200.66 208.1022 0)
 			(effects
 				(font
@@ -12039,7 +12039,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${PART NUMBER}"
+		(property "Value" "Pinheader_2x9_vertical"
 			(at 307.34 111.5822 0)
 			(effects
 				(font
@@ -12048,7 +12048,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Pinheader_2.54_2x9"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x09_P2.54mm_Vertical"
 			(at 302.26 86.1822 0)
 			(effects
 				(font
@@ -12389,7 +12389,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${PART NUMBER}"
+		(property "Value" "Pinheader_2x1_vertical"
 			(at 91.44 236.0422 0)
 			(effects
 				(font
@@ -12398,7 +12398,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Pinheader_2.54_2"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 104.14 228.4222 0)
 			(effects
 				(font

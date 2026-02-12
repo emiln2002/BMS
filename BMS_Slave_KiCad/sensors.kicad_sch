@@ -42471,7 +42471,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "SOT-23-OT5_L"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
 			(at 114.3 238.5822 0)
 			(effects
 				(font

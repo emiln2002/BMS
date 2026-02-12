@@ -1,0 +1,479 @@
+Removed Pin From Net: NetName=GND Pin=J300-1
+Removed Pin From Net: NetName=CIN1 Pin=J300-2
+Removed Pin From Net: NetName=CIN3 Pin=J300-3
+Removed Pin From Net: NetName=CIN5 Pin=J300-4
+Removed Pin From Net: NetName=CIN7 Pin=J300-5
+Removed Pin From Net: NetName=CIN9 Pin=J300-6
+Removed Pin From Net: NetName=CIN11 Pin=J300-7
+Removed Pin From Net: NetName=CIN13 Pin=J300-8
+Removed Pin From Net: NetName=VBAT_con Pin=J300-9
+Removed Pin From Net: NetName=CIN0 Pin=J300-13
+Removed Pin From Net: NetName=CIN2 Pin=J300-14
+Removed Pin From Net: NetName=CIN4 Pin=J300-15
+Removed Pin From Net: NetName=CIN6 Pin=J300-16
+Removed Pin From Net: NetName=CIN8 Pin=J300-17
+Removed Pin From Net: NetName=CIN10 Pin=J300-18
+Removed Pin From Net: NetName=CIN12 Pin=J300-19
+Removed Pin From Net: NetName=CIN14 Pin=J300-20
+Removed Pin From Net: NetName=TPL_H._P Pin=J301-1
+Removed Pin From Net: NetName=TPL_H._N Pin=J301-2
+Removed Pin From Net: NetName=TPL_L._P Pin=J302-1
+Removed Pin From Net: NetName=TPL_L._N Pin=J302-2
+Removed Pin From Net: NetName=DIGITAL-IO_0 Pin=J303-1
+Removed Pin From Net: NetName=DIGITAL-IO_1 Pin=J303-2
+Removed Pin From Net: NetName=DIGITAL-IO_2 Pin=J303-3
+Removed Pin From Net: NetName=DIGITAL-IO_3 Pin=J303-4
+Removed Pin From Net: NetName=DIGITAL-IO_4 Pin=J303-5
+Removed Pin From Net: NetName=DIGITAL-IO_5 Pin=J303-6
+Removed Pin From Net: NetName=DIGITAL-IO_6 Pin=J303-7
+Removed Pin From Net: NetName=DIGITAL-IO_7 Pin=J303-8
+Removed Pin From Net: NetName=DIGITAL-IO_8 Pin=J303-9
+Removed Pin From Net: NetName=DIGITAL-IO_9 Pin=J303-10
+Removed Pin From Net: NetName=DIGITAL-IO_10 Pin=J303-11
+Removed Pin From Net: NetName=DIGITAL-IO_11 Pin=J303-12
+Removed Pin From Net: NetName=DIGITAL-IO_12 Pin=J303-13
+Removed Pin From Net: NetName=DIGITAL-IO_13 Pin=J303-14
+Removed Pin From Net: NetName=DIGITAL-IO_14 Pin=J303-15
+Removed Pin From Net: NetName=DIGITAL-IO_15 Pin=J303-16
+Removed Pin From Net: NetName=GND Pin=J303-17
+Removed Pin From Net: NetName=GND Pin=J303-18
+Removed Pin From Net: NetName=T-SENSOR_0 Pin=J304-1
+Removed Pin From Net: NetName=T-SENSOR_1 Pin=J304-2
+Removed Pin From Net: NetName=T-SENSOR_2 Pin=J304-3
+Removed Pin From Net: NetName=T-SENSOR_3 Pin=J304-4
+Removed Pin From Net: NetName=T-SENSOR_4 Pin=J304-5
+Removed Pin From Net: NetName=T-SENSOR_5 Pin=J304-6
+Removed Pin From Net: NetName=T-SENSOR_6 Pin=J304-7
+Removed Pin From Net: NetName=T-SENSOR_7 Pin=J304-8
+Removed Pin From Net: NetName=GND Pin=J304-9
+Removed Pin From Net: NetName=GND Pin=J304-10
+Removed Pin From Net: NetName=GND Pin=J304-11
+Removed Pin From Net: NetName=GND Pin=J304-12
+Removed Pin From Net: NetName=GND Pin=J304-13
+Removed Pin From Net: NetName=GND Pin=J304-14
+Removed Pin From Net: NetName=GND Pin=J304-15
+Removed Pin From Net: NetName=GND Pin=J304-16
+Removed Pin From Net: NetName=AL_IN._P Pin=J305-1
+Removed Pin From Net: NetName=AL_IN._N Pin=J305-2
+Removed Pin From Net: NetName=AL_OUT._P Pin=J306-1
+Removed Pin From Net: NetName=AL_OUT._N Pin=J306-2
+Removed Pin From Net: NetName=T-SENSOR_8 Pin=J307-1
+Removed Pin From Net: NetName=T-SENSOR_9 Pin=J307-2
+Removed Pin From Net: NetName=T-SENSOR_10 Pin=J307-3
+Removed Pin From Net: NetName=T-SENSOR_11 Pin=J307-4
+Removed Pin From Net: NetName=T-SENSOR_12 Pin=J307-5
+Removed Pin From Net: NetName=T-SENSOR_13 Pin=J307-6
+Removed Pin From Net: NetName=T-SENSOR_14 Pin=J307-7
+Removed Pin From Net: NetName=T-SENSOR_15 Pin=J307-8
+Removed Pin From Net: NetName=GND Pin=J307-9
+Removed Pin From Net: NetName=GND Pin=J307-10
+Removed Pin From Net: NetName=GND Pin=J307-11
+Removed Pin From Net: NetName=GND Pin=J307-12
+Removed Pin From Net: NetName=GND Pin=J307-13
+Removed Pin From Net: NetName=GND Pin=J307-14
+Removed Pin From Net: NetName=GND Pin=J307-15
+Removed Pin From Net: NetName=GND Pin=J307-16
+Removed Pin From Net: NetName=GPIO2_ext Pin=J308-1
+Removed Pin From Net: NetName=GPIO3_ext Pin=J308-2
+Removed Pin From Net: NetName=GPIO6_ext Pin=J308-3
+Removed Pin From Net: NetName=GPIO7_ext Pin=J308-4
+Removed Pin From Net: NetName=I2C.SCL Pin=J308-5
+Removed Pin From Net: NetName=I2C.SDA Pin=J308-6
+Removed Pin From Net: NetName=ALARM_IN Pin=J308-7
+Removed Pin From Net: NetName=ALARM_OUT Pin=J308-8
+Removed Pin From Net: NetName=VDDIO Pin=J308-9
+Removed Pin From Net: NetName=+3.3V Pin=J308-10
+Removed Pin From Net: NetName=VDDC Pin=J308-11
+Removed Pin From Net: NetName=VAUX Pin=J308-12
+Removed Pin From Net: NetName=GND Pin=J308-13
+Removed Pin From Net: NetName=GND Pin=J308-14
+Removed Pin From Net: NetName=GPIO2_ext Pin=J309-1
+Removed Pin From Net: NetName=GPIO3_ext Pin=J309-2
+Removed Pin From Net: NetName=GPIO6_ext Pin=J309-3
+Removed Pin From Net: NetName=GPIO7_ext Pin=J309-4
+Removed Pin From Net: NetName=I2C.SCL Pin=J309-5
+Removed Pin From Net: NetName=I2C.SDA Pin=J309-6
+Removed Pin From Net: NetName=ALARM_IN Pin=J309-7
+Removed Pin From Net: NetName=ALARM_OUT Pin=J309-8
+Removed Pin From Net: NetName=VDDIO Pin=J309-9
+Removed Pin From Net: NetName=+3.3V Pin=J309-10
+Removed Pin From Net: NetName=VDDC Pin=J309-11
+Removed Pin From Net: NetName=VAUX Pin=J309-12
+Removed Pin From Net: NetName=GND Pin=J309-13
+Removed Pin From Net: NetName=GND Pin=J309-14
+Removed Pin From Net: NetName=VBAT_ext Pin=J310-1
+Removed Pin From Net: NetName=GND Pin=J310-2
+Removed Pin From Net: NetName=VBAT_con_ext Pin=J311-1
+Removed Pin From Net: NetName=GND Pin=J311-2
+Removed Pin From Net: NetName=VBAT_con_ext Pin=J312-1
+Removed Pin From Net: NetName=GND Pin=J312-2
+Removed Member From Class: ClassName=U_connectors Member=J300
+Removed Member From Class: ClassName=U_connectors Member=J301
+Removed Member From Class: ClassName=U_connectors Member=J302
+Removed Member From Class: ClassName=U_connectors Member=J303
+Removed Member From Class: ClassName=U_connectors Member=J304
+Removed Member From Class: ClassName=U_connectors Member=J305
+Removed Member From Class: ClassName=U_connectors Member=J306
+Removed Member From Class: ClassName=U_connectors Member=J307
+Removed Member From Class: ClassName=U_connectors Member=J308
+Removed Member From Class: ClassName=U_connectors Member=J309
+Removed Member From Class: ClassName=U_connectors Member=J310
+Removed Member From Class: ClassName=U_connectors Member=J311
+Removed Member From Class: ClassName=U_connectors Member=J312
+Change Component Comment : Designator=R605 Old Comment=270R New Comment=2k7
+Change component parameters: Designator = "R605" ("R605"); Footprint = "RESC1608X05N"; UniqueID = "\VPLTSLXA\TRANDUPM" ("\VPLTSLXA\TRANDUPM")
+Change component parameters (AddParameter): Name = "Automotive Qualified"; Value = "False"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case EIA"; Value = "0603"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case Metric"; Value = "1608"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Maximum Working Voltage"; Value = "75V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Temperature"; Value = "-55°C - +155°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "gen_R_2k7_0603"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PnP Package"; Value = "0603R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PnP Value"; Value = "2k7"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Power"; Value = "0.1W"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Resistance"; Value = "2k7"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Series"; Value = "E24"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component: Footprint Not Found Pinheader_2.54_2
+Add component: Footprint Not Found Pinheader_2.54_2
+Added Component: Designator=j?(64901821122)
+Add component (AddParameter): Name = "Color"; Value = "White"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Connector Type"; Value = "Male Pin, Socket"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Material"; Value = "Copper"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Plating"; Value = "Tin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Resistance"; Value = "10mO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Rating"; Value = "6A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Fastening Type"; Value = "Ramp"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Gender"; Value = "Male"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "12.8mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Insulation Resistance"; Value = "1GO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Pitch"; Value = "4.2mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "39mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "105°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-40°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "NexarPartId"; Value = "23024638"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Contacts"; Value = "18"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Pins"; Value = "18"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Positions"; Value = "18"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Rows"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Supply Voltage"; Value = "600V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Orientation"; Value = "Vertical"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pitch"; Value = "4.2mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "Unknown"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "Compliant"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Row Spacing"; Value = "4.191mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Termination"; Value = "Solder"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "39.1mm"; VariantName = "[No Variations]"
+Add component: Footprint Not Found Pinheader_2.54_2x7
+Added Component: Designator=J?(64901621122)
+Add component (AddParameter): Name = "Color"; Value = "White"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Connector Type"; Value = "Male Pin, Socket"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Material"; Value = "Copper"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Plating"; Value = "Tin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Resistance"; Value = "10mO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Rating"; Value = "6A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Fastening Type"; Value = "Ramp"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Gender"; Value = "Male"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "12.8mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Insulation Resistance"; Value = "1GO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Pitch"; Value = "4.2mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "34.8mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "105°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-40°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "NexarPartId"; Value = "23024631"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Contacts"; Value = "16"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Pins"; Value = "16"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Positions"; Value = "16"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Rows"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Supply Voltage"; Value = "600V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Orientation"; Value = "Vertical"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pitch"; Value = "4.2mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "Unknown"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "Compliant"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Row Spacing"; Value = "4.191mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Termination"; Value = "Solder"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "34.9mm"; VariantName = "[No Variations]"
+Added Component: Designator=J?(64900221122)
+Add component (AddParameter): Name = "Color"; Value = "White"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Connector Type"; Value = "Male Pin, Socket"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Gender"; Value = "Male"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Material"; Value = "Copper"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Plating"; Value = "Tin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Resistance"; Value = "10mO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Rating"; Value = "9A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Fastening Type"; Value = "Ramp"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Flammability Rating"; Value = "UL94 V-0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Gender"; Value = "Male"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "12.8mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Housing Material"; Value = "Nylon"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Insulation Resistance"; Value = "1GO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Length"; Value = "3.5mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Pitch"; Value = "4.2mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "5.4mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "105°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-40°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "NexarPartId"; Value = "8917578"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Contacts"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Positions"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Rows"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Supply Voltage"; Value = "600V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Orientation"; Value = "Vertical"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pitch"; Value = "4.2mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "Unknown"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "Compliant"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Row Spacing"; Value = "5.5118mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Termination"; Value = "Solder"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "600V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "5.5mm"; VariantName = "[No Variations]"
+Add component: Footprint Not Found Pinheader_2.54_2
+Added Component: Designator=J?(64900221122)
+Add component (AddParameter): Name = "Color"; Value = "White"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Connector Type"; Value = "Male Pin, Socket"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Gender"; Value = "Male"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Material"; Value = "Copper"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Plating"; Value = "Tin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Resistance"; Value = "10mO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Rating"; Value = "9A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Fastening Type"; Value = "Ramp"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Flammability Rating"; Value = "UL94 V-0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Gender"; Value = "Male"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "12.8mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Housing Material"; Value = "Nylon"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Insulation Resistance"; Value = "1GO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Length"; Value = "3.5mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Pitch"; Value = "4.2mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "5.4mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "105°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-40°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "NexarPartId"; Value = "8917578"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Contacts"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Positions"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Rows"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Supply Voltage"; Value = "600V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Orientation"; Value = "Vertical"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pitch"; Value = "4.2mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "Unknown"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "Compliant"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Row Spacing"; Value = "5.5118mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Termination"; Value = "Solder"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "600V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "5.5mm"; VariantName = "[No Variations]"
+Add component: Footprint Not Found Pinheader_2.54_2x7
+Add component: Footprint Not Found Pinheader_2.54_2x9
+Added Component: Designator=J?(64900221122)
+Add component (AddParameter): Name = "Color"; Value = "White"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Connector Type"; Value = "Male Pin, Socket"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Gender"; Value = "Male"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Material"; Value = "Copper"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Plating"; Value = "Tin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Resistance"; Value = "10mO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Rating"; Value = "9A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Fastening Type"; Value = "Ramp"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Flammability Rating"; Value = "UL94 V-0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Gender"; Value = "Male"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "12.8mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Housing Material"; Value = "Nylon"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Insulation Resistance"; Value = "1GO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Length"; Value = "3.5mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Pitch"; Value = "4.2mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "5.4mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "105°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-40°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "NexarPartId"; Value = "8917578"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Contacts"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Positions"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Rows"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Supply Voltage"; Value = "600V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Orientation"; Value = "Vertical"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pitch"; Value = "4.2mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "Unknown"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "Compliant"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Row Spacing"; Value = "5.5118mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Termination"; Value = "Solder"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "600V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "5.5mm"; VariantName = "[No Variations]"
+Added Component: Designator=J?(64900221122)
+Add component (AddParameter): Name = "Color"; Value = "White"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Connector Type"; Value = "Male Pin, Socket"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Gender"; Value = "Male"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Material"; Value = "Copper"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Plating"; Value = "Tin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Resistance"; Value = "10mO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Rating"; Value = "9A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Fastening Type"; Value = "Ramp"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Flammability Rating"; Value = "UL94 V-0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Gender"; Value = "Male"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "12.8mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Housing Material"; Value = "Nylon"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Insulation Resistance"; Value = "1GO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Length"; Value = "3.5mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Pitch"; Value = "4.2mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "5.4mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "105°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-40°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "NexarPartId"; Value = "8917578"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Contacts"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Positions"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Rows"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Supply Voltage"; Value = "600V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Orientation"; Value = "Vertical"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pitch"; Value = "4.2mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "Unknown"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "Compliant"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Row Spacing"; Value = "5.5118mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Termination"; Value = "Solder"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "600V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "5.5mm"; VariantName = "[No Variations]"
+Added Component: Designator=J?(64901621122)
+Add component (AddParameter): Name = "Color"; Value = "White"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Connector Type"; Value = "Male Pin, Socket"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Material"; Value = "Copper"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Plating"; Value = "Tin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Resistance"; Value = "10mO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Rating"; Value = "6A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Fastening Type"; Value = "Ramp"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Gender"; Value = "Male"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "12.8mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Insulation Resistance"; Value = "1GO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Pitch"; Value = "4.2mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "34.8mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "105°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-40°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "NexarPartId"; Value = "23024631"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Contacts"; Value = "16"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Pins"; Value = "16"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Positions"; Value = "16"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Rows"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Supply Voltage"; Value = "600V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Orientation"; Value = "Vertical"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pitch"; Value = "4.2mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "Unknown"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "Compliant"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Row Spacing"; Value = "4.191mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Termination"; Value = "Solder"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "34.9mm"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=AL_IN._N Pin=J?-1
+Added Pin To Net: NetName=AL_OUT._N Pin=J?-1
+Added Pin To Net: NetName=DIGITAL-IO_0 Pin=J?-1
+Added Pin To Net: NetName=GPIO2_ext Pin=J?-1
+Added Pin To Net: NetName=T-SENSOR_0 Pin=J?-1
+Added Pin To Net: NetName=T-SENSOR_8 Pin=J?-1
+Added Pin To Net: NetName=TPL_H._N Pin=J?-1
+Added Pin To Net: NetName=TPL_L._N Pin=J?-1
+Added Pin To Net: NetName=VBAT_con_ext Pin=J?-1
+Added Pin To Net: NetName=VBAT_ext Pin=J?-1
+Added Pin To Net: NetName=AL_IN._P Pin=J?-2
+Added Pin To Net: NetName=AL_OUT._P Pin=J?-2
+Added Pin To Net: NetName=CIN14 Pin=j?-2
+Added Pin To Net: NetName=DIGITAL-IO_1 Pin=J?-2
+Added Pin To Net: NetName=GND Pin=J?-2
+Added Pin To Net: NetName=GPIO3_ext Pin=J?-2
+Added Pin To Net: NetName=T-SENSOR_1 Pin=J?-2
+Added Pin To Net: NetName=T-SENSOR_9 Pin=J?-2
+Added Pin To Net: NetName=TPL_H._P Pin=J?-2
+Added Pin To Net: NetName=TPL_L._P Pin=J?-2
+Added Pin To Net: NetName=CIN12 Pin=j?-3
+Added Pin To Net: NetName=DIGITAL-IO_2 Pin=J?-3
+Added Pin To Net: NetName=GPIO6_ext Pin=J?-3
+Added Pin To Net: NetName=T-SENSOR_2 Pin=J?-3
+Added Pin To Net: NetName=T-SENSOR_10 Pin=J?-3
+Added Pin To Net: NetName=CIN10 Pin=j?-4
+Added Pin To Net: NetName=DIGITAL-IO_3 Pin=J?-4
+Added Pin To Net: NetName=GPIO7_ext Pin=J?-4
+Added Pin To Net: NetName=T-SENSOR_3 Pin=J?-4
+Added Pin To Net: NetName=T-SENSOR_11 Pin=J?-4
+Added Pin To Net: NetName=CIN8 Pin=j?-5
+Added Pin To Net: NetName=DIGITAL-IO_4 Pin=J?-5
+Added Pin To Net: NetName=I2C.SCL Pin=J?-5
+Added Pin To Net: NetName=T-SENSOR_4 Pin=J?-5
+Added Pin To Net: NetName=T-SENSOR_12 Pin=J?-5
+Added Pin To Net: NetName=CIN6 Pin=j?-6
+Added Pin To Net: NetName=DIGITAL-IO_5 Pin=J?-6
+Added Pin To Net: NetName=I2C.SDA Pin=J?-6
+Added Pin To Net: NetName=T-SENSOR_5 Pin=J?-6
+Added Pin To Net: NetName=T-SENSOR_13 Pin=J?-6
+Added Pin To Net: NetName=ALARM_IN Pin=J?-7
+Added Pin To Net: NetName=CIN4 Pin=j?-7
+Added Pin To Net: NetName=DIGITAL-IO_6 Pin=J?-7
+Added Pin To Net: NetName=T-SENSOR_6 Pin=J?-7
+Added Pin To Net: NetName=T-SENSOR_14 Pin=J?-7
+Added Pin To Net: NetName=ALARM_OUT Pin=J?-8
+Added Pin To Net: NetName=CIN2 Pin=j?-8
+Added Pin To Net: NetName=DIGITAL-IO_7 Pin=J?-8
+Added Pin To Net: NetName=T-SENSOR_7 Pin=J?-8
+Added Pin To Net: NetName=T-SENSOR_15 Pin=J?-8
+Added Pin To Net: NetName=CIN0 Pin=j?-9
+Added Pin To Net: NetName=DIGITAL-IO_8 Pin=J?-9
+Added Pin To Net: NetName=GND Pin=J?-9
+Added Pin To Net: NetName=GND Pin=J?-9
+Added Pin To Net: NetName=VDDIO Pin=J?-9
+Added Pin To Net: NetName=+3.3V Pin=J?-10
+Added Pin To Net: NetName=DIGITAL-IO_9 Pin=J?-10
+Added Pin To Net: NetName=GND Pin=J?-10
+Added Pin To Net: NetName=GND Pin=J?-10
+Added Pin To Net: NetName=VBAT_con Pin=j?-10
+Added Pin To Net: NetName=CIN13 Pin=j?-11
+Added Pin To Net: NetName=DIGITAL-IO_10 Pin=J?-11
+Added Pin To Net: NetName=GND Pin=J?-11
+Added Pin To Net: NetName=GND Pin=J?-11
+Added Pin To Net: NetName=VDDC Pin=J?-11
+Added Pin To Net: NetName=CIN11 Pin=j?-12
+Added Pin To Net: NetName=DIGITAL-IO_11 Pin=J?-12
+Added Pin To Net: NetName=GND Pin=J?-12
+Added Pin To Net: NetName=GND Pin=J?-12
+Added Pin To Net: NetName=VAUX Pin=J?-12
+Added Pin To Net: NetName=CIN9 Pin=j?-13
+Added Pin To Net: NetName=DIGITAL-IO_12 Pin=J?-13
+Added Pin To Net: NetName=GND Pin=J?-13
+Added Pin To Net: NetName=GND Pin=J?-13
+Added Pin To Net: NetName=CIN7 Pin=j?-14
+Added Pin To Net: NetName=DIGITAL-IO_13 Pin=J?-14
+Added Pin To Net: NetName=GND Pin=J?-14
+Added Pin To Net: NetName=GND Pin=J?-14
+Added Pin To Net: NetName=CIN5 Pin=j?-15
+Added Pin To Net: NetName=DIGITAL-IO_14 Pin=J?-15
+Added Pin To Net: NetName=GND Pin=J?-15
+Added Pin To Net: NetName=GND Pin=J?-15
+Added Pin To Net: NetName=CIN3 Pin=j?-16
+Added Pin To Net: NetName=DIGITAL-IO_15 Pin=J?-16
+Added Pin To Net: NetName=GND Pin=J?-16
+Added Pin To Net: NetName=GND Pin=J?-16
+Added Pin To Net: NetName=CIN1 Pin=j?-17
+Add Pin To Net: Unknown Pin: Pin J?-17
+Add Pin To Net: Unknown Pin: Pin J?-18
+Added Pin To Net: NetName=GND Pin=j?-18
+Added Member To Class: ClassName=U_connectors Member=Component J? gen_pinheader_2.54_2
+Added Member To Class: ClassName=U_connectors Member=Component J? gen_pinheader_2.54_2
+Added Member To Class: ClassName=U_connectors Member=Component j? WR-MPC4 64901821122
+Added Member To Class: ClassName=U_connectors Member=Component J? gen_pinheader_2.54_2x7
+Added Member To Class: ClassName=U_connectors Member=Component J? WR-MPC4 64901621122
+Added Member To Class: ClassName=U_connectors Member=Component J? WR-MPC4 64900221122
+Added Member To Class: ClassName=U_connectors Member=Component J? gen_pinheader_2.54_2
+Added Member To Class: ClassName=U_connectors Member=Component J? WR-MPC4 64900221122
+Added Member To Class: ClassName=U_connectors Member=Component J? gen_pinheader_2.54_2x7
+Added Member To Class: ClassName=U_connectors Member=Component J? gen_pinheader_2.54_2x9
+Added Member To Class: ClassName=U_connectors Member=Component J? WR-MPC4 64900221122
+Added Member To Class: ClassName=U_connectors Member=Component J? WR-MPC4 64900221122
+Added Member To Class: ClassName=U_connectors Member=Component J? WR-MPC4 64901621122
+Added Rule: Name=Schematic Supply Nets
+Added Rule: Name=Schematic Supply Nets_1
+Added Rule: Name=Schematic Supply Nets_2
+Added Rule: Name=Schematic Supply Nets_3
+Added Rule: Name=Schematic Supply Nets_4
+Added Rule: Name=Schematic Supply Nets_5
+Added Rule: Name=Schematic Supply Nets_6
+Added Rule: Name=Schematic Supply Nets_7
+Added Rule: Name=Schematic Supply Nets_8
+Added Rule: Name=Schematic Supply Nets_9
+Added Rule: Name=Schematic Supply Nets_10

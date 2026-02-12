@@ -94,11 +94,21 @@ OutputEnabled5_OutputMedium3=4
 OutputDefault5=0
 Configuration5_Name1=OutputConfigurationParameter1
 Configuration5_Item1=AdjacencyDistance=250000|GenerateCSVFormat=True|GenerateIPCFormat=True|GenerateSpreadSheetFormat=False|GenerateTextFormat=False|OriginPosition=Relative|OutlineLayer=56|OutputAdjancencies=False|OutputBoardOutline=True|OutputTraces=False|Record=TestPointView|ReportBottomLayerTestpoints=True|ReportTopLayerTestpoints=True|Units=Metric
+OutputType6=Gerber
+OutputName6=Gerber Files
+OutputCategory6=Fabrication
+OutputDocumentPath6=
+OutputVariantName6=
+OutputEnabled6=0
+OutputEnabled6_OutputMedium1=0
+OutputEnabled6_OutputMedium2=0
+OutputEnabled6_OutputMedium3=0
+OutputDefault6=0
 
 [PublishSettings]
 OutputFilePath2=D:\altium_checkout\MiBZ-Interface\Project_Outputs\2018-01-23_MiBZ-Interface\
 ReleaseManaged2=1
-OutputBasePath2=Project Outputs for master
+OutputBasePath2=Project Outputs for foxbms2-interface-mc33664
 OutputPathMedia2=
 OutputPathMediaValue2==CurrentDate+_+ProjectName
 OutputPathOutputer2=[Output Custom]
@@ -125,7 +135,7 @@ PDFACompliance2=Disabled
 PDFVersion2=Default
 OutputFilePath3=D:\altium_checkout\master\Project Outputs for master\
 ReleaseManaged3=1
-OutputBasePath3=Project Outputs for master
+OutputBasePath3=Project Outputs for foxbms2-interface-mc33664
 OutputPathMedia3=
 OutputPathMediaValue3==CurrentDate+_+ProjectName
 OutputPathOutputer3=[Output Name]

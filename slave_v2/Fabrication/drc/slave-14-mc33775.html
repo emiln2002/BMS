@@ -1,0 +1,533 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<style type="text/css">
+        h1, h2, h3, h4, h5, h6 {
+			font-family : segoe ui;
+			color : black;
+			background-color : #EDE7D9;
+            padding: 0.3em;
+        }
+
+		h1 {
+			font-size: 1.2em;
+		}		
+
+		h2 {
+			font-size: 1.2em;
+		}
+
+        body {
+			font-family : segoe ui;
+        }
+
+        td, th {
+            padding: 0.5em;
+			text-align : left;
+			width: 10em;
+        }
+        th {
+			background-color : #EEEEEE;
+
+        }
+        th.column1, td.column1 {
+            text-align: left;
+            width : auto;
+        }
+        table {
+            width : 100%;
+			font-size: 0.9em;
+        }
+        
+        .DRC_summary_header {                           
+            padding-bottom : 0.1em;
+            border : 0px solid black;                           
+            width: 100%;
+			align: left;
+        }
+
+        .DRC_summary_header_col1, 
+        .DRC_summary_header_col2, 
+        .DRC_summary_header_col3  {
+            color : black;
+            font-size:100%;
+                        padding : 0em;
+            padding-top : 0.2em;
+            padding-bottom 0.2em;
+            border : 0px solid black;
+            vertical-align: top;
+			text-align: left;
+        }
+        
+        .DRC_summary_header_col1 {                              
+			font-weight: bold;
+			width: 8em;
+        }
+
+        .DRC_summary_header_col2 {       
+			width: 0.1em;
+		
+        }
+
+        .DRC_summary_header_col3 {       
+			width : auto;
+        }
+
+        .header_holder  {
+        Width = 100%;
+        border = 0px solid green;
+        padding = 0;
+        }
+        
+        
+        .front_matter, .front_matter_column1, .front_matter_column2, .front_matter_column3
+                {
+            left:0;
+            top:0;
+			padding: 0em;
+            padding-top : 0.1em;            
+            border : 0px solid black;
+            width : 100%;
+            vertical-align: top;
+            text-align: left;
+        }
+
+        .front_matter_column1 {
+            width : 8em;   
+			font-weight: bold;
+        }
+        
+        .front_matter_column2 {
+            width: 0.1em;
+        }
+
+        .front_matter_column3 {
+            width         : auto;  
+        }
+        
+        .total_column1, .total_column {
+            font-weight : bold;
+        }
+        .total_column1 {
+			text-align : left;
+        }
+        .warning, .error {
+            color : red;
+            font-weight : bold;
+        }
+        tr.onmouseout_odd {
+			background-color : #white;
+        }
+        tr.onmouseout_even { 
+			background-color : #FAFAFA;
+        }
+        tr.onmouseover_odd, tr.onmouseover_even { 
+			background-color : #EEEEEE;
+        } 
+        a:link, a:visited, .q a:link,.q a:active,.q {
+            color: #21489e; 
+        }
+        a:link.callback, a:visited.callback { 
+            color: #21489e; 
+        }
+        p.contents_level1 {
+            font-weight : bold;
+            font-size : 110%;
+            margin : 0.5em;
+        }
+        p.contents_level2 {
+            position : relative;
+            left : 20px;
+            margin : 0.5em;
+        }
+    </style><script type="text/javascript">
+        function coordToMils(coord) {
+            var number = coord / 10000;
+            
+            if (number != number.toFixed(3))
+                number = number.toFixed(3);
+
+            return number + 'mil'
+        }
+
+        function coordToMM(coord) {
+            var number = 0.0254 * coord / 10000;
+            
+            if (number != number.toFixed(4))
+                number = number.toFixed(4);
+            
+            return number + 'mm'
+        }
+    
+        function convertCoord(coordNode, units) {
+            for (var i = 0; i < coordNode.childNodes.length; i++) {
+                coordNode.removeChild(coordNode.childNodes[i]);
+            }
+
+            var coord = coordNode.getAttribute('value');
+            if (coord != null) {
+                if (units == 'mm') {
+                    textNode = document.createTextNode(coordToMM(coord));
+                    coordNode.appendChild(textNode);
+                } else if (units == 'mil') {
+                    textNode = document.createTextNode(coordToMils(coord));     
+                    coordNode.appendChild(textNode);    
+                }
+            }
+        }
+    
+        function convertUnits(unitNode, units) {
+            for (var i = 0; i < unitNode.childNodes.length; i++) {
+                unitNode.removeChild(unitNode.childNodes[i]);       
+            }
+        
+            textNode = document.createTextNode(units); 
+            unitNode.appendChild(textNode);
+        }
+    
+        function changeUnits(radio_input, units) {
+            if (radio_input.checked) {
+            
+                var elements = document.getElementsByName('coordinate');
+                if (elements) {
+                    for (var i = 0; i < elements.length; i++) {
+                        convertCoord(elements[i], units);
+                    }
+                }
+    
+                var elements = document.getElementsByName('units');
+                if (elements) {
+                    for (var i = 0; i < elements.length; i++) {
+                        convertUnits(elements[i], units);
+                    }
+                }
+            }
+        }
+    </script></head>
+<body onload=""><img ALT="Altium" src="
+			file://C:\Users\Public\Documents\Altium\AD24\Templates\AD_logo.png
+        "><h1>Design Rule Verification Report</h1>
+<table class="header_holder">
+<td class="column1">
+<table class="front_matter">
+<tr class="front_matter">
+<td class="front_matter_column1">Date:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">2024-12-18</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">10:20:31</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Elapsed Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">00:00:14</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Filename:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3"><a href="file:///C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\2\slave-14-mc33775.PcbDoc" class="file"><acronym title="C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\2\slave-14-mc33775.PcbDoc">C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\2\slave-14-mc33775.PcbDoc</acronym></a></td>
+</tr>
+</table>
+</td>
+<td class="column2">
+<table class="DRC_summary_header">
+<tr>
+<td class="DRC_summary_header_col1">Warnings:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3">0</td></tr>
+<tr>
+<td class="DRC_summary_header_col1">Rule Violations:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3">0</td></tr>
+<tr>
+<td class="DRC_summary_header_col1">Waived Violations:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3" style="color : red">38</td></tr>
+</table>
+</td>
+</table><a name="IDUC0UKDB1GSTWEBMIMVNWKJMT5MFVYFK3PUL3BWJE1AEKXEPOMZ2M"><h2>Summary</h2></a><table>
+<tr>
+<th class="column1">Warnings</th>
+<th class="column2">Count</th>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">0</td>
+</tr>
+</table><br><table>
+<tr>
+<th class="column1">Rule Violations</th>
+<th class="column2">Count</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDRGIROTXLH2STMR2QZ3J3SPCCCKMEJRZOT2MJEFLDBSEWAKC5NPLK">Clearance Constraint (Gap=43.307mil) (InNetClass('TPL_high')),(Not InNetClass('TPL_high'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDTOKW3VT5L5UBGSDGSGIKMJVUPDIIMRUKLTZ1C5O0ONNJ2PBGVH3J">Clearance Constraint (Gap=43.307mil) (InNetClass('ALARM_in')),(Not InNetClass('ALARM_in'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDNA3LS0QKDGHTGLZBMZ5VNWOBIDFHNP5S3QJYAREC0Y0CCUKEAC0C">Clearance Constraint (Gap=43.307mil) (InNetClass('TPL_low')),(Not InNetClass('TPL_low'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDWSVIDXNMDVCZE1XJJPBX4XPEDJJXZR4GIUBL50J1GA3NCVYSNSML">Clearance Constraint (Gap=4mil) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDKJFTIXCJYE5JH45KBS5SVXKKCCK1IEBXZXCCELHXGCKED2WRLYPM">Short-Circuit Constraint (Allowed=No) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDEANXSSJ412CYM0B1FQA4JNEEWG11JF24QYROBMODFCMLGBGCQION">Un-Routed Net Constraint ( (All) )</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDQFX0YJ25GXCJJG1FLHDQV1QGBBB11PAOTZ432SP3IXTYFOB4PVPI">Modified Polygon (Allow modified: No), (Allow shelved: No)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDLFJ5SMDO4GGGJYWRKFRLC0SFCXXBJDSHXPHU2FVYXPSAH3NASCE">Creepage Distance Constraint =(629.921mil) (InNetClass('TPL_low')),(Not InNetClass('TPL_low'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDXIIPJJQNUHL0I10PNJ3BA1DIYKDJIYFQKYADMTKKJKWFWJG22HJO">Creepage Distance Constraint =(629.921mil) (InNetClass('TPL_high')),(Not InNetClass('TPL_high'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDV5SL3JWLHNDYGLG3WIVYPFAH3CVMVCPJWOYHJUHOAZ1Y1PC0Z40O">Creepage Distance Constraint =(4mil) (Disabled)(All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDWOOHEOHFGR31DERBCL5HDBBCPMNCIX10CIJYOOLNXVTXLRM0FMWO">Creepage Distance Constraint =(629.921mil) (InNetClass('ALARM_in')),(Not InNetClass('ALARM_in'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID2TLOH5YPGBOCBO0QFC0DBX2CHOLHIPPNKJA3V5G4J0DSH5O2LYED">Width Constraint (Min=4mil) (Max=60mil) (Preferred=6mil) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDKFAX4XCG1FG4G1IIE2T4NEOCFFTZT5TYJXHJFQDO51PHLVGVPAAM">SMD To Corner (Distance=4mil) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID4AVHDXMGH1VYI0VWA0QRBXPOVJYZOA3N23KT3YDKIEPABIAMKOQ">SMD Entry (Side = Allowed) (Corner = Allowed) (Any Angle = Not Allowed) (Ignore First Corner = Allowed)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID3PYJOPF5KLOLP4TOVBHTMS11CGTSCA5DPPSNXEK23K2HPUXAR5SD">Power Plane Connect Rule(Direct Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDM5IEUNRGUZIMLTVWXTHELNVKPN0M2VOXM44MM1JXKKKL5WW1ML3N">Minimum Annular Ring (Minimum=3.93mil) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID5ZQQLU0NVAOWOQ50GZEYPSV5HMZ3D05W40B3ZTEKVK54XIA2TNB">Hole Size Constraint (Min=7.874mil) (Max=236mil) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID5GD5ILKSFXQFJEZUC354BNL3HI0MCBNYU0C5GLKRN2TYKFKITOEL">Hole To Hole Clearance (Gap=6mil) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDOSJEQXTBVFMJPYYQZWEKBD3EGIDHI0VSEAGEVWOYT5SPZFX4UBVH">Minimum Solder Mask Sliver (Gap=4mil) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID1AZV0Z5UXT3EMZMMTKPKBD0FCLAITN5ZSFBOOZCJMVRZH0PQPFQN">Silk To Solder Mask (Clearance=4mil) (IsPad),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID2PH4QBZCLTGTHUBA0H0DIRGFIHJYOAW55YWIMZM1OK1ENNEEA0SI">Silk to Silk (Clearance=10mil) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDCVHUGPAU5JJ4BF30WKPK03HMLIOZP3IXJ1HLTVCZMRRSDIU52JGF">Net Antennae (Tolerance=0mil) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDUSVUXPUBA4V4ISAEMMLZ2H3ZMH0TBYCARAEIMKJW41YO22CGBWGP">Board Clearance Constraint (Gap=0mil) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID3ZCQRSAZDCQBOHCJAATZPZW3BOEMXRMK5L35S0IJSUKO1GPUB5PK">Room U_ldo (Bounding Region = (4926.909mil, 5348.513mil, 5360.492mil, 5900.354mil) (InComponentClass('U_ldo'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDOTROCIXIQ5WGMV1GFIM2L5KA4MWAHNLM1NUFKJE010SFYM4DQ0PB">Room U_input_filter (Bounding Region = (5692.362mil, 3599.646mil, 7173.386mil, 4303.898mil) (InComponentClass('U_input_filter'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID1L2P1S1GV1DFBOGFBN0Z3BPG4PVE0W21PETOMVCKKVYNZUP4ZULD">Room U_passive_balancing (Bounding Region = (3404.862mil, 5901.221mil, 8910.886mil, 6713.74mil) (InComponentClass('U_passive_balancing'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDI1UELHDBLATKCVL3RXAQPAKH4NHIH2XY2ICQWRGAEVLSGQG2HN5N">Room U_analog_in_bank1 (Bounding Region = (3208.701mil, 3600.63mil, 4446.417mil, 4828.307mil) (InComponentClass('U_analog_in_bank1'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDCXY3BGSHHCLROKM5JPHQDH41EKNXYXF0AOTHQOL0PURA22LED25I">Room U_sensors (Bounding Region = (3242.362mil, 5224.252mil, 3694.646mil, 5928.898mil) (InComponentClass('U_sensors'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID4SSEKMDCN1VIKFWYENA4SBZDFH23PP42ERH5VKMOZ04LVRJUQJZK">Room U_eeprom (Bounding Region = (5020.709mil, 4947.48mil, 5545.039mil, 5255.276mil) (InComponentClass('U_eeprom'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDGTE0TDEJKQ3VPQFZI52DOGJOH5JRALHUEGZYYCXMJMUVACV4DOO">Room U_analog_in_bank0 (Bounding Region = (4358.701mil, 3600.63mil, 5596.417mil, 4828.307mil) (InComponentClass('U_analog_in_bank0'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDKLQVP1SCD1PQLJ1SEZBEQ21AFIWB1YBZGUMTNDC35RCZDDH1GQWC">Room U_dcdc-converter (Bounding Region = (7681.831mil, 4769.921mil, 8733.917mil, 5740.807mil) (InComponentClass('U_dcdc-converter'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDCZZJEQBK2SMQISQOZWDH3OH1IHFQR141HJU2OHCQP4LBUFU4BSSI">Room U_digital_io (Bounding Region = (3850.63mil, 4941.969mil, 4974.961mil, 5469.055mil) (InComponentClass('U_digital_io'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDFBWSK1MDEAAHOVWHTKJPBCET4BCIYMWCYJUAI4M0YQHCJAHBOWOG">Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">0</td>
+</tr>
+</table><br><table>
+<tr>
+<th class="column1">Waived Violations</th>
+<th class="column2">Count</th>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDOKY2SC1GKTC4OPD11YWDDF4K1CJGJFYDAG1SWWGJOSLTUOXSKVYP">Minimum Solder Mask Sliver (Gap=4mil) (All),(All)</a></td>
+<td class="column2">38</td>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">38</td>
+</tr>
+</table><br><a name="IDDKBTRXF5B3J1HSXYGC5M2NOAYJEN0TD5RADCDYCH0FM1SQRWD5RJ"><h2>Rule Violations</h2></a><a name="IDSNDTE15EX2UYLFYICI5A2BMGPFNVDB3ZO032OGJZWOT2GDDXM3CP"><h2>Waived Violations</h2></a><a name="IDOKY2SC1GKTC4OPD11YWDDF4K1CJGJFYDAG1SWWGJOSLTUOXSKVYP"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="waived">Minimum Solder Mask Sliver (Gap=4mil) (All),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\2\slave-14-mc33775.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9093.241mil|Location2.X=9098.491mil|Location1.Y=4201.509mil|Location2.Y=4206.759mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\2\slave-14-mc33775.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9093.241mil|Location2.X=9098.491mil|Location1.Y=4201.509mil|Location2.Y=4206.759mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (3.874mil &lt; 4mil) Between Pad U601-1(6103.74mil,1337.992mil) on Top Copper And Pad U601-2(6072.244mil,1337.992mil) on Top Copper [Top Solder] Mask Sliver [3.874mil]</acronym></a><br>Waived by Patrick Kanzler at 2021-06-25 16:24:44<br>Allow minimum solder mask sliver violations.</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\2\slave-14-mc33775.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9061.745mil|Location2.X=9066.995mil|Location1.Y=3825.525mil|Location2.Y=3830.775mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\2\slave-14-mc33775.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9061.745mil|Location2.X=9066.995mil|Location1.Y=3825.525mil|Location2.Y=3830.775mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (3.874mil &lt; 4mil) Between Pad U601-10(6040.748mil,962.008mil) on Top Copper And Pad U601-11(6072.244mil,962.008mil) on Top Copper [Top Solder] Mask Sliver [3.874mil]</acronym></a><br>Waived by Patrick Kanzler at 2021-06-25 16:24:44<br>Allow minimum solder mask sliver violations.</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\2\slave-14-mc33775.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9030.249mil|Location2.X=9035.499mil|Location1.Y=3825.525mil|Location2.Y=3830.775mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\2\slave-14-mc33775.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9030.249mil|Location2.X=9035.499mil|Location1.Y=3825.525mil|Location2.Y=3830.775mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (3.874mil &lt; 4mil) Between Pad U601-10(6040.748mil,962.008mil) on Top Copper And Pad U601-9(6009.252mil,962.008mil) on Top Copper [Top Solder] Mask Sliver [3.874mil]</acronym></a><br>Waived by Patrick Kanzler at 2021-06-25 16:24:44<br>Allow minimum solder mask sliver violations.</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\2\slave-14-mc33775.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9093.241mil|Location2.X=9098.491mil|Location1.Y=3825.525mil|Location2.Y=3830.775mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\2\slave-14-mc33775.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9093.241mil|Location2.X=9098.491mil|Location1.Y=3825.525mil|Location2.Y=3830.775mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (3.874mil &lt; 4mil) Between Pad U601-11(6072.244mil,962.008mil) on Top Copper And Pad U601-12(6103.74mil,962.008mil) on Top Copper [Top Solder] Mask Sliver [3.874mil]</acronym></a><br>Waived by Patrick Kanzler at 2021-06-25 16:24:44<br>Allow minimum solder mask sliver violations.</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\2\slave-14-mc33775.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9061.745mil|Location2.X=9066.995mil|Location1.Y=4201.509mil|Location2.Y=4206.759mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\2\slave-14-mc33775.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9061.745mil|Location2.X=9066.995mil|Location1.Y=4201.509mil|Location2.Y=4206.759mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (3.874mil &lt; 4mil) Between Pad U601-2(6072.244mil,1337.992mil) on Top Copper And Pad U601-3(6040.748mil,1337.992mil) on Top Copper [Top Solder] Mask Sliver [3.874mil]</acronym></a><br>Waived by Patrick Kanzler at 2021-06-25 16:24:44<br>Allow minimum solder mask sliver violations.</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\2\slave-14-mc33775.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9030.249mil|Location2.X=9035.499mil|Location1.Y=4201.509mil|Location2.Y=4206.759mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\2\slave-14-mc33775.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9030.249mil|Location2.X=9035.499mil|Location1.Y=4201.509mil|Location2.Y=4206.759mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (3.874mil &lt; 4mil) Between Pad U601-3(6040.748mil,1337.992mil) on Top Copper And Pad U601-4(6009.252mil,1337.992mil) on Top Copper [Top Solder] Mask Sliver [3.874mil]</acronym></a><br>Waived by Patrick Kanzler at 2021-06-25 16:24:44<br>Allow minimum solder mask sliver violations.</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\2\slave-14-mc33775.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8998.753mil|Location2.X=9004.003mil|Location1.Y=4201.509mil|Location2.Y=4206.759mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\2\slave-14-mc33775.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8998.753mil|Location2.X=9004.003mil|Location1.Y=4201.509mil|Location2.Y=4206.759mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (3.874mil &lt; 4mil) Between Pad U601-4(6009.252mil,1337.992mil) on Top Copper And Pad U601-5(5977.756mil,1337.992mil) on Top Copper [Top Solder] Mask Sliver [3.874mil]</acronym></a><br>Waived by Patrick Kanzler at 2021-06-25 16:24:44<br>Allow minimum solder mask sliver violations.</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\2\slave-14-mc33775.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8967.257mil|Location2.X=8972.507mil|Location1.Y=4201.509mil|Location2.Y=4206.759mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\2\slave-14-mc33775.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8967.257mil|Location2.X=8972.507mil|Location1.Y=4201.509mil|Location2.Y=4206.759mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (3.874mil &lt; 4mil) Between Pad U601-5(5977.756mil,1337.992mil) on Top Copper And Pad U601-6(5946.26mil,1337.992mil) on Top Copper [Top Solder] Mask Sliver [3.874mil]</acronym></a><br>Waived by Patrick Kanzler at 2021-06-25 16:24:44<br>Allow minimum solder mask sliver violations.</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\2\slave-14-mc33775.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8967.257mil|Location2.X=8972.507mil|Location1.Y=3825.525mil|Location2.Y=3830.775mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\2\slave-14-mc33775.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8967.257mil|Location2.X=8972.507mil|Location1.Y=3825.525mil|Location2.Y=3830.775mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (3.874mil &lt; 4mil) Between Pad U601-7(5946.26mil,962.008mil) on Top Copper And Pad U601-8(5977.756mil,962.008mil) on Top Copper [Top Solder] Mask Sliver [3.874mil]</acronym></a><br>Waived by Patrick Kanzler at 2021-06-25 16:24:44<br>Allow minimum solder mask sliver violations.</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\2\slave-14-mc33775.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8998.753mil|Location2.X=9004.003mil|Location1.Y=3825.525mil|Location2.Y=3830.775mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\2\slave-14-mc33775.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8998.753mil|Location2.X=9004.003mil|Location1.Y=3825.525mil|Location2.Y=3830.775mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (3.874mil &lt; 4mil) Between Pad U601-8(5977.756mil,962.008mil) on Top Copper And Pad U601-9(6009.252mil,962.008mil) on Top Copper [Top Solder] Mask Sliver [3.874mil]</acronym></a><br>Waived by Patrick Kanzler at 2021-06-25 16:24:44<br>Allow minimum solder mask sliver violations.</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\2\slave-14-mc33775.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5129.658mil|Location2.X=5134.908mil|Location1.Y=5578.773mil|Location2.Y=5584.023mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\2\slave-14-mc33775.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5129.658mil|Location2.X=5134.908mil|Location1.Y=5578.773mil|Location2.Y=5584.023mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (1.906mil &lt; 4mil) Between Pad U850-1(2111.614mil,2674.902mil) on Top Copper And Pad U850-2(2137.205mil,2674.902mil) on Top Copper [Top Solder] Mask Sliver [1.906mil]</acronym></a><br>Waived by Patrick Kanzler at 2021-07-13 10:00:23<br>Allow minimum solder mask sliver violation.</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\2\slave-14-mc33775.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5155.249mil|Location2.X=5160.499mil|Location1.Y=5578.773mil|Location2.Y=5584.023mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\2\slave-14-mc33775.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5155.249mil|Location2.X=5160.499mil|Location1.Y=5578.773mil|Location2.Y=5584.023mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (1.906mil &lt; 4mil) Between Pad U850-2(2137.205mil,2674.902mil) on Top Copper And Pad U850-3(2162.795mil,2674.902mil) on Top Copper [Top Solder] Mask Sliver [1.906mil]</acronym></a><br>Waived by Patrick Kanzler at 2021-07-13 10:00:23<br>Allow minimum solder mask sliver violation.</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\2\slave-14-mc33775.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5180.84mil|Location2.X=5186.09mil|Location1.Y=5578.773mil|Location2.Y=5584.023mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\2\slave-14-mc33775.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5180.84mil|Location2.X=5186.09mil|Location1.Y=5578.773mil|Location2.Y=5584.023mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (1.906mil &lt; 4mil) Between Pad U850-3(2162.795mil,2674.902mil) on Top Copper And Pad U850-4(2188.386mil,2674.902mil) on Top Copper [Top Solder] Mask Sliver [1.906mil]</acronym></a><br>Waived by Patrick Kanzler at 2021-07-13 10:00:23<br>Allow minimum solder mask sliver violation.</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\2\slave-14-mc33775.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5180.84mil|Location2.X=5186.09mil|Location1.Y=5753.97mil|Location2.Y=5759.22mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\2\slave-14-mc33775.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5180.84mil|Location2.X=5186.09mil|Location1.Y=5753.97mil|Location2.Y=5759.22mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (1.906mil &lt; 4mil) Between Pad U850-5(2188.386mil,2850.099mil) on Top Copper And Pad U850-6(2162.795mil,2850.099mil) on Top Copper [Top Solder] Mask Sliver [1.906mil]</acronym></a><br>Waived by Patrick Kanzler at 2021-06-25 16:24:44<br>Allow minimum solder mask sliver violations.</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\2\slave-14-mc33775.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5155.249mil|Location2.X=5160.499mil|Location1.Y=5753.97mil|Location2.Y=5759.22mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\2\slave-14-mc33775.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5155.249mil|Location2.X=5160.499mil|Location1.Y=5753.97mil|Location2.Y=5759.22mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (1.906mil &lt; 4mil) Between Pad U850-6(2162.795mil,2850.099mil) on Top Copper And Pad U850-7(2137.205mil,2850.099mil) on Top Copper [Top Solder] Mask Sliver [1.906mil]</acronym></a><br>Waived by Patrick Kanzler at 2021-07-13 10:00:23<br>Allow minimum solder mask sliver violation.</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\2\slave-14-mc33775.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5129.658mil|Location2.X=5134.908mil|Location1.Y=5753.97mil|Location2.Y=5759.22mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\2\slave-14-mc33775.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5129.658mil|Location2.X=5134.908mil|Location1.Y=5753.97mil|Location2.Y=5759.22mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (1.906mil &lt; 4mil) Between Pad U850-7(2137.205mil,2850.099mil) on Top Copper And Pad U850-8(2111.614mil,2850.099mil) on Top Copper [Top Solder] Mask Sliver [1.906mil]</acronym></a><br>Waived by Patrick Kanzler at 2021-07-13 10:00:23<br>Allow minimum solder mask sliver violation.</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\2\slave-14-mc33775.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4260.544mil|Location2.X=4265.794mil|Location1.Y=5280.84mil|Location2.Y=5286.09mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\2\slave-14-mc33775.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4260.544mil|Location2.X=4265.794mil|Location1.Y=5280.84mil|Location2.Y=5286.09mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (3.874mil &lt; 4mil) Between Pad U900-1(1284.842mil,2406.496mil) on Top Copper And Pad U900-2(1284.842mil,2380.905mil) on Top Copper [Top Solder] Mask Sliver [3.874mil]</acronym></a><br>Waived by Patrick Kanzler at 2021-06-25 16:24:44<br>Allow minimum solder mask sliver violations.</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\2\slave-14-mc33775.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4260.544mil|Location2.X=4265.794mil|Location1.Y=5050.525mil|Location2.Y=5055.775mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\2\slave-14-mc33775.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4260.544mil|Location2.X=4265.794mil|Location1.Y=5050.525mil|Location2.Y=5055.775mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (3.874mil &lt; 4mil) Between Pad U900-10(1284.842mil,2176.181mil) on Top Copper And Pad U900-11(1284.842mil,2150.591mil) on Top Copper [Top Solder] Mask Sliver [3.874mil]</acronym></a><br>Waived by Patrick Kanzler at 2021-06-25 16:24:44<br>Allow minimum solder mask sliver violations.</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\2\slave-14-mc33775.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4260.544mil|Location2.X=4265.794mil|Location1.Y=5076.115mil|Location2.Y=5081.365mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\2\slave-14-mc33775.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4260.544mil|Location2.X=4265.794mil|Location1.Y=5076.115mil|Location2.Y=5081.365mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (3.874mil &lt; 4mil) Between Pad U900-10(1284.842mil,2176.181mil) on Top Copper And Pad U900-9(1284.842mil,2201.772mil) on Top Copper [Top Solder] Mask Sliver [3.874mil]</acronym></a><br>Waived by Patrick Kanzler at 2021-06-25 16:24:44<br>Allow minimum solder mask sliver violations.</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\2\slave-14-mc33775.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4260.544mil|Location2.X=4265.794mil|Location1.Y=5024.934mil|Location2.Y=5030.184mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\2\slave-14-mc33775.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4260.544mil|Location2.X=4265.794mil|Location1.Y=5024.934mil|Location2.Y=5030.184mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (3.874mil &lt; 4mil) Between Pad U900-11(1284.842mil,2150.591mil) on Top Copper And Pad U900-12(1284.842mil,2125mil) on Top Copper [Top Solder] Mask Sliver [3.874mil]</acronym></a><br>Waived by Patrick Kanzler at 2021-06-25 16:24:44<br>Allow minimum solder mask sliver violations.</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\2\slave-14-mc33775.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4500.702mil|Location2.X=4505.952mil|Location1.Y=5024.934mil|Location2.Y=5030.184mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\2\slave-14-mc33775.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4500.702mil|Location2.X=4505.952mil|Location1.Y=5024.934mil|Location2.Y=5030.184mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (3.874mil &lt; 4mil) Between Pad U900-13(1525mil,2125mil) on Top Copper And Pad U900-14(1525mil,2150.591mil) on Top Copper [Top Solder] Mask Sliver [3.874mil]</acronym></a><br>Waived by Patrick Kanzler at 2021-06-25 16:24:44<br>Allow minimum solder mask sliver violations.</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\2\slave-14-mc33775.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4500.702mil|Location2.X=4505.952mil|Location1.Y=5050.525mil|Location2.Y=5055.775mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\2\slave-14-mc33775.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4500.702mil|Location2.X=4505.952mil|Location1.Y=5050.525mil|Location2.Y=5055.775mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (3.874mil &lt; 4mil) Between Pad U900-14(1525mil,2150.591mil) on Top Copper And Pad U900-15(1525mil,2176.181mil) on Top Copper [Top Solder] Mask Sliver [3.874mil]</acronym></a><br>Waived by Patrick Kanzler at 2021-06-25 16:24:44<br>Allow minimum solder mask sliver violations.</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\2\slave-14-mc33775.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4500.702mil|Location2.X=4505.952mil|Location1.Y=5076.115mil|Location2.Y=5081.365mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\2\slave-14-mc33775.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4500.702mil|Location2.X=4505.952mil|Location1.Y=5076.115mil|Location2.Y=5081.365mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (3.874mil &lt; 4mil) Between Pad U900-15(1525mil,2176.181mil) on Top Copper And Pad U900-16(1525mil,2201.772mil) on Top Copper [Top Solder] Mask Sliver [3.874mil]</acronym></a><br>Waived by Patrick Kanzler at 2021-06-25 16:24:44<br>Allow minimum solder mask sliver violations.</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\2\slave-14-mc33775.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4500.702mil|Location2.X=4505.952mil|Location1.Y=5101.706mil|Location2.Y=5106.956mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\2\slave-14-mc33775.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4500.702mil|Location2.X=4505.952mil|Location1.Y=5101.706mil|Location2.Y=5106.956mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (3.874mil &lt; 4mil) Between Pad U900-16(1525mil,2201.772mil) on Top Copper And Pad U900-17(1525mil,2227.362mil) on Top Copper [Top Solder] Mask Sliver [3.874mil]</acronym></a><br>Waived by Patrick Kanzler at 2021-06-25 16:24:44<br>Allow minimum solder mask sliver violations.</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\2\slave-14-mc33775.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4500.702mil|Location2.X=4505.952mil|Location1.Y=5127.296mil|Location2.Y=5132.546mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\2\slave-14-mc33775.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4500.702mil|Location2.X=4505.952mil|Location1.Y=5127.296mil|Location2.Y=5132.546mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (3.874mil &lt; 4mil) Between Pad U900-17(1525mil,2227.362mil) on Top Copper And Pad U900-18(1525mil,2252.953mil) on Top Copper [Top Solder] Mask Sliver [3.874mil]</acronym></a><br>Waived by Patrick Kanzler at 2021-06-25 16:24:44<br>Allow minimum solder mask sliver violations.</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\2\slave-14-mc33775.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4500.702mil|Location2.X=4505.952mil|Location1.Y=5152.887mil|Location2.Y=5158.137mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\2\slave-14-mc33775.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4500.702mil|Location2.X=4505.952mil|Location1.Y=5152.887mil|Location2.Y=5158.137mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (3.874mil &lt; 4mil) Between Pad U900-18(1525mil,2252.953mil) on Top Copper And Pad U900-19(1525mil,2278.543mil) on Top Copper [Top Solder] Mask Sliver [3.874mil]</acronym></a><br>Waived by Patrick Kanzler at 2021-06-25 16:24:44<br>Allow minimum solder mask sliver violations.</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\2\slave-14-mc33775.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4500.702mil|Location2.X=4505.952mil|Location1.Y=5178.477mil|Location2.Y=5183.727mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\2\slave-14-mc33775.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4500.702mil|Location2.X=4505.952mil|Location1.Y=5178.477mil|Location2.Y=5183.727mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (3.874mil &lt; 4mil) Between Pad U900-19(1525mil,2278.543mil) on Top Copper And Pad U900-20(1525mil,2304.134mil) on Top Copper [Top Solder] Mask Sliver [3.874mil]</acronym></a><br>Waived by Patrick Kanzler at 2021-06-25 16:24:44<br>Allow minimum solder mask sliver violations.</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\2\slave-14-mc33775.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4260.544mil|Location2.X=4265.794mil|Location1.Y=5255.249mil|Location2.Y=5260.499mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\2\slave-14-mc33775.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4260.544mil|Location2.X=4265.794mil|Location1.Y=5255.249mil|Location2.Y=5260.499mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (3.874mil &lt; 4mil) Between Pad U900-2(1284.842mil,2380.905mil) on Top Copper And Pad U900-3(1284.842mil,2355.315mil) on Top Copper [Top Solder] Mask Sliver [3.874mil]</acronym></a><br>Waived by Patrick Kanzler at 2021-06-25 16:24:44<br>Allow minimum solder mask sliver violations.</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\2\slave-14-mc33775.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4500.702mil|Location2.X=4505.952mil|Location1.Y=5204.068mil|Location2.Y=5209.318mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\2\slave-14-mc33775.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4500.702mil|Location2.X=4505.952mil|Location1.Y=5204.068mil|Location2.Y=5209.318mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (3.874mil &lt; 4mil) Between Pad U900-20(1525mil,2304.134mil) on Top Copper And Pad U900-21(1525mil,2329.724mil) on Top Copper [Top Solder] Mask Sliver [3.874mil]</acronym></a><br>Waived by Patrick Kanzler at 2021-06-25 16:24:44<br>Allow minimum solder mask sliver violations.</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\2\slave-14-mc33775.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4500.702mil|Location2.X=4505.952mil|Location1.Y=5229.658mil|Location2.Y=5234.908mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\2\slave-14-mc33775.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4500.702mil|Location2.X=4505.952mil|Location1.Y=5229.658mil|Location2.Y=5234.908mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (3.874mil &lt; 4mil) Between Pad U900-21(1525mil,2329.724mil) on Top Copper And Pad U900-22(1525mil,2355.315mil) on Top Copper [Top Solder] Mask Sliver [3.874mil]</acronym></a><br>Waived by Patrick Kanzler at 2021-06-25 16:24:44<br>Allow minimum solder mask sliver violations.</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\2\slave-14-mc33775.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4500.702mil|Location2.X=4505.952mil|Location1.Y=5255.249mil|Location2.Y=5260.499mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\2\slave-14-mc33775.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4500.702mil|Location2.X=4505.952mil|Location1.Y=5255.249mil|Location2.Y=5260.499mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (3.874mil &lt; 4mil) Between Pad U900-22(1525mil,2355.315mil) on Top Copper And Pad U900-23(1525mil,2380.905mil) on Top Copper [Top Solder] Mask Sliver [3.874mil]</acronym></a><br>Waived by Patrick Kanzler at 2021-06-25 16:24:44<br>Allow minimum solder mask sliver violations.</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\2\slave-14-mc33775.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4500.702mil|Location2.X=4505.952mil|Location1.Y=5280.84mil|Location2.Y=5286.09mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\2\slave-14-mc33775.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4500.702mil|Location2.X=4505.952mil|Location1.Y=5280.84mil|Location2.Y=5286.09mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (3.874mil &lt; 4mil) Between Pad U900-23(1525mil,2380.905mil) on Top Copper And Pad U900-24(1525mil,2406.496mil) on Top Copper [Top Solder] Mask Sliver [3.874mil]</acronym></a><br>Waived by Patrick Kanzler at 2021-06-25 16:24:44<br>Allow minimum solder mask sliver violations.</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\2\slave-14-mc33775.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4260.544mil|Location2.X=4265.794mil|Location1.Y=5229.658mil|Location2.Y=5234.908mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\2\slave-14-mc33775.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4260.544mil|Location2.X=4265.794mil|Location1.Y=5229.658mil|Location2.Y=5234.908mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (3.874mil &lt; 4mil) Between Pad U900-3(1284.842mil,2355.315mil) on Top Copper And Pad U900-4(1284.842mil,2329.724mil) on Top Copper [Top Solder] Mask Sliver [3.874mil]</acronym></a><br>Waived by Patrick Kanzler at 2021-06-25 16:24:44<br>Allow minimum solder mask sliver violations.</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\2\slave-14-mc33775.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4260.544mil|Location2.X=4265.794mil|Location1.Y=5204.068mil|Location2.Y=5209.318mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\2\slave-14-mc33775.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4260.544mil|Location2.X=4265.794mil|Location1.Y=5204.068mil|Location2.Y=5209.318mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (3.874mil &lt; 4mil) Between Pad U900-4(1284.842mil,2329.724mil) on Top Copper And Pad U900-5(1284.842mil,2304.134mil) on Top Copper [Top Solder] Mask Sliver [3.874mil]</acronym></a><br>Waived by Patrick Kanzler at 2021-06-25 16:24:44<br>Allow minimum solder mask sliver violations.</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\2\slave-14-mc33775.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4260.544mil|Location2.X=4265.794mil|Location1.Y=5178.477mil|Location2.Y=5183.727mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\2\slave-14-mc33775.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4260.544mil|Location2.X=4265.794mil|Location1.Y=5178.477mil|Location2.Y=5183.727mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (3.874mil &lt; 4mil) Between Pad U900-5(1284.842mil,2304.134mil) on Top Copper And Pad U900-6(1284.842mil,2278.543mil) on Top Copper [Top Solder] Mask Sliver [3.874mil]</acronym></a><br>Waived by Patrick Kanzler at 2021-06-25 16:24:44<br>Allow minimum solder mask sliver violations.</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\2\slave-14-mc33775.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4260.544mil|Location2.X=4265.794mil|Location1.Y=5152.887mil|Location2.Y=5158.137mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\2\slave-14-mc33775.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4260.544mil|Location2.X=4265.794mil|Location1.Y=5152.887mil|Location2.Y=5158.137mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (3.874mil &lt; 4mil) Between Pad U900-6(1284.842mil,2278.543mil) on Top Copper And Pad U900-7(1284.842mil,2252.953mil) on Top Copper [Top Solder] Mask Sliver [3.874mil]</acronym></a><br>Waived by Patrick Kanzler at 2021-06-25 16:24:44<br>Allow minimum solder mask sliver violations.</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\2\slave-14-mc33775.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4260.544mil|Location2.X=4265.794mil|Location1.Y=5127.296mil|Location2.Y=5132.546mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\2\slave-14-mc33775.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4260.544mil|Location2.X=4265.794mil|Location1.Y=5127.296mil|Location2.Y=5132.546mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (3.874mil &lt; 4mil) Between Pad U900-7(1284.842mil,2252.953mil) on Top Copper And Pad U900-8(1284.842mil,2227.362mil) on Top Copper [Top Solder] Mask Sliver [3.874mil]</acronym></a><br>Waived by Patrick Kanzler at 2021-06-25 16:24:44<br>Allow minimum solder mask sliver violations.</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\2\slave-14-mc33775.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4260.544mil|Location2.X=4265.794mil|Location1.Y=5101.706mil|Location2.Y=5106.956mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\2\slave-14-mc33775.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4260.544mil|Location2.X=4265.794mil|Location1.Y=5101.706mil|Location2.Y=5106.956mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (3.874mil &lt; 4mil) Between Pad U900-8(1284.842mil,2227.362mil) on Top Copper And Pad U900-9(1284.842mil,2201.772mil) on Top Copper [Top Solder] Mask Sliver [3.874mil]</acronym></a><br>Waived by Patrick Kanzler at 2021-06-25 16:24:44<br>Allow minimum solder mask sliver violations.</td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br></body>
+</html>
