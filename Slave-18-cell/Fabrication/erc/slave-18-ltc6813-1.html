@@ -1,0 +1,1447 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<style type="text/css">
+		h1, h2, h3, h4, h5, h6 {
+			font-family : segoe ui;
+			color : black;
+			background-color : #EDE7D9;
+			padding: 0.3em;
+		}
+
+		h1 {
+			font-size: 1.2em;
+		}		
+
+		h2 {
+			font-size: 1.2em;
+		}
+
+		body {
+			font-family : segoe ui;
+		}
+
+        td, th {
+            padding: 0.5em;
+            text-align : left;
+        }
+        th {
+            background-color : #EEEEEE;
+        
+        }
+        th.column1, td.column1 {
+            width : 10em;
+        }
+
+        th.column2, td.column2 {
+            width : 30em;
+        }
+
+        table {
+            width : 100%;
+            font-size: 0.9em;
+        }
+
+		.header_holder {
+			Width = 100%;
+			border = 0px solid green;
+			padding = 0;
+		}
+
+
+		.front_matter, .front_matter_column1, .front_matter_column2, .front_matter_column3
+		{
+			left : 0;
+			top : 0;
+			padding: 0em;
+			padding-top : 0.1em;
+			border : 0px solid black;
+			width : 100%;
+			vertical-align: top;
+			text-align: left;
+        }
+
+        .front_matter_column1 {
+			width : 5em;
+			font-weight: bold;
+        }
+
+		.front_matter_column2 {
+			width: 0.1em;
+		}
+
+		.front_matter_column3 {
+			width : auto;
+		}
+
+        .total_column1, .total_column {
+            font-weight : bold;
+        }
+        .total_column1 {
+            text-align : left;
+        }
+        .warning, .error {
+            color : red;
+            font-weight : bold;
+        }
+        tr.onmouseout_odd {
+            background-color : #white;
+        }
+        tr.onmouseout_even { 
+            background-color : #FAFAFA;
+        }
+        tr.onmouseover_odd, tr.onmouseover_even { 
+            background-color : #EEEEEE;
+        } 
+        a:link, a:visited, .q a:link,.q a:active,.q {
+            color: #21489e; 
+        }
+        a:link.callback, a:visited.callback { 
+            color: #21489e;
+        }
+        p.contents_level1 {
+            font-weight : bold;
+            font-size : 110%;
+            margin : 0.5em;
+        }
+        p.contents_level2 {
+            position : relative;
+            left : 20px;
+            margin : 0.5em;
+        }
+    </style><script type="text/javascript">
+        function coordToMils(coord) {
+            var number = coord / 10000;
+            
+            if (number != number.toFixed(3))
+                number = number.toFixed(3);
+            
+            return number + 'mil'
+        }
+
+        function coordToMM(coord) {
+            var number = 0.0254 * coord / 10000;
+            
+            if (number != number.toFixed(4))
+                number = number.toFixed(4);
+            
+            return number + 'mm'
+        }
+    
+        function convertCoord(coordNode, units) {
+            for (var i = 0; i < coordNode.childNodes.length; i++) {
+                coordNode.removeChild(coordNode.childNodes[i]);
+            }
+
+            var coord = coordNode.getAttribute('value');
+            if (coord != null) {
+                if (units == 'mm') {
+                    textNode = document.createTextNode(coordToMM(coord));
+                    coordNode.appendChild(textNode);
+                } else if (units == 'mil') {
+                    textNode = document.createTextNode(coordToMils(coord));
+                    coordNode.appendChild(textNode);
+                }
+            }
+        }
+    
+        function convertUnits(unitNode, units) {
+            for (var i = 0; i < unitNode.childNodes.length; i++) {
+                unitNode.removeChild(unitNode.childNodes[i]);
+            }
+        
+            textNode = document.createTextNode(units); 
+            unitNode.appendChild(textNode);
+        }
+    
+        function changeUnits(radio_input, units) {
+            if (radio_input.checked) {
+            
+                var elements = document.getElementsByName('coordinate');
+                if (elements) {
+                    for (var i = 0; i < elements.length; i++) {
+                        convertCoord(elements[i], units);
+                    }
+                }
+    
+                var elements = document.getElementsByName('units');
+                if (elements) {
+                    for (var i = 0; i < elements.length; i++) {
+                        convertUnits(elements[i], units);
+                    }
+                }
+            }
+        }
+    </script></head>
+<body onload=""><img ALT="Altium" src="
+            file://C:\Users\Public\Documents\Altium\AD24\Templates\AD_logo.png
+        "><h1>Electrical Rule Check Report</h1>
+<table class="front_matter">
+<tr class="front_matter">
+<td class="front_matter_column1">Date:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">2024-12-17</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">17:34:30</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Filename:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3"><a href="file:///C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\1\Fabrication\erc\slave-18-ltc6813-1.html" class="file"><acronym title="C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\1\Fabrication\erc\slave-18-ltc6813-1.html">C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\1\Fabrication\erc\slave-18-ltc6813-1.html</acronym></a></td>
+</tr>
+</table><a name="IDB41UGROJE0NLJBAR5FQL2AAUKS5PPRIJMASFBNLYJLUME31PS3D"><table>
+<tr>
+<th class="column1">Class</th>
+<th class="column2">Document</th>
+<th class="column3">Message</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">analog_in.SchDoc</td>
+<td class="column3">+5.0V_VREG_1 contains Input Pin and Unspecified Port objects (Pin IC100-2, Pin IC101-2, Pin IC101-15, Pin IC104-2, Pin IC104-16, Port +5.0V_VREG).</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">LTC.SchDoc</td>
+<td class="column3">+5.0V_VREG_1 contains Input Pin and Unspecified Port objects (Pin IC1400-55, Port +5.0V_VREG).</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">analog_in.SchDoc</td>
+<td class="column3">+5.0V_VREG_2 contains Input Pin and Unspecified Port objects (Pin IC100-2, Pin IC101-2, Pin IC101-15, Pin IC104-2, Pin IC104-16, Port +5.0V_VREG).</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">LTC.SchDoc</td>
+<td class="column3">+5.0V_VREG_2 contains Input Pin and Unspecified Port objects (Pin IC1400-55, Port +5.0V_VREG).</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">LTC.SchDoc</td>
+<td class="column3">Component D1401 SMAJ85A-E3/61 at 2100mil,9050mil: Can't perform revision status validation: Revision not found.</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">ext_supply.SchDoc</td>
+<td class="column3">Component L900 74404042100 at 4450mil,7200mil: Component revision is Out of Date.</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">FUSED_VBAT- contains Input Sheet Entry and Unspecified Sheet Entry objects (Sheet Entry U_primary_input_filter-FUSED_VBAT-(Input), Sheet Entry U_secondary_input_filter-FUSED_VBAT-(Input), Sheet Entry U_bat_connectors-FUSED_VBAT-(Passive), Sheet Entry U_cell_fuses-FUSED_VBAT-(Passive), Sheet Entry U_connectors-FUSED_VBAT-(Passive), Sheet Entry U_ext_supply-FUSED_VBAT-(Passive), Sheet Entry U_feedback-FUSED_VBAT-(Passive), Sheet Entry U_primary_analog_in-FUSED_VBAT-(Passive), Sheet Entry U_primary_dcdc_converter-FUSED_VBAT-(Passive), Sheet Entry U_primary_digital_io-FUSED_VBAT-(Passive), Sheet Entry U_primary_eeprom_temp_sens-FUSED_VBAT-(Passive), Sheet Entry U_primary_LTC-FUSED_VBAT-(Passive), Sheet Entry U_secondary_analog_in-FUSED_VBAT-(Passive), Sheet Entry U_secondary_dcdc_converter-FUSED_VBAT-(Passive), Sheet Entry U_secondary_digital_io-FUSED_VBAT-(Passive), Sheet Entry U_secondary_eeprom_temp_sens-FUSED_VBAT-(Passive), Sheet Entry U_secondary_LTC-FUSED_VBAT-(Passive)).</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">input_filter.SchDoc</td>
+<td class="column3">FUSED_VBAT- contains Unspecified Port and Input Sheet Entry objects (Port FUSED_VBAT-, Sheet Entry U_primary_input_filter-FUSED_VBAT-(Input)).</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">input_filter.SchDoc</td>
+<td class="column3">FUSED_VBAT- contains Unspecified Port and Input Sheet Entry objects (Port FUSED_VBAT-, Sheet Entry U_secondary_input_filter-FUSED_VBAT-(Input)).</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">analog_in.SchDoc</td>
+<td class="column3">FUSED_VBAT-_1 contains Input Pin and Unspecified Port objects (Pin IC100-15, Pin IC100-16, Pin IC101-16, Pin IC104-15, Port FUSED_VBAT-).</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">dcdc_converter.SchDoc</td>
+<td class="column3">FUSED_VBAT-_1 contains Input Pin and Unspecified Port objects (Pin U600-8, Port FUSED_VBAT-).</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">digital_io.SchDoc</td>
+<td class="column3">FUSED_VBAT-_1 contains Input Pin and Unspecified Port objects (Pin U700-2, Port FUSED_VBAT-).</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">analog_in.SchDoc</td>
+<td class="column3">FUSED_VBAT-_2 contains Input Pin and Unspecified Port objects (Pin IC100-15, Pin IC100-16, Pin IC101-16, Pin IC104-15, Port FUSED_VBAT-).</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">dcdc_converter.SchDoc</td>
+<td class="column3">FUSED_VBAT-_2 contains Input Pin and Unspecified Port objects (Pin U600-8, Port FUSED_VBAT-).</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">digital_io.SchDoc</td>
+<td class="column3">FUSED_VBAT-_2 contains Input Pin and Unspecified Port objects (Pin U700-2, Port FUSED_VBAT-).</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">dcdc_converter.SchDoc</td>
+<td class="column3">Net BST_1 has no driving source (Pin C602-2, Pin U600-11)</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">dcdc_converter.SchDoc</td>
+<td class="column3">Net BST_2 has no driving source (Pin C602-2, Pin U600-11)</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">LTC.SchDoc</td>
+<td class="column3">Net DTEN_1 has no driving source (Pin IC1400-52, Pin R1406-2, Pin R1407-1)</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">LTC.SchDoc</td>
+<td class="column3">Net DTEN_2 has no driving source (Pin IC1400-52, Pin R1406-2, Pin R1407-1)</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">dcdc_converter.SchDoc</td>
+<td class="column3">Net FB_1 has no driving source (Pin C604-1, Pin R602-2, Pin R603-1, Pin U600-9)</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">dcdc_converter.SchDoc</td>
+<td class="column3">Net FB_2 has no driving source (Pin C604-1, Pin R602-2, Pin R603-1, Pin U600-9)</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">LTC.SchDoc</td>
+<td class="column3">Net ICMP_1 has no driving source (Pin IC1400-58, Pin R1400-2, Pin R1402-1)</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">LTC.SchDoc</td>
+<td class="column3">Net ICMP_2 has no driving source (Pin IC1400-58, Pin R1400-2, Pin R1402-1)</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">dcdc_converter.SchDoc</td>
+<td class="column3">Net NetC607_1_1 has no driving source (Pin C607-1, Pin U600-6, Pin U600-7)</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">dcdc_converter.SchDoc</td>
+<td class="column3">Net NetC607_2_1 has no driving source (Pin C607-1, Pin U600-6, Pin U600-7)</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">ext_supply.SchDoc</td>
+<td class="column3">Net NetC903_2 has no driving source (Pin C903-2, Pin IC900-1, Pin R900-1, Pin R901-2)</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">LTC.SchDoc</td>
+<td class="column3">Net NetIC1400_1_57 has no driving source (Pin IC1400-57, Pin R1402-2)</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">LTC.SchDoc</td>
+<td class="column3">Net NetIC1400_2_57 has no driving source (Pin IC1400-57, Pin R1402-2)</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">digital_io.SchDoc</td>
+<td class="column3">Net NetR708_1_2 has no driving source (Pin R708-2, Pin U700-3)</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">digital_io.SchDoc</td>
+<td class="column3">Net NetR708_2_2 has no driving source (Pin R708-2, Pin U700-3)</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">analog_in.SchDoc</td>
+<td class="column3">Net OPA_TEMP_1 has no driving source (Pin IC100-8, Pin R110-1, Pin U100-3)</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">analog_in.SchDoc</td>
+<td class="column3">Net OPA_TEMP_2 has no driving source (Pin IC100-8, Pin R110-1, Pin U100-3)</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">analog_in.SchDoc</td>
+<td class="column3">Net OPA_USER_1 has no driving source (Pin IC101-8, Pin IC104-8, Pin R111-1, Pin U101-3)</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">analog_in.SchDoc</td>
+<td class="column3">Net OPA_USER_2 has no driving source (Pin IC101-8, Pin IC104-8, Pin R111-1, Pin U101-3)</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Net PRIMARY-SCL has no driving source (Pin IC100-1, Pin IC101-1, Pin IC104-1, Pin IC800-4, Pin IC801-6, Pin R1417-1, Pin R1420-1, Pin TP1409-1, Pin U700-14)</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">ext_supply.SchDoc</td>
+<td class="column3">Net R_FB has no driving source (Pin IC900-6, Pin R904-1)</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">ext_supply.SchDoc</td>
+<td class="column3">Net R_REF has no driving source (Pin IC900-7, Pin R902-2, Pin R905-2)</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">dcdc_converter.SchDoc</td>
+<td class="column3">Net RON_1 has no driving source (Pin R600-1, Pin U600-5)</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">dcdc_converter.SchDoc</td>
+<td class="column3">Net RON_2 has no driving source (Pin R600-1, Pin U600-5)</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Net SECONDARY-SCL has no driving source (Pin IC100-1, Pin IC101-1, Pin IC104-1, Pin IC800-4, Pin IC801-6, Pin R1417-1, Pin R1420-1, Pin TP1409-1, Pin U700-14)</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">dcdc_converter.SchDoc</td>
+<td class="column3">Net SHDN_1 has no driving source (Pin R601-1, Pin R610-1, Pin U600-4)</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">dcdc_converter.SchDoc</td>
+<td class="column3">Net SHDN_2 has no driving source (Pin R601-1, Pin R610-1, Pin U600-4)</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Bus Slice PRIMARY-ANALOG-IN_[0..15] has multiple names (Net Label ANALOG-IN_[0..15]_1 (2), Net Label PRIMARY-ANALOG-IN_[0..15] (3))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Bus Slice PRIMARY-C[0..18] has multiple names (Net Label C[0..18]_1 (2), Net Label PRIMARY-C[0..18] (2))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Bus Slice PRIMARY-DIGITAL-IO_[0..7] has multiple names (Net Label DIGITAL-IO_[0..7]_1, Net Label PRIMARY-DIGITAL-IO_[0..7] (3))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Bus Slice PRIMARY-S[1..18] has multiple names (Net Label PRIMARY-S[1..18] (2), Net Label S[1..18], Net Label S[1..18]_1)</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Bus Slice PRIMARY-T-SENSOR_[0..7] has multiple names (Net Label PRIMARY-T-SENSOR_[0..7] (3), Net Label T-SENSOR_[0..7]_1)</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Bus Slice SECONDARY-ANALOG-IN_[0..15] has multiple names (Net Label ANALOG-IN_[0..15]_2 (2), Net Label SECONDARY-ANALOG-IN_[0..15] (3))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Bus Slice SECONDARY-C[0..18] has multiple names (Net Label C[0..18]_2 (2), Net Label SECONDARY-C[0..18] (2))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Bus Slice SECONDARY-DIGITAL-IO_[0..7] has multiple names (Net Label DIGITAL-IO_[0..7]_2, Net Label SECONDARY-DIGITAL-IO_[0..7] (3))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Bus Slice SECONDARY-S[1..18] has multiple names (Net Label S[1..18]_2, Net Label SECONDARY-S[1..18] (2))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Bus Slice SECONDARY-T-SENSOR_[0..7] has multiple names (Net Label SECONDARY-T-SENSOR_[0..7] (3), Net Label T-SENSOR_[0..7]_2)</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[0]: PRIMARY-ANALOG-IN_0 has multiple names (Net Label ANALOG-IN_0_1, Net Label ANALOG-IN_0_1 (Inferred) (2), Net Label PRIMARY-ANALOG-IN_0, Net Label PRIMARY-ANALOG-IN_0 (Inferred) (3))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[0]: PRIMARY-C0 has multiple names (Net Label C0_1 (2), Net Label C0_1 (Inferred) (2), Net Label PRIMARY-C0 (Inferred) (2))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[0]: PRIMARY-DIGITAL-IO_0 has multiple names (Net Label DIGITAL-IO_0_1, Net Label DIGITAL-IO_0_1 (Inferred), Net Label PRIMARY-DIGITAL-IO_0, Net Label PRIMARY-DIGITAL-IO_0 (Inferred) (3))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[0]: PRIMARY-S1 has multiple names (Net Label PRIMARY-S1 (Inferred) (2), Net Label S1, Net Label S1 (Inferred), Net Label S1_1, Net Label S1_1 (Inferred))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[0]: PRIMARY-T-SENSOR_0 has multiple names (Net Label PRIMARY-T-SENSOR_0, Net Label PRIMARY-T-SENSOR_0 (Inferred) (3), Net Label T-SENSOR_0_1, Net Label T-SENSOR_0_1 (Inferred))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[0]: SECONDARY-ANALOG-IN_0 has multiple names (Net Label ANALOG-IN_0_2, Net Label ANALOG-IN_0_2 (Inferred) (2), Net Label SECONDARY-ANALOG-IN_0, Net Label SECONDARY-ANALOG-IN_0 (Inferred) (3))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[0]: SECONDARY-C0 has multiple names (Net Label C0_2 (2), Net Label C0_2 (Inferred) (2), Net Label SECONDARY-C0 (Inferred) (2))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[0]: SECONDARY-DIGITAL-IO_0 has multiple names (Net Label DIGITAL-IO_0_2, Net Label DIGITAL-IO_0_2 (Inferred), Net Label SECONDARY-DIGITAL-IO_0, Net Label SECONDARY-DIGITAL-IO_0 (Inferred) (3))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[0]: SECONDARY-T-SENSOR_0 has multiple names (Net Label SECONDARY-T-SENSOR_0, Net Label SECONDARY-T-SENSOR_0 (Inferred) (3), Net Label T-SENSOR_0_2, Net Label T-SENSOR_0_2 (Inferred))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[1]: PRIMARY-ANALOG-IN_1 has multiple names (Net Label ANALOG-IN_1_1, Net Label ANALOG-IN_1_1 (Inferred) (2), Net Label PRIMARY-ANALOG-IN_1, Net Label PRIMARY-ANALOG-IN_1 (Inferred) (3))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[1]: PRIMARY-C1 has multiple names (Net Label C1_1 (2), Net Label C1_1 (Inferred) (2), Net Label PRIMARY-C1 (Inferred) (2))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[1]: PRIMARY-DIGITAL-IO_1 has multiple names (Net Label DIGITAL-IO_1_1, Net Label DIGITAL-IO_1_1 (Inferred), Net Label PRIMARY-DIGITAL-IO_1, Net Label PRIMARY-DIGITAL-IO_1 (Inferred) (3))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[1]: PRIMARY-S2 has multiple names (Net Label PRIMARY-S2 (Inferred) (2), Net Label S2, Net Label S2 (Inferred), Net Label S2_1, Net Label S2_1 (Inferred))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[1]: PRIMARY-T-SENSOR_1 has multiple names (Net Label PRIMARY-T-SENSOR_1, Net Label PRIMARY-T-SENSOR_1 (Inferred) (3), Net Label T-SENSOR_1_1, Net Label T-SENSOR_1_1 (Inferred))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[1]: SECONDARY-ANALOG-IN_1 has multiple names (Net Label ANALOG-IN_1_2, Net Label ANALOG-IN_1_2 (Inferred) (2), Net Label SECONDARY-ANALOG-IN_1, Net Label SECONDARY-ANALOG-IN_1 (Inferred) (3))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[1]: SECONDARY-C1 has multiple names (Net Label C1_2 (2), Net Label C1_2 (Inferred) (2), Net Label SECONDARY-C1 (Inferred) (2))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[1]: SECONDARY-DIGITAL-IO_1 has multiple names (Net Label DIGITAL-IO_1_2, Net Label DIGITAL-IO_1_2 (Inferred), Net Label SECONDARY-DIGITAL-IO_1, Net Label SECONDARY-DIGITAL-IO_1 (Inferred) (3))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[1]: SECONDARY-T-SENSOR_1 has multiple names (Net Label SECONDARY-T-SENSOR_1, Net Label SECONDARY-T-SENSOR_1 (Inferred) (3), Net Label T-SENSOR_1_2, Net Label T-SENSOR_1_2 (Inferred))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[2]: PRIMARY-ANALOG-IN_2 has multiple names (Net Label ANALOG-IN_2_1, Net Label ANALOG-IN_2_1 (Inferred) (2), Net Label PRIMARY-ANALOG-IN_2, Net Label PRIMARY-ANALOG-IN_2 (Inferred) (3))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[2]: PRIMARY-C2 has multiple names (Net Label C2_1 (2), Net Label C2_1 (Inferred) (2), Net Label PRIMARY-C2 (Inferred) (2))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[2]: PRIMARY-DIGITAL-IO_2 has multiple names (Net Label DIGITAL-IO_2_1, Net Label DIGITAL-IO_2_1 (Inferred), Net Label PRIMARY-DIGITAL-IO_2, Net Label PRIMARY-DIGITAL-IO_2 (Inferred) (3))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[2]: PRIMARY-S3 has multiple names (Net Label PRIMARY-S3 (Inferred) (2), Net Label S3, Net Label S3 (Inferred), Net Label S3_1, Net Label S3_1 (Inferred))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[2]: PRIMARY-T-SENSOR_2 has multiple names (Net Label PRIMARY-T-SENSOR_2, Net Label PRIMARY-T-SENSOR_2 (Inferred) (3), Net Label T-SENSOR_2_1, Net Label T-SENSOR_2_1 (Inferred))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[2]: SECONDARY-ANALOG-IN_2 has multiple names (Net Label ANALOG-IN_2_2, Net Label ANALOG-IN_2_2 (Inferred) (2), Net Label SECONDARY-ANALOG-IN_2, Net Label SECONDARY-ANALOG-IN_2 (Inferred) (3))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[2]: SECONDARY-C2 has multiple names (Net Label C2_2 (2), Net Label C2_2 (Inferred) (2), Net Label SECONDARY-C2 (Inferred) (2))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[2]: SECONDARY-DIGITAL-IO_2 has multiple names (Net Label DIGITAL-IO_2_2, Net Label DIGITAL-IO_2_2 (Inferred), Net Label SECONDARY-DIGITAL-IO_2, Net Label SECONDARY-DIGITAL-IO_2 (Inferred) (3))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[2]: SECONDARY-T-SENSOR_2 has multiple names (Net Label SECONDARY-T-SENSOR_2, Net Label SECONDARY-T-SENSOR_2 (Inferred) (3), Net Label T-SENSOR_2_2, Net Label T-SENSOR_2_2 (Inferred))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[3]: PRIMARY-ANALOG-IN_3 has multiple names (Net Label ANALOG-IN_3_1, Net Label ANALOG-IN_3_1 (Inferred) (2), Net Label PRIMARY-ANALOG-IN_3, Net Label PRIMARY-ANALOG-IN_3 (Inferred) (3))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[3]: PRIMARY-C3 has multiple names (Net Label C3_1 (2), Net Label C3_1 (Inferred) (2), Net Label PRIMARY-C3 (Inferred) (2))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[3]: PRIMARY-DIGITAL-IO_3 has multiple names (Net Label DIGITAL-IO_3_1, Net Label DIGITAL-IO_3_1 (Inferred), Net Label PRIMARY-DIGITAL-IO_3, Net Label PRIMARY-DIGITAL-IO_3 (Inferred) (3))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[3]: PRIMARY-S4 has multiple names (Net Label PRIMARY-S4 (Inferred) (2), Net Label S4, Net Label S4 (Inferred), Net Label S4_1, Net Label S4_1 (Inferred))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[3]: PRIMARY-T-SENSOR_3 has multiple names (Net Label PRIMARY-T-SENSOR_3, Net Label PRIMARY-T-SENSOR_3 (Inferred) (3), Net Label T-SENSOR_3_1, Net Label T-SENSOR_3_1 (Inferred))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[3]: SECONDARY-ANALOG-IN_3 has multiple names (Net Label ANALOG-IN_3_2, Net Label ANALOG-IN_3_2 (Inferred) (2), Net Label SECONDARY-ANALOG-IN_3, Net Label SECONDARY-ANALOG-IN_3 (Inferred) (3))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[3]: SECONDARY-C3 has multiple names (Net Label C3_2 (2), Net Label C3_2 (Inferred) (2), Net Label SECONDARY-C3 (Inferred) (2))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[3]: SECONDARY-DIGITAL-IO_3 has multiple names (Net Label DIGITAL-IO_3_2, Net Label DIGITAL-IO_3_2 (Inferred), Net Label SECONDARY-DIGITAL-IO_3, Net Label SECONDARY-DIGITAL-IO_3 (Inferred) (3))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[3]: SECONDARY-T-SENSOR_3 has multiple names (Net Label SECONDARY-T-SENSOR_3, Net Label SECONDARY-T-SENSOR_3 (Inferred) (3), Net Label T-SENSOR_3_2, Net Label T-SENSOR_3_2 (Inferred))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[4]: PRIMARY-ANALOG-IN_4 has multiple names (Net Label ANALOG-IN_4_1, Net Label ANALOG-IN_4_1 (Inferred) (2), Net Label PRIMARY-ANALOG-IN_4, Net Label PRIMARY-ANALOG-IN_4 (Inferred) (3))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[4]: PRIMARY-C4 has multiple names (Net Label C4_1 (2), Net Label C4_1 (Inferred) (2), Net Label PRIMARY-C4 (Inferred) (2))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[4]: PRIMARY-DIGITAL-IO_4 has multiple names (Net Label DIGITAL-IO_4_1, Net Label DIGITAL-IO_4_1 (Inferred), Net Label PRIMARY-DIGITAL-IO_4, Net Label PRIMARY-DIGITAL-IO_4 (Inferred) (3))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[4]: PRIMARY-S5 has multiple names (Net Label PRIMARY-S5 (Inferred) (2), Net Label S5, Net Label S5 (Inferred), Net Label S5_1, Net Label S5_1 (Inferred))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[4]: PRIMARY-T-SENSOR_4 has multiple names (Net Label PRIMARY-T-SENSOR_4, Net Label PRIMARY-T-SENSOR_4 (Inferred) (3), Net Label T-SENSOR_4_1, Net Label T-SENSOR_4_1 (Inferred))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[4]: SECONDARY-ANALOG-IN_4 has multiple names (Net Label ANALOG-IN_4_2, Net Label ANALOG-IN_4_2 (Inferred) (2), Net Label SECONDARY-ANALOG-IN_4, Net Label SECONDARY-ANALOG-IN_4 (Inferred) (3))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[4]: SECONDARY-C4 has multiple names (Net Label C4_2 (2), Net Label C4_2 (Inferred) (2), Net Label SECONDARY-C4 (Inferred) (2))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[4]: SECONDARY-DIGITAL-IO_4 has multiple names (Net Label DIGITAL-IO_4_2, Net Label DIGITAL-IO_4_2 (Inferred), Net Label SECONDARY-DIGITAL-IO_4, Net Label SECONDARY-DIGITAL-IO_4 (Inferred) (3))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[4]: SECONDARY-T-SENSOR_4 has multiple names (Net Label SECONDARY-T-SENSOR_4, Net Label SECONDARY-T-SENSOR_4 (Inferred) (3), Net Label T-SENSOR_4_2, Net Label T-SENSOR_4_2 (Inferred))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[5]: PRIMARY-ANALOG-IN_5 has multiple names (Net Label ANALOG-IN_5_1, Net Label ANALOG-IN_5_1 (Inferred) (2), Net Label PRIMARY-ANALOG-IN_5, Net Label PRIMARY-ANALOG-IN_5 (Inferred) (3))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[5]: PRIMARY-C5 has multiple names (Net Label C5_1 (2), Net Label C5_1 (Inferred) (2), Net Label PRIMARY-C5 (Inferred) (2))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[5]: PRIMARY-DIGITAL-IO_5 has multiple names (Net Label DIGITAL-IO_5_1, Net Label DIGITAL-IO_5_1 (Inferred), Net Label PRIMARY-DIGITAL-IO_5, Net Label PRIMARY-DIGITAL-IO_5 (Inferred) (3))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[5]: PRIMARY-S6 has multiple names (Net Label PRIMARY-S6 (Inferred) (2), Net Label S6, Net Label S6 (Inferred), Net Label S6_1, Net Label S6_1 (Inferred))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[5]: PRIMARY-T-SENSOR_5 has multiple names (Net Label PRIMARY-T-SENSOR_5, Net Label PRIMARY-T-SENSOR_5 (Inferred) (3), Net Label T-SENSOR_5_1, Net Label T-SENSOR_5_1 (Inferred))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[5]: SECONDARY-ANALOG-IN_5 has multiple names (Net Label ANALOG-IN_5_2, Net Label ANALOG-IN_5_2 (Inferred) (2), Net Label SECONDARY-ANALOG-IN_5, Net Label SECONDARY-ANALOG-IN_5 (Inferred) (3))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[5]: SECONDARY-C5 has multiple names (Net Label C5_2 (2), Net Label C5_2 (Inferred) (2), Net Label SECONDARY-C5 (Inferred) (2))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[5]: SECONDARY-DIGITAL-IO_5 has multiple names (Net Label DIGITAL-IO_5_2, Net Label DIGITAL-IO_5_2 (Inferred), Net Label SECONDARY-DIGITAL-IO_5, Net Label SECONDARY-DIGITAL-IO_5 (Inferred) (3))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[5]: SECONDARY-T-SENSOR_5 has multiple names (Net Label SECONDARY-T-SENSOR_5, Net Label SECONDARY-T-SENSOR_5 (Inferred) (3), Net Label T-SENSOR_5_2, Net Label T-SENSOR_5_2 (Inferred))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[6]: PRIMARY-ANALOG-IN_6 has multiple names (Net Label ANALOG-IN_6_1, Net Label ANALOG-IN_6_1 (Inferred) (2), Net Label PRIMARY-ANALOG-IN_6, Net Label PRIMARY-ANALOG-IN_6 (Inferred) (3))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[6]: PRIMARY-C6 has multiple names (Net Label C6_1 (3), Net Label C6_1 (Inferred) (2), Net Label PRIMARY-C6 (Inferred) (2))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[6]: PRIMARY-DIGITAL-IO_6 has multiple names (Net Label DIGITAL-IO_6_1, Net Label DIGITAL-IO_6_1 (Inferred), Net Label PRIMARY-DIGITAL-IO_6, Net Label PRIMARY-DIGITAL-IO_6 (Inferred) (3))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[6]: PRIMARY-S7 has multiple names (Net Label PRIMARY-S7 (Inferred) (2), Net Label S7, Net Label S7 (Inferred), Net Label S7_1, Net Label S7_1 (Inferred))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[6]: PRIMARY-T-SENSOR_6 has multiple names (Net Label PRIMARY-T-SENSOR_6, Net Label PRIMARY-T-SENSOR_6 (Inferred) (3), Net Label T-SENSOR_6_1, Net Label T-SENSOR_6_1 (Inferred))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[6]: SECONDARY-ANALOG-IN_6 has multiple names (Net Label ANALOG-IN_6_2, Net Label ANALOG-IN_6_2 (Inferred) (2), Net Label SECONDARY-ANALOG-IN_6, Net Label SECONDARY-ANALOG-IN_6 (Inferred) (3))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[6]: SECONDARY-C6 has multiple names (Net Label C6_2 (3), Net Label C6_2 (Inferred) (2), Net Label SECONDARY-C6 (Inferred) (2))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[6]: SECONDARY-DIGITAL-IO_6 has multiple names (Net Label DIGITAL-IO_6_2, Net Label DIGITAL-IO_6_2 (Inferred), Net Label SECONDARY-DIGITAL-IO_6, Net Label SECONDARY-DIGITAL-IO_6 (Inferred) (3))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[6]: SECONDARY-T-SENSOR_6 has multiple names (Net Label SECONDARY-T-SENSOR_6, Net Label SECONDARY-T-SENSOR_6 (Inferred) (3), Net Label T-SENSOR_6_2, Net Label T-SENSOR_6_2 (Inferred))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[7]: PRIMARY-ANALOG-IN_7 has multiple names (Net Label ANALOG-IN_7_1, Net Label ANALOG-IN_7_1 (Inferred) (2), Net Label PRIMARY-ANALOG-IN_7, Net Label PRIMARY-ANALOG-IN_7 (Inferred) (3))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[7]: PRIMARY-C7 has multiple names (Net Label C7_1 (2), Net Label C7_1 (Inferred) (2), Net Label PRIMARY-C7 (Inferred) (2))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[7]: PRIMARY-DIGITAL-IO_7 has multiple names (Net Label DIGITAL-IO_7_1, Net Label DIGITAL-IO_7_1 (Inferred), Net Label PRIMARY-DIGITAL-IO_7, Net Label PRIMARY-DIGITAL-IO_7 (Inferred) (3))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[7]: PRIMARY-S8 has multiple names (Net Label PRIMARY-S8 (Inferred) (2), Net Label S8, Net Label S8 (Inferred), Net Label S8_1, Net Label S8_1 (Inferred))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[7]: PRIMARY-T-SENSOR_7 has multiple names (Net Label PRIMARY-T-SENSOR_7, Net Label PRIMARY-T-SENSOR_7 (Inferred) (3), Net Label T-SENSOR_7_1, Net Label T-SENSOR_7_1 (Inferred))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[7]: SECONDARY-ANALOG-IN_7 has multiple names (Net Label ANALOG-IN_7_2, Net Label ANALOG-IN_7_2 (Inferred) (2), Net Label SECONDARY-ANALOG-IN_7, Net Label SECONDARY-ANALOG-IN_7 (Inferred) (3))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[7]: SECONDARY-C7 has multiple names (Net Label C7_2 (2), Net Label C7_2 (Inferred) (2), Net Label SECONDARY-C7 (Inferred) (2))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[7]: SECONDARY-DIGITAL-IO_7 has multiple names (Net Label DIGITAL-IO_7_2, Net Label DIGITAL-IO_7_2 (Inferred), Net Label SECONDARY-DIGITAL-IO_7, Net Label SECONDARY-DIGITAL-IO_7 (Inferred) (3))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[7]: SECONDARY-T-SENSOR_7 has multiple names (Net Label SECONDARY-T-SENSOR_7, Net Label SECONDARY-T-SENSOR_7 (Inferred) (3), Net Label T-SENSOR_7_2, Net Label T-SENSOR_7_2 (Inferred))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[8]: PRIMARY-ANALOG-IN_8 has multiple names (Net Label ANALOG-IN_8_1, Net Label ANALOG-IN_8_1 (Inferred) (2), Net Label PRIMARY-ANALOG-IN_8, Net Label PRIMARY-ANALOG-IN_8 (Inferred) (3))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[8]: PRIMARY-C8 has multiple names (Net Label C8_1 (2), Net Label C8_1 (Inferred) (2), Net Label PRIMARY-C8 (Inferred) (2))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[8]: PRIMARY-S9 has multiple names (Net Label PRIMARY-S9 (Inferred) (2), Net Label S9, Net Label S9 (Inferred), Net Label S9_1, Net Label S9_1 (Inferred))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[8]: SECONDARY-ANALOG-IN_8 has multiple names (Net Label ANALOG-IN_8_2, Net Label ANALOG-IN_8_2 (Inferred) (2), Net Label SECONDARY-ANALOG-IN_8, Net Label SECONDARY-ANALOG-IN_8 (Inferred) (3))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[8]: SECONDARY-C8 has multiple names (Net Label C8_2 (2), Net Label C8_2 (Inferred) (2), Net Label SECONDARY-C8 (Inferred) (2))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[9]: PRIMARY-ANALOG-IN_9 has multiple names (Net Label ANALOG-IN_9_1, Net Label ANALOG-IN_9_1 (Inferred) (2), Net Label PRIMARY-ANALOG-IN_9, Net Label PRIMARY-ANALOG-IN_9 (Inferred) (3))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[9]: PRIMARY-C9 has multiple names (Net Label C9_1 (2), Net Label C9_1 (Inferred) (2), Net Label PRIMARY-C9 (Inferred) (2))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[9]: PRIMARY-S10 has multiple names (Net Label PRIMARY-S10 (Inferred) (2), Net Label S10, Net Label S10 (Inferred), Net Label S10_1, Net Label S10_1 (Inferred))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[9]: SECONDARY-ANALOG-IN_9 has multiple names (Net Label ANALOG-IN_9_2, Net Label ANALOG-IN_9_2 (Inferred) (2), Net Label SECONDARY-ANALOG-IN_9, Net Label SECONDARY-ANALOG-IN_9 (Inferred) (3))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[9]: SECONDARY-C9 has multiple names (Net Label C9_2 (2), Net Label C9_2 (Inferred) (2), Net Label SECONDARY-C9 (Inferred) (2))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[10]: PRIMARY-ANALOG-IN_10 has multiple names (Net Label ANALOG-IN_10_1, Net Label ANALOG-IN_10_1 (Inferred) (2), Net Label PRIMARY-ANALOG-IN_10, Net Label PRIMARY-ANALOG-IN_10 (Inferred) (3))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[10]: PRIMARY-C10 has multiple names (Net Label C10_1 (2), Net Label C10_1 (Inferred) (2), Net Label PRIMARY-C10 (Inferred) (2))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[10]: PRIMARY-S11 has multiple names (Net Label PRIMARY-S11 (Inferred) (2), Net Label S11, Net Label S11 (Inferred), Net Label S11_1, Net Label S11_1 (Inferred))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[10]: SECONDARY-ANALOG-IN_10 has multiple names (Net Label ANALOG-IN_10_2, Net Label ANALOG-IN_10_2 (Inferred) (2), Net Label SECONDARY-ANALOG-IN_10, Net Label SECONDARY-ANALOG-IN_10 (Inferred) (3))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[10]: SECONDARY-C10 has multiple names (Net Label C10_2 (2), Net Label C10_2 (Inferred) (2), Net Label SECONDARY-C10 (Inferred) (2))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[11]: PRIMARY-ANALOG-IN_11 has multiple names (Net Label ANALOG-IN_11_1, Net Label ANALOG-IN_11_1 (Inferred) (2), Net Label PRIMARY-ANALOG-IN_11, Net Label PRIMARY-ANALOG-IN_11 (Inferred) (3))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[11]: PRIMARY-C11 has multiple names (Net Label C11_1 (2), Net Label C11_1 (Inferred) (2), Net Label PRIMARY-C11 (Inferred) (2))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[11]: PRIMARY-S12 has multiple names (Net Label PRIMARY-S12 (Inferred) (2), Net Label S12, Net Label S12 (Inferred), Net Label S12_1, Net Label S12_1 (Inferred))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[11]: SECONDARY-ANALOG-IN_11 has multiple names (Net Label ANALOG-IN_11_2, Net Label ANALOG-IN_11_2 (Inferred) (2), Net Label SECONDARY-ANALOG-IN_11, Net Label SECONDARY-ANALOG-IN_11 (Inferred) (3))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[11]: SECONDARY-C11 has multiple names (Net Label C11_2 (2), Net Label C11_2 (Inferred) (2), Net Label SECONDARY-C11 (Inferred) (2))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[12]: PRIMARY-ANALOG-IN_12 has multiple names (Net Label ANALOG-IN_12_1, Net Label ANALOG-IN_12_1 (Inferred) (2), Net Label PRIMARY-ANALOG-IN_12, Net Label PRIMARY-ANALOG-IN_12 (Inferred) (3))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[12]: PRIMARY-C12 has multiple names (Net Label C12_1 (3), Net Label C12_1 (Inferred) (2), Net Label PRIMARY-C12 (Inferred) (2))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[12]: PRIMARY-S13 has multiple names (Net Label PRIMARY-S13 (Inferred) (2), Net Label S13, Net Label S13 (Inferred), Net Label S13_1, Net Label S13_1 (Inferred))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[12]: SECONDARY-ANALOG-IN_12 has multiple names (Net Label ANALOG-IN_12_2, Net Label ANALOG-IN_12_2 (Inferred) (2), Net Label SECONDARY-ANALOG-IN_12, Net Label SECONDARY-ANALOG-IN_12 (Inferred) (3))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[12]: SECONDARY-C12 has multiple names (Net Label C12_2 (3), Net Label C12_2 (Inferred) (2), Net Label SECONDARY-C12 (Inferred) (2))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[13]: PRIMARY-ANALOG-IN_13 has multiple names (Net Label ANALOG-IN_13_1, Net Label ANALOG-IN_13_1 (Inferred) (2), Net Label PRIMARY-ANALOG-IN_13, Net Label PRIMARY-ANALOG-IN_13 (Inferred) (3))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[13]: PRIMARY-C13 has multiple names (Net Label C13_1 (2), Net Label C13_1 (Inferred) (2), Net Label PRIMARY-C13 (Inferred) (2))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[13]: PRIMARY-S14 has multiple names (Net Label PRIMARY-S14 (Inferred) (2), Net Label S14, Net Label S14 (Inferred), Net Label S14_1, Net Label S14_1 (Inferred))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[13]: SECONDARY-ANALOG-IN_13 has multiple names (Net Label ANALOG-IN_13_2, Net Label ANALOG-IN_13_2 (Inferred) (2), Net Label SECONDARY-ANALOG-IN_13, Net Label SECONDARY-ANALOG-IN_13 (Inferred) (3))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[13]: SECONDARY-C13 has multiple names (Net Label C13_2 (2), Net Label C13_2 (Inferred) (2), Net Label SECONDARY-C13 (Inferred) (2))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[14]: PRIMARY-ANALOG-IN_14 has multiple names (Net Label ANALOG-IN_14_1, Net Label ANALOG-IN_14_1 (Inferred) (2), Net Label PRIMARY-ANALOG-IN_14, Net Label PRIMARY-ANALOG-IN_14 (Inferred) (3))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[14]: PRIMARY-C14 has multiple names (Net Label C14_1 (2), Net Label C14_1 (Inferred) (2), Net Label PRIMARY-C14 (Inferred) (2))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[14]: PRIMARY-S15 has multiple names (Net Label PRIMARY-S15 (Inferred) (2), Net Label S15, Net Label S15 (Inferred), Net Label S15_1, Net Label S15_1 (Inferred))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[14]: SECONDARY-ANALOG-IN_14 has multiple names (Net Label ANALOG-IN_14_2, Net Label ANALOG-IN_14_2 (Inferred) (2), Net Label SECONDARY-ANALOG-IN_14, Net Label SECONDARY-ANALOG-IN_14 (Inferred) (3))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[14]: SECONDARY-C14 has multiple names (Net Label C14_2 (2), Net Label C14_2 (Inferred) (2), Net Label SECONDARY-C14 (Inferred) (2))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[15]: PRIMARY-ANALOG-IN_15 has multiple names (Net Label ANALOG-IN_15_1, Net Label ANALOG-IN_15_1 (Inferred) (2), Net Label PRIMARY-ANALOG-IN_15, Net Label PRIMARY-ANALOG-IN_15 (Inferred) (3))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[15]: PRIMARY-C15 has multiple names (Net Label C15_1 (2), Net Label C15_1 (Inferred) (2), Net Label PRIMARY-C15 (Inferred) (2))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[15]: PRIMARY-S16 has multiple names (Net Label PRIMARY-S16 (Inferred) (2), Net Label S16, Net Label S16 (Inferred), Net Label S16_1, Net Label S16_1 (Inferred))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[15]: SECONDARY-ANALOG-IN_15 has multiple names (Net Label ANALOG-IN_15_2, Net Label ANALOG-IN_15_2 (Inferred) (2), Net Label SECONDARY-ANALOG-IN_15, Net Label SECONDARY-ANALOG-IN_15 (Inferred) (3))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[15]: SECONDARY-C15 has multiple names (Net Label C15_2 (2), Net Label C15_2 (Inferred) (2), Net Label SECONDARY-C15 (Inferred) (2))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[16]: PRIMARY-C16 has multiple names (Net Label C16_1 (2), Net Label C16_1 (Inferred) (2), Net Label PRIMARY-C16 (Inferred) (2))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[16]: PRIMARY-S17 has multiple names (Net Label PRIMARY-S17 (Inferred) (2), Net Label S17, Net Label S17 (Inferred), Net Label S17_1, Net Label S17_1 (Inferred))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[16]: SECONDARY-C16 has multiple names (Net Label C16_2 (2), Net Label C16_2 (Inferred) (2), Net Label SECONDARY-C16 (Inferred) (2))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[17]: PRIMARY-C17 has multiple names (Net Label C17_1 (2), Net Label C17_1 (Inferred) (2), Net Label PRIMARY-C17 (Inferred) (2))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[17]: PRIMARY-S18 has multiple names (Net Label PRIMARY-S18 (Inferred) (2), Net Label S18, Net Label S18 (Inferred), Net Label S18_1, Net Label S18_1 (Inferred))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[17]: SECONDARY-C17 has multiple names (Net Label C17_2 (2), Net Label C17_2 (Inferred) (2), Net Label SECONDARY-C17 (Inferred) (2))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[18]: PRIMARY-C18 has multiple names (Net Label C18_1 (2), Net Label C18_1 (Inferred) (2), Net Label PRIMARY-C18 (Inferred) (2))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Element[18]: SECONDARY-C18 has multiple names (Net Label C18_2 (2), Net Label C18_2 (Inferred) (2), Net Label SECONDARY-C18 (Inferred) (2))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Wire +3.0V_VREF2_1 has multiple names (Net Label +3.0V_VREF2_P (3), Power Object +3.0V_VREF2_0 (3), Power Object +3.0V_VREF2_1 (3))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Wire +3.0V_VREF2_2 has multiple names (Net Label +3.0V_VREF2_S (3), Power Object +3.0V_VREF2_1 (3), Power Object +3.0V_VREF2_2 (3))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Wire +5.0V_VREG_1 has multiple names (Net Label +5.0V_VREG_P (7), Power Object +5.0V_VREG_0 (4), Power Object +5.0V_VREG_1 (27))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Wire +5.0V_VREG_2 has multiple names (Net Label +5.0V_VREG_S (7), Power Object +5.0V_VREG_1 (4), Power Object +5.0V_VREG_2 (27))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Wire CELL_FEEDBACK.CELL0_FEEDBACK+ has multiple names (Net Label CELL0_FEEDBACK+ (4), Net Label CELL_FEEDBACK.CELL0_FEEDBACK+ (2))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Wire CELL_FEEDBACK.CELL1_FEEDBACK+ has multiple names (Net Label CELL1_FEEDBACK+ (4), Net Label CELL_FEEDBACK.CELL1_FEEDBACK+ (2))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Wire CELL_FEEDBACK.CELL2_FEEDBACK+ has multiple names (Net Label CELL2_FEEDBACK+ (4), Net Label CELL_FEEDBACK.CELL2_FEEDBACK+ (2))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Wire CELL_FEEDBACK.CELL3_FEEDBACK+ has multiple names (Net Label CELL3_FEEDBACK+ (4), Net Label CELL_FEEDBACK.CELL3_FEEDBACK+ (2))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Wire CELL_FEEDBACK.CELL4_FEEDBACK+ has multiple names (Net Label CELL4_FEEDBACK+ (4), Net Label CELL_FEEDBACK.CELL4_FEEDBACK+ (2))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Wire CELL_FEEDBACK.CELL5_FEEDBACK+ has multiple names (Net Label CELL5_FEEDBACK+ (4), Net Label CELL_FEEDBACK.CELL5_FEEDBACK+ (2))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Wire CELL_FEEDBACK.CELL6_FEEDBACK+ has multiple names (Net Label CELL6_FEEDBACK+ (4), Net Label CELL_FEEDBACK.CELL6_FEEDBACK+ (2))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Wire CELL_FEEDBACK.CELL7_FEEDBACK+ has multiple names (Net Label CELL7_FEEDBACK+ (4), Net Label CELL_FEEDBACK.CELL7_FEEDBACK+ (2))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Wire CELL_FEEDBACK.CELL8_FEEDBACK+ has multiple names (Net Label CELL8_FEEDBACK+ (4), Net Label CELL_FEEDBACK.CELL8_FEEDBACK+ (2))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Wire CELL_FEEDBACK.CELL9_FEEDBACK+ has multiple names (Net Label CELL9_FEEDBACK+ (4), Net Label CELL_FEEDBACK.CELL9_FEEDBACK+ (2))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Wire CELL_FEEDBACK.CELL10_FEEDBACK+ has multiple names (Net Label CELL10_FEEDBACK+ (4), Net Label CELL_FEEDBACK.CELL10_FEEDBACK+ (2))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Wire CELL_FEEDBACK.CELL11_FEEDBACK+ has multiple names (Net Label CELL11_FEEDBACK+ (4), Net Label CELL_FEEDBACK.CELL11_FEEDBACK+ (2))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Wire CELL_FEEDBACK.CELL12_FEEDBACK+ has multiple names (Net Label CELL12_FEEDBACK+ (4), Net Label CELL_FEEDBACK.CELL12_FEEDBACK+ (2))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Wire CELL_FEEDBACK.CELL13_FEEDBACK+ has multiple names (Net Label CELL13_FEEDBACK+ (4), Net Label CELL_FEEDBACK.CELL13_FEEDBACK+ (2))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Wire CELL_FEEDBACK.CELL14_FEEDBACK+ has multiple names (Net Label CELL14_FEEDBACK+ (4), Net Label CELL_FEEDBACK.CELL14_FEEDBACK+ (2))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Wire CELL_FEEDBACK.CELL15_FEEDBACK+ has multiple names (Net Label CELL15_FEEDBACK+ (4), Net Label CELL_FEEDBACK.CELL15_FEEDBACK+ (2))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Wire CELL_FEEDBACK.CELL16_FEEDBACK+ has multiple names (Net Label CELL16_FEEDBACK+ (4), Net Label CELL_FEEDBACK.CELL16_FEEDBACK+ (2))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Wire CELL_FEEDBACK.CELL17_FEEDBACK+ has multiple names (Net Label CELL17_FEEDBACK+ (4), Net Label CELL_FEEDBACK.CELL17_FEEDBACK+ (2))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Wire FUSED_CELL.CELL_0+ has multiple names (Net Label FUSED_CELL.CELL_0+ (5), Net Label FUSED_CELL_0+ (5), Net Label FUSED_CELL_0+_1 (2), Net Label FUSED_CELL_0+_2 (2))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Wire FUSED_CELL.CELL_0- has multiple names (Net Label FUSED_CELL.CELL_0- (5), Net Label FUSED_CELL_0- (5), Net Label FUSED_CELL_0-_1 (2), Net Label FUSED_CELL_0-_2 (2))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Wire FUSED_CELL.CELL_1+ has multiple names (Net Label FUSED_CELL.CELL_1+ (5), Net Label FUSED_CELL_1+ (5), Net Label FUSED_CELL_1+_1 (2), Net Label FUSED_CELL_1+_2 (2))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Wire FUSED_CELL.CELL_2+ has multiple names (Net Label FUSED_CELL.CELL_2+ (5), Net Label FUSED_CELL_2+ (5), Net Label FUSED_CELL_2+_1 (2), Net Label FUSED_CELL_2+_2 (2))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Wire FUSED_CELL.CELL_3+ has multiple names (Net Label FUSED_CELL.CELL_3+ (5), Net Label FUSED_CELL_3+ (5), Net Label FUSED_CELL_3+_1 (2), Net Label FUSED_CELL_3+_2 (2))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Wire FUSED_CELL.CELL_4+ has multiple names (Net Label FUSED_CELL.CELL_4+ (5), Net Label FUSED_CELL_4+ (5), Net Label FUSED_CELL_4+_1 (2), Net Label FUSED_CELL_4+_2 (2))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Wire FUSED_CELL.CELL_5+ has multiple names (Net Label FUSED_CELL.CELL_5+ (5), Net Label FUSED_CELL_5+ (6), Net Label FUSED_CELL_5+_1 (2), Net Label FUSED_CELL_5+_2 (2))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Wire FUSED_CELL.CELL_6+ has multiple names (Net Label FUSED_CELL.CELL_6+ (5), Net Label FUSED_CELL_6+ (5), Net Label FUSED_CELL_6+_1 (2), Net Label FUSED_CELL_6+_2 (2))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Wire FUSED_CELL.CELL_7+ has multiple names (Net Label FUSED_CELL.CELL_7+ (5), Net Label FUSED_CELL_7+ (5), Net Label FUSED_CELL_7+_1 (2), Net Label FUSED_CELL_7+_2 (2))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Wire FUSED_CELL.CELL_8+ has multiple names (Net Label FUSED_CELL.CELL_8+ (5), Net Label FUSED_CELL_8+ (5), Net Label FUSED_CELL_8+_1 (2), Net Label FUSED_CELL_8+_2 (2))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Wire FUSED_CELL.CELL_9+ has multiple names (Net Label FUSED_CELL.CELL_9+ (5), Net Label FUSED_CELL_9+ (5), Net Label FUSED_CELL_9+_1 (2), Net Label FUSED_CELL_9+_2 (2))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Wire FUSED_CELL.CELL_10+ has multiple names (Net Label FUSED_CELL.CELL_10+ (5), Net Label FUSED_CELL_10+ (5), Net Label FUSED_CELL_10+_1 (2), Net Label FUSED_CELL_10+_2 (2))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Wire FUSED_CELL.CELL_11+ has multiple names (Net Label FUSED_CELL.CELL_11+ (5), Net Label FUSED_CELL_11+ (6), Net Label FUSED_CELL_11+_1 (2), Net Label FUSED_CELL_11+_2 (2))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Wire FUSED_CELL.CELL_12+ has multiple names (Net Label FUSED_CELL.CELL_12+ (5), Net Label FUSED_CELL_12+ (5), Net Label FUSED_CELL_12+_1 (2), Net Label FUSED_CELL_12+_2 (2))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Wire FUSED_CELL.CELL_13+ has multiple names (Net Label FUSED_CELL.CELL_13+ (5), Net Label FUSED_CELL_13+ (5), Net Label FUSED_CELL_13+_1 (2), Net Label FUSED_CELL_13+_2 (2))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Wire FUSED_CELL.CELL_14+ has multiple names (Net Label FUSED_CELL.CELL_14+ (5), Net Label FUSED_CELL_14+ (5), Net Label FUSED_CELL_14+_1 (2), Net Label FUSED_CELL_14+_2 (2))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Wire FUSED_CELL.CELL_15+ has multiple names (Net Label FUSED_CELL.CELL_15+ (5), Net Label FUSED_CELL_15+ (5), Net Label FUSED_CELL_15+_1 (2), Net Label FUSED_CELL_15+_2 (2))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Wire FUSED_CELL.CELL_16+ has multiple names (Net Label FUSED_CELL.CELL_16+ (5), Net Label FUSED_CELL_16+ (5), Net Label FUSED_CELL_16+_1 (2), Net Label FUSED_CELL_16+_2 (2))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Wire FUSED_CELL.CELL_17+ has multiple names (Net Label FUSED_CELL.CELL_17+ (5), Net Label FUSED_CELL_17+ (4), Net Label FUSED_CELL_17+_1 (2), Net Label FUSED_CELL_17+_2 (2))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Wire FUSED_VBAT- has multiple names (Net Label LTC-V-_1 (2), Net Label LTC-V-_2 (2), Power Object FUSED_VBAT- (35), Power Object FUSED_VBAT-_1 (37), Power Object FUSED_VBAT-_2 (37))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Wire GLOBAL-BAL-FB has multiple names (Net Label GLOBAL-BAL-FB (3), Net Label GLOBAL-BALANCING-FEEDBACK)</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Wire PRIMARY-GPIO6 has multiple names (Net Label GPIO6_1 (2), Net Label PRIMARY-GPIO6)</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Wire PRIMARY-GPIO7 has multiple names (Net Label GPIO7_1 (2), Net Label PRIMARY-GPIO7)</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Wire PRIMARY-GPIO8 has multiple names (Net Label GPIO8_1 (2), Net Label PRIMARY-GPIO8)</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Wire PRIMARY-GPIO9 has multiple names (Net Label GPIO9_1 (2), Net Label PRIMARY-GPIO9)</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Wire PRIMARY-IN+ has multiple names (Net Label IN+_1, Net Label PRIMARY-IN+ (2))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Wire PRIMARY-IN- has multiple names (Net Label IN-_1, Net Label PRIMARY-IN- (2))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Wire PRIMARY-LTC-DRIVE has multiple names (Net Label LTC-DRIVE_1, Net Label PRIMARY-LTC-DRIVE (2))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Wire PRIMARY-OUT+ has multiple names (Net Label OUT+_1, Net Label PRIMARY-OUT+ (2))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Wire PRIMARY-OUT- has multiple names (Net Label OUT-_1, Net Label PRIMARY-OUT- (2))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Wire PRIMARY-SCL has multiple names (Net Label PRIMARY-SCL (4), Net Label SCL_1 (6))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Wire PRIMARY-SDA has multiple names (Net Label PRIMARY-SDA (4), Net Label SDA_1 (6))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Wire PRIMARY-TEMP-ALERT has multiple names (Net Label PRIMARY-TEMP-ALERT (2), Net Label TEMP-ALERT_1)</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Wire PRIMARY-WDT has multiple names (Net Label PRIMARY-WDT, Net Label WDT_1 (2))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Wire SECONDARY-GPIO6 has multiple names (Net Label GPIO6_2 (2), Net Label SECONDARY-GPIO6)</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Wire SECONDARY-GPIO7 has multiple names (Net Label GPIO7_2 (2), Net Label SECONDARY-GPIO7)</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Wire SECONDARY-GPIO8 has multiple names (Net Label GPIO8_2 (2), Net Label SECONDARY-GPIO8)</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Wire SECONDARY-GPIO9 has multiple names (Net Label GPIO9_2 (2), Net Label SECONDARY-GPIO9)</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Wire SECONDARY-IN+ has multiple names (Net Label IN+_2, Net Label SECONDARY-IN+ (2))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Wire SECONDARY-IN- has multiple names (Net Label IN-_2, Net Label SECONDARY-IN- (2))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Wire SECONDARY-LTC-DRIVE has multiple names (Net Label LTC-DRIVE_2, Net Label SECONDARY-LTC-DRIVE (2))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Wire SECONDARY-OUT+ has multiple names (Net Label OUT+_2, Net Label SECONDARY-OUT+ (2))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Wire SECONDARY-OUT- has multiple names (Net Label OUT-_2, Net Label SECONDARY-OUT- (2))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Wire SECONDARY-SCL has multiple names (Net Label SCL_2 (6), Net Label SECONDARY-SCL (4))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Wire SECONDARY-SDA has multiple names (Net Label SDA_2 (6), Net Label SECONDARY-SDA (4))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Wire SECONDARY-TEMP-ALERT has multiple names (Net Label SECONDARY-TEMP-ALERT (2), Net Label TEMP-ALERT_2)</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">hierarchy.SchDoc</td>
+<td class="column3">Nets Wire SECONDARY-WDT has multiple names (Net Label SECONDARY-WDT, Net Label WDT_2 (2))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">daisy_chain_connectors.SchDoc</td>
+<td class="column3">PRIMARY-IN+ contains Unspecified Port and Output Sheet Entry objects (Port PRIMARY-IN+, Sheet Entry U_daisy_chain_connectors-PRIMARY-IN+(Output)).</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">daisy_chain_connectors.SchDoc</td>
+<td class="column3">PRIMARY-IN- contains Unspecified Port and Output Sheet Entry objects (Port PRIMARY-IN-, Sheet Entry U_daisy_chain_connectors-PRIMARY-IN-(Output)).</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">daisy_chain_connectors.SchDoc</td>
+<td class="column3">PRIMARY-OUT+ contains Unspecified Port and Input Sheet Entry objects (Port PRIMARY-OUT+, Sheet Entry U_daisy_chain_connectors-PRIMARY-OUT+(Input)).</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">daisy_chain_connectors.SchDoc</td>
+<td class="column3">PRIMARY-OUT- contains Unspecified Port and Input Sheet Entry objects (Port PRIMARY-OUT-, Sheet Entry U_daisy_chain_connectors-PRIMARY-OUT-(Input)).</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">daisy_chain_connectors.SchDoc</td>
+<td class="column3">SECONDARY-IN+ contains Unspecified Port and Output Sheet Entry objects (Port SECONDARY-IN+, Sheet Entry U_daisy_chain_connectors-SECONDARY-IN+(Output)).</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">daisy_chain_connectors.SchDoc</td>
+<td class="column3">SECONDARY-IN- contains Unspecified Port and Output Sheet Entry objects (Port SECONDARY-IN-, Sheet Entry U_daisy_chain_connectors-SECONDARY-IN-(Output)).</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">daisy_chain_connectors.SchDoc</td>
+<td class="column3">SECONDARY-OUT+ contains Unspecified Port and Input Sheet Entry objects (Port SECONDARY-OUT+, Sheet Entry U_daisy_chain_connectors-SECONDARY-OUT+(Input)).</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">daisy_chain_connectors.SchDoc</td>
+<td class="column3">SECONDARY-OUT- contains Unspecified Port and Input Sheet Entry objects (Port SECONDARY-OUT-, Sheet Entry U_daisy_chain_connectors-SECONDARY-OUT-(Input)).</td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br></body>
+</html>

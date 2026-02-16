@@ -1,0 +1,102 @@
+*************************************************************
+FileName = slave.PcbDoc
+ODB++ directory structure
+*************************************************************
+Generated File : C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\1\Fabrication\odb-data\odb\steps\pcb\profile
+
+Generated File : C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\1\Fabrication\odb-data\odb\steps\pcb\stephdr
+
+Generated File : C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\1\Fabrication\odb-data\odb\steps\pcb\attrlist
+
+Generated File : C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\1\Fabrication\odb-data\odb\steps\pcb\layers\dielectric_1\features
+
+Generated File : C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\1\Fabrication\odb-data\odb\steps\pcb\layers\dielectric_1\attrlist
+
+Generated File : C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\1\Fabrication\odb-data\odb\steps\pcb\layers\dielectric2\features
+
+Generated File : C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\1\Fabrication\odb-data\odb\steps\pcb\layers\dielectric2\attrlist
+
+Generated File : C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\1\Fabrication\odb-data\odb\steps\pcb\layers\dielectric4\features
+
+Generated File : C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\1\Fabrication\odb-data\odb\steps\pcb\layers\dielectric4\attrlist
+
+Generated File : C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\1\Fabrication\odb-data\odb\steps\pcb\layers\dielectric3\features
+
+Generated File : C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\1\Fabrication\odb-data\odb\steps\pcb\layers\dielectric3\attrlist
+
+Generated File : C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\1\Fabrication\odb-data\odb\steps\pcb\layers\drill_non-plated_bottom-top\features
+
+Generated File : C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\1\Fabrication\odb-data\odb\steps\pcb\layers\drill_non-plated_bottom-top\attrlist
+
+Generated File : C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\1\Fabrication\odb-data\odb\steps\pcb\layers\drill_non-plated_bottom-top\tools
+
+Generated File : C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\1\Fabrication\odb-data\odb\steps\pcb\layers\bottom_paste\features
+
+Generated File : C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\1\Fabrication\odb-data\odb\steps\pcb\layers\bottom_paste\attrlist
+
+Generated File : C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\1\Fabrication\odb-data\odb\steps\pcb\layers\dielectric5\features
+
+Generated File : C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\1\Fabrication\odb-data\odb\steps\pcb\layers\dielectric5\attrlist
+
+Generated File : C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\1\Fabrication\odb-data\odb\steps\pcb\layers\signals2\features
+
+Generated File : C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\1\Fabrication\odb-data\odb\steps\pcb\layers\signals2\attrlist
+
+Generated File : C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\1\Fabrication\odb-data\odb\steps\pcb\layers\bottom_solder\features
+
+Generated File : C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\1\Fabrication\odb-data\odb\steps\pcb\layers\bottom_solder\attrlist
+
+Generated File : C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\1\Fabrication\odb-data\odb\steps\pcb\layers\bottom_overlay\features
+
+Generated File : C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\1\Fabrication\odb-data\odb\steps\pcb\layers\bottom_overlay\attrlist
+
+Generated File : C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\1\Fabrication\odb-data\odb\steps\pcb\layers\signals1\features
+
+Generated File : C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\1\Fabrication\odb-data\odb\steps\pcb\layers\signals1\attrlist
+
+Generated File : C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\1\Fabrication\odb-data\odb\steps\pcb\layers\top_paste\features
+
+Generated File : C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\1\Fabrication\odb-data\odb\steps\pcb\layers\top_paste\attrlist
+
+Generated File : C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\1\Fabrication\odb-data\odb\steps\pcb\layers\supply\features
+
+Generated File : C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\1\Fabrication\odb-data\odb\steps\pcb\layers\supply\attrlist
+
+Generated File : C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\1\Fabrication\odb-data\odb\steps\pcb\layers\drill_plated_bottom-top\features
+
+Generated File : C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\1\Fabrication\odb-data\odb\steps\pcb\layers\drill_plated_bottom-top\attrlist
+
+Generated File : C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\1\Fabrication\odb-data\odb\steps\pcb\layers\drill_plated_bottom-top\tools
+
+Generated File : C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\1\Fabrication\odb-data\odb\steps\pcb\layers\top_solder\features
+
+Generated File : C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\1\Fabrication\odb-data\odb\steps\pcb\layers\top_solder\attrlist
+
+Generated File : C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\1\Fabrication\odb-data\odb\steps\pcb\layers\fused_vbat-\features
+
+Generated File : C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\1\Fabrication\odb-data\odb\steps\pcb\layers\fused_vbat-\attrlist
+
+Generated File : C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\1\Fabrication\odb-data\odb\steps\pcb\layers\bottom\features
+
+Generated File : C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\1\Fabrication\odb-data\odb\steps\pcb\layers\bottom\attrlist
+
+Generated File : C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\1\Fabrication\odb-data\odb\steps\pcb\layers\top_overlay\features
+
+Generated File : C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\1\Fabrication\odb-data\odb\steps\pcb\layers\top_overlay\attrlist
+
+Generated File : C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\1\Fabrication\odb-data\odb\steps\pcb\layers\top\features
+
+Generated File : C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\1\Fabrication\odb-data\odb\steps\pcb\layers\top\attrlist
+
+Generated File : C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\1\Fabrication\odb-data\odb\steps\pcb\layers\comp_+_top\features
+
+Generated File : C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\1\Fabrication\odb-data\odb\steps\pcb\layers\comp_+_top\components
+
+Generated File : C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\1\Fabrication\odb-data\odb\steps\pcb\layers\rout\features
+
+Generated File : C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\1\Fabrication\odb-data\odb\steps\pcb\layers\rout\tools
+
+Generated File : C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\1\Fabrication\odb-data\odb\steps\pcb\eda\data
+
+Generated File : C:\Users\schwarz\AppData\Local\TempReleases\Snapshot\1\Fabrication\odb-data\odb\matrix\matrix
+
