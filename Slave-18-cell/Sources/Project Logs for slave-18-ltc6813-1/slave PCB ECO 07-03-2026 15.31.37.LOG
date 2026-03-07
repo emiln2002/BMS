@@ -1,0 +1,229 @@
+Removed Pin From Net: NetName=SECONDARY-T-SENSOR_0 Pin=X201-1
+Removed Pin From Net: NetName=FUSED_VBAT- Pin=X201-2
+Removed Pin From Net: NetName=SECONDARY-T-SENSOR_1 Pin=X201-3
+Removed Pin From Net: NetName=FUSED_VBAT- Pin=X201-4
+Removed Pin From Net: NetName=SECONDARY-T-SENSOR_2 Pin=X201-5
+Removed Pin From Net: NetName=FUSED_VBAT- Pin=X201-6
+Removed Pin From Net: NetName=SECONDARY-T-SENSOR_3 Pin=X201-7
+Removed Pin From Net: NetName=FUSED_VBAT- Pin=X201-8
+Removed Pin From Net: NetName=SECONDARY-T-SENSOR_4 Pin=X201-9
+Removed Pin From Net: NetName=FUSED_VBAT- Pin=X201-10
+Removed Pin From Net: NetName=SECONDARY-T-SENSOR_5 Pin=X201-11
+Removed Pin From Net: NetName=FUSED_VBAT- Pin=X201-12
+Removed Pin From Net: NetName=SECONDARY-T-SENSOR_6 Pin=X201-13
+Removed Pin From Net: NetName=FUSED_VBAT- Pin=X201-14
+Removed Pin From Net: NetName=SECONDARY-T-SENSOR_7 Pin=X201-15
+Removed Pin From Net: NetName=FUSED_VBAT- Pin=X201-16
+Removed Pin From Net: NetName=PRIMARY-IN+ Pin=X500-1
+Removed Pin From Net: NetName=PRIMARY-IN- Pin=X500-2
+Removed Pin From Net: NetName=PRIMARY-OUT+ Pin=X501-1
+Removed Pin From Net: NetName=PRIMARY-OUT- Pin=X501-2
+Removed Pin From Net: NetName=SECONDARY-IN+ Pin=X502-1
+Removed Pin From Net: NetName=SECONDARY-IN- Pin=X502-2
+Removed Pin From Net: NetName=SECONDARY-OUT+ Pin=X503-1
+Removed Pin From Net: NetName=SECONDARY-OUT- Pin=X503-2
+Removed Pin From Net: NetName=EXT_DC_ISO+ Pin=X900-1
+Removed Pin From Net: NetName=FUSED_VBAT- Pin=X900-2
+Removed Pin From Net: NetName=EXT_DC_IN+ Pin=X1000-1
+Removed Pin From Net: NetName=EXT_DC_IN- Pin=X1000-2
+Removed Pin From Net: NetName=EXT_DC_IN+ Pin=X1000-3
+Removed Pin From Net: NetName=EXT_DC_IN- Pin=X1000-4
+Removed Pin From Net: NetName=EXT_DC_IN+ Pin=X1001-1
+Removed Pin From Net: NetName=EXT_DC_IN- Pin=X1001-2
+Removed Pin From Net: NetName=EXT_DC_IN+ Pin=X1002-1
+Removed Pin From Net: NetName=EXT_DC_IN- Pin=X1002-2
+Change Component Footprint: Designator=X201 Old Footprint=690357101672 New Footprint=690357281676
+Change Component Footprint: Designator=X500 Old Footprint=MOLEX_MICROFIT_01x2_THT New Footprint=690357280476
+Change Component Footprint: Designator=X501 Old Footprint=MOLEX_MICROFIT_01x2_THT New Footprint=690357280476
+Change Component Footprint: Designator=X900 Old Footprint=Pinheader_2.54_2 New Footprint=690357280676
+Change Component Comment : Designator=X201 Old Comment=690357101672 New Comment=690357281676
+Change Component Comment : Designator=X900 Old Comment=gen_pinheader_2.54_2 New Comment=690357280676
+Change Component Comment : Designator=X500 Old Comment=molex_microfit_3_01x2_THT New Comment=690357280476
+Change Component Comment : Designator=X501 Old Comment=molex_microfit_3_01x2_THT New Comment=690357280476
+Change Managed Component Library Link : Designator=X201 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID=BE7CA38E-CE63-4F1B-8C2D-6A98CAF9BA29 New ItemGUID=511487C3-7920-4B6D-81B3-07D36E7FB680 Old RevisionGUID=25C78CDD-AF1B-41E0-86A6-5FF20178A1C4 New RevisionGUID=A0EB20DE-296F-4D26-BAD8-AD52772D5502
+Change Managed Component Library Link : Designator=X500 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=2AE110EE-02C6-4129-8411-0F945609B722 Old RevisionGUID= New RevisionGUID=5ADC81CD-FC96-4A78-802E-8D8CF359A9BD
+Change Managed Component Library Link : Designator=X501 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=2AE110EE-02C6-4129-8411-0F945609B722 Old RevisionGUID= New RevisionGUID=5ADC81CD-FC96-4A78-802E-8D8CF359A9BD
+Change Managed Component Library Link : Designator=X900 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=1042565B-F1F2-45D7-A742-88A99716CF89 Old RevisionGUID= New RevisionGUID=608F2EAC-52F9-434E-B02F-3EF0C87BB8D8
+Change component parameters: Designator = "X201" ("X201"); Footprint = "690357101672"; UniqueID = "\JMGCXLML\VXTEZTBY" ("\JMGCXLML\VXTEZTBY")
+Change component parameters (AddParameter): Name = "Contact Resistance"; Value = "10mO"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Current Rating"; Value = "1.5A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Gender"; Value = "Male"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Insulation Resistance"; Value = "1GO"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Lead Pitch"; Value = "2.54mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Length"; Value = "21.15mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Operating Temperature"; Value = "105°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Operating Temperature"; Value = "-40°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "NexarPartId"; Value = "65759598"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Pins"; Value = "16"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Supply Voltage"; Value = "100V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pitch"; Value = "2.54mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS"; Value = "Compliant"; VariantName = "[No Variations]"
+Change component parameters: Designator = "X900" ("X900"); Footprint = "Pinheader_2.54_2"; UniqueID = "\KDJPDGIV\JUHPSXCH" ("\KDJPDGIV\JUHPSXCH")
+Change component parameters (AddParameter): Name = "Color"; Value = "Red"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Connector Type"; Value = "Male Pin"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Material"; Value = "Bronze"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Plating"; Value = "Tin"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Resistance"; Value = "10mO"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Current Rating"; Value = "1.5A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fastening Type"; Value = "Ramp"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Gender"; Value = "Male"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Insulation Resistance"; Value = "1GO"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Lead Pitch"; Value = "2.54mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Length"; Value = "8.45mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Operating Temperature"; Value = "105°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Operating Temperature"; Value = "-40°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "NexarPartId"; Value = "8917648"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Contacts"; Value = "6"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Pins"; Value = "6"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Positions"; Value = "6"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Rows"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Supply Voltage"; Value = "100V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Orientation"; Value = "Straight"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pitch"; Value = "2.54mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "REACH SVHC"; Value = "No SVHC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS"; Value = "Compliant"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Row Spacing"; Value = "1.4986mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Termination"; Value = "Solder"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = "100V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "X500" ("x500"); Footprint = "MOLEX_MICROFIT_01x2_THT"; UniqueID = "\LYJQWUPX\UJDUGZXQ" ("\LYJQWUPX\UJDUGZXQ")
+Change component parameters (AddParameter): Name = "Color"; Value = "Red"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Connector Type"; Value = "Male Pin"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Material"; Value = "Bronze"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Plating"; Value = "Tin"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Resistance"; Value = "10mO"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Current Rating"; Value = "1.5A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fastening Type"; Value = "Ramp"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Gender"; Value = "Male"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Insulation Resistance"; Value = "1GO"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Lead Pitch"; Value = "2.54mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Length"; Value = "5.91mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Operating Temperature"; Value = "105°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Operating Temperature"; Value = "-40°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "NexarPartId"; Value = "8917647"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Contacts"; Value = "4"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Pins"; Value = "4"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Positions"; Value = "4"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Rows"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Supply Voltage"; Value = "100V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Orientation"; Value = "Straight"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pitch"; Value = "2.54mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "REACH SVHC"; Value = "Unknown"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS"; Value = "Compliant"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Row Spacing"; Value = "1.4986mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Termination"; Value = "Solder"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = "100V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "X501" ("x501"); Footprint = "MOLEX_MICROFIT_01x2_THT"; UniqueID = "\LYJQWUPX\QUQDTYMA" ("\LYJQWUPX\QUQDTYMA")
+Change component parameters (AddParameter): Name = "Color"; Value = "Red"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Connector Type"; Value = "Male Pin"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Material"; Value = "Bronze"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Plating"; Value = "Tin"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Resistance"; Value = "10mO"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Current Rating"; Value = "1.5A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fastening Type"; Value = "Ramp"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Gender"; Value = "Male"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Insulation Resistance"; Value = "1GO"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Lead Pitch"; Value = "2.54mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Length"; Value = "5.91mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Operating Temperature"; Value = "105°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Operating Temperature"; Value = "-40°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "NexarPartId"; Value = "8917647"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Contacts"; Value = "4"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Pins"; Value = "4"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Positions"; Value = "4"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Rows"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Supply Voltage"; Value = "100V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Orientation"; Value = "Straight"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pitch"; Value = "2.54mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "REACH SVHC"; Value = "Unknown"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS"; Value = "Compliant"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Row Spacing"; Value = "1.4986mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Termination"; Value = "Solder"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = "100V"; VariantName = "[No Variations]"
+Add component: Footprint Not Found SOIC127P700X220-4L
+Add component: Footprint Not Found SOIC127P700X220-4L
+Add component: Footprint Not Found SOIC127P700X220-4L
+Add component: Footprint Not Found SOIC127P700X220-4L
+Add component: Footprint Not Found SOIC127P700X220-4L
+Add component: Footprint Not Found SOIC127P700X220-4L
+Add component: Footprint Not Found SOIC127P700X220-4L
+Add component: Footprint Not Found SOIC127P700X220-4L
+Add component: Footprint Not Found SOIC127P700X220-4L
+Add component: Footprint Not Found SOIC127P700X220-4L
+Add component: Footprint Not Found SOIC127P700X220-4L
+Add component: Footprint Not Found SOIC127P700X220-4L
+Add component: Footprint Not Found SOIC127P700X220-4L
+Add component: Footprint Not Found SOIC127P700X220-4L
+Add component: Footprint Not Found SOIC127P700X220-4L
+Add component: Footprint Not Found SOIC127P700X220-4L
+Add component: Footprint Not Found SOIC127P700X220-4L
+Add component: Footprint Not Found SOIC127P700X220-4L
+Add component: Footprint Not Found SOIC127P700X220-4L
+Add component: Footprint Not Found SOIC127P700X220-4L
+Add component: Footprint Not Found SOIC127P700X220-4L
+Add component: Footprint Not Found SOIC127P700X220-4L
+Add component: Footprint Not Found SOIC127P700X220-4L
+Add component: Footprint Not Found SOIC127P700X220-4L
+Add component: Footprint Not Found SOIC127P700X220-4L
+Add component: Footprint Not Found SOIC127P700X220-4L
+Add component: Footprint Not Found SOIC127P700X220-4L
+Add component: Footprint Not Found SOIC127P700X220-4L
+Add component: Footprint Not Found SOIC127P700X220-4L
+Add component: Footprint Not Found SOIC127P700X220-4L
+Add component: Footprint Not Found SOIC127P700X220-4L
+Add component: Footprint Not Found SOIC127P700X220-4L
+Add component: Footprint Not Found SOIC127P700X220-4L
+Add component: Footprint Not Found SOIC127P700X220-4L
+Add component: Footprint Not Found SOIC127P700X220-4L
+Add component: Footprint Not Found SOIC127P700X220-4L
+Added Component: Designator=x202(690357281676)
+Add component (AddParameter): Name = "Contact Resistance"; Value = "10mO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Rating"; Value = "1.5A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Gender"; Value = "Male"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Insulation Resistance"; Value = "1GO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Pitch"; Value = "2.54mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "21.15mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "105°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-40°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "NexarPartId"; Value = "65759598"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Pins"; Value = "16"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Supply Voltage"; Value = "100V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pitch"; Value = "2.54mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "Compliant"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=SECONDARY-T-SENSOR_0 Pin=x202-1
+Added Pin To Net: NetName=FUSED_VBAT- Pin=x202-2
+Added Pin To Net: NetName=SECONDARY-T-SENSOR_1 Pin=x202-3
+Added Pin To Net: NetName=FUSED_VBAT- Pin=x202-4
+Added Pin To Net: NetName=SECONDARY-T-SENSOR_2 Pin=x202-5
+Added Pin To Net: NetName=FUSED_VBAT- Pin=x202-6
+Added Pin To Net: NetName=SECONDARY-T-SENSOR_3 Pin=x202-7
+Added Pin To Net: NetName=FUSED_VBAT- Pin=x202-8
+Added Pin To Net: NetName=SECONDARY-T-SENSOR_4 Pin=x202-9
+Added Pin To Net: NetName=FUSED_VBAT- Pin=x202-10
+Added Pin To Net: NetName=SECONDARY-T-SENSOR_5 Pin=x202-11
+Added Pin To Net: NetName=FUSED_VBAT- Pin=x202-12
+Added Pin To Net: NetName=SECONDARY-T-SENSOR_6 Pin=x202-13
+Added Pin To Net: NetName=FUSED_VBAT- Pin=x202-14
+Added Pin To Net: NetName=SECONDARY-T-SENSOR_7 Pin=x202-15
+Added Pin To Net: NetName=FUSED_VBAT- Pin=x202-16
+Added Pin To Net: NetName=PRIMARY-IN- Pin=X500-1
+Added Pin To Net: NetName=PRIMARY-IN+ Pin=X500-2
+Added Pin To Net: NetName=PRIMARY-IN- Pin=X500-3
+Added Pin To Net: NetName=PRIMARY-IN+ Pin=X500-4
+Added Pin To Net: NetName=PRIMARY-OUT- Pin=X501-1
+Added Pin To Net: NetName=PRIMARY-OUT+ Pin=X501-2
+Added Pin To Net: NetName=PRIMARY-OUT- Pin=X501-3
+Added Pin To Net: NetName=PRIMARY-OUT+ Pin=X501-4
+Added Pin To Net: NetName=FUSED_VBAT- Pin=X900-1
+Added Pin To Net: NetName=EXT_DC_ISO+ Pin=X900-2
+Added Pin To Net: NetName=FUSED_VBAT- Pin=X900-3
+Added Pin To Net: NetName=EXT_DC_ISO+ Pin=X900-4
+Added Pin To Net: NetName=FUSED_VBAT- Pin=X900-5
+Added Pin To Net: NetName=EXT_DC_ISO+ Pin=X900-6

@@ -1,0 +1,558 @@
+Removed Pin From Net: NetName=VBAT- Pin=X200-1
+Removed Pin From Net: NetName=CELL_0+ Pin=X200-2
+Removed Pin From Net: NetName=CELL_2+ Pin=X200-3
+Removed Pin From Net: NetName=CELL_4+ Pin=X200-4
+Removed Pin From Net: NetName=CELL_6+ Pin=X200-5
+Removed Pin From Net: NetName=CELL_8+ Pin=X200-6
+Removed Pin From Net: NetName=CELL_10+ Pin=X200-7
+Removed Pin From Net: NetName=CELL_12+ Pin=X200-8
+Removed Pin From Net: NetName=CELL_14+ Pin=X200-9
+Removed Pin From Net: NetName=VBAT+ Pin=X200-11
+Removed Pin From Net: NetName=CELL_0- Pin=X200-13
+Removed Pin From Net: NetName=CELL_1+ Pin=X200-14
+Removed Pin From Net: NetName=CELL_3+ Pin=X200-15
+Removed Pin From Net: NetName=CELL_5+ Pin=X200-16
+Removed Pin From Net: NetName=CELL_7+ Pin=X200-17
+Removed Pin From Net: NetName=CELL_9+ Pin=X200-18
+Removed Pin From Net: NetName=CELL_11+ Pin=X200-19
+Removed Pin From Net: NetName=CELL_13+ Pin=X200-20
+Removed Pin From Net: NetName=PRIMARY-T-SENSOR_0 Pin=X201-1
+Removed Pin From Net: NetName=PRIMARY-T-SENSOR_1 Pin=X201-2
+Removed Pin From Net: NetName=PRIMARY-T-SENSOR_2 Pin=X201-3
+Removed Pin From Net: NetName=PRIMARY-T-SENSOR_3 Pin=X201-4
+Removed Pin From Net: NetName=PRIMARY-T-SENSOR_4 Pin=X201-5
+Removed Pin From Net: NetName=PRIMARY-T-SENSOR_5 Pin=X201-6
+Removed Pin From Net: NetName=PRIMARY-T-SENSOR_6 Pin=X201-7
+Removed Pin From Net: NetName=PRIMARY-T-SENSOR_7 Pin=X201-8
+Removed Pin From Net: NetName=FUSED_VBAT- Pin=X201-9
+Removed Pin From Net: NetName=FUSED_VBAT- Pin=X201-11
+Removed Pin From Net: NetName=FUSED_VBAT- Pin=X201-13
+Removed Pin From Net: NetName=FUSED_VBAT- Pin=X201-15
+Removed Pin From Net: NetName=SECONDARY-T-SENSOR_0 Pin=X202-1
+Removed Pin From Net: NetName=SECONDARY-T-SENSOR_1 Pin=X202-2
+Removed Pin From Net: NetName=SECONDARY-T-SENSOR_2 Pin=X202-3
+Removed Pin From Net: NetName=SECONDARY-T-SENSOR_3 Pin=X202-4
+Removed Pin From Net: NetName=SECONDARY-T-SENSOR_4 Pin=X202-5
+Removed Pin From Net: NetName=SECONDARY-T-SENSOR_5 Pin=X202-6
+Removed Pin From Net: NetName=SECONDARY-T-SENSOR_6 Pin=X202-7
+Removed Pin From Net: NetName=SECONDARY-T-SENSOR_7 Pin=X202-8
+Removed Pin From Net: NetName=FUSED_VBAT- Pin=X202-9
+Removed Pin From Net: NetName=FUSED_VBAT- Pin=X202-10
+Removed Pin From Net: NetName=FUSED_VBAT- Pin=X202-11
+Removed Pin From Net: NetName=FUSED_VBAT- Pin=X202-12
+Removed Pin From Net: NetName=FUSED_VBAT- Pin=X202-13
+Removed Pin From Net: NetName=FUSED_VBAT- Pin=X202-14
+Removed Pin From Net: NetName=FUSED_VBAT- Pin=X202-15
+Removed Pin From Net: NetName=FUSED_VBAT- Pin=X202-16
+Change Component Footprint: Designator=X201 Old Footprint=MOLEX_MICROFIT_08x2_THT New Footprint=690357101672
+Change Component Footprint: Designator=X200 Old Footprint=MOLEX_MICROFIT_12x2_THT New Footprint=690357102472
+Change Component Comment : Designator=X201 Old Comment=molex_microfit_3_08x2_THT New Comment=690357101672
+Change Component Comment : Designator=X200 Old Comment=molex_microfit_3_12x2_THT New Comment=690357102472
+Change Managed Component Library Link : Designator=D900 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=C0EA7B10-EA3C-45E7-9886-05E3ADB2ED5E Old RevisionGUID= New RevisionGUID=6C123033-D437-4095-ADA5-074B3AC79234
+Change Managed Component Library Link : Designator=D1100 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=304C75A4-953B-4394-9F5F-EACADECF65BC Old RevisionGUID= New RevisionGUID=1A3F8A85-F978-4176-971E-2A3BC63206C5
+Change Managed Component Library Link : Designator=D1400_1 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=C0EA7B10-EA3C-45E7-9886-05E3ADB2ED5E Old RevisionGUID= New RevisionGUID=6C123033-D437-4095-ADA5-074B3AC79234
+Change Managed Component Library Link : Designator=D1400_2 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=C0EA7B10-EA3C-45E7-9886-05E3ADB2ED5E Old RevisionGUID= New RevisionGUID=6C123033-D437-4095-ADA5-074B3AC79234
+Change Managed Component Library Link : Designator=D1401_1 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=DFAF35DD-CCD4-4D41-A0B9-15093BB1EA47 Old RevisionGUID= New RevisionGUID=83315760-786B-45DD-BF98-5D2807008D21
+Change Managed Component Library Link : Designator=D1401_2 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=DFAF35DD-CCD4-4D41-A0B9-15093BB1EA47 Old RevisionGUID= New RevisionGUID=83315760-786B-45DD-BF98-5D2807008D21
+Change Managed Component Library Link : Designator=IC100_1 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=E6A6585F-F87B-464F-94E0-1740D116CFF4 Old RevisionGUID= New RevisionGUID=56E51190-8C67-4C82-991D-57232F32B57B
+Change Managed Component Library Link : Designator=IC100_2 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=E6A6585F-F87B-464F-94E0-1740D116CFF4 Old RevisionGUID= New RevisionGUID=56E51190-8C67-4C82-991D-57232F32B57B
+Change Managed Component Library Link : Designator=IC101_1 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=E6A6585F-F87B-464F-94E0-1740D116CFF4 Old RevisionGUID= New RevisionGUID=56E51190-8C67-4C82-991D-57232F32B57B
+Change Managed Component Library Link : Designator=IC101_2 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=E6A6585F-F87B-464F-94E0-1740D116CFF4 Old RevisionGUID= New RevisionGUID=56E51190-8C67-4C82-991D-57232F32B57B
+Change Managed Component Library Link : Designator=IC104_1 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=E6A6585F-F87B-464F-94E0-1740D116CFF4 Old RevisionGUID= New RevisionGUID=56E51190-8C67-4C82-991D-57232F32B57B
+Change Managed Component Library Link : Designator=IC104_2 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=E6A6585F-F87B-464F-94E0-1740D116CFF4 Old RevisionGUID= New RevisionGUID=56E51190-8C67-4C82-991D-57232F32B57B
+Change Managed Component Library Link : Designator=IC800_1 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=932295FA-60FC-4AC2-B489-ED9FB914E5FE Old RevisionGUID= New RevisionGUID=10496D0F-9E21-4C84-A785-055355259C5B
+Change Managed Component Library Link : Designator=IC800_2 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=932295FA-60FC-4AC2-B489-ED9FB914E5FE Old RevisionGUID= New RevisionGUID=10496D0F-9E21-4C84-A785-055355259C5B
+Change Managed Component Library Link : Designator=IC900 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=C41AF7AF-711D-4BC3-A306-E0ACC85FE263 Old RevisionGUID= New RevisionGUID=4AAAF08D-2048-47C2-82D1-9FBAE5F2A4AB
+Change Managed Component Library Link : Designator=L900 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=4F6021E5-A0E7-47AE-A343-464ADED1A930 Old RevisionGUID= New RevisionGUID=9DC0D497-5A66-4A74-9B3F-244777F6D70E
+Change Managed Component Library Link : Designator=T1500 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=322FD458-ABEA-42CB-A741-7DB4D038A3D3 Old RevisionGUID= New RevisionGUID=EE77A8B1-9325-49AA-8477-E2BE0C3B31D9
+Change Managed Component Library Link : Designator=T1501 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=322FD458-ABEA-42CB-A741-7DB4D038A3D3 Old RevisionGUID= New RevisionGUID=EE77A8B1-9325-49AA-8477-E2BE0C3B31D9
+Change Managed Component Library Link : Designator=T1502 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=322FD458-ABEA-42CB-A741-7DB4D038A3D3 Old RevisionGUID= New RevisionGUID=EE77A8B1-9325-49AA-8477-E2BE0C3B31D9
+Change Managed Component Library Link : Designator=T1503 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=322FD458-ABEA-42CB-A741-7DB4D038A3D3 Old RevisionGUID= New RevisionGUID=EE77A8B1-9325-49AA-8477-E2BE0C3B31D9
+Change Managed Component Library Link : Designator=T1504 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=322FD458-ABEA-42CB-A741-7DB4D038A3D3 Old RevisionGUID= New RevisionGUID=EE77A8B1-9325-49AA-8477-E2BE0C3B31D9
+Change Managed Component Library Link : Designator=T1505 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=322FD458-ABEA-42CB-A741-7DB4D038A3D3 Old RevisionGUID= New RevisionGUID=EE77A8B1-9325-49AA-8477-E2BE0C3B31D9
+Change Managed Component Library Link : Designator=T1506 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=322FD458-ABEA-42CB-A741-7DB4D038A3D3 Old RevisionGUID= New RevisionGUID=EE77A8B1-9325-49AA-8477-E2BE0C3B31D9
+Change Managed Component Library Link : Designator=T1507 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=322FD458-ABEA-42CB-A741-7DB4D038A3D3 Old RevisionGUID= New RevisionGUID=EE77A8B1-9325-49AA-8477-E2BE0C3B31D9
+Change Managed Component Library Link : Designator=T1508 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=322FD458-ABEA-42CB-A741-7DB4D038A3D3 Old RevisionGUID= New RevisionGUID=EE77A8B1-9325-49AA-8477-E2BE0C3B31D9
+Change Managed Component Library Link : Designator=T1509 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=322FD458-ABEA-42CB-A741-7DB4D038A3D3 Old RevisionGUID= New RevisionGUID=EE77A8B1-9325-49AA-8477-E2BE0C3B31D9
+Change Managed Component Library Link : Designator=T1510 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=322FD458-ABEA-42CB-A741-7DB4D038A3D3 Old RevisionGUID= New RevisionGUID=EE77A8B1-9325-49AA-8477-E2BE0C3B31D9
+Change Managed Component Library Link : Designator=T1511 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=322FD458-ABEA-42CB-A741-7DB4D038A3D3 Old RevisionGUID= New RevisionGUID=EE77A8B1-9325-49AA-8477-E2BE0C3B31D9
+Change Managed Component Library Link : Designator=T1512 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=322FD458-ABEA-42CB-A741-7DB4D038A3D3 Old RevisionGUID= New RevisionGUID=EE77A8B1-9325-49AA-8477-E2BE0C3B31D9
+Change Managed Component Library Link : Designator=T1513 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=322FD458-ABEA-42CB-A741-7DB4D038A3D3 Old RevisionGUID= New RevisionGUID=EE77A8B1-9325-49AA-8477-E2BE0C3B31D9
+Change Managed Component Library Link : Designator=T1514 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=322FD458-ABEA-42CB-A741-7DB4D038A3D3 Old RevisionGUID= New RevisionGUID=EE77A8B1-9325-49AA-8477-E2BE0C3B31D9
+Change Managed Component Library Link : Designator=T1515 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=322FD458-ABEA-42CB-A741-7DB4D038A3D3 Old RevisionGUID= New RevisionGUID=EE77A8B1-9325-49AA-8477-E2BE0C3B31D9
+Change Managed Component Library Link : Designator=T1516 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=322FD458-ABEA-42CB-A741-7DB4D038A3D3 Old RevisionGUID= New RevisionGUID=EE77A8B1-9325-49AA-8477-E2BE0C3B31D9
+Change Managed Component Library Link : Designator=T1517 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=322FD458-ABEA-42CB-A741-7DB4D038A3D3 Old RevisionGUID= New RevisionGUID=EE77A8B1-9325-49AA-8477-E2BE0C3B31D9
+Change Managed Component Library Link : Designator=U100_1 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=0A4BEB7B-A632-4616-AF83-89E34A74622B Old RevisionGUID= New RevisionGUID=690173EF-F0E5-4FA5-84B1-62C04F193319
+Change Managed Component Library Link : Designator=U100_2 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=0A4BEB7B-A632-4616-AF83-89E34A74622B Old RevisionGUID= New RevisionGUID=690173EF-F0E5-4FA5-84B1-62C04F193319
+Change Managed Component Library Link : Designator=U101_1 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=0A4BEB7B-A632-4616-AF83-89E34A74622B Old RevisionGUID= New RevisionGUID=690173EF-F0E5-4FA5-84B1-62C04F193319
+Change Managed Component Library Link : Designator=U101_2 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=0A4BEB7B-A632-4616-AF83-89E34A74622B Old RevisionGUID= New RevisionGUID=690173EF-F0E5-4FA5-84B1-62C04F193319
+Change Managed Component Library Link : Designator=U700_1 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=5E302566-899B-4DC1-AD96-365C5678654B Old RevisionGUID= New RevisionGUID=CD3B8CA9-B537-40D7-8DD3-9E6B96B66B40
+Change Managed Component Library Link : Designator=U700_2 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=5E302566-899B-4DC1-AD96-365C5678654B Old RevisionGUID= New RevisionGUID=CD3B8CA9-B537-40D7-8DD3-9E6B96B66B40
+Change Managed Component Library Link : Designator=X200 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=601340C9-D4B8-4FC7-82AE-14B922EF9F16 Old RevisionGUID= New RevisionGUID=FB283188-00D9-41C0-9FFB-631A398DD89A
+Change Managed Component Library Link : Designator=X201 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=BE7CA38E-CE63-4F1B-8C2D-6A98CAF9BA29 Old RevisionGUID= New RevisionGUID=25C78CDD-AF1B-41E0-86A6-5FF20178A1C4
+Change Managed Component Library Link : Designator=Z1300_1 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=27AC31CB-5CC9-4409-ACBE-E028DF44BEE4 Old RevisionGUID= New RevisionGUID=61B22059-053D-4340-80E5-FB22A5E13F70
+Change Managed Component Library Link : Designator=Z1300_2 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=27AC31CB-5CC9-4409-ACBE-E028DF44BEE4 Old RevisionGUID= New RevisionGUID=61B22059-053D-4340-80E5-FB22A5E13F70
+Change Managed Component Library Link : Designator=Z1301_1 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=27AC31CB-5CC9-4409-ACBE-E028DF44BEE4 Old RevisionGUID= New RevisionGUID=61B22059-053D-4340-80E5-FB22A5E13F70
+Change Managed Component Library Link : Designator=Z1301_2 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=27AC31CB-5CC9-4409-ACBE-E028DF44BEE4 Old RevisionGUID= New RevisionGUID=61B22059-053D-4340-80E5-FB22A5E13F70
+Change Managed Component Library Link : Designator=Z1302_1 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=27AC31CB-5CC9-4409-ACBE-E028DF44BEE4 Old RevisionGUID= New RevisionGUID=61B22059-053D-4340-80E5-FB22A5E13F70
+Change Managed Component Library Link : Designator=Z1302_2 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=27AC31CB-5CC9-4409-ACBE-E028DF44BEE4 Old RevisionGUID= New RevisionGUID=61B22059-053D-4340-80E5-FB22A5E13F70
+Change Managed Component Library Link : Designator=Z1303_1 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=27AC31CB-5CC9-4409-ACBE-E028DF44BEE4 Old RevisionGUID= New RevisionGUID=61B22059-053D-4340-80E5-FB22A5E13F70
+Change Managed Component Library Link : Designator=Z1303_2 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=27AC31CB-5CC9-4409-ACBE-E028DF44BEE4 Old RevisionGUID= New RevisionGUID=61B22059-053D-4340-80E5-FB22A5E13F70
+Change Managed Component Library Link : Designator=Z1304_1 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=27AC31CB-5CC9-4409-ACBE-E028DF44BEE4 Old RevisionGUID= New RevisionGUID=61B22059-053D-4340-80E5-FB22A5E13F70
+Change Managed Component Library Link : Designator=Z1304_2 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=27AC31CB-5CC9-4409-ACBE-E028DF44BEE4 Old RevisionGUID= New RevisionGUID=61B22059-053D-4340-80E5-FB22A5E13F70
+Change Managed Component Library Link : Designator=Z1305_1 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=27AC31CB-5CC9-4409-ACBE-E028DF44BEE4 Old RevisionGUID= New RevisionGUID=61B22059-053D-4340-80E5-FB22A5E13F70
+Change Managed Component Library Link : Designator=Z1305_2 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=27AC31CB-5CC9-4409-ACBE-E028DF44BEE4 Old RevisionGUID= New RevisionGUID=61B22059-053D-4340-80E5-FB22A5E13F70
+Change Managed Component Library Link : Designator=Z1306_1 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=27AC31CB-5CC9-4409-ACBE-E028DF44BEE4 Old RevisionGUID= New RevisionGUID=61B22059-053D-4340-80E5-FB22A5E13F70
+Change Managed Component Library Link : Designator=Z1306_2 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=27AC31CB-5CC9-4409-ACBE-E028DF44BEE4 Old RevisionGUID= New RevisionGUID=61B22059-053D-4340-80E5-FB22A5E13F70
+Change Managed Component Library Link : Designator=Z1307_1 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=27AC31CB-5CC9-4409-ACBE-E028DF44BEE4 Old RevisionGUID= New RevisionGUID=61B22059-053D-4340-80E5-FB22A5E13F70
+Change Managed Component Library Link : Designator=Z1307_2 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=27AC31CB-5CC9-4409-ACBE-E028DF44BEE4 Old RevisionGUID= New RevisionGUID=61B22059-053D-4340-80E5-FB22A5E13F70
+Change Managed Component Library Link : Designator=Z1308_1 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=27AC31CB-5CC9-4409-ACBE-E028DF44BEE4 Old RevisionGUID= New RevisionGUID=61B22059-053D-4340-80E5-FB22A5E13F70
+Change Managed Component Library Link : Designator=Z1308_2 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=27AC31CB-5CC9-4409-ACBE-E028DF44BEE4 Old RevisionGUID= New RevisionGUID=61B22059-053D-4340-80E5-FB22A5E13F70
+Change Managed Component Library Link : Designator=Z1309_1 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=27AC31CB-5CC9-4409-ACBE-E028DF44BEE4 Old RevisionGUID= New RevisionGUID=61B22059-053D-4340-80E5-FB22A5E13F70
+Change Managed Component Library Link : Designator=Z1309_2 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=27AC31CB-5CC9-4409-ACBE-E028DF44BEE4 Old RevisionGUID= New RevisionGUID=61B22059-053D-4340-80E5-FB22A5E13F70
+Change Managed Component Library Link : Designator=Z1310_1 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=27AC31CB-5CC9-4409-ACBE-E028DF44BEE4 Old RevisionGUID= New RevisionGUID=61B22059-053D-4340-80E5-FB22A5E13F70
+Change Managed Component Library Link : Designator=Z1310_2 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=27AC31CB-5CC9-4409-ACBE-E028DF44BEE4 Old RevisionGUID= New RevisionGUID=61B22059-053D-4340-80E5-FB22A5E13F70
+Change Managed Component Library Link : Designator=Z1311_1 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=27AC31CB-5CC9-4409-ACBE-E028DF44BEE4 Old RevisionGUID= New RevisionGUID=61B22059-053D-4340-80E5-FB22A5E13F70
+Change Managed Component Library Link : Designator=Z1311_2 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=27AC31CB-5CC9-4409-ACBE-E028DF44BEE4 Old RevisionGUID= New RevisionGUID=61B22059-053D-4340-80E5-FB22A5E13F70
+Change Managed Component Library Link : Designator=Z1312_1 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=27AC31CB-5CC9-4409-ACBE-E028DF44BEE4 Old RevisionGUID= New RevisionGUID=61B22059-053D-4340-80E5-FB22A5E13F70
+Change Managed Component Library Link : Designator=Z1312_2 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=27AC31CB-5CC9-4409-ACBE-E028DF44BEE4 Old RevisionGUID= New RevisionGUID=61B22059-053D-4340-80E5-FB22A5E13F70
+Change Managed Component Library Link : Designator=Z1313_1 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=27AC31CB-5CC9-4409-ACBE-E028DF44BEE4 Old RevisionGUID= New RevisionGUID=61B22059-053D-4340-80E5-FB22A5E13F70
+Change Managed Component Library Link : Designator=Z1313_2 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=27AC31CB-5CC9-4409-ACBE-E028DF44BEE4 Old RevisionGUID= New RevisionGUID=61B22059-053D-4340-80E5-FB22A5E13F70
+Change Managed Component Library Link : Designator=Z1314_1 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=27AC31CB-5CC9-4409-ACBE-E028DF44BEE4 Old RevisionGUID= New RevisionGUID=61B22059-053D-4340-80E5-FB22A5E13F70
+Change Managed Component Library Link : Designator=Z1314_2 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=27AC31CB-5CC9-4409-ACBE-E028DF44BEE4 Old RevisionGUID= New RevisionGUID=61B22059-053D-4340-80E5-FB22A5E13F70
+Change Managed Component Library Link : Designator=Z1315_1 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=27AC31CB-5CC9-4409-ACBE-E028DF44BEE4 Old RevisionGUID= New RevisionGUID=61B22059-053D-4340-80E5-FB22A5E13F70
+Change Managed Component Library Link : Designator=Z1315_2 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=27AC31CB-5CC9-4409-ACBE-E028DF44BEE4 Old RevisionGUID= New RevisionGUID=61B22059-053D-4340-80E5-FB22A5E13F70
+Change Managed Component Library Link : Designator=Z1316_1 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=27AC31CB-5CC9-4409-ACBE-E028DF44BEE4 Old RevisionGUID= New RevisionGUID=61B22059-053D-4340-80E5-FB22A5E13F70
+Change Managed Component Library Link : Designator=Z1316_2 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=27AC31CB-5CC9-4409-ACBE-E028DF44BEE4 Old RevisionGUID= New RevisionGUID=61B22059-053D-4340-80E5-FB22A5E13F70
+Change Managed Component Library Link : Designator=Z1317_1 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=27AC31CB-5CC9-4409-ACBE-E028DF44BEE4 Old RevisionGUID= New RevisionGUID=61B22059-053D-4340-80E5-FB22A5E13F70
+Change Managed Component Library Link : Designator=Z1317_2 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=27AC31CB-5CC9-4409-ACBE-E028DF44BEE4 Old RevisionGUID= New RevisionGUID=61B22059-053D-4340-80E5-FB22A5E13F70
+Change component parameters: Designator = "U600_1" ("U600"); Footprint = "PWP0014A"; UniqueID = "\APFIEGPL\MHHVHOSS" ("\APFIEGPL\MHHVHOSS")
+Change component parameters (AddParameter): Name = "Automotive Qualified"; Value = "True"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Temperature"; Value = "-40°C - +125°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Name"; Value = "LM5161QPWPRQ1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "LM5161QPWPRQ1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PnP Package"; Value = "HTSSOP-14"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 2"; Value = "Mouser"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "296-47791-1-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 2"; Value = "595-LM5161QPWPRQ1"; VariantName = "[No Variations]"
+Change component parameters: Designator = "U600_2" ("U600"); Footprint = "PWP0014A"; UniqueID = "\TUUBMFQM\MHHVHOSS" ("\TUUBMFQM\MHHVHOSS")
+Change component parameters (AddParameter): Name = "Automotive Qualified"; Value = "True"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Temperature"; Value = "-40°C - +125°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Name"; Value = "LM5161QPWPRQ1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "LM5161QPWPRQ1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PnP Package"; Value = "HTSSOP-14"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 2"; Value = "Mouser"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "296-47791-1-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 2"; Value = "595-LM5161QPWPRQ1"; VariantName = "[No Variations]"
+Change component parameters: Designator = "X400" ("X400"); Footprint = "Pinheader_2.54_2x9"; UniqueID = "\KJBNEGIR\TEFDYVAJ" ("\KJBNEGIR\TEFDYVAJ")
+Change component parameters (AddParameter): Name = "Automotive Qualified"; Value = "False"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Circuits"; Value = "18"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Temperature"; Value = "-40 °C - +105 °C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Name"; Value = "PinHeader"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "gen_pinheader_2.54_2x9"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Rated Current"; Value = "3A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Rated Voltage"; Value = "250V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "2025256"; VariantName = "[No Variations]"
+Change component parameters: Designator = "X401" ("X401"); Footprint = "Pinheader_2.54_2x9"; UniqueID = "\KJBNEGIR\GXJYMTVF" ("\KJBNEGIR\GXJYMTVF")
+Change component parameters (AddParameter): Name = "Automotive Qualified"; Value = "False"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Circuits"; Value = "18"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Temperature"; Value = "-40 °C - +105 °C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Name"; Value = "PinHeader"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "gen_pinheader_2.54_2x9"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Rated Current"; Value = "3A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Rated Voltage"; Value = "250V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "2025256"; VariantName = "[No Variations]"
+Change component parameters: Designator = "X402" ("X402"); Footprint = "Pinheader_2.54_2x5"; UniqueID = "\KJBNEGIR\GXQEVWCM" ("\KJBNEGIR\GXQEVWCM")
+Change component parameters (AddParameter): Name = "Automotive Qualified"; Value = "False"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Circuits"; Value = "10"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Temperature"; Value = "-40 °C - +105 °C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Name"; Value = "PinHeader"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "gen_pinheader_2.54_2x5"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Rated Current"; Value = "3A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Rated Voltage"; Value = "250V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "2578720"; VariantName = "[No Variations]"
+Change component parameters: Designator = "X403" ("X403"); Footprint = "Pinheader_2.54_2x5"; UniqueID = "\KJBNEGIR\HGGXARXU" ("\KJBNEGIR\HGGXARXU")
+Change component parameters (AddParameter): Name = "Automotive Qualified"; Value = "False"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Circuits"; Value = "10"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Temperature"; Value = "-40 °C - +105 °C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Name"; Value = "PinHeader"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "gen_pinheader_2.54_2x5"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Rated Current"; Value = "3A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Rated Voltage"; Value = "250V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "2578720"; VariantName = "[No Variations]"
+Change component parameters: Designator = "X404" ("X404"); Footprint = "Pinheader_2.54_2x10"; UniqueID = "\KJBNEGIR\IXBGHEOT" ("\KJBNEGIR\IXBGHEOT")
+Change component parameters (AddParameter): Name = "Automotive Qualified"; Value = "False"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Circuits"; Value = "20"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Temperature"; Value = "-40 °C - +105 °C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Name"; Value = "PinHeader"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "gen_pinheader_2.54_2x10"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Rated Current"; Value = "3A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Rated Voltage"; Value = "250V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "2779676"; VariantName = "[No Variations]"
+Change component parameters: Designator = "X405" ("X405"); Footprint = "Pinheader_2.54_2x4"; UniqueID = "\KJBNEGIR\NHDAXVKT" ("\KJBNEGIR\NHDAXVKT")
+Change component parameters (AddParameter): Name = "Automotive Qualified"; Value = "False"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Circuits"; Value = "8"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Temperature"; Value = "-40 °C - +105 °C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Name"; Value = "PinHeader"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "gen_pinheader_2.54_2x4"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Rated Current"; Value = "3A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Rated Voltage"; Value = "250V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "2856692"; VariantName = "[No Variations]"
+Change component parameters: Designator = "X900" ("X900"); Footprint = "Pinheader_2.54_2"; UniqueID = "\KDJPDGIV\JECWUOTM" ("\KDJPDGIV\JECWUOTM")
+Change component parameters (AddParameter): Name = "Automotive Qualified"; Value = "False"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Circuits"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Temperature"; Value = "-40 °C - +105 °C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Name"; Value = "PinHeader"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "gen_pinheader_2.54_2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Rated Current"; Value = "3A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Rated Voltage"; Value = "250V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "2025248"; VariantName = "[No Variations]"
+Change component parameters: Designator = "U1100" ("U1100"); Footprint = "SOIC127P700X220-4N"; UniqueID = "\WGFFHSNI\EODFSUAB" ("\WGFFHSNI\EODFSUAB")
+Change component parameters (AddParameter): Name = "Automotive Qualified"; Value = "False"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datenblatt"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.farnell.com/datasheets/45634.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Broadcom Limited"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Temperature"; Value = "-55°C - +110°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Name"; Value = "ACPL-217"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "ACPL-217-56BE"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "1602623"; VariantName = "[No Variations]"
+Change component parameters: Designator = "U1101" ("U1101"); Footprint = "SOIC127P700X220-4N"; UniqueID = "\WGFFHSNI\MWDMTEFL" ("\WGFFHSNI\MWDMTEFL")
+Change component parameters (AddParameter): Name = "Automotive Qualified"; Value = "False"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datenblatt"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.farnell.com/datasheets/45634.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Broadcom Limited"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Temperature"; Value = "-55°C - +110°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Name"; Value = "ACPL-217"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "ACPL-217-56BE"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "1602623"; VariantName = "[No Variations]"
+Change component parameters: Designator = "U1102" ("U1102"); Footprint = "SOIC127P700X220-4N"; UniqueID = "\WGFFHSNI\MLCAFUBM" ("\WGFFHSNI\MLCAFUBM")
+Change component parameters (AddParameter): Name = "Automotive Qualified"; Value = "False"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datenblatt"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.farnell.com/datasheets/45634.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Broadcom Limited"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Temperature"; Value = "-55°C - +110°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Name"; Value = "ACPL-217"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "ACPL-217-56BE"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "1602623"; VariantName = "[No Variations]"
+Change component parameters: Designator = "U1103" ("U1103"); Footprint = "SOIC127P700X220-4N"; UniqueID = "\WGFFHSNI\XTHKUCMQ" ("\WGFFHSNI\XTHKUCMQ")
+Change component parameters (AddParameter): Name = "Automotive Qualified"; Value = "False"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datenblatt"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.farnell.com/datasheets/45634.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Broadcom Limited"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Temperature"; Value = "-55°C - +110°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Name"; Value = "ACPL-217"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "ACPL-217-56BE"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "1602623"; VariantName = "[No Variations]"
+Change component parameters: Designator = "U1104" ("U1104"); Footprint = "SOIC127P700X220-4N"; UniqueID = "\WGFFHSNI\WNJWUQDH" ("\WGFFHSNI\WNJWUQDH")
+Change component parameters (AddParameter): Name = "Automotive Qualified"; Value = "False"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datenblatt"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.farnell.com/datasheets/45634.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Broadcom Limited"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Temperature"; Value = "-55°C - +110°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Name"; Value = "ACPL-217"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "ACPL-217-56BE"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "1602623"; VariantName = "[No Variations]"
+Change component parameters: Designator = "U1105" ("U1105"); Footprint = "SOIC127P700X220-4N"; UniqueID = "\WGFFHSNI\HLVAIEVS" ("\WGFFHSNI\HLVAIEVS")
+Change component parameters (AddParameter): Name = "Automotive Qualified"; Value = "False"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datenblatt"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.farnell.com/datasheets/45634.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Broadcom Limited"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Temperature"; Value = "-55°C - +110°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Name"; Value = "ACPL-217"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "ACPL-217-56BE"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "1602623"; VariantName = "[No Variations]"
+Change component parameters: Designator = "U1106" ("U1106"); Footprint = "SOIC127P700X220-4N"; UniqueID = "\WGFFHSNI\QICETTNJ" ("\WGFFHSNI\QICETTNJ")
+Change component parameters (AddParameter): Name = "Automotive Qualified"; Value = "False"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datenblatt"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.farnell.com/datasheets/45634.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Broadcom Limited"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Temperature"; Value = "-55°C - +110°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Name"; Value = "ACPL-217"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "ACPL-217-56BE"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "1602623"; VariantName = "[No Variations]"
+Change component parameters: Designator = "U1107" ("U1107"); Footprint = "SOIC127P700X220-4N"; UniqueID = "\WGFFHSNI\KCKOVTHP" ("\WGFFHSNI\KCKOVTHP")
+Change component parameters (AddParameter): Name = "Automotive Qualified"; Value = "False"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datenblatt"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.farnell.com/datasheets/45634.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Broadcom Limited"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Temperature"; Value = "-55°C - +110°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Name"; Value = "ACPL-217"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "ACPL-217-56BE"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "1602623"; VariantName = "[No Variations]"
+Change component parameters: Designator = "U1108" ("U1108"); Footprint = "SOIC127P700X220-4N"; UniqueID = "\WGFFHSNI\GURYQHBJ" ("\WGFFHSNI\GURYQHBJ")
+Change component parameters (AddParameter): Name = "Automotive Qualified"; Value = "False"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datenblatt"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.farnell.com/datasheets/45634.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Broadcom Limited"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Temperature"; Value = "-55°C - +110°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Name"; Value = "ACPL-217"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "ACPL-217-56BE"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "1602623"; VariantName = "[No Variations]"
+Change component parameters: Designator = "U1109" ("U1109"); Footprint = "SOIC127P700X220-4N"; UniqueID = "\WGFFHSNI\YXFPHYEV" ("\WGFFHSNI\YXFPHYEV")
+Change component parameters (AddParameter): Name = "Automotive Qualified"; Value = "False"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datenblatt"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.farnell.com/datasheets/45634.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Broadcom Limited"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Temperature"; Value = "-55°C - +110°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Name"; Value = "ACPL-217"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "ACPL-217-56BE"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "1602623"; VariantName = "[No Variations]"
+Change component parameters: Designator = "U1110" ("U1110"); Footprint = "SOIC127P700X220-4N"; UniqueID = "\WGFFHSNI\MMQDLYRL" ("\WGFFHSNI\MMQDLYRL")
+Change component parameters (AddParameter): Name = "Automotive Qualified"; Value = "False"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datenblatt"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.farnell.com/datasheets/45634.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Broadcom Limited"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Temperature"; Value = "-55°C - +110°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Name"; Value = "ACPL-217"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "ACPL-217-56BE"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "1602623"; VariantName = "[No Variations]"
+Change component parameters: Designator = "U1111" ("U1111"); Footprint = "SOIC127P700X220-4N"; UniqueID = "\WGFFHSNI\LIRSVSQM" ("\WGFFHSNI\LIRSVSQM")
+Change component parameters (AddParameter): Name = "Automotive Qualified"; Value = "False"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datenblatt"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.farnell.com/datasheets/45634.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Broadcom Limited"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Temperature"; Value = "-55°C - +110°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Name"; Value = "ACPL-217"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "ACPL-217-56BE"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "1602623"; VariantName = "[No Variations]"
+Change component parameters: Designator = "U1112" ("U1112"); Footprint = "SOIC127P700X220-4N"; UniqueID = "\WGFFHSNI\PRUYLVYE" ("\WGFFHSNI\PRUYLVYE")
+Change component parameters (AddParameter): Name = "Automotive Qualified"; Value = "False"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datenblatt"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.farnell.com/datasheets/45634.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Broadcom Limited"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Temperature"; Value = "-55°C - +110°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Name"; Value = "ACPL-217"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "ACPL-217-56BE"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "1602623"; VariantName = "[No Variations]"
+Change component parameters: Designator = "U1113" ("U1113"); Footprint = "SOIC127P700X220-4N"; UniqueID = "\WGFFHSNI\GGDIJHJS" ("\WGFFHSNI\GGDIJHJS")
+Change component parameters (AddParameter): Name = "Automotive Qualified"; Value = "False"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datenblatt"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.farnell.com/datasheets/45634.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Broadcom Limited"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Temperature"; Value = "-55°C - +110°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Name"; Value = "ACPL-217"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "ACPL-217-56BE"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "1602623"; VariantName = "[No Variations]"
+Change component parameters: Designator = "U1114" ("U1114"); Footprint = "SOIC127P700X220-4N"; UniqueID = "\WGFFHSNI\GBECPITE" ("\WGFFHSNI\GBECPITE")
+Change component parameters (AddParameter): Name = "Automotive Qualified"; Value = "False"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datenblatt"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.farnell.com/datasheets/45634.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Broadcom Limited"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Temperature"; Value = "-55°C - +110°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Name"; Value = "ACPL-217"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "ACPL-217-56BE"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "1602623"; VariantName = "[No Variations]"
+Change component parameters: Designator = "U1115" ("U1115"); Footprint = "SOIC127P700X220-4N"; UniqueID = "\WGFFHSNI\UODRAPAV" ("\WGFFHSNI\UODRAPAV")
+Change component parameters (AddParameter): Name = "Automotive Qualified"; Value = "False"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datenblatt"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.farnell.com/datasheets/45634.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Broadcom Limited"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Temperature"; Value = "-55°C - +110°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Name"; Value = "ACPL-217"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "ACPL-217-56BE"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "1602623"; VariantName = "[No Variations]"
+Change component parameters: Designator = "U1116" ("U1116"); Footprint = "SOIC127P700X220-4N"; UniqueID = "\WGFFHSNI\MRHEHORE" ("\WGFFHSNI\MRHEHORE")
+Change component parameters (AddParameter): Name = "Automotive Qualified"; Value = "False"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datenblatt"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.farnell.com/datasheets/45634.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Broadcom Limited"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Temperature"; Value = "-55°C - +110°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Name"; Value = "ACPL-217"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "ACPL-217-56BE"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "1602623"; VariantName = "[No Variations]"
+Change component parameters: Designator = "U1117" ("U1117"); Footprint = "SOIC127P700X220-4N"; UniqueID = "\WGFFHSNI\NFDLPMTD" ("\WGFFHSNI\NFDLPMTD")
+Change component parameters (AddParameter): Name = "Automotive Qualified"; Value = "False"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datenblatt"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.farnell.com/datasheets/45634.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Broadcom Limited"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Temperature"; Value = "-55°C - +110°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Name"; Value = "ACPL-217"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "ACPL-217-56BE"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "1602623"; VariantName = "[No Variations]"
+Change component parameters: Designator = "X200" ("x200"); Footprint = "MOLEX_MICROFIT_12x2_THT"; UniqueID = "\JMGCXLML\YISYRHFF" ("\JMGCXLML\YISYRHFF")
+Change component parameters (AddParameter): Name = "Contact Resistance"; Value = "10mO"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Current Rating"; Value = "1.5A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Gender"; Value = "Male"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Insulation Material"; Value = "PBT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Insulation Resistance"; Value = "1GO"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Lead Pitch"; Value = "2.54mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Length"; Value = "31.31mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Operating Temperature"; Value = "105°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Operating Temperature"; Value = "-40°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "NexarPartId"; Value = "65759595"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Pins"; Value = "24"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Supply Voltage"; Value = "100V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pitch"; Value = "2.54mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS"; Value = "Compliant"; VariantName = "[No Variations]"
+Change component parameters: Designator = "X201" ("X201"); Footprint = "MOLEX_MICROFIT_08x2_THT"; UniqueID = "\JMGCXLML\AVLZKRYM" ("\JMGCXLML\AVLZKRYM")
+Change component parameters (AddParameter): Name = "Contact Resistance"; Value = "10mO"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Current Rating"; Value = "1.5A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Gender"; Value = "Male"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Insulation Material"; Value = "PBT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Insulation Resistance"; Value = "1GO"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Lead Pitch"; Value = "2.54mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Length"; Value = "21.15mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Operating Temperature"; Value = "105°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Operating Temperature"; Value = "-40°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "NexarPartId"; Value = "65759592"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Pins"; Value = "16"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Supply Voltage"; Value = "100V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pitch"; Value = "2.54mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS"; Value = "Compliant"; VariantName = "[No Variations]"
+Add component: Footprint Not Found SOIC127P700X220-4L
+Add component: Footprint Not Found SOIC127P700X220-4L
+Add component: Footprint Not Found SOIC127P700X220-4L
+Add component: Footprint Not Found SOIC127P700X220-4L
+Add component: Footprint Not Found SOIC127P700X220-4L
+Add component: Footprint Not Found SOIC127P700X220-4L
+Add component: Footprint Not Found SOIC127P700X220-4L
+Add component: Footprint Not Found SOIC127P700X220-4L
+Add component: Footprint Not Found SOIC127P700X220-4L
+Add component: Footprint Not Found SOIC127P700X220-4L
+Add component: Footprint Not Found SOIC127P700X220-4L
+Add component: Footprint Not Found SOIC127P700X220-4L
+Add component: Footprint Not Found SOIC127P700X220-4L
+Add component: Footprint Not Found SOIC127P700X220-4L
+Add component: Footprint Not Found SOIC127P700X220-4L
+Add component: Footprint Not Found SOIC127P700X220-4L
+Add component: Footprint Not Found SOIC127P700X220-4L
+Add component: Footprint Not Found SOIC127P700X220-4L
+Add component: Footprint Not Found SOIC127P700X220-4L
+Add component: Footprint Not Found SOIC127P700X220-4L
+Add component: Footprint Not Found SOIC127P700X220-4L
+Add component: Footprint Not Found SOIC127P700X220-4L
+Add component: Footprint Not Found SOIC127P700X220-4L
+Add component: Footprint Not Found SOIC127P700X220-4L
+Add component: Footprint Not Found SOIC127P700X220-4L
+Add component: Footprint Not Found SOIC127P700X220-4L
+Add component: Footprint Not Found SOIC127P700X220-4L
+Add component: Footprint Not Found SOIC127P700X220-4L
+Add component: Footprint Not Found SOIC127P700X220-4L
+Add component: Footprint Not Found SOIC127P700X220-4L
+Add component: Footprint Not Found SOIC127P700X220-4L
+Add component: Footprint Not Found SOIC127P700X220-4L
+Add component: Footprint Not Found SOIC127P700X220-4L
+Add component: Footprint Not Found SOIC127P700X220-4L
+Add component: Footprint Not Found SOIC127P700X220-4L
+Add component: Footprint Not Found SOIC127P700X220-4L
+Added Component: Designator=X201(690357101672)
+Add component (AddParameter): Name = "Contact Resistance"; Value = "10mO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Rating"; Value = "1.5A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Gender"; Value = "Male"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Insulation Material"; Value = "PBT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Insulation Resistance"; Value = "1GO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Pitch"; Value = "2.54mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "21.15mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "105°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-40°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "NexarPartId"; Value = "65759592"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Pins"; Value = "16"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Supply Voltage"; Value = "100V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pitch"; Value = "2.54mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "Compliant"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=FUSED_CELL.CELL_14+ Pin=R1313_1-1
+Added Pin To Net: NetName=FUSED_CELL.CELL_14+ Pin=R1313_2-1
+Added Pin To Net: NetName=FUSED_CELL.CELL_14+ Pin=R1314_1-1
+Added Pin To Net: NetName=FUSED_CELL.CELL_14+ Pin=R1314_2-1
+Added Pin To Net: NetName=FUSED_CELL.CELL_14+ Pin=R1315_1-1
+Added Pin To Net: NetName=FUSED_CELL.CELL_14+ Pin=R1315_2-1
+Added Pin To Net: NetName=FUSED_CELL.CELL_14+ Pin=R1536-1
+Added Pin To Net: NetName=FUSED_CELL.CELL_14+ Pin=R1537-1
+Added Pin To Net: NetName=FUSED_CELL.CELL_14+ Pin=R1542-1
+Added Pin To Net: NetName=FUSED_CELL.CELL_14+ Pin=R1543-1
+Added Pin To Net: NetName=CELL_14+ Pin=SJ300-2
+Added Pin To Net: NetName=FUSED_CELL.CELL_14+ Pin=T1512-2
+Added Pin To Net: NetName=FUSED_CELL.CELL_14+ Pin=T1513-2
+Added Pin To Net: NetName=FUSED_CELL.CELL_14+ Pin=T1514-2
+Added Pin To Net: NetName=FUSED_CELL.CELL_14+ Pin=U1112-2
+Added Pin To Net: NetName=FUSED_CELL.CELL_14+ Pin=U1113-2
+Added Pin To Net: NetName=VBAT+ Pin=X200-4
+Added Pin To Net: NetName=CELL_14+ Pin=X200-5
+Added Pin To Net: NetName=CELL_14+ Pin=X200-6
+Added Pin To Net: NetName=CELL_14+ Pin=X200-7
+Added Pin To Net: NetName=CELL_14+ Pin=X200-8
+Added Pin To Net: NetName=CELL_13+ Pin=X200-9
+Added Pin To Net: NetName=CELL_12+ Pin=X200-10
+Added Pin To Net: NetName=CELL_11+ Pin=X200-11
+Added Pin To Net: NetName=CELL_10+ Pin=X200-12
+Added Pin To Net: NetName=CELL_9+ Pin=X200-13
+Added Pin To Net: NetName=CELL_8+ Pin=X200-14
+Added Pin To Net: NetName=CELL_7+ Pin=X200-15
+Added Pin To Net: NetName=CELL_6+ Pin=X200-16
+Added Pin To Net: NetName=CELL_5+ Pin=X200-17
+Added Pin To Net: NetName=CELL_4+ Pin=X200-18
+Added Pin To Net: NetName=CELL_3+ Pin=X200-19
+Added Pin To Net: NetName=CELL_2+ Pin=X200-20
+Added Pin To Net: NetName=CELL_1+ Pin=X200-21
+Added Pin To Net: NetName=CELL_0+ Pin=X200-22
+Added Pin To Net: NetName=CELL_0- Pin=X200-23
+Added Pin To Net: NetName=VBAT- Pin=X200-24
+Added Pin To Net: NetName=PRIMARY-T-SENSOR_0 Pin=X201-1
+Added Pin To Net: NetName=SECONDARY-T-SENSOR_0 Pin=X201-1
+Added Pin To Net: NetName=FUSED_VBAT- Pin=X201-2
+Added Pin To Net: NetName=FUSED_VBAT- Pin=X201-2
+Added Pin To Net: NetName=PRIMARY-T-SENSOR_1 Pin=X201-3
+Added Pin To Net: NetName=SECONDARY-T-SENSOR_1 Pin=X201-3
+Added Pin To Net: NetName=FUSED_VBAT- Pin=X201-4
+Added Pin To Net: NetName=FUSED_VBAT- Pin=X201-4
+Added Pin To Net: NetName=PRIMARY-T-SENSOR_2 Pin=X201-5
+Added Pin To Net: NetName=SECONDARY-T-SENSOR_2 Pin=X201-5
+Added Pin To Net: NetName=FUSED_VBAT- Pin=X201-6
+Added Pin To Net: NetName=FUSED_VBAT- Pin=X201-6
+Added Pin To Net: NetName=PRIMARY-T-SENSOR_3 Pin=X201-7
+Added Pin To Net: NetName=SECONDARY-T-SENSOR_3 Pin=X201-7
+Added Pin To Net: NetName=FUSED_VBAT- Pin=X201-8
+Added Pin To Net: NetName=FUSED_VBAT- Pin=X201-8
+Added Pin To Net: NetName=PRIMARY-T-SENSOR_4 Pin=X201-9
+Added Pin To Net: NetName=SECONDARY-T-SENSOR_4 Pin=X201-9
+Added Pin To Net: NetName=FUSED_VBAT- Pin=X201-10
+Added Pin To Net: NetName=PRIMARY-T-SENSOR_5 Pin=X201-11
+Added Pin To Net: NetName=SECONDARY-T-SENSOR_5 Pin=X201-11
+Added Pin To Net: NetName=FUSED_VBAT- Pin=X201-12
+Added Pin To Net: NetName=PRIMARY-T-SENSOR_6 Pin=X201-13
+Added Pin To Net: NetName=SECONDARY-T-SENSOR_6 Pin=X201-13
+Added Pin To Net: NetName=FUSED_VBAT- Pin=X201-14
+Added Pin To Net: NetName=PRIMARY-T-SENSOR_7 Pin=X201-15
+Added Pin To Net: NetName=SECONDARY-T-SENSOR_7 Pin=X201-15
+Added Pin To Net: NetName=FUSED_VBAT- Pin=X201-16
+Change Net Name : Old Net Name=+3.0V_VREF2_0 New Net Name=+3.0V_VREF2_1
+Change Net Name : Old Net Name=+3.0V_VREF2_1 New Net Name=+3.0V_VREF2_2
+Change Net Name : Old Net Name=+5.0V_VREG_0 New Net Name=+5.0V_VREG_1
+Change Net Name : Old Net Name=+5.0V_VREG_1 New Net Name=+5.0V_VREG_2
+Added Rule: Name=Schematic Supply Nets
+Added Rule: Name=Schematic Supply Nets_1
+Added Rule: Name=Schematic Supply Nets_2
+Added Rule: Name=Schematic Supply Nets_3
+Added Rule: Name=Schematic Supply Nets_4
+Added Rule: Name=Schematic Supply Nets_5
+Added Rule: Name=Schematic Supply Nets_6
+Added Rule: Name=Schematic Supply Nets_7

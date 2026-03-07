@@ -1,0 +1,72 @@
+Change Component Footprint: Designator=X400 Old Footprint=Pinheader_2.54_2x9 New Footprint=690357281876
+Change Component Footprint: Designator=X401 Old Footprint=Pinheader_2.54_2x9 New Footprint=690357281876
+Change Component Comment : Designator=X400 Old Comment=gen_pinheader_2.54_2x9 New Comment=690357281876
+Change Component Comment : Designator=X401 Old Comment=gen_pinheader_2.54_2x9 New Comment=690357281876
+Change Managed Component Library Link : Designator=X400 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=9CD1E312-3E5C-493B-B521-A2FA161E8AA8 Old RevisionGUID= New RevisionGUID=05467C1B-2B85-4D88-A6E8-AAA9E48026D6
+Change Managed Component Library Link : Designator=X401 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=9CD1E312-3E5C-493B-B521-A2FA161E8AA8 Old RevisionGUID= New RevisionGUID=05467C1B-2B85-4D88-A6E8-AAA9E48026D6
+Change component parameters: Designator = "X400" ("X400"); Footprint = "Pinheader_2.54_2x9"; UniqueID = "\KJBNEGIR\DPLTNXQU" ("\KJBNEGIR\DPLTNXQU")
+Change component parameters (AddParameter): Name = "Contact Resistance"; Value = "10mO"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Current Rating"; Value = "1.5A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Gender"; Value = "Male"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Insulation Resistance"; Value = "1GO"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Lead Pitch"; Value = "2.54mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Length"; Value = "23.69mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Operating Temperature"; Value = "105°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Operating Temperature"; Value = "-40°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "NexarPartId"; Value = "65759599"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Pins"; Value = "18"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Supply Voltage"; Value = "100V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pitch"; Value = "2.54mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS"; Value = "Compliant"; VariantName = "[No Variations]"
+Change component parameters: Designator = "X401" ("X401"); Footprint = "Pinheader_2.54_2x9"; UniqueID = "\KJBNEGIR\CSAXVVQD" ("\KJBNEGIR\CSAXVVQD")
+Change component parameters (AddParameter): Name = "Contact Resistance"; Value = "10mO"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Current Rating"; Value = "1.5A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Gender"; Value = "Male"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Insulation Resistance"; Value = "1GO"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Lead Pitch"; Value = "2.54mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Length"; Value = "23.69mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Operating Temperature"; Value = "105°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Operating Temperature"; Value = "-40°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "NexarPartId"; Value = "65759599"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Pins"; Value = "18"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Supply Voltage"; Value = "100V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pitch"; Value = "2.54mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS"; Value = "Compliant"; VariantName = "[No Variations]"
+Add component: Footprint Not Found SOIC127P700X220-4L
+Add component: Footprint Not Found SOIC127P700X220-4L
+Add component: Footprint Not Found SOIC127P700X220-4L
+Add component: Footprint Not Found SOIC127P700X220-4L
+Add component: Footprint Not Found SOIC127P700X220-4L
+Add component: Footprint Not Found SOIC127P700X220-4L
+Add component: Footprint Not Found SOIC127P700X220-4L
+Add component: Footprint Not Found SOIC127P700X220-4L
+Add component: Footprint Not Found SOIC127P700X220-4L
+Add component: Footprint Not Found SOIC127P700X220-4L
+Add component: Footprint Not Found SOIC127P700X220-4L
+Add component: Footprint Not Found SOIC127P700X220-4L
+Add component: Footprint Not Found SOIC127P700X220-4L
+Add component: Footprint Not Found SOIC127P700X220-4L
+Add component: Footprint Not Found SOIC127P700X220-4L
+Add component: Footprint Not Found SOIC127P700X220-4L
+Add component: Footprint Not Found SOIC127P700X220-4L
+Add component: Footprint Not Found SOIC127P700X220-4L
+Add component: Footprint Not Found SOIC127P700X220-4L
+Add component: Footprint Not Found SOIC127P700X220-4L
+Add component: Footprint Not Found SOIC127P700X220-4L
+Add component: Footprint Not Found SOIC127P700X220-4L
+Add component: Footprint Not Found SOIC127P700X220-4L
+Add component: Footprint Not Found SOIC127P700X220-4L
+Add component: Footprint Not Found SOIC127P700X220-4L
+Add component: Footprint Not Found SOIC127P700X220-4L
+Add component: Footprint Not Found SOIC127P700X220-4L
+Add component: Footprint Not Found SOIC127P700X220-4L
+Add component: Footprint Not Found SOIC127P700X220-4L
+Add component: Footprint Not Found SOIC127P700X220-4L
+Add component: Footprint Not Found SOIC127P700X220-4L
+Add component: Footprint Not Found SOIC127P700X220-4L
+Add component: Footprint Not Found SOIC127P700X220-4L
+Add component: Footprint Not Found SOIC127P700X220-4L
+Add component: Footprint Not Found SOIC127P700X220-4L
+Add component: Footprint Not Found SOIC127P700X220-4L
