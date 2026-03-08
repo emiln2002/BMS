@@ -502,7 +502,7 @@ UniqueId=1BC06EA7-82EA-41F5-BD13-16703F83120B
 Description=default
 AllowFabrication=0
 ParameterCount=0
-VariationCount=67
+VariationCount=65
 Variation1=Designator=C1306_1|UniqueId=\IPPXJKGT\XWMPRYWB|Kind=1|AlternatePart=
 Variation2=Designator=C1309_1|UniqueId=\IPPXJKGT\PLJBDXHN|Kind=1|AlternatePart=
 Variation3=Designator=C1308_1|UniqueId=\IPPXJKGT\GAOEJXLG|Kind=1|AlternatePart=
@@ -523,53 +523,51 @@ Variation17=Designator=C1323_1|UniqueId=\IPPXJKGT\IJHJPFYF|Kind=1|AlternatePart=
 Variation18=Designator=R902|UniqueId=\KDJPDGIV\XSCSGRHU|Kind=1|AlternatePart=
 Variation19=Designator=SJ300|UniqueId=\XBYPFDUL\TPREYXTJ|Kind=1|AlternatePart=
 Variation20=Designator=SJ301|UniqueId=\XBYPFDUL\TMIEXJPD|Kind=1|AlternatePart=
-Variation21=Designator=X900|UniqueId=\KDJPDGIV\JECWUOTM|Kind=1|AlternatePart=
-Variation22=Designator=X1000|UniqueId=\AHAKFVWA\OTUQNSLA|Kind=1|AlternatePart=
-Variation23=Designator=C1330_1|UniqueId=\IPPXJKGT\FKEVBYEQ|Kind=1|AlternatePart=
-Variation24=Designator=C1330_2|UniqueId=\UNPGCEEF\FKEVBYEQ|Kind=1|AlternatePart=
-Variation25=Designator=C1331_1|UniqueId=\IPPXJKGT\GRWRULKD|Kind=1|AlternatePart=
-Variation26=Designator=C1331_2|UniqueId=\UNPGCEEF\GRWRULKD|Kind=1|AlternatePart=
-Variation27=Designator=C1332_1|UniqueId=\IPPXJKGT\SBOKFYUJ|Kind=1|AlternatePart=
-Variation28=Designator=C1332_2|UniqueId=\UNPGCEEF\SBOKFYUJ|Kind=1|AlternatePart=
-Variation29=Designator=C1333_1|UniqueId=\IPPXJKGT\WPMVUNCO|Kind=1|AlternatePart=
-Variation30=Designator=C1333_2|UniqueId=\UNPGCEEF\WPMVUNCO|Kind=1|AlternatePart=
-Variation31=Designator=C1334_1|UniqueId=\IPPXJKGT\YDKENNCT|Kind=1|AlternatePart=
-Variation32=Designator=C1334_2|UniqueId=\UNPGCEEF\YDKENNCT|Kind=1|AlternatePart=
-Variation33=Designator=C1335_1|UniqueId=\IPPXJKGT\XRYNNEQS|Kind=1|AlternatePart=
-Variation34=Designator=C1335_2|UniqueId=\UNPGCEEF\XRYNNEQS|Kind=1|AlternatePart=
-Variation35=Designator=C1306_2|UniqueId=\UNPGCEEF\XWMPRYWB|Kind=1|AlternatePart=
-Variation36=Designator=C1307_2|UniqueId=\UNPGCEEF\GULFVLVU|Kind=1|AlternatePart=
-Variation37=Designator=C1308_2|UniqueId=\UNPGCEEF\GAOEJXLG|Kind=1|AlternatePart=
-Variation38=Designator=C1309_2|UniqueId=\UNPGCEEF\PLJBDXHN|Kind=1|AlternatePart=
-Variation39=Designator=C1310_2|UniqueId=\UNPGCEEF\SPLDTYOF|Kind=1|AlternatePart=
-Variation40=Designator=C1311_2|UniqueId=\UNPGCEEF\BCBOQQWT|Kind=1|AlternatePart=
-Variation41=Designator=C1318_2|UniqueId=\UNPGCEEF\EDDXLTUS|Kind=1|AlternatePart=
-Variation42=Designator=C1319_2|UniqueId=\UNPGCEEF\QUIAHFUQ|Kind=1|AlternatePart=
-Variation43=Designator=C1320_2|UniqueId=\UNPGCEEF\AVVXOMRT|Kind=1|AlternatePart=
-Variation44=Designator=C1321_2|UniqueId=\UNPGCEEF\OPRTGJYY|Kind=1|AlternatePart=
-Variation45=Designator=C1322_2|UniqueId=\UNPGCEEF\VSVDOAHV|Kind=1|AlternatePart=
-Variation46=Designator=C1323_2|UniqueId=\UNPGCEEF\IJHJPFYF|Kind=1|AlternatePart=
-Variation47=Designator=R1408_2|UniqueId=\CWNRVMUL\HAOPGTQC|Kind=1|AlternatePart=
-Variation48=Designator=R1410_2|UniqueId=\CWNRVMUL\RELOOAXR|Kind=1|AlternatePart=
-Variation49=Designator=R1412_2|UniqueId=\CWNRVMUL\DYJUVEQG|Kind=1|AlternatePart=
-Variation50=Designator=R1414_2|UniqueId=\CWNRVMUL\XDURIVRU|Kind=1|AlternatePart=
-Variation51=Designator=R1416_2|UniqueId=\CWNRVMUL\CPRRMLEU|Kind=1|AlternatePart=
-Variation52=Designator=R1406_1|UniqueId=\FHDDMPDD\FCDANIBD|Kind=1|AlternatePart=
-Variation53=Designator=R609_1|UniqueId=\APFIEGPL\GPKXKIVE|Kind=1|AlternatePart=
-Variation54=Designator=R609_2|UniqueId=\TUUBMFQM\GPKXKIVE|Kind=1|AlternatePart=
-Variation55=Designator=R1425_1|UniqueId=\FHDDMPDD\LULPWRBW|Kind=1|AlternatePart=
-Variation56=Designator=R1426_1|UniqueId=\FHDDMPDD\EMRXOPTC|Kind=1|AlternatePart=
-Variation57=Designator=R1427_1|UniqueId=\FHDDMPDD\UMAGTBIY|Kind=1|AlternatePart=
-Variation58=Designator=R1425_2|UniqueId=\CWNRVMUL\LULPWRBW|Kind=1|AlternatePart=
-Variation59=Designator=R1426_2|UniqueId=\CWNRVMUL\EMRXOPTC|Kind=1|AlternatePart=
-Variation60=Designator=R1427_2|UniqueId=\CWNRVMUL\UMAGTBIY|Kind=1|AlternatePart=
-Variation61=Designator=R1406_2|UniqueId=\CWNRVMUL\FCDANIBD|Kind=1|AlternatePart=
-Variation62=Designator=R110_1|UniqueId=\LUAMNULO\QDXKTDNE|Kind=1|AlternatePart=
-Variation63=Designator=R110_2|UniqueId=\JWUHGFBQ\QDXKTDNE|Kind=1|AlternatePart=
-Variation64=Designator=R111_1|UniqueId=\LUAMNULO\CBIBQSMI|Kind=1|AlternatePart=
-Variation65=Designator=R111_2|UniqueId=\JWUHGFBQ\CBIBQSMI|Kind=1|AlternatePart=
-Variation66=Designator=R801_1|UniqueId=\HNHNWDWJ\AHHQJROK|Kind=1|AlternatePart=
-Variation67=Designator=R801_2|UniqueId=\QVVRSYKH\AHHQJROK|Kind=1|AlternatePart=
+Variation21=Designator=C1330_1|UniqueId=\IPPXJKGT\FKEVBYEQ|Kind=1|AlternatePart=
+Variation22=Designator=C1330_2|UniqueId=\UNPGCEEF\FKEVBYEQ|Kind=1|AlternatePart=
+Variation23=Designator=C1331_1|UniqueId=\IPPXJKGT\GRWRULKD|Kind=1|AlternatePart=
+Variation24=Designator=C1331_2|UniqueId=\UNPGCEEF\GRWRULKD|Kind=1|AlternatePart=
+Variation25=Designator=C1332_1|UniqueId=\IPPXJKGT\SBOKFYUJ|Kind=1|AlternatePart=
+Variation26=Designator=C1332_2|UniqueId=\UNPGCEEF\SBOKFYUJ|Kind=1|AlternatePart=
+Variation27=Designator=C1333_1|UniqueId=\IPPXJKGT\WPMVUNCO|Kind=1|AlternatePart=
+Variation28=Designator=C1333_2|UniqueId=\UNPGCEEF\WPMVUNCO|Kind=1|AlternatePart=
+Variation29=Designator=C1334_1|UniqueId=\IPPXJKGT\YDKENNCT|Kind=1|AlternatePart=
+Variation30=Designator=C1334_2|UniqueId=\UNPGCEEF\YDKENNCT|Kind=1|AlternatePart=
+Variation31=Designator=C1335_1|UniqueId=\IPPXJKGT\XRYNNEQS|Kind=1|AlternatePart=
+Variation32=Designator=C1335_2|UniqueId=\UNPGCEEF\XRYNNEQS|Kind=1|AlternatePart=
+Variation33=Designator=C1306_2|UniqueId=\UNPGCEEF\XWMPRYWB|Kind=1|AlternatePart=
+Variation34=Designator=C1307_2|UniqueId=\UNPGCEEF\GULFVLVU|Kind=1|AlternatePart=
+Variation35=Designator=C1308_2|UniqueId=\UNPGCEEF\GAOEJXLG|Kind=1|AlternatePart=
+Variation36=Designator=C1309_2|UniqueId=\UNPGCEEF\PLJBDXHN|Kind=1|AlternatePart=
+Variation37=Designator=C1310_2|UniqueId=\UNPGCEEF\SPLDTYOF|Kind=1|AlternatePart=
+Variation38=Designator=C1311_2|UniqueId=\UNPGCEEF\BCBOQQWT|Kind=1|AlternatePart=
+Variation39=Designator=C1318_2|UniqueId=\UNPGCEEF\EDDXLTUS|Kind=1|AlternatePart=
+Variation40=Designator=C1319_2|UniqueId=\UNPGCEEF\QUIAHFUQ|Kind=1|AlternatePart=
+Variation41=Designator=C1320_2|UniqueId=\UNPGCEEF\AVVXOMRT|Kind=1|AlternatePart=
+Variation42=Designator=C1321_2|UniqueId=\UNPGCEEF\OPRTGJYY|Kind=1|AlternatePart=
+Variation43=Designator=C1322_2|UniqueId=\UNPGCEEF\VSVDOAHV|Kind=1|AlternatePart=
+Variation44=Designator=C1323_2|UniqueId=\UNPGCEEF\IJHJPFYF|Kind=1|AlternatePart=
+Variation45=Designator=R1408_2|UniqueId=\CWNRVMUL\HAOPGTQC|Kind=1|AlternatePart=
+Variation46=Designator=R1410_2|UniqueId=\CWNRVMUL\RELOOAXR|Kind=1|AlternatePart=
+Variation47=Designator=R1412_2|UniqueId=\CWNRVMUL\DYJUVEQG|Kind=1|AlternatePart=
+Variation48=Designator=R1414_2|UniqueId=\CWNRVMUL\XDURIVRU|Kind=1|AlternatePart=
+Variation49=Designator=R1416_2|UniqueId=\CWNRVMUL\CPRRMLEU|Kind=1|AlternatePart=
+Variation50=Designator=R1406_1|UniqueId=\FHDDMPDD\FCDANIBD|Kind=1|AlternatePart=
+Variation51=Designator=R609_1|UniqueId=\APFIEGPL\GPKXKIVE|Kind=1|AlternatePart=
+Variation52=Designator=R609_2|UniqueId=\TUUBMFQM\GPKXKIVE|Kind=1|AlternatePart=
+Variation53=Designator=R1425_1|UniqueId=\FHDDMPDD\LULPWRBW|Kind=1|AlternatePart=
+Variation54=Designator=R1426_1|UniqueId=\FHDDMPDD\EMRXOPTC|Kind=1|AlternatePart=
+Variation55=Designator=R1427_1|UniqueId=\FHDDMPDD\UMAGTBIY|Kind=1|AlternatePart=
+Variation56=Designator=R1425_2|UniqueId=\CWNRVMUL\LULPWRBW|Kind=1|AlternatePart=
+Variation57=Designator=R1426_2|UniqueId=\CWNRVMUL\EMRXOPTC|Kind=1|AlternatePart=
+Variation58=Designator=R1427_2|UniqueId=\CWNRVMUL\UMAGTBIY|Kind=1|AlternatePart=
+Variation59=Designator=R1406_2|UniqueId=\CWNRVMUL\FCDANIBD|Kind=1|AlternatePart=
+Variation60=Designator=R110_1|UniqueId=\LUAMNULO\QDXKTDNE|Kind=1|AlternatePart=
+Variation61=Designator=R110_2|UniqueId=\JWUHGFBQ\QDXKTDNE|Kind=1|AlternatePart=
+Variation62=Designator=R111_1|UniqueId=\LUAMNULO\CBIBQSMI|Kind=1|AlternatePart=
+Variation63=Designator=R111_2|UniqueId=\JWUHGFBQ\CBIBQSMI|Kind=1|AlternatePart=
+Variation64=Designator=R801_1|UniqueId=\HNHNWDWJ\AHHQJROK|Kind=1|AlternatePart=
+Variation65=Designator=R801_2|UniqueId=\QVVRSYKH\AHHQJROK|Kind=1|AlternatePart=
 ParamVariationCount=0
 
 [ProjectVariant2]
@@ -577,7 +575,7 @@ UniqueId=1BC06EA7-82EA-41F5-BD13-16703F83120B
 Description=automotive
 AllowFabrication=0
 ParameterCount=0
-VariationCount=85
+VariationCount=83
 Variation1=Designator=C1306_1|UniqueId=\IPPXJKGT\XWMPRYWB|Kind=1|AlternatePart=
 Variation2=Designator=C1309_1|UniqueId=\IPPXJKGT\PLJBDXHN|Kind=1|AlternatePart=
 Variation3=Designator=C1308_1|UniqueId=\IPPXJKGT\GAOEJXLG|Kind=1|AlternatePart=
@@ -598,39 +596,37 @@ Variation17=Designator=C1323_1|UniqueId=\IPPXJKGT\IJHJPFYF|Kind=1|AlternatePart=
 Variation18=Designator=R902|UniqueId=\KDJPDGIV\XSCSGRHU|Kind=1|AlternatePart=
 Variation19=Designator=SJ300|UniqueId=\XBYPFDUL\TPREYXTJ|Kind=1|AlternatePart=
 Variation20=Designator=SJ301|UniqueId=\XBYPFDUL\TMIEXJPD|Kind=1|AlternatePart=
-Variation21=Designator=X900|UniqueId=\KDJPDGIV\JECWUOTM|Kind=1|AlternatePart=
-Variation22=Designator=X1000|UniqueId=\AHAKFVWA\OTUQNSLA|Kind=1|AlternatePart=
-Variation23=Designator=C1330_1|UniqueId=\IPPXJKGT\FKEVBYEQ|Kind=1|AlternatePart=
-Variation24=Designator=C1330_2|UniqueId=\UNPGCEEF\FKEVBYEQ|Kind=1|AlternatePart=
-Variation25=Designator=C1331_1|UniqueId=\IPPXJKGT\GRWRULKD|Kind=1|AlternatePart=
-Variation26=Designator=C1331_2|UniqueId=\UNPGCEEF\GRWRULKD|Kind=1|AlternatePart=
-Variation27=Designator=C1332_1|UniqueId=\IPPXJKGT\SBOKFYUJ|Kind=1|AlternatePart=
-Variation28=Designator=C1332_2|UniqueId=\UNPGCEEF\SBOKFYUJ|Kind=1|AlternatePart=
-Variation29=Designator=C1333_1|UniqueId=\IPPXJKGT\WPMVUNCO|Kind=1|AlternatePart=
-Variation30=Designator=C1333_2|UniqueId=\UNPGCEEF\WPMVUNCO|Kind=1|AlternatePart=
-Variation31=Designator=C1334_1|UniqueId=\IPPXJKGT\YDKENNCT|Kind=1|AlternatePart=
-Variation32=Designator=C1334_2|UniqueId=\UNPGCEEF\YDKENNCT|Kind=1|AlternatePart=
-Variation33=Designator=C1335_1|UniqueId=\IPPXJKGT\XRYNNEQS|Kind=1|AlternatePart=
-Variation34=Designator=C1335_2|UniqueId=\UNPGCEEF\XRYNNEQS|Kind=1|AlternatePart=
-Variation35=Designator=C1306_2|UniqueId=\UNPGCEEF\XWMPRYWB|Kind=1|AlternatePart=
-Variation36=Designator=C1307_2|UniqueId=\UNPGCEEF\GULFVLVU|Kind=1|AlternatePart=
-Variation37=Designator=C1308_2|UniqueId=\UNPGCEEF\GAOEJXLG|Kind=1|AlternatePart=
-Variation38=Designator=C1309_2|UniqueId=\UNPGCEEF\PLJBDXHN|Kind=1|AlternatePart=
-Variation39=Designator=C1310_2|UniqueId=\UNPGCEEF\SPLDTYOF|Kind=1|AlternatePart=
-Variation40=Designator=C1311_2|UniqueId=\UNPGCEEF\BCBOQQWT|Kind=1|AlternatePart=
-Variation41=Designator=C1318_2|UniqueId=\UNPGCEEF\EDDXLTUS|Kind=1|AlternatePart=
-Variation42=Designator=C1319_2|UniqueId=\UNPGCEEF\QUIAHFUQ|Kind=1|AlternatePart=
-Variation43=Designator=C1320_2|UniqueId=\UNPGCEEF\AVVXOMRT|Kind=1|AlternatePart=
-Variation44=Designator=C1321_2|UniqueId=\UNPGCEEF\OPRTGJYY|Kind=1|AlternatePart=
-Variation45=Designator=C1322_2|UniqueId=\UNPGCEEF\VSVDOAHV|Kind=1|AlternatePart=
-Variation46=Designator=C1323_2|UniqueId=\UNPGCEEF\IJHJPFYF|Kind=1|AlternatePart=
-Variation47=Designator=R1408_2|UniqueId=\CWNRVMUL\HAOPGTQC|Kind=1|AlternatePart=
-Variation48=Designator=R1410_2|UniqueId=\CWNRVMUL\RELOOAXR|Kind=1|AlternatePart=
-Variation49=Designator=R1412_2|UniqueId=\CWNRVMUL\DYJUVEQG|Kind=1|AlternatePart=
-Variation50=Designator=R1414_2|UniqueId=\CWNRVMUL\XDURIVRU|Kind=1|AlternatePart=
-Variation51=Designator=R1416_2|UniqueId=\CWNRVMUL\CPRRMLEU|Kind=1|AlternatePart=
-Variation52=Designator=R1406_1|UniqueId=\FHDDMPDD\FCDANIBD|Kind=1|AlternatePart=
-Variation53=Designator=U1100|UniqueId=\WGFFHSNI\EODFSUAB|Kind=2|AlternatePart=TLX9291A|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=OE750.DbLib/IC|AltLibLink_SymbolReference=ACPL-217|AltLibLink_DesignItemID=TLX9291A|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=OE750.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=IC|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=SOIC127P700X220-4N|AltLibLink_IsSameFootprint=True
+Variation21=Designator=C1330_1|UniqueId=\IPPXJKGT\FKEVBYEQ|Kind=1|AlternatePart=
+Variation22=Designator=C1330_2|UniqueId=\UNPGCEEF\FKEVBYEQ|Kind=1|AlternatePart=
+Variation23=Designator=C1331_1|UniqueId=\IPPXJKGT\GRWRULKD|Kind=1|AlternatePart=
+Variation24=Designator=C1331_2|UniqueId=\UNPGCEEF\GRWRULKD|Kind=1|AlternatePart=
+Variation25=Designator=C1332_1|UniqueId=\IPPXJKGT\SBOKFYUJ|Kind=1|AlternatePart=
+Variation26=Designator=C1332_2|UniqueId=\UNPGCEEF\SBOKFYUJ|Kind=1|AlternatePart=
+Variation27=Designator=C1333_1|UniqueId=\IPPXJKGT\WPMVUNCO|Kind=1|AlternatePart=
+Variation28=Designator=C1333_2|UniqueId=\UNPGCEEF\WPMVUNCO|Kind=1|AlternatePart=
+Variation29=Designator=C1334_1|UniqueId=\IPPXJKGT\YDKENNCT|Kind=1|AlternatePart=
+Variation30=Designator=C1334_2|UniqueId=\UNPGCEEF\YDKENNCT|Kind=1|AlternatePart=
+Variation31=Designator=C1335_1|UniqueId=\IPPXJKGT\XRYNNEQS|Kind=1|AlternatePart=
+Variation32=Designator=C1335_2|UniqueId=\UNPGCEEF\XRYNNEQS|Kind=1|AlternatePart=
+Variation33=Designator=C1306_2|UniqueId=\UNPGCEEF\XWMPRYWB|Kind=1|AlternatePart=
+Variation34=Designator=C1307_2|UniqueId=\UNPGCEEF\GULFVLVU|Kind=1|AlternatePart=
+Variation35=Designator=C1308_2|UniqueId=\UNPGCEEF\GAOEJXLG|Kind=1|AlternatePart=
+Variation36=Designator=C1309_2|UniqueId=\UNPGCEEF\PLJBDXHN|Kind=1|AlternatePart=
+Variation37=Designator=C1310_2|UniqueId=\UNPGCEEF\SPLDTYOF|Kind=1|AlternatePart=
+Variation38=Designator=C1311_2|UniqueId=\UNPGCEEF\BCBOQQWT|Kind=1|AlternatePart=
+Variation39=Designator=C1318_2|UniqueId=\UNPGCEEF\EDDXLTUS|Kind=1|AlternatePart=
+Variation40=Designator=C1319_2|UniqueId=\UNPGCEEF\QUIAHFUQ|Kind=1|AlternatePart=
+Variation41=Designator=C1320_2|UniqueId=\UNPGCEEF\AVVXOMRT|Kind=1|AlternatePart=
+Variation42=Designator=C1321_2|UniqueId=\UNPGCEEF\OPRTGJYY|Kind=1|AlternatePart=
+Variation43=Designator=C1322_2|UniqueId=\UNPGCEEF\VSVDOAHV|Kind=1|AlternatePart=
+Variation44=Designator=C1323_2|UniqueId=\UNPGCEEF\IJHJPFYF|Kind=1|AlternatePart=
+Variation45=Designator=R1408_2|UniqueId=\CWNRVMUL\HAOPGTQC|Kind=1|AlternatePart=
+Variation46=Designator=R1410_2|UniqueId=\CWNRVMUL\RELOOAXR|Kind=1|AlternatePart=
+Variation47=Designator=R1412_2|UniqueId=\CWNRVMUL\DYJUVEQG|Kind=1|AlternatePart=
+Variation48=Designator=R1414_2|UniqueId=\CWNRVMUL\XDURIVRU|Kind=1|AlternatePart=
+Variation49=Designator=R1416_2|UniqueId=\CWNRVMUL\CPRRMLEU|Kind=1|AlternatePart=
+Variation50=Designator=R1406_1|UniqueId=\FHDDMPDD\FCDANIBD|Kind=1|AlternatePart=
+Variation51=Designator=U1100|UniqueId=\WGFFHSNI\EODFSUAB|Kind=2|AlternatePart=TLX9291A|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=OE750.DbLib/IC|AltLibLink_SymbolReference=ACPL-217|AltLibLink_DesignItemID=TLX9291A|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=OE750.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=IC|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=SOIC127P700X220-4N|AltLibLink_IsSameFootprint=True
 ParamVariation1=ParameterName=Comment|VariantValue=TLX9291A
 ParamDesignator1=U1100
 ParamVariation2=ParameterName=Automotive Qualified|VariantValue=True
@@ -667,7 +663,7 @@ ParamVariation17=ParameterName=Signal Integrity|VariantValue=
 ParamDesignator17=U1100
 ParamVariation18=ParameterName=Simulation|VariantValue=
 ParamDesignator18=U1100
-Variation54=Designator=U1101|UniqueId=\WGFFHSNI\MWDMTEFL|Kind=2|AlternatePart=TLX9291A|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=OE750.DbLib/IC|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=TLX9291A|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=OE750.DbLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName=IC|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=SOIC127P700X220-4N|AltLibLink_IsSameFootprint=True
+Variation52=Designator=U1101|UniqueId=\WGFFHSNI\MWDMTEFL|Kind=2|AlternatePart=TLX9291A|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=OE750.DbLib/IC|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=TLX9291A|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=OE750.DbLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName=IC|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=SOIC127P700X220-4N|AltLibLink_IsSameFootprint=True
 ParamVariation19=ParameterName=Comment|VariantValue=TLX9291A
 ParamDesignator19=U1101
 ParamVariation20=ParameterName=Automotive Qualified|VariantValue=True
@@ -704,7 +700,7 @@ ParamVariation35=ParameterName=Signal Integrity|VariantValue=
 ParamDesignator35=U1101
 ParamVariation36=ParameterName=Simulation|VariantValue=
 ParamDesignator36=U1101
-Variation55=Designator=U1117|UniqueId=\WGFFHSNI\NFDLPMTD|Kind=2|AlternatePart=TLX9291A|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=OE750.DbLib/IC|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=TLX9291A|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=OE750.DbLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName=IC|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=SOIC127P700X220-4N|AltLibLink_IsSameFootprint=True
+Variation53=Designator=U1117|UniqueId=\WGFFHSNI\NFDLPMTD|Kind=2|AlternatePart=TLX9291A|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=OE750.DbLib/IC|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=TLX9291A|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=OE750.DbLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName=IC|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=SOIC127P700X220-4N|AltLibLink_IsSameFootprint=True
 ParamVariation37=ParameterName=Comment|VariantValue=TLX9291A
 ParamDesignator37=U1117
 ParamVariation38=ParameterName=Automotive Qualified|VariantValue=True
@@ -741,7 +737,7 @@ ParamVariation53=ParameterName=Signal Integrity|VariantValue=
 ParamDesignator53=U1117
 ParamVariation54=ParameterName=Simulation|VariantValue=
 ParamDesignator54=U1117
-Variation56=Designator=U1116|UniqueId=\WGFFHSNI\MRHEHORE|Kind=2|AlternatePart=TLX9291A|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=OE750.DbLib/IC|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=TLX9291A|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=OE750.DbLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName=IC|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=SOIC127P700X220-4N|AltLibLink_IsSameFootprint=True
+Variation54=Designator=U1116|UniqueId=\WGFFHSNI\MRHEHORE|Kind=2|AlternatePart=TLX9291A|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=OE750.DbLib/IC|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=TLX9291A|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=OE750.DbLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName=IC|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=SOIC127P700X220-4N|AltLibLink_IsSameFootprint=True
 ParamVariation55=ParameterName=Comment|VariantValue=TLX9291A
 ParamDesignator55=U1116
 ParamVariation56=ParameterName=Automotive Qualified|VariantValue=True
@@ -778,7 +774,7 @@ ParamVariation71=ParameterName=Signal Integrity|VariantValue=
 ParamDesignator71=U1116
 ParamVariation72=ParameterName=Simulation|VariantValue=
 ParamDesignator72=U1116
-Variation57=Designator=U1115|UniqueId=\WGFFHSNI\UODRAPAV|Kind=2|AlternatePart=TLX9291A|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=OE750.DbLib/IC|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=TLX9291A|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=OE750.DbLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName=IC|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=SOIC127P700X220-4N|AltLibLink_IsSameFootprint=True
+Variation55=Designator=U1115|UniqueId=\WGFFHSNI\UODRAPAV|Kind=2|AlternatePart=TLX9291A|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=OE750.DbLib/IC|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=TLX9291A|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=OE750.DbLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName=IC|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=SOIC127P700X220-4N|AltLibLink_IsSameFootprint=True
 ParamVariation73=ParameterName=Comment|VariantValue=TLX9291A
 ParamDesignator73=U1115
 ParamVariation74=ParameterName=Automotive Qualified|VariantValue=True
@@ -815,7 +811,7 @@ ParamVariation89=ParameterName=Signal Integrity|VariantValue=
 ParamDesignator89=U1115
 ParamVariation90=ParameterName=Simulation|VariantValue=
 ParamDesignator90=U1115
-Variation58=Designator=U1114|UniqueId=\WGFFHSNI\GBECPITE|Kind=2|AlternatePart=TLX9291A|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=OE750.DbLib/IC|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=TLX9291A|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=OE750.DbLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName=IC|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=SOIC127P700X220-4N|AltLibLink_IsSameFootprint=True
+Variation56=Designator=U1114|UniqueId=\WGFFHSNI\GBECPITE|Kind=2|AlternatePart=TLX9291A|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=OE750.DbLib/IC|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=TLX9291A|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=OE750.DbLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName=IC|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=SOIC127P700X220-4N|AltLibLink_IsSameFootprint=True
 ParamVariation91=ParameterName=Comment|VariantValue=TLX9291A
 ParamDesignator91=U1114
 ParamVariation92=ParameterName=Automotive Qualified|VariantValue=True
@@ -852,7 +848,7 @@ ParamVariation107=ParameterName=Signal Integrity|VariantValue=
 ParamDesignator107=U1114
 ParamVariation108=ParameterName=Simulation|VariantValue=
 ParamDesignator108=U1114
-Variation59=Designator=U1113|UniqueId=\WGFFHSNI\GGDIJHJS|Kind=2|AlternatePart=TLX9291A|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=OE750.DbLib/IC|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=TLX9291A|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=OE750.DbLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName=IC|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=SOIC127P700X220-4N|AltLibLink_IsSameFootprint=True
+Variation57=Designator=U1113|UniqueId=\WGFFHSNI\GGDIJHJS|Kind=2|AlternatePart=TLX9291A|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=OE750.DbLib/IC|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=TLX9291A|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=OE750.DbLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName=IC|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=SOIC127P700X220-4N|AltLibLink_IsSameFootprint=True
 ParamVariation109=ParameterName=Comment|VariantValue=TLX9291A
 ParamDesignator109=U1113
 ParamVariation110=ParameterName=Automotive Qualified|VariantValue=True
@@ -889,7 +885,7 @@ ParamVariation125=ParameterName=Signal Integrity|VariantValue=
 ParamDesignator125=U1113
 ParamVariation126=ParameterName=Simulation|VariantValue=
 ParamDesignator126=U1113
-Variation60=Designator=U1112|UniqueId=\WGFFHSNI\PRUYLVYE|Kind=2|AlternatePart=TLX9291A|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=OE750.DbLib/IC|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=TLX9291A|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=OE750.DbLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName=IC|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=SOIC127P700X220-4N|AltLibLink_IsSameFootprint=True
+Variation58=Designator=U1112|UniqueId=\WGFFHSNI\PRUYLVYE|Kind=2|AlternatePart=TLX9291A|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=OE750.DbLib/IC|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=TLX9291A|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=OE750.DbLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName=IC|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=SOIC127P700X220-4N|AltLibLink_IsSameFootprint=True
 ParamVariation127=ParameterName=Comment|VariantValue=TLX9291A
 ParamDesignator127=U1112
 ParamVariation128=ParameterName=Automotive Qualified|VariantValue=True
@@ -926,7 +922,7 @@ ParamVariation143=ParameterName=Signal Integrity|VariantValue=
 ParamDesignator143=U1112
 ParamVariation144=ParameterName=Simulation|VariantValue=
 ParamDesignator144=U1112
-Variation61=Designator=U1111|UniqueId=\WGFFHSNI\LIRSVSQM|Kind=2|AlternatePart=TLX9291A|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=OE750.DbLib/IC|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=TLX9291A|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=OE750.DbLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName=IC|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=SOIC127P700X220-4N|AltLibLink_IsSameFootprint=True
+Variation59=Designator=U1111|UniqueId=\WGFFHSNI\LIRSVSQM|Kind=2|AlternatePart=TLX9291A|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=OE750.DbLib/IC|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=TLX9291A|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=OE750.DbLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName=IC|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=SOIC127P700X220-4N|AltLibLink_IsSameFootprint=True
 ParamVariation145=ParameterName=Comment|VariantValue=TLX9291A
 ParamDesignator145=U1111
 ParamVariation146=ParameterName=Automotive Qualified|VariantValue=True
@@ -963,7 +959,7 @@ ParamVariation161=ParameterName=Signal Integrity|VariantValue=
 ParamDesignator161=U1111
 ParamVariation162=ParameterName=Simulation|VariantValue=
 ParamDesignator162=U1111
-Variation62=Designator=U1110|UniqueId=\WGFFHSNI\MMQDLYRL|Kind=2|AlternatePart=TLX9291A|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=OE750.DbLib/IC|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=TLX9291A|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=OE750.DbLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName=IC|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=SOIC127P700X220-4N|AltLibLink_IsSameFootprint=True
+Variation60=Designator=U1110|UniqueId=\WGFFHSNI\MMQDLYRL|Kind=2|AlternatePart=TLX9291A|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=OE750.DbLib/IC|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=TLX9291A|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=OE750.DbLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName=IC|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=SOIC127P700X220-4N|AltLibLink_IsSameFootprint=True
 ParamVariation163=ParameterName=Comment|VariantValue=TLX9291A
 ParamDesignator163=U1110
 ParamVariation164=ParameterName=Automotive Qualified|VariantValue=True
@@ -1000,7 +996,7 @@ ParamVariation179=ParameterName=Signal Integrity|VariantValue=
 ParamDesignator179=U1110
 ParamVariation180=ParameterName=Simulation|VariantValue=
 ParamDesignator180=U1110
-Variation63=Designator=U1109|UniqueId=\WGFFHSNI\YXFPHYEV|Kind=2|AlternatePart=TLX9291A|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=OE750.DbLib/IC|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=TLX9291A|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=OE750.DbLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName=IC|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=SOIC127P700X220-4N|AltLibLink_IsSameFootprint=True
+Variation61=Designator=U1109|UniqueId=\WGFFHSNI\YXFPHYEV|Kind=2|AlternatePart=TLX9291A|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=OE750.DbLib/IC|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=TLX9291A|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=OE750.DbLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName=IC|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=SOIC127P700X220-4N|AltLibLink_IsSameFootprint=True
 ParamVariation181=ParameterName=Comment|VariantValue=TLX9291A
 ParamDesignator181=U1109
 ParamVariation182=ParameterName=Automotive Qualified|VariantValue=True
@@ -1037,7 +1033,7 @@ ParamVariation197=ParameterName=Signal Integrity|VariantValue=
 ParamDesignator197=U1109
 ParamVariation198=ParameterName=Simulation|VariantValue=
 ParamDesignator198=U1109
-Variation64=Designator=U1108|UniqueId=\WGFFHSNI\GURYQHBJ|Kind=2|AlternatePart=TLX9291A|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=OE750.DbLib/IC|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=TLX9291A|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=OE750.DbLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName=IC|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=SOIC127P700X220-4N|AltLibLink_IsSameFootprint=True
+Variation62=Designator=U1108|UniqueId=\WGFFHSNI\GURYQHBJ|Kind=2|AlternatePart=TLX9291A|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=OE750.DbLib/IC|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=TLX9291A|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=OE750.DbLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName=IC|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=SOIC127P700X220-4N|AltLibLink_IsSameFootprint=True
 ParamVariation199=ParameterName=Comment|VariantValue=TLX9291A
 ParamDesignator199=U1108
 ParamVariation200=ParameterName=Automotive Qualified|VariantValue=True
@@ -1074,7 +1070,7 @@ ParamVariation215=ParameterName=Signal Integrity|VariantValue=
 ParamDesignator215=U1108
 ParamVariation216=ParameterName=Simulation|VariantValue=
 ParamDesignator216=U1108
-Variation65=Designator=U1107|UniqueId=\WGFFHSNI\KCKOVTHP|Kind=2|AlternatePart=TLX9291A|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=OE750.DbLib/IC|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=TLX9291A|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=OE750.DbLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName=IC|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=SOIC127P700X220-4N|AltLibLink_IsSameFootprint=True
+Variation63=Designator=U1107|UniqueId=\WGFFHSNI\KCKOVTHP|Kind=2|AlternatePart=TLX9291A|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=OE750.DbLib/IC|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=TLX9291A|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=OE750.DbLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName=IC|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=SOIC127P700X220-4N|AltLibLink_IsSameFootprint=True
 ParamVariation217=ParameterName=Comment|VariantValue=TLX9291A
 ParamDesignator217=U1107
 ParamVariation218=ParameterName=Automotive Qualified|VariantValue=True
@@ -1111,7 +1107,7 @@ ParamVariation233=ParameterName=Signal Integrity|VariantValue=
 ParamDesignator233=U1107
 ParamVariation234=ParameterName=Simulation|VariantValue=
 ParamDesignator234=U1107
-Variation66=Designator=U1106|UniqueId=\WGFFHSNI\QICETTNJ|Kind=2|AlternatePart=TLX9291A|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=OE750.DbLib/IC|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=TLX9291A|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=OE750.DbLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName=IC|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=SOIC127P700X220-4N|AltLibLink_IsSameFootprint=True
+Variation64=Designator=U1106|UniqueId=\WGFFHSNI\QICETTNJ|Kind=2|AlternatePart=TLX9291A|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=OE750.DbLib/IC|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=TLX9291A|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=OE750.DbLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName=IC|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=SOIC127P700X220-4N|AltLibLink_IsSameFootprint=True
 ParamVariation235=ParameterName=Comment|VariantValue=TLX9291A
 ParamDesignator235=U1106
 ParamVariation236=ParameterName=Automotive Qualified|VariantValue=True
@@ -1148,7 +1144,7 @@ ParamVariation251=ParameterName=Signal Integrity|VariantValue=
 ParamDesignator251=U1106
 ParamVariation252=ParameterName=Simulation|VariantValue=
 ParamDesignator252=U1106
-Variation67=Designator=U1105|UniqueId=\WGFFHSNI\HLVAIEVS|Kind=2|AlternatePart=TLX9291A|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=OE750.DbLib/IC|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=TLX9291A|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=OE750.DbLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName=IC|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=SOIC127P700X220-4N|AltLibLink_IsSameFootprint=True
+Variation65=Designator=U1105|UniqueId=\WGFFHSNI\HLVAIEVS|Kind=2|AlternatePart=TLX9291A|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=OE750.DbLib/IC|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=TLX9291A|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=OE750.DbLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName=IC|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=SOIC127P700X220-4N|AltLibLink_IsSameFootprint=True
 ParamVariation253=ParameterName=Comment|VariantValue=TLX9291A
 ParamDesignator253=U1105
 ParamVariation254=ParameterName=Automotive Qualified|VariantValue=True
@@ -1185,7 +1181,7 @@ ParamVariation269=ParameterName=Signal Integrity|VariantValue=
 ParamDesignator269=U1105
 ParamVariation270=ParameterName=Simulation|VariantValue=
 ParamDesignator270=U1105
-Variation68=Designator=U1104|UniqueId=\WGFFHSNI\WNJWUQDH|Kind=2|AlternatePart=TLX9291A|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=OE750.DbLib/IC|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=TLX9291A|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=OE750.DbLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName=IC|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=SOIC127P700X220-4N|AltLibLink_IsSameFootprint=True
+Variation66=Designator=U1104|UniqueId=\WGFFHSNI\WNJWUQDH|Kind=2|AlternatePart=TLX9291A|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=OE750.DbLib/IC|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=TLX9291A|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=OE750.DbLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName=IC|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=SOIC127P700X220-4N|AltLibLink_IsSameFootprint=True
 ParamVariation271=ParameterName=Comment|VariantValue=TLX9291A
 ParamDesignator271=U1104
 ParamVariation272=ParameterName=Automotive Qualified|VariantValue=True
@@ -1222,7 +1218,7 @@ ParamVariation287=ParameterName=Signal Integrity|VariantValue=
 ParamDesignator287=U1104
 ParamVariation288=ParameterName=Simulation|VariantValue=
 ParamDesignator288=U1104
-Variation69=Designator=U1103|UniqueId=\WGFFHSNI\XTHKUCMQ|Kind=2|AlternatePart=TLX9291A|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=OE750.DbLib/IC|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=TLX9291A|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=OE750.DbLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName=IC|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=SOIC127P700X220-4N|AltLibLink_IsSameFootprint=True
+Variation67=Designator=U1103|UniqueId=\WGFFHSNI\XTHKUCMQ|Kind=2|AlternatePart=TLX9291A|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=OE750.DbLib/IC|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=TLX9291A|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=OE750.DbLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName=IC|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=SOIC127P700X220-4N|AltLibLink_IsSameFootprint=True
 ParamVariation289=ParameterName=Comment|VariantValue=TLX9291A
 ParamDesignator289=U1103
 ParamVariation290=ParameterName=Automotive Qualified|VariantValue=True
@@ -1259,7 +1255,7 @@ ParamVariation305=ParameterName=Signal Integrity|VariantValue=
 ParamDesignator305=U1103
 ParamVariation306=ParameterName=Simulation|VariantValue=
 ParamDesignator306=U1103
-Variation70=Designator=U1102|UniqueId=\WGFFHSNI\MLCAFUBM|Kind=2|AlternatePart=TLX9291A|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=OE750.DbLib/IC|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=TLX9291A|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=OE750.DbLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName=IC|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=SOIC127P700X220-4N|AltLibLink_IsSameFootprint=True
+Variation68=Designator=U1102|UniqueId=\WGFFHSNI\MLCAFUBM|Kind=2|AlternatePart=TLX9291A|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=OE750.DbLib/IC|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=TLX9291A|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=OE750.DbLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName=IC|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=SOIC127P700X220-4N|AltLibLink_IsSameFootprint=True
 ParamVariation307=ParameterName=Comment|VariantValue=TLX9291A
 ParamDesignator307=U1102
 ParamVariation308=ParameterName=Automotive Qualified|VariantValue=True
@@ -1296,21 +1292,21 @@ ParamVariation323=ParameterName=Signal Integrity|VariantValue=
 ParamDesignator323=U1102
 ParamVariation324=ParameterName=Simulation|VariantValue=
 ParamDesignator324=U1102
-Variation71=Designator=R609_1|UniqueId=\APFIEGPL\GPKXKIVE|Kind=1|AlternatePart=
-Variation72=Designator=R609_2|UniqueId=\TUUBMFQM\GPKXKIVE|Kind=1|AlternatePart=
-Variation73=Designator=R1425_1|UniqueId=\FHDDMPDD\LULPWRBW|Kind=1|AlternatePart=
-Variation74=Designator=R1426_1|UniqueId=\FHDDMPDD\EMRXOPTC|Kind=1|AlternatePart=
-Variation75=Designator=R1427_1|UniqueId=\FHDDMPDD\UMAGTBIY|Kind=1|AlternatePart=
-Variation76=Designator=R1425_2|UniqueId=\CWNRVMUL\LULPWRBW|Kind=1|AlternatePart=
-Variation77=Designator=R1426_2|UniqueId=\CWNRVMUL\EMRXOPTC|Kind=1|AlternatePart=
-Variation78=Designator=R1427_2|UniqueId=\CWNRVMUL\UMAGTBIY|Kind=1|AlternatePart=
-Variation79=Designator=R1406_2|UniqueId=\CWNRVMUL\FCDANIBD|Kind=1|AlternatePart=
-Variation80=Designator=R110_1|UniqueId=\LUAMNULO\QDXKTDNE|Kind=1|AlternatePart=
-Variation81=Designator=R110_2|UniqueId=\JWUHGFBQ\QDXKTDNE|Kind=1|AlternatePart=
-Variation82=Designator=R111_1|UniqueId=\LUAMNULO\CBIBQSMI|Kind=1|AlternatePart=
-Variation83=Designator=R111_2|UniqueId=\JWUHGFBQ\CBIBQSMI|Kind=1|AlternatePart=
-Variation84=Designator=R801_1|UniqueId=\HNHNWDWJ\AHHQJROK|Kind=1|AlternatePart=
-Variation85=Designator=R801_2|UniqueId=\QVVRSYKH\AHHQJROK|Kind=1|AlternatePart=
+Variation69=Designator=R609_1|UniqueId=\APFIEGPL\GPKXKIVE|Kind=1|AlternatePart=
+Variation70=Designator=R609_2|UniqueId=\TUUBMFQM\GPKXKIVE|Kind=1|AlternatePart=
+Variation71=Designator=R1425_1|UniqueId=\FHDDMPDD\LULPWRBW|Kind=1|AlternatePart=
+Variation72=Designator=R1426_1|UniqueId=\FHDDMPDD\EMRXOPTC|Kind=1|AlternatePart=
+Variation73=Designator=R1427_1|UniqueId=\FHDDMPDD\UMAGTBIY|Kind=1|AlternatePart=
+Variation74=Designator=R1425_2|UniqueId=\CWNRVMUL\LULPWRBW|Kind=1|AlternatePart=
+Variation75=Designator=R1426_2|UniqueId=\CWNRVMUL\EMRXOPTC|Kind=1|AlternatePart=
+Variation76=Designator=R1427_2|UniqueId=\CWNRVMUL\UMAGTBIY|Kind=1|AlternatePart=
+Variation77=Designator=R1406_2|UniqueId=\CWNRVMUL\FCDANIBD|Kind=1|AlternatePart=
+Variation78=Designator=R110_1|UniqueId=\LUAMNULO\QDXKTDNE|Kind=1|AlternatePart=
+Variation79=Designator=R110_2|UniqueId=\JWUHGFBQ\QDXKTDNE|Kind=1|AlternatePart=
+Variation80=Designator=R111_1|UniqueId=\LUAMNULO\CBIBQSMI|Kind=1|AlternatePart=
+Variation81=Designator=R111_2|UniqueId=\JWUHGFBQ\CBIBQSMI|Kind=1|AlternatePart=
+Variation82=Designator=R801_1|UniqueId=\HNHNWDWJ\AHHQJROK|Kind=1|AlternatePart=
+Variation83=Designator=R801_2|UniqueId=\QVVRSYKH\AHHQJROK|Kind=1|AlternatePart=
 ParamVariationCount=324
 
 [ProjectVariant3]
@@ -1318,7 +1314,7 @@ UniqueId=C76D42F6-1536-4E45-8E76-A4D7BD374C91
 Description=automotive_single-AFE
 AllowFabrication=0
 ParameterCount=0
-VariationCount=92
+VariationCount=88
 Variation1=Designator=C1306_1|UniqueId=\IPPXJKGT\XWMPRYWB|Kind=1|AlternatePart=
 Variation2=Designator=C1309_1|UniqueId=\IPPXJKGT\PLJBDXHN|Kind=1|AlternatePart=
 Variation3=Designator=C1308_1|UniqueId=\IPPXJKGT\GAOEJXLG|Kind=1|AlternatePart=
@@ -1339,39 +1335,37 @@ Variation17=Designator=C1323_1|UniqueId=\IPPXJKGT\IJHJPFYF|Kind=1|AlternatePart=
 Variation18=Designator=R902|UniqueId=\KDJPDGIV\XSCSGRHU|Kind=1|AlternatePart=
 Variation19=Designator=SJ300|UniqueId=\XBYPFDUL\TPREYXTJ|Kind=1|AlternatePart=
 Variation20=Designator=SJ301|UniqueId=\XBYPFDUL\TMIEXJPD|Kind=1|AlternatePart=
-Variation21=Designator=X900|UniqueId=\KDJPDGIV\JECWUOTM|Kind=1|AlternatePart=
-Variation22=Designator=X1000|UniqueId=\AHAKFVWA\OTUQNSLA|Kind=1|AlternatePart=
-Variation23=Designator=C1330_1|UniqueId=\IPPXJKGT\FKEVBYEQ|Kind=1|AlternatePart=
-Variation24=Designator=C1330_2|UniqueId=\UNPGCEEF\FKEVBYEQ|Kind=1|AlternatePart=
-Variation25=Designator=C1331_1|UniqueId=\IPPXJKGT\GRWRULKD|Kind=1|AlternatePart=
-Variation26=Designator=C1331_2|UniqueId=\UNPGCEEF\GRWRULKD|Kind=1|AlternatePart=
-Variation27=Designator=C1332_1|UniqueId=\IPPXJKGT\SBOKFYUJ|Kind=1|AlternatePart=
-Variation28=Designator=C1332_2|UniqueId=\UNPGCEEF\SBOKFYUJ|Kind=1|AlternatePart=
-Variation29=Designator=C1333_1|UniqueId=\IPPXJKGT\WPMVUNCO|Kind=1|AlternatePart=
-Variation30=Designator=C1333_2|UniqueId=\UNPGCEEF\WPMVUNCO|Kind=1|AlternatePart=
-Variation31=Designator=C1334_1|UniqueId=\IPPXJKGT\YDKENNCT|Kind=1|AlternatePart=
-Variation32=Designator=C1334_2|UniqueId=\UNPGCEEF\YDKENNCT|Kind=1|AlternatePart=
-Variation33=Designator=C1335_1|UniqueId=\IPPXJKGT\XRYNNEQS|Kind=1|AlternatePart=
-Variation34=Designator=C1335_2|UniqueId=\UNPGCEEF\XRYNNEQS|Kind=1|AlternatePart=
-Variation35=Designator=C1306_2|UniqueId=\UNPGCEEF\XWMPRYWB|Kind=1|AlternatePart=
-Variation36=Designator=C1307_2|UniqueId=\UNPGCEEF\GULFVLVU|Kind=1|AlternatePart=
-Variation37=Designator=C1308_2|UniqueId=\UNPGCEEF\GAOEJXLG|Kind=1|AlternatePart=
-Variation38=Designator=C1309_2|UniqueId=\UNPGCEEF\PLJBDXHN|Kind=1|AlternatePart=
-Variation39=Designator=C1310_2|UniqueId=\UNPGCEEF\SPLDTYOF|Kind=1|AlternatePart=
-Variation40=Designator=C1311_2|UniqueId=\UNPGCEEF\BCBOQQWT|Kind=1|AlternatePart=
-Variation41=Designator=C1318_2|UniqueId=\UNPGCEEF\EDDXLTUS|Kind=1|AlternatePart=
-Variation42=Designator=C1319_2|UniqueId=\UNPGCEEF\QUIAHFUQ|Kind=1|AlternatePart=
-Variation43=Designator=C1320_2|UniqueId=\UNPGCEEF\AVVXOMRT|Kind=1|AlternatePart=
-Variation44=Designator=C1321_2|UniqueId=\UNPGCEEF\OPRTGJYY|Kind=1|AlternatePart=
-Variation45=Designator=C1322_2|UniqueId=\UNPGCEEF\VSVDOAHV|Kind=1|AlternatePart=
-Variation46=Designator=C1323_2|UniqueId=\UNPGCEEF\IJHJPFYF|Kind=1|AlternatePart=
-Variation47=Designator=R1408_2|UniqueId=\CWNRVMUL\HAOPGTQC|Kind=1|AlternatePart=
-Variation48=Designator=R1410_2|UniqueId=\CWNRVMUL\RELOOAXR|Kind=1|AlternatePart=
-Variation49=Designator=R1412_2|UniqueId=\CWNRVMUL\DYJUVEQG|Kind=1|AlternatePart=
-Variation50=Designator=R1414_2|UniqueId=\CWNRVMUL\XDURIVRU|Kind=1|AlternatePart=
-Variation51=Designator=R1416_2|UniqueId=\CWNRVMUL\CPRRMLEU|Kind=1|AlternatePart=
-Variation52=Designator=R1406_1|UniqueId=\FHDDMPDD\FCDANIBD|Kind=1|AlternatePart=
-Variation53=Designator=U1100|UniqueId=\WGFFHSNI\EODFSUAB|Kind=2|AlternatePart=TLX9291A|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=OE750.DbLib/IC|AltLibLink_SymbolReference=ACPL-217|AltLibLink_DesignItemID=TLX9291A|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=OE750.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=IC|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=SOIC127P700X220-4N|AltLibLink_IsSameFootprint=True
+Variation21=Designator=C1330_1|UniqueId=\IPPXJKGT\FKEVBYEQ|Kind=1|AlternatePart=
+Variation22=Designator=C1330_2|UniqueId=\UNPGCEEF\FKEVBYEQ|Kind=1|AlternatePart=
+Variation23=Designator=C1331_1|UniqueId=\IPPXJKGT\GRWRULKD|Kind=1|AlternatePart=
+Variation24=Designator=C1331_2|UniqueId=\UNPGCEEF\GRWRULKD|Kind=1|AlternatePart=
+Variation25=Designator=C1332_1|UniqueId=\IPPXJKGT\SBOKFYUJ|Kind=1|AlternatePart=
+Variation26=Designator=C1332_2|UniqueId=\UNPGCEEF\SBOKFYUJ|Kind=1|AlternatePart=
+Variation27=Designator=C1333_1|UniqueId=\IPPXJKGT\WPMVUNCO|Kind=1|AlternatePart=
+Variation28=Designator=C1333_2|UniqueId=\UNPGCEEF\WPMVUNCO|Kind=1|AlternatePart=
+Variation29=Designator=C1334_1|UniqueId=\IPPXJKGT\YDKENNCT|Kind=1|AlternatePart=
+Variation30=Designator=C1334_2|UniqueId=\UNPGCEEF\YDKENNCT|Kind=1|AlternatePart=
+Variation31=Designator=C1335_1|UniqueId=\IPPXJKGT\XRYNNEQS|Kind=1|AlternatePart=
+Variation32=Designator=C1335_2|UniqueId=\UNPGCEEF\XRYNNEQS|Kind=1|AlternatePart=
+Variation33=Designator=C1306_2|UniqueId=\UNPGCEEF\XWMPRYWB|Kind=1|AlternatePart=
+Variation34=Designator=C1307_2|UniqueId=\UNPGCEEF\GULFVLVU|Kind=1|AlternatePart=
+Variation35=Designator=C1308_2|UniqueId=\UNPGCEEF\GAOEJXLG|Kind=1|AlternatePart=
+Variation36=Designator=C1309_2|UniqueId=\UNPGCEEF\PLJBDXHN|Kind=1|AlternatePart=
+Variation37=Designator=C1310_2|UniqueId=\UNPGCEEF\SPLDTYOF|Kind=1|AlternatePart=
+Variation38=Designator=C1311_2|UniqueId=\UNPGCEEF\BCBOQQWT|Kind=1|AlternatePart=
+Variation39=Designator=C1318_2|UniqueId=\UNPGCEEF\EDDXLTUS|Kind=1|AlternatePart=
+Variation40=Designator=C1319_2|UniqueId=\UNPGCEEF\QUIAHFUQ|Kind=1|AlternatePart=
+Variation41=Designator=C1320_2|UniqueId=\UNPGCEEF\AVVXOMRT|Kind=1|AlternatePart=
+Variation42=Designator=C1321_2|UniqueId=\UNPGCEEF\OPRTGJYY|Kind=1|AlternatePart=
+Variation43=Designator=C1322_2|UniqueId=\UNPGCEEF\VSVDOAHV|Kind=1|AlternatePart=
+Variation44=Designator=C1323_2|UniqueId=\UNPGCEEF\IJHJPFYF|Kind=1|AlternatePart=
+Variation45=Designator=R1408_2|UniqueId=\CWNRVMUL\HAOPGTQC|Kind=1|AlternatePart=
+Variation46=Designator=R1410_2|UniqueId=\CWNRVMUL\RELOOAXR|Kind=1|AlternatePart=
+Variation47=Designator=R1412_2|UniqueId=\CWNRVMUL\DYJUVEQG|Kind=1|AlternatePart=
+Variation48=Designator=R1414_2|UniqueId=\CWNRVMUL\XDURIVRU|Kind=1|AlternatePart=
+Variation49=Designator=R1416_2|UniqueId=\CWNRVMUL\CPRRMLEU|Kind=1|AlternatePart=
+Variation50=Designator=R1406_1|UniqueId=\FHDDMPDD\FCDANIBD|Kind=1|AlternatePart=
+Variation51=Designator=U1100|UniqueId=\WGFFHSNI\EODFSUAB|Kind=2|AlternatePart=TLX9291A|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=OE750.DbLib/IC|AltLibLink_SymbolReference=ACPL-217|AltLibLink_DesignItemID=TLX9291A|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=OE750.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=IC|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=SOIC127P700X220-4N|AltLibLink_IsSameFootprint=True
 ParamVariation1=ParameterName=Comment|VariantValue=TLX9291A
 ParamDesignator1=U1100
 ParamVariation2=ParameterName=Automotive Qualified|VariantValue=True
@@ -1408,7 +1402,7 @@ ParamVariation17=ParameterName=Signal Integrity|VariantValue=
 ParamDesignator17=U1100
 ParamVariation18=ParameterName=Simulation|VariantValue=
 ParamDesignator18=U1100
-Variation54=Designator=U1101|UniqueId=\WGFFHSNI\MWDMTEFL|Kind=2|AlternatePart=TLX9291A|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=OE750.DbLib/IC|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=TLX9291A|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=OE750.DbLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName=IC|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=SOIC127P700X220-4N|AltLibLink_IsSameFootprint=True
+Variation52=Designator=U1101|UniqueId=\WGFFHSNI\MWDMTEFL|Kind=2|AlternatePart=TLX9291A|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=OE750.DbLib/IC|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=TLX9291A|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=OE750.DbLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName=IC|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=SOIC127P700X220-4N|AltLibLink_IsSameFootprint=True
 ParamVariation19=ParameterName=Comment|VariantValue=TLX9291A
 ParamDesignator19=U1101
 ParamVariation20=ParameterName=Automotive Qualified|VariantValue=True
@@ -1445,7 +1439,7 @@ ParamVariation35=ParameterName=Signal Integrity|VariantValue=
 ParamDesignator35=U1101
 ParamVariation36=ParameterName=Simulation|VariantValue=
 ParamDesignator36=U1101
-Variation55=Designator=U1117|UniqueId=\WGFFHSNI\NFDLPMTD|Kind=2|AlternatePart=TLX9291A|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=OE750.DbLib/IC|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=TLX9291A|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=OE750.DbLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName=IC|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=SOIC127P700X220-4N|AltLibLink_IsSameFootprint=True
+Variation53=Designator=U1117|UniqueId=\WGFFHSNI\NFDLPMTD|Kind=2|AlternatePart=TLX9291A|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=OE750.DbLib/IC|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=TLX9291A|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=OE750.DbLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName=IC|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=SOIC127P700X220-4N|AltLibLink_IsSameFootprint=True
 ParamVariation37=ParameterName=Comment|VariantValue=TLX9291A
 ParamDesignator37=U1117
 ParamVariation38=ParameterName=Automotive Qualified|VariantValue=True
@@ -1482,7 +1476,7 @@ ParamVariation53=ParameterName=Signal Integrity|VariantValue=
 ParamDesignator53=U1117
 ParamVariation54=ParameterName=Simulation|VariantValue=
 ParamDesignator54=U1117
-Variation56=Designator=U1116|UniqueId=\WGFFHSNI\MRHEHORE|Kind=2|AlternatePart=TLX9291A|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=OE750.DbLib/IC|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=TLX9291A|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=OE750.DbLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName=IC|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=SOIC127P700X220-4N|AltLibLink_IsSameFootprint=True
+Variation54=Designator=U1116|UniqueId=\WGFFHSNI\MRHEHORE|Kind=2|AlternatePart=TLX9291A|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=OE750.DbLib/IC|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=TLX9291A|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=OE750.DbLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName=IC|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=SOIC127P700X220-4N|AltLibLink_IsSameFootprint=True
 ParamVariation55=ParameterName=Comment|VariantValue=TLX9291A
 ParamDesignator55=U1116
 ParamVariation56=ParameterName=Automotive Qualified|VariantValue=True
@@ -1519,7 +1513,7 @@ ParamVariation71=ParameterName=Signal Integrity|VariantValue=
 ParamDesignator71=U1116
 ParamVariation72=ParameterName=Simulation|VariantValue=
 ParamDesignator72=U1116
-Variation57=Designator=U1115|UniqueId=\WGFFHSNI\UODRAPAV|Kind=2|AlternatePart=TLX9291A|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=OE750.DbLib/IC|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=TLX9291A|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=OE750.DbLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName=IC|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=SOIC127P700X220-4N|AltLibLink_IsSameFootprint=True
+Variation55=Designator=U1115|UniqueId=\WGFFHSNI\UODRAPAV|Kind=2|AlternatePart=TLX9291A|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=OE750.DbLib/IC|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=TLX9291A|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=OE750.DbLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName=IC|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=SOIC127P700X220-4N|AltLibLink_IsSameFootprint=True
 ParamVariation73=ParameterName=Comment|VariantValue=TLX9291A
 ParamDesignator73=U1115
 ParamVariation74=ParameterName=Automotive Qualified|VariantValue=True
@@ -1556,7 +1550,7 @@ ParamVariation89=ParameterName=Signal Integrity|VariantValue=
 ParamDesignator89=U1115
 ParamVariation90=ParameterName=Simulation|VariantValue=
 ParamDesignator90=U1115
-Variation58=Designator=U1114|UniqueId=\WGFFHSNI\GBECPITE|Kind=2|AlternatePart=TLX9291A|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=OE750.DbLib/IC|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=TLX9291A|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=OE750.DbLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName=IC|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=SOIC127P700X220-4N|AltLibLink_IsSameFootprint=True
+Variation56=Designator=U1114|UniqueId=\WGFFHSNI\GBECPITE|Kind=2|AlternatePart=TLX9291A|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=OE750.DbLib/IC|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=TLX9291A|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=OE750.DbLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName=IC|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=SOIC127P700X220-4N|AltLibLink_IsSameFootprint=True
 ParamVariation91=ParameterName=Comment|VariantValue=TLX9291A
 ParamDesignator91=U1114
 ParamVariation92=ParameterName=Automotive Qualified|VariantValue=True
@@ -1593,7 +1587,7 @@ ParamVariation107=ParameterName=Signal Integrity|VariantValue=
 ParamDesignator107=U1114
 ParamVariation108=ParameterName=Simulation|VariantValue=
 ParamDesignator108=U1114
-Variation59=Designator=U1113|UniqueId=\WGFFHSNI\GGDIJHJS|Kind=2|AlternatePart=TLX9291A|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=OE750.DbLib/IC|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=TLX9291A|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=OE750.DbLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName=IC|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=SOIC127P700X220-4N|AltLibLink_IsSameFootprint=True
+Variation57=Designator=U1113|UniqueId=\WGFFHSNI\GGDIJHJS|Kind=2|AlternatePart=TLX9291A|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=OE750.DbLib/IC|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=TLX9291A|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=OE750.DbLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName=IC|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=SOIC127P700X220-4N|AltLibLink_IsSameFootprint=True
 ParamVariation109=ParameterName=Comment|VariantValue=TLX9291A
 ParamDesignator109=U1113
 ParamVariation110=ParameterName=Automotive Qualified|VariantValue=True
@@ -1630,7 +1624,7 @@ ParamVariation125=ParameterName=Signal Integrity|VariantValue=
 ParamDesignator125=U1113
 ParamVariation126=ParameterName=Simulation|VariantValue=
 ParamDesignator126=U1113
-Variation60=Designator=U1112|UniqueId=\WGFFHSNI\PRUYLVYE|Kind=2|AlternatePart=TLX9291A|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=OE750.DbLib/IC|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=TLX9291A|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=OE750.DbLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName=IC|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=SOIC127P700X220-4N|AltLibLink_IsSameFootprint=True
+Variation58=Designator=U1112|UniqueId=\WGFFHSNI\PRUYLVYE|Kind=2|AlternatePart=TLX9291A|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=OE750.DbLib/IC|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=TLX9291A|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=OE750.DbLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName=IC|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=SOIC127P700X220-4N|AltLibLink_IsSameFootprint=True
 ParamVariation127=ParameterName=Comment|VariantValue=TLX9291A
 ParamDesignator127=U1112
 ParamVariation128=ParameterName=Automotive Qualified|VariantValue=True
@@ -1667,7 +1661,7 @@ ParamVariation143=ParameterName=Signal Integrity|VariantValue=
 ParamDesignator143=U1112
 ParamVariation144=ParameterName=Simulation|VariantValue=
 ParamDesignator144=U1112
-Variation61=Designator=U1111|UniqueId=\WGFFHSNI\LIRSVSQM|Kind=2|AlternatePart=TLX9291A|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=OE750.DbLib/IC|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=TLX9291A|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=OE750.DbLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName=IC|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=SOIC127P700X220-4N|AltLibLink_IsSameFootprint=True
+Variation59=Designator=U1111|UniqueId=\WGFFHSNI\LIRSVSQM|Kind=2|AlternatePart=TLX9291A|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=OE750.DbLib/IC|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=TLX9291A|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=OE750.DbLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName=IC|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=SOIC127P700X220-4N|AltLibLink_IsSameFootprint=True
 ParamVariation145=ParameterName=Comment|VariantValue=TLX9291A
 ParamDesignator145=U1111
 ParamVariation146=ParameterName=Automotive Qualified|VariantValue=True
@@ -1704,7 +1698,7 @@ ParamVariation161=ParameterName=Signal Integrity|VariantValue=
 ParamDesignator161=U1111
 ParamVariation162=ParameterName=Simulation|VariantValue=
 ParamDesignator162=U1111
-Variation62=Designator=U1110|UniqueId=\WGFFHSNI\MMQDLYRL|Kind=2|AlternatePart=TLX9291A|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=OE750.DbLib/IC|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=TLX9291A|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=OE750.DbLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName=IC|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=SOIC127P700X220-4N|AltLibLink_IsSameFootprint=True
+Variation60=Designator=U1110|UniqueId=\WGFFHSNI\MMQDLYRL|Kind=2|AlternatePart=TLX9291A|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=OE750.DbLib/IC|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=TLX9291A|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=OE750.DbLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName=IC|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=SOIC127P700X220-4N|AltLibLink_IsSameFootprint=True
 ParamVariation163=ParameterName=Comment|VariantValue=TLX9291A
 ParamDesignator163=U1110
 ParamVariation164=ParameterName=Automotive Qualified|VariantValue=True
@@ -1741,7 +1735,7 @@ ParamVariation179=ParameterName=Signal Integrity|VariantValue=
 ParamDesignator179=U1110
 ParamVariation180=ParameterName=Simulation|VariantValue=
 ParamDesignator180=U1110
-Variation63=Designator=U1109|UniqueId=\WGFFHSNI\YXFPHYEV|Kind=2|AlternatePart=TLX9291A|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=OE750.DbLib/IC|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=TLX9291A|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=OE750.DbLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName=IC|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=SOIC127P700X220-4N|AltLibLink_IsSameFootprint=True
+Variation61=Designator=U1109|UniqueId=\WGFFHSNI\YXFPHYEV|Kind=2|AlternatePart=TLX9291A|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=OE750.DbLib/IC|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=TLX9291A|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=OE750.DbLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName=IC|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=SOIC127P700X220-4N|AltLibLink_IsSameFootprint=True
 ParamVariation181=ParameterName=Comment|VariantValue=TLX9291A
 ParamDesignator181=U1109
 ParamVariation182=ParameterName=Automotive Qualified|VariantValue=True
@@ -1778,7 +1772,7 @@ ParamVariation197=ParameterName=Signal Integrity|VariantValue=
 ParamDesignator197=U1109
 ParamVariation198=ParameterName=Simulation|VariantValue=
 ParamDesignator198=U1109
-Variation64=Designator=U1108|UniqueId=\WGFFHSNI\GURYQHBJ|Kind=2|AlternatePart=TLX9291A|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=OE750.DbLib/IC|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=TLX9291A|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=OE750.DbLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName=IC|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=SOIC127P700X220-4N|AltLibLink_IsSameFootprint=True
+Variation62=Designator=U1108|UniqueId=\WGFFHSNI\GURYQHBJ|Kind=2|AlternatePart=TLX9291A|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=OE750.DbLib/IC|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=TLX9291A|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=OE750.DbLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName=IC|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=SOIC127P700X220-4N|AltLibLink_IsSameFootprint=True
 ParamVariation199=ParameterName=Comment|VariantValue=TLX9291A
 ParamDesignator199=U1108
 ParamVariation200=ParameterName=Automotive Qualified|VariantValue=True
@@ -1815,7 +1809,7 @@ ParamVariation215=ParameterName=Signal Integrity|VariantValue=
 ParamDesignator215=U1108
 ParamVariation216=ParameterName=Simulation|VariantValue=
 ParamDesignator216=U1108
-Variation65=Designator=U1107|UniqueId=\WGFFHSNI\KCKOVTHP|Kind=2|AlternatePart=TLX9291A|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=OE750.DbLib/IC|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=TLX9291A|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=OE750.DbLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName=IC|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=SOIC127P700X220-4N|AltLibLink_IsSameFootprint=True
+Variation63=Designator=U1107|UniqueId=\WGFFHSNI\KCKOVTHP|Kind=2|AlternatePart=TLX9291A|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=OE750.DbLib/IC|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=TLX9291A|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=OE750.DbLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName=IC|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=SOIC127P700X220-4N|AltLibLink_IsSameFootprint=True
 ParamVariation217=ParameterName=Comment|VariantValue=TLX9291A
 ParamDesignator217=U1107
 ParamVariation218=ParameterName=Automotive Qualified|VariantValue=True
@@ -1852,7 +1846,7 @@ ParamVariation233=ParameterName=Signal Integrity|VariantValue=
 ParamDesignator233=U1107
 ParamVariation234=ParameterName=Simulation|VariantValue=
 ParamDesignator234=U1107
-Variation66=Designator=U1106|UniqueId=\WGFFHSNI\QICETTNJ|Kind=2|AlternatePart=TLX9291A|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=OE750.DbLib/IC|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=TLX9291A|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=OE750.DbLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName=IC|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=SOIC127P700X220-4N|AltLibLink_IsSameFootprint=True
+Variation64=Designator=U1106|UniqueId=\WGFFHSNI\QICETTNJ|Kind=2|AlternatePart=TLX9291A|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=OE750.DbLib/IC|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=TLX9291A|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=OE750.DbLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName=IC|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=SOIC127P700X220-4N|AltLibLink_IsSameFootprint=True
 ParamVariation235=ParameterName=Comment|VariantValue=TLX9291A
 ParamDesignator235=U1106
 ParamVariation236=ParameterName=Automotive Qualified|VariantValue=True
@@ -1889,7 +1883,7 @@ ParamVariation251=ParameterName=Signal Integrity|VariantValue=
 ParamDesignator251=U1106
 ParamVariation252=ParameterName=Simulation|VariantValue=
 ParamDesignator252=U1106
-Variation67=Designator=U1105|UniqueId=\WGFFHSNI\HLVAIEVS|Kind=2|AlternatePart=TLX9291A|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=OE750.DbLib/IC|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=TLX9291A|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=OE750.DbLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName=IC|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=SOIC127P700X220-4N|AltLibLink_IsSameFootprint=True
+Variation65=Designator=U1105|UniqueId=\WGFFHSNI\HLVAIEVS|Kind=2|AlternatePart=TLX9291A|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=OE750.DbLib/IC|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=TLX9291A|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=OE750.DbLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName=IC|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=SOIC127P700X220-4N|AltLibLink_IsSameFootprint=True
 ParamVariation253=ParameterName=Comment|VariantValue=TLX9291A
 ParamDesignator253=U1105
 ParamVariation254=ParameterName=Automotive Qualified|VariantValue=True
@@ -1926,7 +1920,7 @@ ParamVariation269=ParameterName=Signal Integrity|VariantValue=
 ParamDesignator269=U1105
 ParamVariation270=ParameterName=Simulation|VariantValue=
 ParamDesignator270=U1105
-Variation68=Designator=U1104|UniqueId=\WGFFHSNI\WNJWUQDH|Kind=2|AlternatePart=TLX9291A|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=OE750.DbLib/IC|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=TLX9291A|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=OE750.DbLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName=IC|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=SOIC127P700X220-4N|AltLibLink_IsSameFootprint=True
+Variation66=Designator=U1104|UniqueId=\WGFFHSNI\WNJWUQDH|Kind=2|AlternatePart=TLX9291A|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=OE750.DbLib/IC|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=TLX9291A|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=OE750.DbLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName=IC|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=SOIC127P700X220-4N|AltLibLink_IsSameFootprint=True
 ParamVariation271=ParameterName=Comment|VariantValue=TLX9291A
 ParamDesignator271=U1104
 ParamVariation272=ParameterName=Automotive Qualified|VariantValue=True
@@ -1963,7 +1957,7 @@ ParamVariation287=ParameterName=Signal Integrity|VariantValue=
 ParamDesignator287=U1104
 ParamVariation288=ParameterName=Simulation|VariantValue=
 ParamDesignator288=U1104
-Variation69=Designator=U1103|UniqueId=\WGFFHSNI\XTHKUCMQ|Kind=2|AlternatePart=TLX9291A|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=OE750.DbLib/IC|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=TLX9291A|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=OE750.DbLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName=IC|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=SOIC127P700X220-4N|AltLibLink_IsSameFootprint=True
+Variation67=Designator=U1103|UniqueId=\WGFFHSNI\XTHKUCMQ|Kind=2|AlternatePart=TLX9291A|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=OE750.DbLib/IC|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=TLX9291A|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=OE750.DbLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName=IC|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=SOIC127P700X220-4N|AltLibLink_IsSameFootprint=True
 ParamVariation289=ParameterName=Comment|VariantValue=TLX9291A
 ParamDesignator289=U1103
 ParamVariation290=ParameterName=Automotive Qualified|VariantValue=True
@@ -2000,7 +1994,7 @@ ParamVariation305=ParameterName=Signal Integrity|VariantValue=
 ParamDesignator305=U1103
 ParamVariation306=ParameterName=Simulation|VariantValue=
 ParamDesignator306=U1103
-Variation70=Designator=U1102|UniqueId=\WGFFHSNI\MLCAFUBM|Kind=2|AlternatePart=TLX9291A|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=OE750.DbLib/IC|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=TLX9291A|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=OE750.DbLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName=IC|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=SOIC127P700X220-4N|AltLibLink_IsSameFootprint=True
+Variation68=Designator=U1102|UniqueId=\WGFFHSNI\MLCAFUBM|Kind=2|AlternatePart=TLX9291A|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=OE750.DbLib/IC|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=TLX9291A|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=OE750.DbLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName=IC|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=SOIC127P700X220-4N|AltLibLink_IsSameFootprint=True
 ParamVariation307=ParameterName=Comment|VariantValue=TLX9291A
 ParamDesignator307=U1102
 ParamVariation308=ParameterName=Automotive Qualified|VariantValue=True
@@ -2037,28 +2031,26 @@ ParamVariation323=ParameterName=Signal Integrity|VariantValue=
 ParamDesignator323=U1102
 ParamVariation324=ParameterName=Simulation|VariantValue=
 ParamDesignator324=U1102
-Variation71=Designator=R609_1|UniqueId=\APFIEGPL\GPKXKIVE|Kind=1|AlternatePart=
-Variation72=Designator=R609_2|UniqueId=\TUUBMFQM\GPKXKIVE|Kind=1|AlternatePart=
-Variation73=Designator=R1425_1|UniqueId=\FHDDMPDD\LULPWRBW|Kind=1|AlternatePart=
-Variation74=Designator=R1426_1|UniqueId=\FHDDMPDD\EMRXOPTC|Kind=1|AlternatePart=
-Variation75=Designator=R1427_1|UniqueId=\FHDDMPDD\UMAGTBIY|Kind=1|AlternatePart=
-Variation76=Designator=R1425_2|UniqueId=\CWNRVMUL\LULPWRBW|Kind=1|AlternatePart=
-Variation77=Designator=R1426_2|UniqueId=\CWNRVMUL\EMRXOPTC|Kind=1|AlternatePart=
-Variation78=Designator=R1427_2|UniqueId=\CWNRVMUL\UMAGTBIY|Kind=1|AlternatePart=
-Variation79=Designator=R1406_2|UniqueId=\CWNRVMUL\FCDANIBD|Kind=1|AlternatePart=
-Variation80=Designator=R110_1|UniqueId=\LUAMNULO\QDXKTDNE|Kind=1|AlternatePart=
-Variation81=Designator=R110_2|UniqueId=\JWUHGFBQ\QDXKTDNE|Kind=1|AlternatePart=
-Variation82=Designator=R111_1|UniqueId=\LUAMNULO\CBIBQSMI|Kind=1|AlternatePart=
-Variation83=Designator=R111_2|UniqueId=\JWUHGFBQ\CBIBQSMI|Kind=1|AlternatePart=
-Variation84=Designator=R801_1|UniqueId=\HNHNWDWJ\AHHQJROK|Kind=1|AlternatePart=
-Variation85=Designator=R801_2|UniqueId=\QVVRSYKH\AHHQJROK|Kind=1|AlternatePart=
-Variation86=Designator=IC1400_2|UniqueId=\CWNRVMUL\EVDHSNDU|Kind=1|AlternatePart=
-Variation87=Designator=X400|UniqueId=\KJBNEGIR\TEFDYVAJ|Kind=1|AlternatePart=
-Variation88=Designator=X402|UniqueId=\KJBNEGIR\GXQEVWCM|Kind=1|AlternatePart=
-Variation89=Designator=X403|UniqueId=\KJBNEGIR\HGGXARXU|Kind=1|AlternatePart=
-Variation90=Designator=X401|UniqueId=\KJBNEGIR\GXJYMTVF|Kind=1|AlternatePart=
-Variation91=Designator=X404|UniqueId=\KJBNEGIR\IXBGHEOT|Kind=1|AlternatePart=
-Variation92=Designator=X405|UniqueId=\KJBNEGIR\NHDAXVKT|Kind=1|AlternatePart=
+Variation69=Designator=R609_1|UniqueId=\APFIEGPL\GPKXKIVE|Kind=1|AlternatePart=
+Variation70=Designator=R609_2|UniqueId=\TUUBMFQM\GPKXKIVE|Kind=1|AlternatePart=
+Variation71=Designator=R1425_1|UniqueId=\FHDDMPDD\LULPWRBW|Kind=1|AlternatePart=
+Variation72=Designator=R1426_1|UniqueId=\FHDDMPDD\EMRXOPTC|Kind=1|AlternatePart=
+Variation73=Designator=R1427_1|UniqueId=\FHDDMPDD\UMAGTBIY|Kind=1|AlternatePart=
+Variation74=Designator=R1425_2|UniqueId=\CWNRVMUL\LULPWRBW|Kind=1|AlternatePart=
+Variation75=Designator=R1426_2|UniqueId=\CWNRVMUL\EMRXOPTC|Kind=1|AlternatePart=
+Variation76=Designator=R1427_2|UniqueId=\CWNRVMUL\UMAGTBIY|Kind=1|AlternatePart=
+Variation77=Designator=R1406_2|UniqueId=\CWNRVMUL\FCDANIBD|Kind=1|AlternatePart=
+Variation78=Designator=R110_1|UniqueId=\LUAMNULO\QDXKTDNE|Kind=1|AlternatePart=
+Variation79=Designator=R110_2|UniqueId=\JWUHGFBQ\QDXKTDNE|Kind=1|AlternatePart=
+Variation80=Designator=R111_1|UniqueId=\LUAMNULO\CBIBQSMI|Kind=1|AlternatePart=
+Variation81=Designator=R111_2|UniqueId=\JWUHGFBQ\CBIBQSMI|Kind=1|AlternatePart=
+Variation82=Designator=R801_1|UniqueId=\HNHNWDWJ\AHHQJROK|Kind=1|AlternatePart=
+Variation83=Designator=R801_2|UniqueId=\QVVRSYKH\AHHQJROK|Kind=1|AlternatePart=
+Variation84=Designator=IC1400_2|UniqueId=\CWNRVMUL\EVDHSNDU|Kind=1|AlternatePart=
+Variation85=Designator=X402|UniqueId=\KJBNEGIR\GXQEVWCM|Kind=1|AlternatePart=
+Variation86=Designator=X403|UniqueId=\KJBNEGIR\HGGXARXU|Kind=1|AlternatePart=
+Variation87=Designator=X404|UniqueId=\KJBNEGIR\IXBGHEOT|Kind=1|AlternatePart=
+Variation88=Designator=X405|UniqueId=\KJBNEGIR\NHDAXVKT|Kind=1|AlternatePart=
 ParamVariationCount=324
 
 [Parameter1]
@@ -2417,7 +2409,491 @@ OutputName4=Final Artwork Prints
 OutputDocumentPath4=
 OutputVariantName4=[No Variations]
 OutputDefault4=0
-PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.51|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+Configuration4_Name1=ForceUpdateSettings
+Configuration4_Item1=False
+Configuration4_Name2=OutputConfigurationParameter1
+Configuration4_Item2=DesignatorDisplayMode=Physical|PrintArea=DesignExtent|PrintAreaLowerLeftCornerX=0|PrintAreaLowerLeftCornerY=0|PrintAreaUpperRightCornerX=0|PrintAreaUpperRightCornerY=0|Record=PcbPrintView|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name3=OutputConfigurationParameter2
+Configuration4_Item3=IncludeBoardCutouts=False|IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=0|Mirror=False|Name=Top|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name4=OutputConfigurationParameter3
+Configuration4_Item4=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=MultiLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name5=OutputConfigurationParameter4
+Configuration4_Item5=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=TopLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name6=OutputConfigurationParameter5
+Configuration4_Item6=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name7=OutputConfigurationParameter6
+Configuration4_Item7=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical2|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name8=OutputConfigurationParameter7
+Configuration4_Item8=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical3|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name9=OutputConfigurationParameter8
+Configuration4_Item9=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical4|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name10=OutputConfigurationParameter9
+Configuration4_Item10=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical6|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name11=OutputConfigurationParameter10
+Configuration4_Item11=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical11|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name12=OutputConfigurationParameter11
+Configuration4_Item12=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical13|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name13=OutputConfigurationParameter12
+Configuration4_Item13=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical15|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name14=OutputConfigurationParameter13
+Configuration4_Item14=IncludeBoardCutouts=False|IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=1|Mirror=False|Name=FUSED_VBAT-|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name15=OutputConfigurationParameter14
+Configuration4_Item15=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=MultiLayer|Polygon=Full|PrintOutIndex=1|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name16=OutputConfigurationParameter15
+Configuration4_Item16=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=MidLayer1|Polygon=Full|PrintOutIndex=1|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name17=OutputConfigurationParameter16
+Configuration4_Item17=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=1|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name18=OutputConfigurationParameter17
+Configuration4_Item18=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical2|Polygon=Full|PrintOutIndex=1|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name19=OutputConfigurationParameter18
+Configuration4_Item19=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical3|Polygon=Full|PrintOutIndex=1|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name20=OutputConfigurationParameter19
+Configuration4_Item20=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical4|Polygon=Full|PrintOutIndex=1|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name21=OutputConfigurationParameter20
+Configuration4_Item21=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical6|Polygon=Full|PrintOutIndex=1|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name22=OutputConfigurationParameter21
+Configuration4_Item22=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical11|Polygon=Full|PrintOutIndex=1|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name23=OutputConfigurationParameter22
+Configuration4_Item23=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical13|Polygon=Full|PrintOutIndex=1|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name24=OutputConfigurationParameter23
+Configuration4_Item24=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical15|Polygon=Full|PrintOutIndex=1|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name25=OutputConfigurationParameter24
+Configuration4_Item25=IncludeBoardCutouts=False|IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=2|Mirror=False|Name=Signals1|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name26=OutputConfigurationParameter25
+Configuration4_Item26=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=MultiLayer|Polygon=Full|PrintOutIndex=2|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name27=OutputConfigurationParameter26
+Configuration4_Item27=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=MidLayer3|Polygon=Full|PrintOutIndex=2|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name28=OutputConfigurationParameter27
+Configuration4_Item28=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=2|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name29=OutputConfigurationParameter28
+Configuration4_Item29=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical2|Polygon=Full|PrintOutIndex=2|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name30=OutputConfigurationParameter29
+Configuration4_Item30=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical3|Polygon=Full|PrintOutIndex=2|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name31=OutputConfigurationParameter30
+Configuration4_Item31=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical4|Polygon=Full|PrintOutIndex=2|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name32=OutputConfigurationParameter31
+Configuration4_Item32=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical6|Polygon=Full|PrintOutIndex=2|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name33=OutputConfigurationParameter32
+Configuration4_Item33=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical11|Polygon=Full|PrintOutIndex=2|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name34=OutputConfigurationParameter33
+Configuration4_Item34=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical13|Polygon=Full|PrintOutIndex=2|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name35=OutputConfigurationParameter34
+Configuration4_Item35=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical15|Polygon=Full|PrintOutIndex=2|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name36=OutputConfigurationParameter35
+Configuration4_Item36=IncludeBoardCutouts=False|IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=3|Mirror=False|Name=Signals2|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name37=OutputConfigurationParameter36
+Configuration4_Item37=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=MultiLayer|Polygon=Full|PrintOutIndex=3|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name38=OutputConfigurationParameter37
+Configuration4_Item38=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=MidLayer2|Polygon=Full|PrintOutIndex=3|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name39=OutputConfigurationParameter38
+Configuration4_Item39=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=3|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name40=OutputConfigurationParameter39
+Configuration4_Item40=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical2|Polygon=Full|PrintOutIndex=3|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name41=OutputConfigurationParameter40
+Configuration4_Item41=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical3|Polygon=Full|PrintOutIndex=3|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name42=OutputConfigurationParameter41
+Configuration4_Item42=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical4|Polygon=Full|PrintOutIndex=3|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name43=OutputConfigurationParameter42
+Configuration4_Item43=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical6|Polygon=Full|PrintOutIndex=3|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name44=OutputConfigurationParameter43
+Configuration4_Item44=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical11|Polygon=Full|PrintOutIndex=3|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name45=OutputConfigurationParameter44
+Configuration4_Item45=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical13|Polygon=Full|PrintOutIndex=3|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name46=OutputConfigurationParameter45
+Configuration4_Item46=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical15|Polygon=Full|PrintOutIndex=3|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name47=OutputConfigurationParameter46
+Configuration4_Item47=IncludeBoardCutouts=False|IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=4|Mirror=False|Name=SUPPLY|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name48=OutputConfigurationParameter47
+Configuration4_Item48=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=MultiLayer|Polygon=Full|PrintOutIndex=4|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name49=OutputConfigurationParameter48
+Configuration4_Item49=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=MidLayer4|Polygon=Full|PrintOutIndex=4|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name50=OutputConfigurationParameter49
+Configuration4_Item50=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=4|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name51=OutputConfigurationParameter50
+Configuration4_Item51=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical2|Polygon=Full|PrintOutIndex=4|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name52=OutputConfigurationParameter51
+Configuration4_Item52=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical3|Polygon=Full|PrintOutIndex=4|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name53=OutputConfigurationParameter52
+Configuration4_Item53=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical4|Polygon=Full|PrintOutIndex=4|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name54=OutputConfigurationParameter53
+Configuration4_Item54=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical6|Polygon=Full|PrintOutIndex=4|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name55=OutputConfigurationParameter54
+Configuration4_Item55=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical11|Polygon=Full|PrintOutIndex=4|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name56=OutputConfigurationParameter55
+Configuration4_Item56=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical13|Polygon=Full|PrintOutIndex=4|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name57=OutputConfigurationParameter56
+Configuration4_Item57=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical15|Polygon=Full|PrintOutIndex=4|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name58=OutputConfigurationParameter57
+Configuration4_Item58=IncludeBoardCutouts=False|IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=5|Mirror=False|Name=Bottom|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name59=OutputConfigurationParameter58
+Configuration4_Item59=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=MultiLayer|Polygon=Full|PrintOutIndex=5|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name60=OutputConfigurationParameter59
+Configuration4_Item60=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=BottomLayer|Polygon=Full|PrintOutIndex=5|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name61=OutputConfigurationParameter60
+Configuration4_Item61=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=5|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name62=OutputConfigurationParameter61
+Configuration4_Item62=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical2|Polygon=Full|PrintOutIndex=5|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name63=OutputConfigurationParameter62
+Configuration4_Item63=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical3|Polygon=Full|PrintOutIndex=5|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name64=OutputConfigurationParameter63
+Configuration4_Item64=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical4|Polygon=Full|PrintOutIndex=5|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name65=OutputConfigurationParameter64
+Configuration4_Item65=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical6|Polygon=Full|PrintOutIndex=5|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name66=OutputConfigurationParameter65
+Configuration4_Item66=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical11|Polygon=Full|PrintOutIndex=5|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name67=OutputConfigurationParameter66
+Configuration4_Item67=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical13|Polygon=Full|PrintOutIndex=5|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name68=OutputConfigurationParameter67
+Configuration4_Item68=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical15|Polygon=Full|PrintOutIndex=5|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name69=OutputConfigurationParameter68
+Configuration4_Item69=IncludeBoardCutouts=False|IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=6|Mirror=False|Name=Top Silkscreen Overlay|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name70=OutputConfigurationParameter69
+Configuration4_Item70=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=TopOverlay|Polygon=Full|PrintOutIndex=6|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name71=OutputConfigurationParameter70
+Configuration4_Item71=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=6|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name72=OutputConfigurationParameter71
+Configuration4_Item72=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical2|Polygon=Full|PrintOutIndex=6|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name73=OutputConfigurationParameter72
+Configuration4_Item73=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical3|Polygon=Full|PrintOutIndex=6|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name74=OutputConfigurationParameter73
+Configuration4_Item74=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical4|Polygon=Full|PrintOutIndex=6|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name75=OutputConfigurationParameter74
+Configuration4_Item75=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical6|Polygon=Full|PrintOutIndex=6|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name76=OutputConfigurationParameter75
+Configuration4_Item76=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical11|Polygon=Full|PrintOutIndex=6|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name77=OutputConfigurationParameter76
+Configuration4_Item77=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical13|Polygon=Full|PrintOutIndex=6|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name78=OutputConfigurationParameter77
+Configuration4_Item78=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical15|Polygon=Full|PrintOutIndex=6|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name79=OutputConfigurationParameter78
+Configuration4_Item79=IncludeBoardCutouts=False|IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=7|Mirror=False|Name=Bottom Silkscreen Overlay|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name80=OutputConfigurationParameter79
+Configuration4_Item80=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=BottomOverlay|Polygon=Full|PrintOutIndex=7|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name81=OutputConfigurationParameter80
+Configuration4_Item81=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=7|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name82=OutputConfigurationParameter81
+Configuration4_Item82=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical2|Polygon=Full|PrintOutIndex=7|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name83=OutputConfigurationParameter82
+Configuration4_Item83=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical3|Polygon=Full|PrintOutIndex=7|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name84=OutputConfigurationParameter83
+Configuration4_Item84=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical4|Polygon=Full|PrintOutIndex=7|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name85=OutputConfigurationParameter84
+Configuration4_Item85=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical6|Polygon=Full|PrintOutIndex=7|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name86=OutputConfigurationParameter85
+Configuration4_Item86=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical11|Polygon=Full|PrintOutIndex=7|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name87=OutputConfigurationParameter86
+Configuration4_Item87=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical13|Polygon=Full|PrintOutIndex=7|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name88=OutputConfigurationParameter87
+Configuration4_Item88=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical15|Polygon=Full|PrintOutIndex=7|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name89=OutputConfigurationParameter88
+Configuration4_Item89=IncludeBoardCutouts=False|IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=8|Mirror=False|Name=Top Paste Mask Print|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name90=OutputConfigurationParameter89
+Configuration4_Item90=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=TopPaste|Polygon=Full|PrintOutIndex=8|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name91=OutputConfigurationParameter90
+Configuration4_Item91=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=8|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name92=OutputConfigurationParameter91
+Configuration4_Item92=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical2|Polygon=Full|PrintOutIndex=8|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name93=OutputConfigurationParameter92
+Configuration4_Item93=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical3|Polygon=Full|PrintOutIndex=8|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name94=OutputConfigurationParameter93
+Configuration4_Item94=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical4|Polygon=Full|PrintOutIndex=8|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name95=OutputConfigurationParameter94
+Configuration4_Item95=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical6|Polygon=Full|PrintOutIndex=8|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name96=OutputConfigurationParameter95
+Configuration4_Item96=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical11|Polygon=Full|PrintOutIndex=8|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name97=OutputConfigurationParameter96
+Configuration4_Item97=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical13|Polygon=Full|PrintOutIndex=8|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name98=OutputConfigurationParameter97
+Configuration4_Item98=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical15|Polygon=Full|PrintOutIndex=8|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name99=OutputConfigurationParameter98
+Configuration4_Item99=IncludeBoardCutouts=False|IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=9|Mirror=False|Name=Top Solder Mask Print|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name100=OutputConfigurationParameter99
+Configuration4_Item100=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=TopSolder|Polygon=Full|PrintOutIndex=9|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name101=OutputConfigurationParameter100
+Configuration4_Item101=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=9|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name102=OutputConfigurationParameter101
+Configuration4_Item102=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical2|Polygon=Full|PrintOutIndex=9|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name103=OutputConfigurationParameter102
+Configuration4_Item103=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical3|Polygon=Full|PrintOutIndex=9|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name104=OutputConfigurationParameter103
+Configuration4_Item104=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical4|Polygon=Full|PrintOutIndex=9|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name105=OutputConfigurationParameter104
+Configuration4_Item105=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical6|Polygon=Full|PrintOutIndex=9|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name106=OutputConfigurationParameter105
+Configuration4_Item106=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical11|Polygon=Full|PrintOutIndex=9|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name107=OutputConfigurationParameter106
+Configuration4_Item107=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical13|Polygon=Full|PrintOutIndex=9|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name108=OutputConfigurationParameter107
+Configuration4_Item108=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical15|Polygon=Full|PrintOutIndex=9|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name109=OutputConfigurationParameter108
+Configuration4_Item109=IncludeBoardCutouts=False|IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=10|Mirror=False|Name=Bottom Solder Mask Print|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name110=OutputConfigurationParameter109
+Configuration4_Item110=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=BottomSolder|Polygon=Full|PrintOutIndex=10|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name111=OutputConfigurationParameter110
+Configuration4_Item111=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=10|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name112=OutputConfigurationParameter111
+Configuration4_Item112=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical2|Polygon=Full|PrintOutIndex=10|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name113=OutputConfigurationParameter112
+Configuration4_Item113=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical3|Polygon=Full|PrintOutIndex=10|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name114=OutputConfigurationParameter113
+Configuration4_Item114=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical4|Polygon=Full|PrintOutIndex=10|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name115=OutputConfigurationParameter114
+Configuration4_Item115=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical6|Polygon=Full|PrintOutIndex=10|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name116=OutputConfigurationParameter115
+Configuration4_Item116=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical11|Polygon=Full|PrintOutIndex=10|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name117=OutputConfigurationParameter116
+Configuration4_Item117=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical13|Polygon=Full|PrintOutIndex=10|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name118=OutputConfigurationParameter117
+Configuration4_Item118=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical15|Polygon=Full|PrintOutIndex=10|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name119=OutputConfigurationParameter118
+Configuration4_Item119=IncludeBoardCutouts=False|IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=11|Mirror=False|Name=Dimension|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name120=OutputConfigurationParameter119
+Configuration4_Item120=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=11|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name121=OutputConfigurationParameter120
+Configuration4_Item121=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical2|Polygon=Full|PrintOutIndex=11|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name122=OutputConfigurationParameter121
+Configuration4_Item122=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical3|Polygon=Full|PrintOutIndex=11|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name123=OutputConfigurationParameter122
+Configuration4_Item123=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical4|Polygon=Full|PrintOutIndex=11|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name124=OutputConfigurationParameter123
+Configuration4_Item124=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical6|Polygon=Full|PrintOutIndex=11|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name125=OutputConfigurationParameter124
+Configuration4_Item125=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical11|Polygon=Full|PrintOutIndex=11|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name126=OutputConfigurationParameter125
+Configuration4_Item126=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical13|Polygon=Full|PrintOutIndex=11|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name127=OutputConfigurationParameter126
+Configuration4_Item127=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical15|Polygon=Full|PrintOutIndex=11|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name128=OutputConfigurationParameter127
+Configuration4_Item128=IncludeBoardCutouts=False|IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=12|Mirror=False|Name=Top Courtyard|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name129=OutputConfigurationParameter128
+Configuration4_Item129=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical2|Polygon=Full|PrintOutIndex=12|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name130=OutputConfigurationParameter129
+Configuration4_Item130=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=12|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name131=OutputConfigurationParameter130
+Configuration4_Item131=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical3|Polygon=Full|PrintOutIndex=12|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name132=OutputConfigurationParameter131
+Configuration4_Item132=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical4|Polygon=Full|PrintOutIndex=12|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name133=OutputConfigurationParameter132
+Configuration4_Item133=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical6|Polygon=Full|PrintOutIndex=12|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name134=OutputConfigurationParameter133
+Configuration4_Item134=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical11|Polygon=Full|PrintOutIndex=12|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name135=OutputConfigurationParameter134
+Configuration4_Item135=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical13|Polygon=Full|PrintOutIndex=12|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name136=OutputConfigurationParameter135
+Configuration4_Item136=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical15|Polygon=Full|PrintOutIndex=12|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name137=OutputConfigurationParameter136
+Configuration4_Item137=IncludeBoardCutouts=False|IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=13|Mirror=False|Name=Top 3D Body|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name138=OutputConfigurationParameter137
+Configuration4_Item138=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical3|Polygon=Full|PrintOutIndex=13|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name139=OutputConfigurationParameter138
+Configuration4_Item139=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=13|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name140=OutputConfigurationParameter139
+Configuration4_Item140=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical2|Polygon=Full|PrintOutIndex=13|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name141=OutputConfigurationParameter140
+Configuration4_Item141=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical4|Polygon=Full|PrintOutIndex=13|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name142=OutputConfigurationParameter141
+Configuration4_Item142=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical6|Polygon=Full|PrintOutIndex=13|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name143=OutputConfigurationParameter142
+Configuration4_Item143=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical11|Polygon=Full|PrintOutIndex=13|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name144=OutputConfigurationParameter143
+Configuration4_Item144=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical13|Polygon=Full|PrintOutIndex=13|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name145=OutputConfigurationParameter144
+Configuration4_Item145=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical15|Polygon=Full|PrintOutIndex=13|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name146=OutputConfigurationParameter145
+Configuration4_Item146=IncludeBoardCutouts=False|IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=14|Mirror=False|Name=Top Designator|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name147=OutputConfigurationParameter146
+Configuration4_Item147=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical4|Polygon=Full|PrintOutIndex=14|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name148=OutputConfigurationParameter147
+Configuration4_Item148=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=14|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name149=OutputConfigurationParameter148
+Configuration4_Item149=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical2|Polygon=Full|PrintOutIndex=14|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name150=OutputConfigurationParameter149
+Configuration4_Item150=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical3|Polygon=Full|PrintOutIndex=14|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name151=OutputConfigurationParameter150
+Configuration4_Item151=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical6|Polygon=Full|PrintOutIndex=14|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name152=OutputConfigurationParameter151
+Configuration4_Item152=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical11|Polygon=Full|PrintOutIndex=14|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name153=OutputConfigurationParameter152
+Configuration4_Item153=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical13|Polygon=Full|PrintOutIndex=14|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name154=OutputConfigurationParameter153
+Configuration4_Item154=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical15|Polygon=Full|PrintOutIndex=14|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name155=OutputConfigurationParameter154
+Configuration4_Item155=IncludeBoardCutouts=False|IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=15|Mirror=False|Name=Assembly Text Top|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name156=OutputConfigurationParameter155
+Configuration4_Item156=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical6|Polygon=Full|PrintOutIndex=15|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name157=OutputConfigurationParameter156
+Configuration4_Item157=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=15|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name158=OutputConfigurationParameter157
+Configuration4_Item158=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical2|Polygon=Full|PrintOutIndex=15|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name159=OutputConfigurationParameter158
+Configuration4_Item159=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical3|Polygon=Full|PrintOutIndex=15|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name160=OutputConfigurationParameter159
+Configuration4_Item160=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical4|Polygon=Full|PrintOutIndex=15|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name161=OutputConfigurationParameter160
+Configuration4_Item161=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical11|Polygon=Full|PrintOutIndex=15|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name162=OutputConfigurationParameter161
+Configuration4_Item162=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical13|Polygon=Full|PrintOutIndex=15|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name163=OutputConfigurationParameter162
+Configuration4_Item163=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical15|Polygon=Full|PrintOutIndex=15|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name164=OutputConfigurationParameter163
+Configuration4_Item164=IncludeBoardCutouts=False|IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=16|Mirror=False|Name=Top Component Outline|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name165=OutputConfigurationParameter164
+Configuration4_Item165=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical11|Polygon=Full|PrintOutIndex=16|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name166=OutputConfigurationParameter165
+Configuration4_Item166=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=16|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name167=OutputConfigurationParameter166
+Configuration4_Item167=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical2|Polygon=Full|PrintOutIndex=16|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name168=OutputConfigurationParameter167
+Configuration4_Item168=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical3|Polygon=Full|PrintOutIndex=16|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name169=OutputConfigurationParameter168
+Configuration4_Item169=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical4|Polygon=Full|PrintOutIndex=16|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name170=OutputConfigurationParameter169
+Configuration4_Item170=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical6|Polygon=Full|PrintOutIndex=16|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name171=OutputConfigurationParameter170
+Configuration4_Item171=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical13|Polygon=Full|PrintOutIndex=16|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name172=OutputConfigurationParameter171
+Configuration4_Item172=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical15|Polygon=Full|PrintOutIndex=16|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name173=OutputConfigurationParameter172
+Configuration4_Item173=IncludeBoardCutouts=False|IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=17|Mirror=False|Name=Mechanical 13|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name174=OutputConfigurationParameter173
+Configuration4_Item174=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical13|Polygon=Full|PrintOutIndex=17|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name175=OutputConfigurationParameter174
+Configuration4_Item175=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=17|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name176=OutputConfigurationParameter175
+Configuration4_Item176=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical2|Polygon=Full|PrintOutIndex=17|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name177=OutputConfigurationParameter176
+Configuration4_Item177=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical3|Polygon=Full|PrintOutIndex=17|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name178=OutputConfigurationParameter177
+Configuration4_Item178=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical4|Polygon=Full|PrintOutIndex=17|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name179=OutputConfigurationParameter178
+Configuration4_Item179=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical6|Polygon=Full|PrintOutIndex=17|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name180=OutputConfigurationParameter179
+Configuration4_Item180=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical11|Polygon=Full|PrintOutIndex=17|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name181=OutputConfigurationParameter180
+Configuration4_Item181=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical15|Polygon=Full|PrintOutIndex=17|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name182=OutputConfigurationParameter181
+Configuration4_Item182=IncludeBoardCutouts=False|IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=18|Mirror=False|Name=Courtyard Top|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name183=OutputConfigurationParameter182
+Configuration4_Item183=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical15|Polygon=Full|PrintOutIndex=18|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name184=OutputConfigurationParameter183
+Configuration4_Item184=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=18|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name185=OutputConfigurationParameter184
+Configuration4_Item185=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical2|Polygon=Full|PrintOutIndex=18|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name186=OutputConfigurationParameter185
+Configuration4_Item186=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical3|Polygon=Full|PrintOutIndex=18|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name187=OutputConfigurationParameter186
+Configuration4_Item187=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical4|Polygon=Full|PrintOutIndex=18|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name188=OutputConfigurationParameter187
+Configuration4_Item188=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical6|Polygon=Full|PrintOutIndex=18|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name189=OutputConfigurationParameter188
+Configuration4_Item189=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical11|Polygon=Full|PrintOutIndex=18|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name190=OutputConfigurationParameter189
+Configuration4_Item190=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical13|Polygon=Full|PrintOutIndex=18|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name191=OutputConfigurationParameter190
+Configuration4_Item191=IncludeBoardCutouts=False|IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=19|Mirror=False|Name=Top Pad Master|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name192=OutputConfigurationParameter191
+Configuration4_Item192=CArc=Hidden|CFill=Hidden|Comment=Hidden|Coordinate=Hidden|CPad=Full|CRegion=Hidden|CText=Hidden|CTrack=Hidden|CVia=Hidden|Designator=Hidden|Dimension=Hidden|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Hidden|FFill=Hidden|FPad=Full|FRegion=Hidden|FText=Hidden|FTrack=Hidden|FVia=Hidden|Layer=MultiLayer|Polygon=Hidden|PrintOutIndex=19|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name193=OutputConfigurationParameter192
+Configuration4_Item193=CArc=Hidden|CFill=Hidden|Comment=Hidden|Coordinate=Hidden|CPad=Full|CRegion=Hidden|CText=Hidden|CTrack=Hidden|CVia=Hidden|Designator=Hidden|Dimension=Hidden|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Hidden|FFill=Hidden|FPad=Full|FRegion=Hidden|FText=Hidden|FTrack=Hidden|FVia=Hidden|Layer=TopLayer|Polygon=Hidden|PrintOutIndex=19|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name194=OutputConfigurationParameter193
+Configuration4_Item194=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=19|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name195=OutputConfigurationParameter194
+Configuration4_Item195=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical2|Polygon=Full|PrintOutIndex=19|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name196=OutputConfigurationParameter195
+Configuration4_Item196=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical3|Polygon=Full|PrintOutIndex=19|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name197=OutputConfigurationParameter196
+Configuration4_Item197=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical4|Polygon=Full|PrintOutIndex=19|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name198=OutputConfigurationParameter197
+Configuration4_Item198=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical6|Polygon=Full|PrintOutIndex=19|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name199=OutputConfigurationParameter198
+Configuration4_Item199=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical11|Polygon=Full|PrintOutIndex=19|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name200=OutputConfigurationParameter199
+Configuration4_Item200=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical13|Polygon=Full|PrintOutIndex=19|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name201=OutputConfigurationParameter200
+Configuration4_Item201=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical15|Polygon=Full|PrintOutIndex=19|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name202=OutputConfigurationParameter201
+Configuration4_Item202=IncludeBoardCutouts=False|IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=20|Mirror=False|Name=Bottom Pad Master|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name203=OutputConfigurationParameter202
+Configuration4_Item203=CArc=Hidden|CFill=Hidden|Comment=Hidden|Coordinate=Hidden|CPad=Full|CRegion=Hidden|CText=Hidden|CTrack=Hidden|CVia=Hidden|Designator=Hidden|Dimension=Hidden|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Hidden|FFill=Hidden|FPad=Full|FRegion=Hidden|FText=Hidden|FTrack=Hidden|FVia=Hidden|Layer=MultiLayer|Polygon=Hidden|PrintOutIndex=20|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name204=OutputConfigurationParameter203
+Configuration4_Item204=CArc=Hidden|CFill=Hidden|Comment=Hidden|Coordinate=Hidden|CPad=Full|CRegion=Hidden|CText=Hidden|CTrack=Hidden|CVia=Hidden|Designator=Hidden|Dimension=Hidden|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Hidden|FFill=Hidden|FPad=Full|FRegion=Hidden|FText=Hidden|FTrack=Hidden|FVia=Hidden|Layer=BottomLayer|Polygon=Hidden|PrintOutIndex=20|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name205=OutputConfigurationParameter204
+Configuration4_Item205=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=20|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name206=OutputConfigurationParameter205
+Configuration4_Item206=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical2|Polygon=Full|PrintOutIndex=20|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name207=OutputConfigurationParameter206
+Configuration4_Item207=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical3|Polygon=Full|PrintOutIndex=20|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name208=OutputConfigurationParameter207
+Configuration4_Item208=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical4|Polygon=Full|PrintOutIndex=20|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name209=OutputConfigurationParameter208
+Configuration4_Item209=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical6|Polygon=Full|PrintOutIndex=20|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name210=OutputConfigurationParameter209
+Configuration4_Item210=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical11|Polygon=Full|PrintOutIndex=20|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name211=OutputConfigurationParameter210
+Configuration4_Item211=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical13|Polygon=Full|PrintOutIndex=20|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name212=OutputConfigurationParameter211
+Configuration4_Item212=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical15|Polygon=Full|PrintOutIndex=20|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name213=OutputConfigurationParameter212
+Configuration4_Item213=IncludeBoardCutouts=False|IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=21|Mirror=False|Name=Keep Out Layer|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name214=OutputConfigurationParameter213
+Configuration4_Item214=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=KeepOutLayer|Polygon=Full|PrintOutIndex=21|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name215=OutputConfigurationParameter214
+Configuration4_Item215=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=21|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name216=OutputConfigurationParameter215
+Configuration4_Item216=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical2|Polygon=Full|PrintOutIndex=21|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name217=OutputConfigurationParameter216
+Configuration4_Item217=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical3|Polygon=Full|PrintOutIndex=21|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name218=OutputConfigurationParameter217
+Configuration4_Item218=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical4|Polygon=Full|PrintOutIndex=21|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name219=OutputConfigurationParameter218
+Configuration4_Item219=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical6|Polygon=Full|PrintOutIndex=21|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name220=OutputConfigurationParameter219
+Configuration4_Item220=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical11|Polygon=Full|PrintOutIndex=21|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name221=OutputConfigurationParameter220
+Configuration4_Item221=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical13|Polygon=Full|PrintOutIndex=21|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name222=OutputConfigurationParameter221
+Configuration4_Item222=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical15|Polygon=Full|PrintOutIndex=21|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name223=OutputConfigurationParameter222
+Configuration4_Item223=IncludeBoardCutouts=False|IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=22|Mirror=False|Name=Drill Drawing For (Top - Bottom)|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name224=OutputConfigurationParameter223
+Configuration4_Item224=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=DrillDrawing|Polygon=Full|PrintOutIndex=22|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name225=OutputConfigurationParameter224
+Configuration4_Item225=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=22|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name226=OutputConfigurationParameter225
+Configuration4_Item226=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical2|Polygon=Full|PrintOutIndex=22|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name227=OutputConfigurationParameter226
+Configuration4_Item227=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical3|Polygon=Full|PrintOutIndex=22|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name228=OutputConfigurationParameter227
+Configuration4_Item228=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical4|Polygon=Full|PrintOutIndex=22|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name229=OutputConfigurationParameter228
+Configuration4_Item229=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical6|Polygon=Full|PrintOutIndex=22|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name230=OutputConfigurationParameter229
+Configuration4_Item230=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical11|Polygon=Full|PrintOutIndex=22|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name231=OutputConfigurationParameter230
+Configuration4_Item231=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical13|Polygon=Full|PrintOutIndex=22|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name232=OutputConfigurationParameter231
+Configuration4_Item232=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical15|Polygon=Full|PrintOutIndex=22|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name233=OutputConfigurationParameter232
+Configuration4_Item233=IncludeBoardCutouts=False|IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=23|Mirror=False|Name=Drill Guide For (Top - Bottom)|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name234=OutputConfigurationParameter233
+Configuration4_Item234=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=DrillGuide|Polygon=Full|PrintOutIndex=23|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name235=OutputConfigurationParameter234
+Configuration4_Item235=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=23|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name236=OutputConfigurationParameter235
+Configuration4_Item236=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical2|Polygon=Full|PrintOutIndex=23|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name237=OutputConfigurationParameter236
+Configuration4_Item237=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical3|Polygon=Full|PrintOutIndex=23|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name238=OutputConfigurationParameter237
+Configuration4_Item238=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical4|Polygon=Full|PrintOutIndex=23|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name239=OutputConfigurationParameter238
+Configuration4_Item239=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical6|Polygon=Full|PrintOutIndex=23|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name240=OutputConfigurationParameter239
+Configuration4_Item240=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical11|Polygon=Full|PrintOutIndex=23|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name241=OutputConfigurationParameter240
+Configuration4_Item241=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical13|Polygon=Full|PrintOutIndex=23|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
+Configuration4_Name242=OutputConfigurationParameter241
+Configuration4_Item242=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical15|Polygon=Full|PrintOutIndex=23|Record=PcbPrintLayer|DocumentPath=C:\Users\emiln\Documents\Dolphins\BMS\Slave-18-cell\Sources\slave.PcbDoc
 OutputType5=Gerber
 OutputName5=Gerber Files
 OutputDocumentPath5=
