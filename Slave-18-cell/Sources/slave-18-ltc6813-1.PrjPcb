@@ -1314,7 +1314,7 @@ UniqueId=C76D42F6-1536-4E45-8E76-A4D7BD374C91
 Description=automotive_single-AFE
 AllowFabrication=0
 ParameterCount=0
-VariationCount=88
+VariationCount=84
 Variation1=Designator=C1306_1|UniqueId=\IPPXJKGT\XWMPRYWB|Kind=1|AlternatePart=
 Variation2=Designator=C1309_1|UniqueId=\IPPXJKGT\PLJBDXHN|Kind=1|AlternatePart=
 Variation3=Designator=C1308_1|UniqueId=\IPPXJKGT\GAOEJXLG|Kind=1|AlternatePart=
@@ -2047,10 +2047,6 @@ Variation81=Designator=R111_2|UniqueId=\JWUHGFBQ\CBIBQSMI|Kind=1|AlternatePart=
 Variation82=Designator=R801_1|UniqueId=\HNHNWDWJ\AHHQJROK|Kind=1|AlternatePart=
 Variation83=Designator=R801_2|UniqueId=\QVVRSYKH\AHHQJROK|Kind=1|AlternatePart=
 Variation84=Designator=IC1400_2|UniqueId=\CWNRVMUL\EVDHSNDU|Kind=1|AlternatePart=
-Variation85=Designator=X402|UniqueId=\KJBNEGIR\GXQEVWCM|Kind=1|AlternatePart=
-Variation86=Designator=X403|UniqueId=\KJBNEGIR\HGGXARXU|Kind=1|AlternatePart=
-Variation87=Designator=X404|UniqueId=\KJBNEGIR\IXBGHEOT|Kind=1|AlternatePart=
-Variation88=Designator=X405|UniqueId=\KJBNEGIR\NHDAXVKT|Kind=1|AlternatePart=
 ParamVariationCount=324
 
 [Parameter1]
